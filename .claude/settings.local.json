@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/trevorkudo/Documents/Files/MPE/Media/**)",
+      "Read(//Users/trevorkudo/Documents/Files/MPE/**)",
+      "Read(//Users/trevorkudo/Desktop/**)",
+      "Read(//Users/trevorkudo/Downloads/**)",
+      "WebSearch",
+      "Bash(identify \"/Users/trevorkudo/Documents/Files/MPE/media/Logo Drafts/MPE_logo_noBG.png\")",
+      "Bash(python3 -c ' *)",
+      "WebFetch(domain:www.bigtextrailers.com)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(mkdir -p \"/Users/trevorkudo/Documents/Files/MPE/media/Inventory\")",
+      "Bash(git -C \"/Users/trevorkudo/Documents/Files/MPE/Website\" rev-parse --git-dir)",
+      "Bash(git -C \"/Users/trevorkudo/Documents/Files/MPE\" rev-parse --git-dir)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1c1c1c; font-family: Arial, sans-serif; display: flex; flex-direction: column; gap: 2px; }
+
+.label {
+  background: #111;
+  color: #555;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 12px 32px;
+}
+
+/* ── Shared header shell ── */
+nav {
+  background: #3c5148;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 80px;
+}
+
+nav a {
+  color: #b8d4c0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover { color: #E8A820; }
+
+.nav-links { display: flex; gap: 32px; }
+
+/* ── Option A: square logo + stacked wordmark ── */
+.brand-a {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.brand-a img {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+  /* logo has green bg so it blends into header */
+}
+
+.brand-a .wordmark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  border-left: 2px solid rgba(232,168,32,0.3);
+  margin-left: 10px;
+}
+
+.brand-a .wordmark .name {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.brand-a .wordmark .tag {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #E8A820;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* ── Option B: logo only (no text) ── */
+.brand-b img {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+}
+
+/* ── Option C: pure horizontal wordmark, no badge ── */
+.brand-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-c .name {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.brand-c .tag {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #E8A820;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* ── Option D: large logo, name beside, no tagline ── */
+.brand-d {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-d img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.brand-d .name {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+
+<div class="label">Option A — Badge + stacked wordmark + tagline</div>
+<nav>
+  <div class="brand-a">
+    <img src="../media/Logo%20Drafts/MPE%20FINALNo%20border.png" alt="MPE">
+    <div class="wordmark">
+      <span class="name">Maui Power Equipment</span>
+      <span class="tag">Where Maui Works</span>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<div class="label">Option B — Badge only, no text</div>
+<nav>
+  <div class="brand-b">
+    <img src="../media/Logo%20Drafts/MPE%20FINALNo%20border.png" alt="MPE">
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<div class="label">Option C — No badge, pure wordmark + tagline</div>
+<nav>
+  <div class="brand-c">
+    <span class="name">Maui Power Equipment</span>
+    <span class="tag">Where Maui Works</span>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<div class="label">Option D — Badge + full name beside it, no tagline</div>
+<nav>
+  <div class="brand-d">
+    <img src="../media/Logo%20Drafts/MPE%20FINALNo%20border.png" alt="MPE">
+    <span class="name">Maui Power Equipment</span>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+</body>
+</html>

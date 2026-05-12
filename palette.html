@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1c1c1c; font-family: Arial, sans-serif; padding: 40px; }
+h2 { color: #555; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin: 40px 0 20px; }
+h2:first-child { margin-top: 0; }
+.grid { display: flex; flex-wrap: wrap; gap: 20px; }
+.swatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.badge {
+  width: 160px;
+  height: 160px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.name { font-size: 10px; color: #555; letter-spacing: 1px; text-align: center; line-height: 1.6; }
+.hex  { font-size: 10px; color: #333; letter-spacing: 1px; text-align: center; }
+
+/* flat chip showing two colors */
+.chip-row { display: flex; gap: 6px; margin-top: 4px; }
+.chip { width: 16px; height: 16px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h2>Current palette — dark green + gold</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#E8A820">MPE</div>
+    <div class="name">Current<br>Green / Gold</div>
+    <div class="chip-row"><div class="chip" style="background:#3c5148"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#3c5148 · #E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#fff">MPE</div>
+    <div class="name">Green / White</div>
+    <div class="chip-row"><div class="chip" style="background:#3c5148"></div><div class="chip" style="background:#fff; border:1px solid #333"></div></div>
+    <div class="hex">#3c5148 · white</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#E8A820; color:#3c5148">MPE</div>
+    <div class="name">Inverted<br>Gold / Green</div>
+    <div class="chip-row"><div class="chip" style="background:#E8A820"></div><div class="chip" style="background:#3c5148"></div></div>
+    <div class="hex">#E8A820 · #3c5148</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#fff; color:#3c5148">MPE</div>
+    <div class="name">White / Green</div>
+    <div class="chip-row"><div class="chip" style="background:#fff; border:1px solid #333"></div><div class="chip" style="background:#3c5148"></div></div>
+    <div class="hex">white · #3c5148</div>
+  </div>
+
+</div>
+
+<h2>Darker / moodier greens</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="badge" style="background:#2a3b30; color:#E8A820">MPE</div>
+    <div class="name">Deep Forest<br>/ Gold</div>
+    <div class="chip-row"><div class="chip" style="background:#2a3b30"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#2a3b30 · #E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#1e2d24; color:#E8A820">MPE</div>
+    <div class="name">Near Black<br>/ Gold</div>
+    <div class="chip-row"><div class="chip" style="background:#1e2d24"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#1e2d24 · #E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#1e2d24; color:#fff">MPE</div>
+    <div class="name">Near Black<br>/ White</div>
+    <div class="chip-row"><div class="chip" style="background:#1e2d24"></div><div class="chip" style="background:#fff; border:1px solid #333"></div></div>
+    <div class="hex">#1e2d24 · white</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#4a6358; color:#E8A820">MPE</div>
+    <div class="name">Lighter Green<br>/ Gold</div>
+    <div class="chip-row"><div class="chip" style="background:#4a6358"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#4a6358 · #E8A820</div>
+  </div>
+
+</div>
+
+<h2>Gold variations</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#E8A820">MPE</div>
+    <div class="name">Current Gold</div>
+    <div class="chip-row"><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#d4891a">MPE</div>
+    <div class="name">Amber<br>(warmer)</div>
+    <div class="chip-row"><div class="chip" style="background:#d4891a"></div></div>
+    <div class="hex">#d4891a</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#f0c040">MPE</div>
+    <div class="name">Bright Gold<br>(more pop)</div>
+    <div class="chip-row"><div class="chip" style="background:#f0c040"></div></div>
+    <div class="hex">#f0c040</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#c8a84b">MPE</div>
+    <div class="name">Muted Gold<br>(subtler)</div>
+    <div class="chip-row"><div class="chip" style="background:#c8a84b"></div></div>
+    <div class="hex">#c8a84b</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#3c5148; color:#e8d5a0">MPE</div>
+    <div class="name">Cream Gold<br>(softer)</div>
+    <div class="chip-row"><div class="chip" style="background:#e8d5a0"></div></div>
+    <div class="hex">#e8d5a0</div>
+  </div>
+
+</div>
+
+<h2>Outside the green/gold box — just to look</h2>
+<div class="grid">
+
+  <div class="swatch">
+    <div class="badge" style="background:#2c2c2c; color:#E8A820">MPE</div>
+    <div class="name">Charcoal / Gold<br>(industrial)</div>
+    <div class="chip-row"><div class="chip" style="background:#2c2c2c"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#2c2c2c · #E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#4a3820; color:#E8A820">MPE</div>
+    <div class="name">Dark Tan / Gold<br>(earthy)</div>
+    <div class="chip-row"><div class="chip" style="background:#4a3820"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#4a3820 · #E8A820</div>
+  </div>
+
+  <div class="swatch">
+    <div class="badge" style="background:#1a1a1a; color:#E8A820">MPE</div>
+    <div class="name">Black / Gold<br>(high contrast)</div>
+    <div class="chip-row"><div class="chip" style="background:#1a1a1a"></div><div class="chip" style="background:#E8A820"></div></div>
+    <div class="hex">#1a1a1a · #E8A820</div>
+  </div>
+
+</div>
+
+</body>
+</html>

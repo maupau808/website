@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Barlow Semi Condensed', sans-serif; background: #1c1c1c; }
+
+.section-label {
+  background: #111;
+  color: #555;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 32px;
+}
+
+/* ═══════════════════════════
+   NAV
+═══════════════════════════ */
+nav {
+  background: #3c5148;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 68px;
+  position: relative;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* CSS logo stand-in — matches the real file's color/proportions */
+.mpe-mark {
+  height: 48px;
+  width: 72px;
+  background: #3c5148; /* same as nav — blends, letters float */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -2px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #E8A820;
+  /* swap for real img tag once path sorted */
+}
+
+.brand-text .name {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.brand-text .tag {
+  font-size: 11px;
+  font-weight: 400;
+  color: #E8A820;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #b8d4c0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover { color: #E8A820; }
+
+/* ═══════════════════════════
+   HEROES
+═══════════════════════════ */
+.hero {
+  width: 100%;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.hero img.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 60px;
+}
+
+.hero-name {
+  display: block;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 800;
+  color: white;
+  line-height: 1;
+  margin-bottom: 14px;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-tag {
+  display: block;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #E8A820;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Hero A — dark overlay */
+.hero-a .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 1;
+}
+
+/* Hero B — left dark panel */
+.hero-b { align-items: stretch; }
+.hero-b .panel {
+  position: relative;
+  z-index: 2;
+  background: rgba(25,38,30,0.90);
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 52px 56px;
+  backdrop-filter: blur(3px);
+}
+.hero-b .hero-name { font-size: 62px; }
+
+/* Hero C — bottom gradient */
+.hero-c { align-items: flex-end; }
+.hero-c .gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 25%, rgba(15,25,18,0.94) 100%);
+  z-index: 1;
+}
+.hero-c .hero-content { padding: 0 60px 52px; }
+.hero-c .hero-name { font-size: 72px; }
+
+/* gap between sections */
+.gap { height: 2px; background: #111; }
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO A — overlay ═══ -->
+<div class="section-label">Hero A — Dark overlay, text left</div>
+<nav>
+  <div class="brand">
+    <div class="mpe-mark">MPE</div>
+    <div class="brand-text">
+      <div class="name">Maui Power Equipment</div>
+      <div class="tag">Where Maui Works</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+<div class="hero hero-a">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <span class="hero-name">Where Maui Works.</span>
+    <span class="hero-tag">Authorized dealer · Sales · Service · Parts</span>
+  </div>
+</div>
+
+<div class="gap"></div>
+
+<!-- ═══ HERO B — side panel ═══ -->
+<div class="section-label">Hero B — Dark panel left, photo right</div>
+<nav>
+  <div class="brand">
+    <div class="mpe-mark">MPE</div>
+    <div class="brand-text">
+      <div class="name">Maui Power Equipment</div>
+      <div class="tag">Where Maui Works</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+<div class="hero hero-b">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="panel">
+    <span class="hero-name">Where Maui Works.</span>
+    <span class="hero-tag">Authorized dealer · Sales · Service · Parts</span>
+  </div>
+</div>
+
+<div class="gap"></div>
+
+<!-- ═══ HERO C — bottom gradient ═══ -->
+<div class="section-label">Hero C — Photo fades to dark at bottom</div>
+<nav>
+  <div class="brand">
+    <div class="mpe-mark">MPE</div>
+    <div class="brand-text">
+      <div class="name">Maui Power Equipment</div>
+      <div class="tag">Where Maui Works</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">In Stock</a>
+    <a href="#">Brands</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+<div class="hero hero-c">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="gradient"></div>
+  <div class="hero-content">
+    <span class="hero-name">Where Maui Works.</span>
+    <span class="hero-tag">Authorized dealer · Sales · Service · Parts</span>
+  </div>
+</div>
+
+</body>
+</html>

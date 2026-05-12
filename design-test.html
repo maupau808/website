@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald:wght@500;600&family=Work+Sans:wght@600;700&family=Rajdhani:wght@600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #1a1a1a; font-family: Arial, sans-serif; }
+
+.label {
+  background: #111;
+  color: #666;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 24px;
+}
+
+/* ── HERO TREATMENTS ── */
+.hero {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.hero img.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 60px;
+}
+
+.store-name {
+  display: block;
+  color: white;
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+
+.tagline {
+  display: block;
+  color: #E8A820;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* Treatment A: dark overlay */
+.treat-a .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 1;
+}
+.treat-a .store-name { font-size: 72px; }
+
+/* Treatment B: left dark panel */
+.treat-b {
+  align-items: stretch;
+}
+.treat-b .panel {
+  position: relative;
+  z-index: 2;
+  background: rgba(30,42,36,0.92);
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 52px;
+  backdrop-filter: blur(2px);
+}
+.treat-b .store-name { font-size: 56px; }
+
+/* Treatment C: bottom gradient */
+.treat-c .gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 30%, rgba(20,30,24,0.92) 100%);
+  z-index: 1;
+}
+.treat-c {
+  align-items: flex-end;
+}
+.treat-c .hero-content {
+  padding: 0 60px 48px;
+}
+.treat-c .store-name { font-size: 64px; }
+
+/* Treatment D: photo grid, no text on image */
+.treat-d {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.treat-d .panel {
+  background: #3c5148;
+  padding: 60px 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.treat-d .store-name { font-size: 52px; color: white; }
+.treat-d img.bg {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+/* ── FONT SECTION ── */
+.fonts {
+  background: #3c5148;
+  padding: 48px 60px;
+}
+.fonts h3 {
+  color: #aac4b4;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.font-row {
+  margin-bottom: 28px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 28px;
+}
+.font-row:last-child { border-bottom: none; margin-bottom: 0; }
+.font-name {
+  color: #7a9e8a;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: Arial, sans-serif;
+}
+.font-sample {
+  color: white;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.font-sample-small {
+  color: #E8A820;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.f-barlow      { font-family: 'Barlow Semi Condensed', sans-serif; font-weight: 700; }
+.f-oswald      { font-family: 'Oswald', sans-serif; font-weight: 600; }
+.f-worksans    { font-family: 'Work Sans', sans-serif; font-weight: 700; }
+.f-rajdhani    { font-family: 'Rajdhani', sans-serif; font-weight: 700; }
+.f-montserrat  { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ── FONTS ── -->
+<div class="label">Font comparison — same tagline, same color scheme</div>
+<div class="fonts">
+  <h3>Pick a font that feels right for "Maui Power Equipment"</h3>
+
+  <div class="font-row">
+    <div class="font-name">Barlow Semi Condensed — slightly industrial, clean</div>
+    <div class="font-sample f-barlow">Maui Power Equipment</div>
+    <div class="font-sample-small f-barlow">Where Maui Works.</div>
+  </div>
+
+  <div class="font-row">
+    <div class="font-name">Oswald — strong, assertive, no-nonsense</div>
+    <div class="font-sample f-oswald">Maui Power Equipment</div>
+    <div class="font-sample-small f-oswald">Where Maui Works.</div>
+  </div>
+
+  <div class="font-row">
+    <div class="font-name">Work Sans — clean, professional, less rugged</div>
+    <div class="font-sample f-worksans">Maui Power Equipment</div>
+    <div class="font-sample-small f-worksans">Where Maui Works.</div>
+  </div>
+
+  <div class="font-row">
+    <div class="font-name">Rajdhani — slightly technical, dense</div>
+    <div class="font-sample f-rajdhani">Maui Power Equipment</div>
+    <div class="font-sample-small f-rajdhani">Where Maui Works.</div>
+  </div>
+
+  <div class="font-row">
+    <div class="font-name">Montserrat — what you have now</div>
+    <div class="font-sample f-montserrat">Maui Power Equipment</div>
+    <div class="font-sample-small f-montserrat">Where Maui Works.</div>
+  </div>
+</div>
+
+<!-- ── HERO TREATMENT A ── -->
+<div class="label">Hero A — Full photo, dark overlay, centered text</div>
+<div class="hero treat-a">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <span class="store-name f-barlow">Maui Power Equipment</span>
+    <span class="tagline">Where Maui Works.</span>
+  </div>
+</div>
+
+<!-- ── HERO TREATMENT B ── -->
+<div class="label">Hero B — Dark panel left, photo right</div>
+<div class="hero treat-b">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="panel">
+    <span class="store-name f-barlow">Maui Power Equipment</span>
+    <span class="tagline">Where Maui Works.</span>
+  </div>
+</div>
+
+<!-- ── HERO TREATMENT C ── -->
+<div class="label">Hero C — Photo, gradient fades to dark at bottom where text sits</div>
+<div class="hero treat-c">
+  <img class="bg" src="../media/Shop Pics/IMG_0639.JPG" alt="">
+  <div class="gradient"></div>
+  <div class="hero-content">
+    <span class="store-name f-barlow">Maui Power Equipment</span>
+    <span class="tagline">Where Maui Works.</span>
+  </div>
+</div>
+
+<!-- ── HERO TREATMENT D ── -->
+<div class="label">Hero D — No text on photo. Store name on solid panel, photo beside it.</div>
+<div class="hero treat-d">
+  <div class="panel">
+    <span class="store-name f-barlow">Maui Power Equipment</span>
+    <span class="tagline" style="font-size:16px; color:#E8A820; margin-top:12px;">Where Maui Works.</span>
+    <div style="margin-top:24px; width:48px; height:3px; background:#E8A820;"></div>
+  </div>
+  <img class="bg" src="../media/Shop Pics/IMG_0585.JPG" alt="">
+</div>
+
+</body>
+</html>

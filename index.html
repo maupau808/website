@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maui Power Equipment — Wailuku, HI</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Barlow Semi Condensed', sans-serif; background: #f5f3ee; color: #2a2a2a; overflow-x: clip; }
+
+/* ── Variables ── */
+:root {
+  --green:  #3c5148;
+  --gold:   #E8A820;
+  --light:  #f5f3ee;
+  --text:   #2a2a2a;
+}
+
+/* ════════════════════════════════
+   NAV
+════════════════════════════════ */
+nav {
+  background: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  padding: 0 clamp(24px, 5vw, 72px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.mpe-logo {
+  height: 97px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.brand-text .name {
+  font-size: clamp(14px, 1.4vw, 22px);
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  align-self: center;
+}
+
+.nav-links a {
+  color: #b8d4c0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color .15s;
+}
+
+.nav-links a:hover { color: var(--gold); }
+
+.nav-cta {
+  background: var(--gold);
+  color: #1e2d24 !important;
+  padding: 9px 20px;
+  border-radius: 6px;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  transition: background .15s !important;
+}
+.nav-cta:hover { background: #d49a1e; color: #1e2d24 !important; }
+
+/* ════════════════════════════════
+   HERO — photo slideshow + overlay
+════════════════════════════════ */
+.hero {
+  position: relative;
+  height: clamp(400px, 48vw, 630px);
+  overflow: hidden;
+}
+
+.slides {
+  position: absolute;
+  inset: 0;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.slide.active { opacity: 1; }
+
+.slide:nth-child(1) { background-image: url('assets/shop/1.jpg'); background-position: center 55%; }
+.slide:nth-child(2) { background-image: url('assets/shop/2.jpg'); background-position: center 65%; }
+.slide:nth-child(3) { background-image: url('assets/shop/3.jpg'); background-position: center 45%; }
+.slide:nth-child(4) { background-image: url('assets/shop/4.jpg'); background-position: center 45%; }
+.slide:nth-child(5) { background-image: url('assets/shop/5.jpg'); background-position: center 38%; }
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.52);
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 clamp(28px, 4.5vw, 64px);
+}
+
+.hero-heading {
+  font-size: clamp(42px, 5.5vw, 80px);
+  font-weight: 800;
+  color: white;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero-sub {
+  font-size: clamp(20px, 2.2vw, 30px);
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 4px 20px rgba(0,0,0,0.7), 0 8px 40px rgba(0,0,0,0.5);
+}
+
+.hero-search {
+  display: flex;
+  margin-top: 32px;
+  max-width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+}
+
+.hero-search input {
+  flex: 1;
+  padding: 14px 20px;
+  border: none;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: rgba(255,255,255,0.95);
+  color: #2a2a2a;
+  outline: none;
+  border-radius: 0;
+}
+
+.hero-search input::placeholder { color: #888; }
+
+.hero-search button {
+  padding: 14px 24px;
+  background: var(--gold);
+  color: #1e2d24;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: background .15s;
+}
+
+.hero-search button:hover { background: #d49a1e; }
+
+/* slide dots */
+.hero-dots {
+  position: absolute;
+  bottom: 20px;
+  left: clamp(28px, 4.5vw, 64px);
+  z-index: 3;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+  cursor: pointer;
+  transition: background .2s;
+}
+
+.dot.active { background: var(--gold); }
+
+/* ════════════════════════════════
+   SECTION SHARED
+════════════════════════════════ */
+section { padding: clamp(40px, 5vw, 72px) clamp(28px, 4.5vw, 64px); }
+
+.section-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(60,81,72,0.2);
+}
+
+/* ════════════════════════════════
+   BRANDS
+════════════════════════════════ */
+.brands { background: white; }
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.logo-card {
+  background: #f9f8f5;
+  border: 1px solid #e8e5de;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  overflow: hidden;
+}
+
+.logo-card--more {
+  background: #f0ede5;
+  border: 2px dashed rgba(60,81,72,0.25);
+  color: var(--green);
+  font-size: 19px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.3px;
+  overflow: visible;
+}
+
+.logo-card img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.logo-card--felco img { max-height: 160px; }
+
+/* ════════════════════════════════
+   IN STOCK
+════════════════════════════════ */
+.instock { background: var(--light); }
+
+.stock-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.stock-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+}
+
+.stock-card .card-photo {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.stock-card .card-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: #e8e5de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stock-card .card-body {
+  padding: 20px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.stock-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.stock-card .card-type {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--green);
+  opacity: 0.6;
+}
+
+.stock-card .card-condition {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 4px;
+}
+.stock-card .card-condition.new  { background: #e8f0ea; color: var(--green); }
+.stock-card .card-condition.used { background: #f0ede5; color: #7a6a40; }
+
+.stock-card .card-name {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.stock-card .card-year {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 14px;
+}
+
+.stock-card .card-stats {
+  display: flex;
+  border: 1px solid #e8e5de;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.stock-card .stat {
+  flex: 1;
+  padding: 10px 14px;
+  border-right: 1px solid #e8e5de;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.stock-card .stat:last-child { border-right: none; }
+
+.stock-card .stat-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.stock-card .stat-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.stock-card .card-notes {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.stock-card .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.stock-card .call-for-price {
+  font-size: 15px;
+  font-weight: 700;
+  color: #888;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.stock-card .card-cta {
+  background: var(--gold);
+  color: #1e2d24;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.stock-note {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 0.3px;
+}
+
+.stock-card .card-photo-wrap {
+  position: relative;
+}
+
+.sold-banner {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  background: #c0392b;
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+}
+
+.stock-card.sold .card-photo,
+.stock-card.sold .card-photo-placeholder {
+  filter: grayscale(60%) brightness(0.85);
+}
+
+.stock-card.sold .card-name,
+.stock-card.sold .stat-value {
+  color: #999;
+}
+
+.stock-card.sold .card-cta {
+  background: #ccc;
+  color: #888;
+  pointer-events: none;
+}
+
+/* ════════════════════════════════
+   CONTACT
+════════════════════════════════ */
+.contact { background: var(--green); position: relative; overflow: hidden; }
+
+.contact-watermark {
+  position: absolute;
+  left: clamp(52%, 54%, 56%);
+  top: 50%;
+  transform: translate(-10%, -50%);
+  width: clamp(390px, 57vw, 840px);
+  opacity: 0.09;
+  filter: brightness(0) invert(1);
+  pointer-events: none;
+  user-select: none;
+}
+
+.contact .section-title { color: #aac4b4; }
+.contact .section-title::after { background: rgba(255,255,255,0.15); }
+
+.contact-intro {
+  font-size: 17px;
+  color: #c8ddd0;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
+
+.contact-notice {
+  font-size: 14px;
+  color: #7aab8a;
+  margin-bottom: 28px;
+  max-width: 620px;
+  line-height: 1.5;
+}
+
+.contact-notice a {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-notice a:hover { text-decoration: underline; }
+
+/* mode buttons */
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+  max-width: 700px;
+}
+
+.mode-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  padding: 20px 12px;
+  cursor: pointer;
+  text-align: center;
+  transition: all .15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.mode-btn:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.3); }
+
+.mode-btn.active {
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.mode-btn svg { width: 32px; height: 32px; fill: var(--gold); }
+.mode-btn.active svg { fill: #1e2d24; }
+
+.mode-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+
+.mode-btn.active .mode-label { color: #1e2d24; }
+
+/* forms */
+.form-panel { display: none; max-width: 700px; }
+.form-panel.active { display: block; }
+
+.form-bg {
+  background: #f5f3ee;
+  border-radius: 10px;
+  padding: 28px;
+}
+
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.field-row.full { grid-template-columns: 1fr; }
+.field-group { display: flex; flex-direction: column; gap: 5px; }
+label { font-size: 15px; color: var(--green); font-weight: 600; }
+label span.opt { color: #aaa; font-weight: 400; font-size: 13px; }
+input, textarea, select {
+  width: 100%; padding: 10px 12px;
+  border: 1px solid #bbb; border-radius: 8px;
+  font-size: 15px; background: white; color: #405049;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none; border-color: #1D9E75;
+  box-shadow: 0 0 0 2px rgba(29,158,117,.15);
+}
+textarea { resize: vertical; min-height: 90px; }
+
+.pref-wrap { margin-bottom: 12px; }
+.pref-label { font-size: 15px; color: var(--green); font-weight: 600; margin-bottom: 6px; display: block; }
+.pref-hint { font-size: 13px; color: #666; margin-bottom: 8px; display: block; }
+.pref-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.pref-btn {
+  padding: 8px 20px; border: 1px solid #ddd;
+  border-radius: 8px; background: white; color: #333;
+  font-size: 15px; cursor: pointer;
+  font-family: 'Barlow Semi Condensed', sans-serif; transition: all .15s;
+}
+.pref-btn.selected { border: 1.5px solid #222421; background: var(--gold); color: #222421; }
+
+.form-notice {
+  border-left: 4px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  padding: .875rem 1.25rem;
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background: rgba(0,0,0,0.25);
+  line-height: 1.5;
+}
+
+.form-notice.green {
+  border-left-color: var(--gold);
+  background: var(--green);
+  color: #c8d8cc;
+  font-weight: 400;
+}
+
+.form-notice.green .notice-head {
+  display: block;
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.form-notice.warn {
+  border-left-color: #E24B4A;
+  background: rgba(226,75,74,0.12);
+  color: #222;
+}
+
+.checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+.check-item {
+  display: flex; align-items: center; gap: 8px;
+  background: white; border: 1px solid #bbb;
+  border-radius: 8px; padding: 10px 12px;
+  cursor: pointer; transition: all .15s;
+}
+.check-item:hover { border-color: var(--green); }
+.check-item.checked { border: 1.5px solid var(--green); background: #e8ede9; }
+.check-item input[type=checkbox] { width: 16px; height: 16px; flex-shrink: 0; accent-color: var(--green); cursor: pointer; }
+.check-item span { font-size: 15px; color: var(--green); font-weight: 500; }
+
+.extra-input { margin-top: 8px; margin-bottom: 4px; display: none; }
+.extra-input.show { display: block; }
+
+.divider { border: none; border-top: 1px solid rgba(60,81,72,0.15); margin: 16px 0; }
+
+.submit-btn {
+  margin-top: 20px; width: 100%; padding: 13px;
+  border: none; border-radius: 8px;
+  background: var(--green); color: #E1F5EE;
+  font-size: 17px; font-weight: 700; cursor: pointer;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 0.5px; transition: background .15s;
+}
+.submit-btn:hover { background: #2e3d33; }
+.submit-btn:disabled { background: #ccc; color: #999; cursor: not-allowed; }
+
+.success { display: none; text-align: center; padding: 40px 20px; }
+.success-check {
+  width: 52px; height: 52px; border-radius: 50%;
+  background: #E1F5EE; display: flex; align-items: center;
+  justify-content: center; margin: 0 auto 16px; font-size: 26px; color: #0F6E56;
+}
+.success h3 { font-size: 20px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
+.success p { font-size: 16px; color: #555; line-height: 1.6; }
+.reset-btn {
+  margin-top: 16px; background: none; border: 1px solid #ccc;
+  border-radius: 8px; padding: 8px 20px; cursor: pointer;
+  font-size: 15px; color: var(--green);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* ════════════════════════════════
+   FOOTER
+════════════════════════════════ */
+footer {
+  background: #1e2d24;
+  padding: 56px 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+footer h4 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #7aab8a;
+  margin-bottom: 16px;
+}
+
+footer p, footer a {
+  font-size: 17px;
+  color: #c8ddd0;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+footer a:hover { color: var(--gold); }
+
+.footer-bottom {
+  background: #161f1a;
+  padding: 16px clamp(28px, 4.5vw, 64px);
+  font-size: 13px;
+  color: #3a5040;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ════════════════════════════════
+   RESPONSIVE — tablet / medium screens
+════════════════════════════════ */
+@media (max-width: 1050px) {
+  .mode-grid { grid-template-columns: repeat(2, 1fr); max-width: 100%; }
+  footer { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 820px) {
+  .field-row { grid-template-columns: 1fr; }
+  footer { grid-template-columns: 1fr; }
+  .contact-watermark { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════
+     NAV
+════════════════════════════ -->
+<nav>
+  <a class="brand" href="#">
+    <img class="mpe-logo" src="assets/logos/logo-gold.png" alt="MPE">
+    <div class="brand-text">
+      <div class="name">Maui Power Equipment</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#instock">In Stock</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a class="nav-cta" href="#contact" onclick="activateParts()">Request a Part</a></li>
+  </ul>
+</nav>
+
+<!-- ════════════════════════════
+     HERO
+════════════════════════════ -->
+<div class="hero">
+  <div class="slides">
+    <div class="slide active"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-heading">Maui Power Equipment</span>
+    <span class="hero-sub">Sales &nbsp;&middot;&nbsp; Service &nbsp;&middot;&nbsp; Parts</span>
+    <div class="hero-search">
+      <input type="text" id="hero-search-input" placeholder="Enter model or part number" onkeydown="if(event.key==='Enter')heroSearch()">
+      <button onclick="heroSearch()">Request a Part &rarr;</button>
+    </div>
+  </div>
+  <div class="hero-dots">
+    <div class="dot active" onclick="goToSlide(0)"></div>
+    <div class="dot" onclick="goToSlide(1)"></div>
+    <div class="dot" onclick="goToSlide(2)"></div>
+    <div class="dot" onclick="goToSlide(3)"></div>
+    <div class="dot" onclick="goToSlide(4)"></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════
+     BRANDS
+════════════════════════════ -->
+<section class="brands" id="brands">
+  <div class="section-title">Authorized dealer of dozens of brands.</div>
+  <div class="logo-grid">
+    <div class="logo-card"><img src="assets/brands/stihl.png" alt="Stihl"></div>
+    <div class="logo-card"><img src="assets/brands/honda.png" alt="Honda"></div>
+    <div class="logo-card"><img src="assets/brands/scag.png" alt="Scag"></div>
+    <div class="logo-card"><img src="assets/brands/echo.png" alt="Echo"></div>
+    <div class="logo-card"><img src="assets/brands/shindaiwa.png" alt="Shindaiwa"></div>
+    <div class="logo-card"><img src="assets/brands/wright.png" alt="Wright"></div>
+    <div class="logo-card"><img src="assets/brands/maruyama.png" alt="Maruyama"></div>
+    <div class="logo-card"><img src="assets/brands/toro.png" alt="Toro"></div>
+    <div class="logo-card"><img src="assets/brands/hillsboro.png" alt="Hillsboro"></div>
+    <div class="logo-card"><img src="assets/brands/bigtex.png" alt="Big Tex"></div>
+    <div class="logo-card logo-card--felco"><img src="assets/brands/felco.png" alt="Felco"></div>
+    <div class="logo-card"><img src="assets/brands/silky.png" alt="Silky"></div>
+    <div class="logo-card"><img src="assets/brands/gwc.avif" alt="Greenworks Commercial"></div>
+    <div class="logo-card"><img src="assets/brands/bluebird.png" alt="Bluebird"></div>
+    <div class="logo-card logo-card--more">and many more!</div>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     IN STOCK
+════════════════════════════ -->
+<section class="instock" id="instock">
+  <div class="section-title">Currently In Stock</div>
+  <div class="stock-grid" id="stockGrid">
+    <div style="color:#888;font-size:15px">Loading inventory...</div>
+  </div>
+  <p class="stock-note">Inventory updated regularly. Call or stop by to confirm availability before making the trip.</p>
+</section>
+
+<!-- ════════════════════════════
+     CONTACT
+════════════════════════════ -->
+<section class="contact" id="contact">
+  <img class="contact-watermark" src="assets/logos/logo-gold.png" alt="">
+  <div class="section-title">Contact Us</div>
+  <p class="contact-intro">Request parts, get a quote, schedule a repair, or ask us anything.</p>
+
+  <p class="contact-notice">* Need a faster response? Call us directly at <a href="tel:8082492730">(808) 249-2730</a> — these forms are checked regularly but not instantly.</p>
+
+  <div class="mode-grid">
+    <button class="mode-btn active" onclick="selectMode('parts', this)">
+      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      <span class="mode-label">I'm looking for a part</span>
+    </button>
+    <button class="mode-btn" onclick="selectMode('quote', this)">
+      <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+      <span class="mode-label">I want a price quote</span>
+    </button>
+    <button class="mode-btn" onclick="selectMode('repair', this)">
+      <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+      <span class="mode-label">I need a repair</span>
+    </button>
+    <button class="mode-btn" onclick="selectMode('general', this)">
+      <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      <span class="mode-label">General question</span>
+    </button>
+  </div>
+
+  <!-- PARTS FORM -->
+  <div class="form-panel active" id="form-parts">
+    <div class="form-bg">
+      <div id="parts-main">
+        <div class="form-notice green">
+          <span class="notice-head">✦ &nbsp;Serial number strongly recommended</span>
+          We'll do our best without it — but in many cases we can't guarantee the right part without one.
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Name</label><input type="text" id="p-fname"></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Phone</label><input type="tel" id="p-phone" placeholder="At least one required"></div>
+          <div class="field-group"><label>Email</label><input type="email" id="p-email" placeholder="At least one required"></div>
+        </div>
+        <div class="pref-wrap">
+          <span class="pref-label">How would you prefer we reach you?</span>
+          <span class="pref-hint">Select all that apply</span>
+          <div class="pref-btns" id="pref-parts">
+            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Call</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Text</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Email</button>
+          </div>
+        </div>
+        <hr class="divider">
+        <div class="field-row full">
+          <div class="field-group">
+            <label>Equipment make</label>
+            <select id="p-make" onchange="checkMake(this)">
+              <option value="">Select a brand...</option>
+              <option>Stihl</option><option>Honda</option><option>Maruyama</option>
+              <option>Echo</option><option>Shindaiwa</option><option>Scag</option>
+              <option>Wright</option><option>Kawasaki</option><option>Kohler</option>
+              <option>Briggs &amp; Stratton</option><option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-notice warn" id="make-warn" style="display:none">We don't keep inventory parts for other brands. There is a chance we may be able to source it, but it would have to be ordered special and there is no guarantee.</div>
+        <div class="field-row">
+          <div class="field-group"><label>Model number</label><input type="text" id="p-model" placeholder="e.g. MS 271, EU2200i"></div>
+          <div class="field-group"><label>Serial number</label><input type="text" id="p-serial" placeholder="Strongly recommended"></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Part number</label><input type="text" id="p-partnum" placeholder="If known"></div>
+        </div>
+        <hr class="divider">
+        <span class="pref-label">Which part(s) do you need?</span>
+        <span class="pref-hint" style="margin-bottom:10px">Select all that apply</span>
+        <div class="checkbox-grid" id="parts-grid">
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Carburetor"><span>Carburetor</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Air Filter"><span>Air Filter</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Spark Plug"><span>Spark Plug</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Fuel Filter"><span>Fuel Filter</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Primer Bulb"><span>Primer Bulb</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Ignition Coil"><span>Ignition Coil</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Drive Shaft"><span>Drive Shaft</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Throttle Cable"><span>Throttle Cable</span></label>
+          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Cutting Attachment"><span>Cutting Attachment</span></label>
+          <label class="check-item" id="check-belt" onclick="toggleCheck(this);toggleExtra('belt-input','check-belt')"><input type="checkbox" value="Belt"><span>Belt</span></label>
+          <label class="check-item" id="check-other" onclick="toggleCheck(this);toggleExtra('other-input','check-other')"><input type="checkbox" value="Other"><span>Other</span></label>
+          <label class="check-item" id="check-notsure" style="grid-column:1/-1" onclick="toggleCheck(this);toggleExtra('notsure-input','check-notsure')"><input type="checkbox" value="Not Sure"><span>Not Sure — I'll describe it</span></label>
+        </div>
+        <div class="extra-input" id="belt-input"><input type="text" id="p-belt-text" placeholder="If your unit has more than one type, please specify"></div>
+        <div class="extra-input" id="other-input"><input type="text" id="p-other-text" placeholder="What part are you looking for"></div>
+        <div class="extra-input" id="notsure-input"><textarea id="p-notsure-text" placeholder="Describe what the part does, where it's located, or what's broken — we'll figure out what you need"></textarea></div>
+        <button class="submit-btn" onclick="submitParts()">Submit parts request</button>
+      </div>
+      <div class="success" id="parts-success">
+        <div class="success-check">✓</div>
+        <h3>Message received</h3>
+        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
+        <button class="reset-btn" onclick="resetForm('parts')">Submit another request</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUOTE FORM -->
+  <div class="form-panel" id="form-quote">
+    <div class="form-bg">
+      <div id="quote-main">
+        <div class="field-row">
+          <div class="field-group"><label>Name</label><input type="text" id="q-fname"></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Phone</label><input type="tel" id="q-phone" placeholder="At least one required"></div>
+          <div class="field-group"><label>Email</label><input type="email" id="q-email" placeholder="At least one required"></div>
+        </div>
+        <div class="pref-wrap">
+          <span class="pref-label">How would you prefer we reach you?</span>
+          <span class="pref-hint">Select all that apply</span>
+          <div class="pref-btns" id="pref-quote">
+            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Call</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Text</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Email</button>
+          </div>
+        </div>
+        <div class="field-row full">
+          <div class="field-group"><label>What are you looking for?</label><textarea id="q-desc" placeholder="Tell us what you want — product name, model, quantity"></textarea></div>
+        </div>
+        <button class="submit-btn" onclick="submitForm('quote')">Request a quote</button>
+      </div>
+      <div class="success" id="quote-success">
+        <div class="success-check">✓</div>
+        <h3>Message received</h3>
+        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
+        <button class="reset-btn" onclick="resetForm('quote')">Submit another request</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- REPAIR FORM -->
+  <div class="form-panel" id="form-repair">
+    <div class="form-bg">
+      <div id="repair-main">
+        <div class="field-row">
+          <div class="field-group"><label>Name</label><input type="text" id="r-fname"></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Phone</label><input type="tel" id="r-phone" placeholder="At least one required"></div>
+          <div class="field-group"><label>Email</label><input type="email" id="r-email" placeholder="At least one required"></div>
+        </div>
+        <div class="pref-wrap">
+          <span class="pref-label">How would you prefer we reach you?</span>
+          <span class="pref-hint">Select all that apply</span>
+          <div class="pref-btns" id="pref-repair">
+            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Call</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Text</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Email</button>
+          </div>
+        </div>
+        <hr class="divider">
+        <div class="field-row">
+          <div class="field-group"><label>Equipment make</label><input type="text" id="r-make" placeholder="e.g. Stihl, Honda, Husqvarna"></div>
+          <div class="field-group"><label>Model <span class="opt">(if known)</span></label><input type="text" id="r-model" placeholder="e.g. FS 131, HRX217"></div>
+        </div>
+        <div class="field-row full">
+          <div class="field-group"><label>Describe the problem</label><textarea id="r-symptoms" style="min-height:110px" placeholder="What it does, what it doesn't do, when it started, anything you've already tried"></textarea></div>
+        </div>
+        <div class="field-row full">
+          <div class="field-group"><label>How urgent is this?</label>
+            <select id="r-urgency">
+              <option value="flexible">Flexible — no rush</option>
+              <option value="soon">Soon — within the next week or two</option>
+              <option value="urgent">Urgent — equipment is down, costing me time</option>
+            </select>
+          </div>
+        </div>
+        <div style="border-left:3px solid #5DCAA5;border-radius:0 8px 8px 0;padding:.875rem 1rem;margin-bottom:12px;font-size:15px;color:var(--green);background:rgba(93,202,165,0.1)">
+          We'll call you to schedule a drop-off. Walk-ins are always welcome — we're at 970 Lower Main St, Wailuku.
+        </div>
+        <button class="submit-btn" onclick="submitForm('repair')">Submit repair request</button>
+      </div>
+      <div class="success" id="repair-success">
+        <div class="success-check">✓</div>
+        <h3>Message received</h3>
+        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
+        <button class="reset-btn" onclick="resetForm('repair')">Submit another request</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GENERAL FORM -->
+  <div class="form-panel" id="form-general">
+    <div class="form-bg">
+      <div id="general-main">
+        <div class="field-row">
+          <div class="field-group"><label>Name</label><input type="text" id="g-fname"></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Phone</label><input type="tel" id="g-phone" placeholder="At least one required"></div>
+          <div class="field-group"><label>Email</label><input type="email" id="g-email" placeholder="At least one required"></div>
+        </div>
+        <div class="pref-wrap">
+          <span class="pref-label">How would you prefer we reach you?</span>
+          <span class="pref-hint">Select all that apply</span>
+          <div class="pref-btns" id="pref-general">
+            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Call</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Text</button>
+            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Email</button>
+          </div>
+        </div>
+        <div class="field-row full">
+          <div class="field-group"><label>Your question or message</label><textarea id="g-message" style="min-height:120px"></textarea></div>
+        </div>
+        <button class="submit-btn" onclick="submitForm('general')">Send message</button>
+      </div>
+      <div class="success" id="general-success">
+        <div class="success-check">✓</div>
+        <h3>Message received</h3>
+        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
+        <button class="reset-btn" onclick="resetForm('general')">Submit another request</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════
+     FOOTER
+════════════════════════════ -->
+<footer>
+  <div>
+    <h4>Hours</h4>
+    <p>Monday – Friday: 8am – 4pm<br>Saturday: 8am – 2pm<br>Sunday: Closed</p>
+  </div>
+  <div>
+    <h4>Find Us</h4>
+    <p>970 Lower Main St<br>Wailuku, HI 96793</p>
+    <a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI" target="_blank" style="display:inline-block;margin-top:10px;color:var(--gold)">Get directions →</a>
+  </div>
+  <div>
+    <h4>Get In Touch</h4>
+    <p>
+      Call or Text<br>
+      <a href="tel:8082492730">(808) 249-2730</a><br>
+      <a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a>
+    </p>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2026 Maui Power Equipment, Inc.</span>
+  <span>Wailuku, Maui, Hawaii</span>
+</div>
+
+<script>
+const ENDPOINT = 'https://formspree.io/f/xgodaqdd';
+const SMS = '8089897883@tmomail.net';
+
+/* ── Parts activation (nav CTA + hero search) ── */
+function activateParts() {
+  setTimeout(() => {
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.form-panel').forEach(f => f.classList.remove('active'));
+    document.querySelector('[onclick*="\'parts\'"]').classList.add('active');
+    document.getElementById('form-parts').classList.add('active');
+  }, 300);
+}
+
+function heroSearch() {
+  const q = document.getElementById('hero-search-input').value.trim();
+  if (!q) return;
+  const modelField = document.getElementById('p-model');
+  if (modelField) modelField.value = q;
+  activateParts();
+  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+}
+
+/* ── Slideshow ── */
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+const dots   = document.querySelectorAll('.dot');
+
+function goToSlide(n) {
+  slides[current].classList.remove('active');
+  dots[current].classList.remove('active');
+  current = n;
+  slides[current].classList.add('active');
+  dots[current].classList.add('active');
+}
+
+function scheduleNext() {
+  const delay = 6000 + (current * 1000);
+  setTimeout(() => {
+    goToSlide((current + 1) % slides.length);
+    scheduleNext();
+  }, delay);
+}
+scheduleNext();
+
+/* ── Contact mode selector ── */
+function selectMode(mode, btn) {
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.form-panel').forEach(f => f.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('form-' + mode).classList.add('active');
+}
+
+/* ── Shared pref state per form ── */
+const prefs = { parts: [], quote: [], repair: [], general: [] };
+
+function togglePref(btn, form) {
+  btn.classList.toggle('selected');
+  const l = btn.textContent.trim(), i = prefs[form].indexOf(l);
+  if (i > -1) prefs[form].splice(i, 1); else prefs[form].push(l);
+}
+
+/* ── Checkbox toggles ── */
+function toggleCheck(label) {
+  const cb = label.querySelector('input[type=checkbox]');
+  cb.checked = !cb.checked;
+  label.classList.toggle('checked', cb.checked);
+}
+
+function toggleExtra(id, checkId) {
+  const el = document.getElementById(id);
+  const checked = document.getElementById(checkId).querySelector('input').checked;
+  el.classList.toggle('show', checked);
+}
+
+function checkMake(sel) {
+  document.getElementById('make-warn').style.display = sel.value === 'other' ? 'block' : 'none';
+}
+
+/* ── Helpers ── */
+function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+
+function getCheckedParts() {
+  const parts = [];
+  document.querySelectorAll('#parts-grid input[type=checkbox]').forEach(cb => {
+    if (cb.checked) {
+      if (cb.value === 'Belt') { const t = val('p-belt-text'); parts.push('Belt' + (t ? ' (' + t + ')' : '')); }
+      else if (cb.value === 'Other') { const t = val('p-other-text'); parts.push('Other' + (t ? ' (' + t + ')' : '')); }
+      else if (cb.value === 'Not Sure') { const t = val('p-notsure-text'); parts.push('Not Sure' + (t ? ' — ' + t : '')); }
+      else parts.push(cb.value);
+    }
+  });
+  return parts;
+}
+
+/* ── Parts validation + submit ── */
+async function submitParts() {
+  let ok = true;
+  const fname = document.getElementById('p-fname');
+  fname.style.borderColor = fname.value.trim() ? '' : '#E24B4A';
+  if (!fname.value.trim()) ok = false;
+  const model = document.getElementById('p-model');
+  model.style.borderColor = model.value.trim() ? '' : '#E24B4A';
+  if (!model.value.trim()) ok = false;
+  const makeEl = document.getElementById('p-make');
+  makeEl.style.borderColor = makeEl.value ? '' : '#E24B4A';
+  if (!makeEl.value) ok = false;
+  const phone = val('p-phone'), email = val('p-email');
+  const phoneEl = document.getElementById('p-phone'), emailEl = document.getElementById('p-email');
+  if (!phone && !email) { phoneEl.style.borderColor = '#E24B4A'; emailEl.style.borderColor = '#E24B4A'; ok = false; }
+  else { phoneEl.style.borderColor = ''; emailEl.style.borderColor = ''; }
+  if (prefs.parts.length === 0) { const pb = document.getElementById('pref-parts'); pb.style.outline = '1.5px solid #E24B4A'; pb.style.borderRadius = '8px'; ok = false; }
+  else { const pb = document.getElementById('pref-parts'); pb.style.outline = ''; }
+  const pg = document.getElementById('parts-grid');
+  if (getCheckedParts().length === 0) { pg.style.outline = '1.5px solid #E24B4A'; pg.style.borderRadius = '8px'; ok = false; }
+  else { pg.style.outline = ''; }
+  if (!ok) return;
+  const btn = document.querySelector('#form-parts .submit-btn');
+  btn.disabled = true; btn.textContent = 'Sending...';
+  const makeEl2 = document.getElementById('p-make');
+  const data = {
+    _subject: 'MPE Parts Request', _cc: SMS,
+    Name: val('p-fname'),
+    Phone: val('p-phone'), Email: val('p-email'),
+    Contact_Preference: prefs.parts.join(', '),
+    Make: makeEl2.options[makeEl2.selectedIndex].text,
+    Model: val('p-model'), Serial: val('p-serial'),
+    Part_Number: val('p-partnum'),
+    Parts_Needed: getCheckedParts().join(' | ')
+  };
+  try {
+    const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) });
+    if (res.ok) { document.getElementById('parts-main').style.display = 'none'; document.getElementById('parts-success').style.display = 'block'; }
+    else { btn.disabled = false; btn.textContent = 'Try again — something went wrong'; }
+  } catch(e) { btn.disabled = false; btn.textContent = 'Try again — connection error'; }
+}
+
+/* ── Generic form submit (quote/repair/general) ── */
+async function submitForm(form) {
+  const subjects = { quote: 'MPE Quote Request', repair: 'MPE Repair Request', general: 'MPE General Inquiry' };
+  const dataMap = {
+    quote:   () => ({ _subject: subjects.quote,   _cc: SMS, Name: val('q-fname'), Phone: val('q-phone'), Email: val('q-email'), Contact_Preference: prefs.quote.join(', '),   Looking_For: val('q-desc') }),
+    repair:  () => ({ _subject: subjects.repair,  _cc: SMS, Name: val('r-fname'), Phone: val('r-phone'), Email: val('r-email'), Contact_Preference: prefs.repair.join(', '),  Make: val('r-make'), Model: val('r-model'), Problem: val('r-symptoms'), Urgency: document.getElementById('r-urgency').value }),
+    general: () => ({ _subject: subjects.general, _cc: SMS, Name: val('g-fname'), Phone: val('g-phone'), Email: val('g-email'), Contact_Preference: prefs.general.join(', '), Message: val('g-message') }),
+  };
+  const required = { quote: ['q-fname','q-desc'], repair: ['r-fname','r-make','r-symptoms'], general: ['g-fname','g-message'] };
+  let ok = true;
+  required[form].forEach(id => { const el = document.getElementById(id); el.style.borderColor = el.value.trim() ? '' : '#E24B4A'; if (!el.value.trim()) ok = false; });
+  if (['quote','repair'].includes(form)) {
+    const phone = val(form[0] + '-phone'), email = val(form[0] + '-email');
+    const phoneEl = document.getElementById(form[0] + '-phone'), emailEl = document.getElementById(form[0] + '-email');
+    if (!phone && !email) { phoneEl.style.borderColor = '#E24B4A'; emailEl.style.borderColor = '#E24B4A'; ok = false; }
+    else { phoneEl.style.borderColor = ''; emailEl.style.borderColor = ''; }
+  }
+  if (['quote','repair'].includes(form) && prefs[form].length === 0) {
+    const pb = document.getElementById('pref-' + form); pb.style.outline = '1.5px solid #E24B4A'; pb.style.borderRadius = '8px'; ok = false;
+  }
+  if (!ok) return;
+  const btn = document.querySelector('#form-' + form + ' .submit-btn');
+  btn.disabled = true; btn.textContent = 'Sending...';
+  try {
+    const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(dataMap[form]()) });
+    if (res.ok) { document.getElementById(form + '-main').style.display = 'none'; document.getElementById(form + '-success').style.display = 'block'; }
+    else { btn.disabled = false; btn.textContent = 'Try again — something went wrong'; }
+  } catch(e) { btn.disabled = false; btn.textContent = 'Try again — connection error'; }
+}
+
+/* ── Reset ── */
+function resetForm(form) {
+  document.getElementById(form + '-main').style.display = '';
+  document.getElementById(form + '-success').style.display = 'none';
+  document.querySelectorAll('#form-' + form + ' input, #form-' + form + ' textarea').forEach(el => el.value = '');
+  document.querySelectorAll('#form-' + form + ' select').forEach(el => el.selectedIndex = 0);
+  document.querySelectorAll('#form-' + form + ' .pref-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelectorAll('#form-' + form + ' .check-item').forEach(l => { l.classList.remove('checked'); l.querySelector('input') && (l.querySelector('input').checked = false); });
+  document.querySelectorAll('#form-' + form + ' .extra-input').forEach(el => el.classList.remove('show'));
+  prefs[form] = [];
+  const btn = document.querySelector('#form-' + form + ' .submit-btn');
+  if (btn) { btn.disabled = false; btn.textContent = form === 'parts' ? 'Submit parts request' : form === 'quote' ? 'Request a quote' : form === 'repair' ? 'Submit repair request' : 'Send message'; }
+}
+
+/* ── In-Stock from Google Sheet ── */
+async function loadStock() {
+  const grid = document.getElementById('stockGrid');
+  try {
+    const res = await fetch('inventory.json');
+    const items = await res.json();
+    if (!items.length) {
+      grid.innerHTML = '<p style="color:#888">No items currently listed. Check back soon or give us a call.</p>';
+      return;
+    }
+    grid.innerHTML = items.map(item => {
+      const sold = item.status === 'sold';
+      const condClass = item.condition.toLowerCase();
+      const photoHTML = item.photo
+        ? `<img class="card-photo" src="assets/inventory/${item.photo}" alt="${item.make} ${item.model}">`
+        : `<div class="card-photo-placeholder">Photo coming soon</div>`;
+      const statsHTML = item.stats.map(s =>
+        `<div class="stat"><span class="stat-label">${s.label}</span><span class="stat-value">${s.value}</span></div>`
+      ).join('');
+      const notesHTML = item.notes ? `<div class="card-notes">${item.notes}</div>` : '';
+      const ctaHTML = sold
+        ? `<span class="call-for-price">Sold</span><a class="card-cta" href="tel:8082492730">Call Now</a>`
+        : `<span class="call-for-price">Call for Price</span><a class="card-cta" href="tel:8082492730">Call Now</a>`;
+      return `
+        <div class="stock-card${sold ? ' sold' : ''}">
+          <div class="card-photo-wrap">
+            ${photoHTML}
+            ${sold ? '<div class="sold-banner">Sold</div>' : ''}
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-type">${item.type}</span>
+              <span class="card-condition ${condClass}">${item.condition}</span>
+            </div>
+            <div class="card-name">${item.make} ${item.model}</div>
+            <div class="card-year">${item.year}</div>
+            <div class="card-stats">${statsHTML}</div>
+            ${notesHTML}
+            <div class="card-footer">${ctaHTML}</div>
+          </div>
+        </div>`;
+    }).join('');
+  } catch(e) {
+    document.getElementById('stockGrid').innerHTML = '<p style="color:#888">Unable to load inventory. Give us a call at (808) 249-2730.</p>';
+  }
+}
+
+loadStock();
+</script>
+</body>
+</html>

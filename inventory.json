@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Trailer",
+    "make": "Big Tex",
+    "model": "60PI",
+    "year": "2025",
+    "condition": "New",
+    "photo": "60PI-Nomad-cutout-website-11-20-24.png.webp",
+    "stats": [
+      { "label": "GVWR",   "value": "14,000 lbs" },
+      { "label": "Length", "value": "20 ft" },
+      { "label": "Width",  "value": "83\"" }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Zero Turn Mower",
+    "make": "Scag",
+    "model": "Tiger Cat II",
+    "year": "2025",
+    "condition": "New",
+    "photo": "TigerCat_2023_studio_5D3-029_e2_FLEX.png",
+    "stats": [
+      { "label": "Deck",   "value": "Velocity 48\"" },
+      { "label": "Engine", "value": "Kawasaki FX 640" },
+      { "label": "HP",     "value": "31 HP" }
+    ],
+    "notes": "",
+    "status": "available"
+  }
+]

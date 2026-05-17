@@ -15,7 +15,12 @@
       "Bash(git -C \"/Users/trevorkudo/Documents/Files/MPE\" rev-parse --git-dir)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m '.gitignore — exclude .DS_Store files *)",
+      "Bash(node -e ' *)",
+      "Bash(rm design-test.html header-test.html instock-mockup.html logo-concepts.html logo-test.html palette.html site-mockup.html)",
+      "Bash(git commit -m 'Remove design/test mockup files before deploy *)"
     ]
   }
 }

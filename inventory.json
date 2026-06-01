@@ -1,30 +1,420 @@
 [
   {
-    "type": "Trailer",
-    "make": "Big Tex",
-    "model": "60PI",
-    "year": "2025",
-    "condition": "New",
-    "photo": "60PI-Nomad-cutout-website-11-20-24.png.webp",
+    "type": "Skid Sprayer",
+    "make": "Maruyama",
+    "model": "MSD41-50T",
+    "photo": "50gmaruskid.jpg",
     "stats": [
-      { "label": "GVWR",   "value": "14,000 lbs" },
-      { "label": "Length", "value": "20 ft" },
-      { "label": "Width",  "value": "83\"" }
+      {
+        "label": "Tank size",
+        "value": "50gallon"
+      },
+      {
+        "label": "Engine",
+        "value": "Honda GX160"
+      },
+      {
+        "label": "Flow",
+        "value": "8 GPM"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Battery Zero Turn Mower",
+    "make": "Stihl",
+    "model": "RZA 760",
+    "photo": "rza760.jpg",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "60\""
+      },
+      {
+        "label": "Motor",
+        "value": "72v Battery Powered"
+      },
+      {
+        "label": "Runtime",
+        "value": "8 Hours"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Battery Zero Turn Mower",
+    "make": "Greenworks Commercial",
+    "model": "MZ608 Maximus",
+    "photo": "maximus.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "60\""
+      },
+      {
+        "label": "Motor",
+        "value": "82v Battery Powered"
+      },
+      {
+        "label": "Runtime",
+        "value": "6 Hours"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Hydraulic tilt trailer",
+    "make": "BigTex",
+    "model": "16TL",
+    "photo": "16TL_Low-ProfileTiltTrailers.png.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "17500 lbs"
+      },
+      {
+        "label": "Capacity",
+        "value": "12620 lbs"
+      },
+      {
+        "label": "Dimensions",
+        "value": "20' x 83\""
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "30\" Walk-Behind Mower",
+    "make": "Toro",
+    "model": "TurfMaster HDX",
+    "photo": "toro30.jpeg",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "30\" gauge steel"
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FJ180V"
+      },
+      {
+        "label": "Displacement",
+        "value": "179 CCs"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "30\" Walk-Behind Mower",
+    "make": "Scag",
+    "model": "SFCII-30",
+    "photo": "SCAG-SFCII-30_1000x745-scaled.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "30\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kohler CV224"
+      },
+      {
+        "label": "HP",
+        "value": "7hp"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Sod-Cutter",
+    "make": "Bluebird",
+    "model": "SC550",
+    "photo": "Sod_Cutter_2_LR-2048x1409.jpg",
+    "stats": [
+      {
+        "label": "Engine",
+        "value": "Honda GX160"
+      },
+      {
+        "label": "Drive Train",
+        "value": "Chain Drive"
+      },
+      {
+        "label": "HP",
+        "value": "5.5"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Chipper/Shredder",
+    "make": "Echo",
+    "model": "SC-3013",
+    "photo": "sc3013chipper.jpg",
+    "stats": [
+      {
+        "label": "Diameter",
+        "value": "3\""
+      },
+      {
+        "label": "Engine",
+        "value": "Briggs & Stratton"
+      },
+      {
+        "label": "Displacement",
+        "value": "306CCs"
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
+  },
+  {
+    "type": "Economy Car Hauler Trailer",
+    "make": "BigTex",
+    "model": "60EC-16",
+    "photo": "60EC.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "6000 lbs"
+      },
+      {
+        "label": "Capacity",
+        "value": "4290 lbs"
+      },
+      {
+        "label": "Dimensions",
+        "value": "16' x 83\""
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Car Hauler Trailer",
+    "make": "BigTex",
+    "model": "70CH-18",
+    "photo": "70CH-WoodDeckCarHauler_v2.png.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "7000 lbs"
+      },
+      {
+        "label": "Capacity",
+        "value": "5090 lbs"
+      },
+      {
+        "label": "Dimensions",
+        "value": "18' x 83\""
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Utility Trailer",
+    "make": "Hillsboro",
+    "model": "Aluminum Utility",
+    "photo": "hillsboro-trailers_utility-trailer_feature-image.png",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "2990 lb"
+      },
+      {
+        "label": "Capacity",
+        "value": "~2300 lb"
+      },
+      {
+        "label": "Dimensions",
+        "value": "14' X 78\""
+      }
+    ],
+    "notes": "16' also available",
+    "status": "available"
+  },
+  {
+    "type": "Equipment Trailer",
+    "make": "Big Tex",
+    "model": "14OE",
+    "photo": "140e.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "14000 lb"
+      },
+      {
+        "label": "Capacity",
+        "value": "10840 lb"
+      },
+      {
+        "label": "Dimensions",
+        "value": "18' X 102\""
+      }
+    ],
+    "notes": "",
+    "status": "sale",
+    "sale": "$2250"
+  },
+  {
+    "type": "Specialty",
+    "make": "Scag",
+    "model": "Extreme Pro Wheel Blower",
+    "photo": "2019_Extreme Pro_Studio_1Y5A0636.jpg",
+    "stats": [
+      {
+        "label": "Output",
+        "value": "2,824 CFM"
+      },
+      {
+        "label": "Engine",
+        "value": "Honda GX390"
+      },
+      {
+        "label": "HP",
+        "value": "11.7hp"
+      }
     ],
     "notes": "",
     "status": "sold"
   },
   {
     "type": "Zero Turn Mower",
+    "make": "Hustler",
+    "model": "Fastrak SDX",
+    "photo": "Fastrak.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "48\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FX691"
+      },
+      {
+        "label": "HP",
+        "value": "22hp"
+      }
+    ],
+    "notes": "54\" Also available now.",
+    "status": "sale",
+    "sale": "$1200"
+  },
+  {
+    "type": "Zero Turn Mower",
+    "make": "Scag",
+    "model": "Turf Tiger",
+    "photo": "2021_TurfTiger.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "61\" Velocity+"
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki DFI"
+      },
+      {
+        "label": "HP ",
+        "value": "31 hp"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
+    "type": "Utility Trailer",
+    "make": "Big Tex",
+    "model": "60PI",
+    "photo": "60PI-Nomad-cutout-website-11-20-24.png.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "6,000 lbs"
+      },
+      {
+        "label": "Capacity",
+        "value": "3500 lbs"
+      },
+      {
+        "label": "Dimensions",
+        "value": "14' x 77\""
+      }
+    ],
+    "notes": "16' version is also in stock",
+    "status": "available"
+  },
+  {
+    "type": "Zero Turn Mower",
     "make": "Scag",
     "model": "Tiger Cat II",
-    "year": "2025",
-    "condition": "New",
-    "photo": "TigerCat_2023_studio_5D3-029_e2_FLEX.png",
+    "photo": "Tigercat.png",
     "stats": [
-      { "label": "Deck",   "value": "Velocity 48\"" },
-      { "label": "Engine", "value": "Kawasaki FX 640" },
-      { "label": "HP",     "value": "31 HP" }
+      {
+        "label": "Deck",
+        "value": "Velocity 48\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FX"
+      },
+      {
+        "label": "HP",
+        "value": "22 HP"
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Zero Turn Mower",
+    "make": "Scag",
+    "model": "Freedom Z",
+    "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "Hero 48\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kohler 7000"
+      },
+      {
+        "label": "HP",
+        "value": "24 HP"
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Zero Turn Mower",
+    "make": "Wright",
+    "model": "Stander X",
+    "photo": "Standerx52_1024x1024.png",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "48\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FX730"
+      },
+      {
+        "label": "HP",
+        "value": "23 HP"
+      }
     ],
     "notes": "",
     "status": "available"

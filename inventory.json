@@ -29,7 +29,7 @@
     "stats": [
       {
         "label": "Engine",
-        "value": "Kohler Command Pro CV200"
+        "value": "Kohler CV200"
       },
       {
         "label": "Cutting Height",
@@ -37,7 +37,7 @@
       },
       {
         "label": "Drive",
-        "value": "Hydrostatic Variable Speed"
+        "value": "Hydrostatic"
       }
     ],
     "notes": "",
@@ -59,7 +59,7 @@
       },
       {
         "label": "Drive",
-        "value": "Variable Speed"
+        "value": "Variable"
       }
     ],
     "notes": "",
@@ -309,7 +309,7 @@
     "sale": "$2250"
   },
   {
-    "type": "Specialty",
+    "type": "Riding Blower",
     "make": "Scag",
     "model": "Extreme Pro Wheel Blower",
     "photo": "windstorm.webp",
@@ -349,7 +349,7 @@
         "value": "22hp"
       }
     ],
-    "notes": "54\" Also available now.",
+    "notes": "54\" also available",
     "status": "sale",
     "sale": "$1200"
   },
@@ -394,7 +394,7 @@
         "value": "14' x 77\""
       }
     ],
-    "notes": "16' version is also in stock",
+    "notes": "16' version also available",
     "status": "available"
   },
   {

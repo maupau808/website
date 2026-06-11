@@ -1,5 +1,27 @@
 [
   {
+    "type": "Residential Zero Turn Mower",
+    "make": "Hustler",
+    "model": "Raptor XD",
+    "photo": "69bc50111cf5e796c436727d_Raptor_XD_Front_left_quarter.jpg",
+    "stats": [
+      {
+        "label": "Engine",
+        "value": "Kawasaki FR730"
+      },
+      {
+        "label": "HP",
+        "value": "24hp"
+      },
+      {
+        "label": "Deck",
+        "value": "54\""
+      }
+    ],
+    "notes": "",
+    "status": "sold"
+  },
+  {
     "type": "21\" Commercial Mower",
     "make": "Stihl",
     "model": "RM 756 YC",
@@ -306,7 +328,7 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "enroute"
   },
   {
     "type": "Zero Turn Mower",

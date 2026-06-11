@@ -1,5 +1,49 @@
 [
   {
+    "type": "21\" Commercial Mower",
+    "make": "Stihl",
+    "model": "RM 756 YC",
+    "photo": "rm756.jpg",
+    "stats": [
+      {
+        "label": "Engine",
+        "value": "Kohler Command Pro CV200"
+      },
+      {
+        "label": "Cutting Height",
+        "value": "<1\""
+      },
+      {
+        "label": "Drive",
+        "value": "Hydrostatic Variable Speed"
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
+  },
+  {
+    "type": "21\" Commercial Mower",
+    "make": "Scag",
+    "model": "SFC-21",
+    "photo": "Scag-SFC-21-Walk-Behind-Mower.webp",
+    "stats": [
+      {
+        "label": "Engine",
+        "value": "Honda GXV160"
+      },
+      {
+        "label": "Deck",
+        "value": "14 Gauge Steel"
+      },
+      {
+        "label": "Drive",
+        "value": "Variable Speed"
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
+  },
+  {
     "type": "Skid Sprayer",
     "make": "Maruyama",
     "model": "MSD41-50T",

@@ -19,29 +19,7 @@
       }
     ],
     "notes": "",
-    "status": "sold"
-  },
-  {
-    "type": "Battery Zero Turn Mower",
-    "make": "Stihl",
-    "model": "RZA 760",
-    "photo": "rza760.jpg",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "60\""
-      },
-      {
-        "label": "Motor",
-        "value": "72v Battery Powered"
-      },
-      {
-        "label": "Runtime",
-        "value": "8 Hours"
-      }
-    ],
-    "notes": "",
-    "status": "sold"
+    "status": "enroute"
   },
   {
     "type": "Battery Zero Turn Mower",
@@ -155,21 +133,21 @@
   },
   {
     "type": "Chipper/Shredder",
-    "make": "Echo",
-    "model": "SC-3013",
-    "photo": "sc3013chipper.jpg",
+    "make": "Bluebird",
+    "model": "CH400H",
+    "photo": "0005_2016-11-21_214.tif-2.jpg",
     "stats": [
       {
         "label": "Diameter",
-        "value": "3\""
+        "value": "4\""
       },
       {
         "label": "Engine",
-        "value": "Briggs & Stratton"
+        "value": "Honda GX390"
       },
       {
-        "label": "Displacement",
-        "value": "306CCs"
+        "label": "Drive",
+        "value": "Dual Belt Direct"
       }
     ],
     "notes": "",

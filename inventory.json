@@ -112,7 +112,7 @@
   {
     "type": "Hydraulic tilt trailer",
     "make": "BigTex",
-    "model": "16TL",
+    "model": "16TL 20-foot",
     "photo": "16TL_Low-ProfileTiltTrailers.png.webp",
     "stats": [
       {
@@ -222,7 +222,7 @@
   {
     "type": "Economy Car Hauler Trailer",
     "make": "BigTex",
-    "model": "60EC-16",
+    "model": "60EC 16-foot",
     "photo": "60EC.webp",
     "stats": [
       {
@@ -244,7 +244,7 @@
   {
     "type": "Car Hauler Trailer",
     "make": "BigTex",
-    "model": "70CH-18",
+    "model": "70CH 18-foot",
     "photo": "70CH-WoodDeckCarHauler_v2.png.webp",
     "stats": [
       {
@@ -266,7 +266,7 @@
   {
     "type": "Utility Trailer",
     "make": "Hillsboro",
-    "model": "Aluminum Utility",
+    "model": "Aluminum Utility 14-foot",
     "photo": "hillsboro-trailers_utility-trailer_feature-image.png",
     "stats": [
       {
@@ -288,7 +288,7 @@
   {
     "type": "Equipment Trailer",
     "make": "Big Tex",
-    "model": "14OE",
+    "model": "14OE 18 foot",
     "photo": "140e.webp",
     "stats": [
       {
@@ -378,7 +378,7 @@
   {
     "type": "Utility Trailer",
     "make": "Big Tex",
-    "model": "60PI",
+    "model": "60PI 14-foot",
     "photo": "60PI-Nomad-cutout-website-11-20-24.png.webp",
     "stats": [
       {

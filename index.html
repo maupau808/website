@@ -3,1301 +3,932 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maui Power Equipment — Wailuku, HI</title>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>Maui Power Equipment — Sales, Service & Parts | Wailuku, HI</title>
+<meta name="description" content="Locally owned, full-service outdoor power equipment shop in Wailuku, Maui. Sales, service, and parts for STIHL, Honda, SCAG, Maruyama, ECHO and more — no appointment needed.">
+<meta name="theme-color" content="#2f4339">
+<link rel="canonical" href="https://mauipowerequipment.com/">
+<link rel="icon" type="image/png" href="assets/logos/circle%20new%20(5).png">
+<link rel="apple-touch-icon" href="assets/logos/circle%20new%20(5).png">
+<meta property="og:title" content="Maui Power Equipment — Wailuku, HI">
+<meta property="og:description" content="Locally owned sales, service, and parts for outdoor power equipment in Wailuku, Maui.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mauipowerequipment.com/">
+<meta property="og:image" content="https://mauipowerequipment.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Maui Power Equipment — Wailuku, HI">
+<meta name="twitter:description" content="Locally owned sales, service, and parts for outdoor power equipment in Wailuku, Maui.">
+<meta name="twitter:image" content="https://mauipowerequipment.com/assets/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Maui Power Equipment",
+  "image": "https://mauipowerequipment.com/assets/og-image.jpg",
+  "url": "https://mauipowerequipment.com/",
+  "telephone": "+1-808-249-2730",
+  "email": "Info@mauipowerequipment.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "970 Lower Main St",
+    "addressLocality": "Wailuku",
+    "addressRegion": "HI",
+    "postalCode": "96793",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 20.8893, "longitude": -156.5044 },
+  "areaServed": "Maui, HI",
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "16:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:30", "closes": "14:00" }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-/* ── Reset ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Barlow Semi Condensed', sans-serif; background: #f5f3ee; color: #2a2a2a; overflow-x: clip; }
-
-/* ── Variables ── */
-:root {
-  --green:  #3c5148;
-  --gold:   #E8A820;
-  --light:  #f5f3ee;
-  --text:   #2a2a2a;
-}
-
-/* ════════════════════════════════
-   NAV
-════════════════════════════════ */
-nav {
-  background: var(--green);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 54px;
-  padding: 0 clamp(24px, 5vw, 72px);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  align-self: center;
-  gap: 14px;
-  text-decoration: none;
-}
-
-.mpe-logo {
-  height: 97px;
-  width: auto;
-  display: block;
-  flex-shrink: 0;
-}
-
-.brand-text .name {
-  font-size: clamp(14px, 1.4vw, 22px);
-  font-weight: 700;
-  color: white;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  line-height: 1;
-}
-
-.nav-links {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-  align-self: center;
-}
-
-.nav-links a {
-  color: #b8d4c0;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color .15s;
-}
-
-.nav-links a:hover { color: var(--gold); }
-
-.nav-cta {
-  background: var(--gold);
-  color: #1e2d24 !important;
-  padding: 9px 20px;
-  border-radius: 6px;
-  font-weight: 700 !important;
-  letter-spacing: 0.5px !important;
-  transition: background .15s !important;
-}
-.nav-cta:hover { background: #d49a1e; color: #1e2d24 !important; }
-
-/* ════════════════════════════════
-   HERO — photo slideshow + overlay
-════════════════════════════════ */
-.hero {
-  position: relative;
-  height: clamp(400px, 48vw, 630px);
-  overflow: hidden;
-}
-
-.slides {
-  position: absolute;
-  inset: 0;
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transition: opacity 1.2s ease-in-out;
-}
-
-.slide.active { opacity: 1; }
-
-.slide:nth-child(1) { background-image: url('assets/shop/1.jpg'); background-position: center 55%; }
-.slide:nth-child(2) { background-image: url('assets/shop/2.jpg'); background-position: center 65%; }
-.slide:nth-child(3) { background-image: url('assets/shop/3.jpg'); background-position: center 45%; }
-.slide:nth-child(4) { background-image: url('assets/shop/4.jpg'); background-position: center 45%; }
-.slide:nth-child(5) { background-image: url('assets/shop/5.jpg'); background-position: center 38%; }
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.52);
-  z-index: 1;
-}
-
-.hero-content {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 clamp(28px, 4.5vw, 64px);
-}
-
-.hero-heading {
-  font-size: clamp(42px, 5.5vw, 80px);
-  font-weight: 800;
-  color: white;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-}
-
-.hero-sub {
-  font-size: clamp(20px, 2.2vw, 30px);
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 4px 20px rgba(0,0,0,0.7), 0 8px 40px rgba(0,0,0,0.5);
-}
-
-.hero-search {
-  display: flex;
-  margin-top: 32px;
-  max-width: 500px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
-}
-
-.hero-search input {
-  flex: 1;
-  padding: 14px 20px;
-  border: none;
-  font-size: 16px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  background: rgba(255,255,255,0.95);
-  color: #2a2a2a;
-  outline: none;
-  border-radius: 0;
-}
-
-.hero-search input::placeholder { color: #888; }
-
-.hero-search button {
-  padding: 14px 24px;
-  background: var(--gold);
-  color: #1e2d24;
-  border: none;
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-  transition: background .15s;
-}
-
-.hero-search button:hover { background: #d49a1e; }
-
-/* slide dots */
-.hero-dots {
-  position: absolute;
-  bottom: 20px;
-  left: clamp(28px, 4.5vw, 64px);
-  z-index: 3;
-  display: flex;
-  gap: 8px;
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.35);
-  cursor: pointer;
-  transition: background .2s;
-}
-
-.dot.active { background: var(--gold); }
-
-/* ════════════════════════════════
-   SECTION SHARED
-════════════════════════════════ */
-section { padding: clamp(40px, 5vw, 72px) clamp(28px, 4.5vw, 64px); }
-
-.section-title {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: var(--green);
-  margin-bottom: 36px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.section-title::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: rgba(60,81,72,0.2);
-}
-
-/* ════════════════════════════════
-   BRANDS
-════════════════════════════════ */
-.brands { background: white; }
-
-.logo-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
-}
-
-.logo-card {
-  background: #f9f8f5;
-  border: 1px solid #e8e5de;
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 130px;
-  overflow: hidden;
-}
-
-.logo-card--more {
-  background: #f0ede5;
-  border: 2px dashed rgba(60,81,72,0.25);
-  color: var(--green);
-  font-size: 19px;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 0.3px;
-  overflow: visible;
-}
-
-.logo-card img {
-  max-width: 100%;
-  max-height: 80px;
-  object-fit: contain;
-}
-
-.logo-card--felco img { max-height: 160px; }
-
-/* ════════════════════════════════
-   IN STOCK
-════════════════════════════════ */
-.instock { background: var(--light); }
-
-.stock-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-
-.stock-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  display: flex;
-  flex-direction: column;
-}
-
-.stock-card .card-photo {
-  width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
-  display: block;
-}
-
-.stock-card .card-photo-placeholder {
-  width: 100%;
-  aspect-ratio: 4/3;
-  background: #e8e5de;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #bbb;
-  font-size: 13px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.stock-card .card-body {
-  padding: 20px 22px 22px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.stock-card .card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 6px;
-}
-
-.stock-card .card-type {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--green);
-  opacity: 0.6;
-}
-
-.stock-card .card-condition {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding: 3px 9px;
-  border-radius: 4px;
-}
-.stock-card .card-condition.new  { background: #e8f0ea; color: var(--green); }
-.stock-card .card-condition.used { background: #f0ede5; color: #7a6a40; }
-
-.stock-card .card-name {
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 1.1;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 4px;
-}
-
-.stock-card .card-year {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 14px;
-}
-
-.stock-card .card-stats {
-  display: flex;
-  border: 1px solid #e8e5de;
-  border-radius: 7px;
-  overflow: hidden;
-  margin-bottom: 18px;
-}
-
-.stock-card .stat {
-  flex: 1;
-  padding: 10px 14px;
-  border-right: 1px solid #e8e5de;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.stock-card .stat:last-child { border-right: none; }
-
-.stock-card .stat-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: #aaa;
-}
-
-.stock-card .stat-value {
-  font-size: 16px;
-  font-weight: 700;
-  color: #2a2a2a;
-}
-
-.stock-card .card-notes {
-  font-size: 13px;
-  color: #888;
-  margin-bottom: 14px;
-  line-height: 1.5;
-}
-
-.stock-card .card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: auto;
-}
-
-.stock-card .call-for-price {
-  font-size: 15px;
-  font-weight: 700;
-  color: #888;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.stock-card .card-cta {
-  background: var(--gold);
-  color: #1e2d24;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.stock-note {
-  margin-top: 28px;
-  font-size: 14px;
-  color: #888;
-  letter-spacing: 0.3px;
-}
-
-.stock-card .card-photo-wrap {
-  position: relative;
-}
-
-.sold-banner {
-  position: absolute;
-  top: 18px;
-  left: 0;
-  background: #c0392b;
-  color: white;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 6px 18px;
-}
-
-.stock-card.sold .card-photo,
-.stock-card.sold .card-photo-placeholder {
-  filter: grayscale(60%) brightness(0.85);
-}
-
-.stock-card.sold .card-name,
-.stock-card.sold .stat-value {
-  color: #999;
-}
-
-.stock-card.sold .card-cta {
-  background: #ccc;
-  color: #888;
-  pointer-events: none;
-}
-
-/* ════════════════════════════════
-   CONTACT
-════════════════════════════════ */
-.contact { background: var(--green); position: relative; overflow: hidden; }
-
-.contact-watermark {
-  position: absolute;
-  left: clamp(52%, 54%, 56%);
-  top: 50%;
-  transform: translate(-10%, -50%);
-  width: clamp(390px, 57vw, 840px);
-  opacity: 0.09;
-  filter: brightness(0) invert(1);
-  pointer-events: none;
-  user-select: none;
-}
-
-.contact .section-title { color: #aac4b4; }
-.contact .section-title::after { background: rgba(255,255,255,0.15); }
-
-.contact-intro {
-  font-size: 17px;
-  color: #c8ddd0;
-  margin-bottom: 16px;
-  max-width: 560px;
-}
-
-.contact-notice {
-  font-size: 14px;
-  color: #7aab8a;
-  margin-bottom: 28px;
-  max-width: 620px;
-  line-height: 1.5;
-}
-
-.contact-notice a {
-  color: var(--gold);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.contact-notice a:hover { text-decoration: underline; }
-
-/* mode buttons */
-.mode-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 28px;
-  max-width: 700px;
-}
-
-.mode-btn {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 8px;
-  padding: 20px 12px;
-  cursor: pointer;
-  text-align: center;
-  transition: all .15s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.mode-btn:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.3); }
-
-.mode-btn.active {
-  background: var(--gold);
-  border-color: var(--gold);
-}
-
-.mode-btn svg { width: 32px; height: 32px; fill: var(--gold); }
-.mode-btn.active svg { fill: #1e2d24; }
-
-.mode-label {
-  font-size: 14px;
-  font-weight: 700;
-  color: white;
-  line-height: 1.2;
-}
-
-.mode-btn.active .mode-label { color: #1e2d24; }
-
-/* forms */
-.form-panel { display: none; max-width: 700px; }
-.form-panel.active { display: block; }
-
-.form-bg {
-  background: #f5f3ee;
-  border-radius: 10px;
-  padding: 28px;
-}
-
-.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
-.field-row.full { grid-template-columns: 1fr; }
-.field-group { display: flex; flex-direction: column; gap: 5px; }
-label { font-size: 15px; color: var(--green); font-weight: 600; }
-label span.opt { color: #aaa; font-weight: 400; font-size: 13px; }
-input, textarea, select {
-  width: 100%; padding: 10px 12px;
-  border: 1px solid #bbb; border-radius: 8px;
-  font-size: 15px; background: white; color: #405049;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-}
-input:focus, textarea:focus, select:focus {
-  outline: none; border-color: #1D9E75;
-  box-shadow: 0 0 0 2px rgba(29,158,117,.15);
-}
-textarea { resize: vertical; min-height: 90px; }
-
-.pref-wrap { margin-bottom: 12px; }
-.pref-label { font-size: 15px; color: var(--green); font-weight: 600; margin-bottom: 6px; display: block; }
-.pref-hint { font-size: 13px; color: #666; margin-bottom: 8px; display: block; }
-.pref-btns { display: flex; gap: 8px; flex-wrap: wrap; }
-.pref-btn {
-  padding: 8px 20px; border: 1px solid #ddd;
-  border-radius: 8px; background: white; color: #333;
-  font-size: 15px; cursor: pointer;
-  font-family: 'Barlow Semi Condensed', sans-serif; transition: all .15s;
-}
-.pref-btn.selected { border: 1.5px solid #222421; background: var(--gold); color: #222421; }
-
-.form-notice {
-  border-left: 4px solid var(--gold);
-  border-radius: 0 8px 8px 0;
-  padding: .875rem 1.25rem;
-  margin-bottom: 16px;
-  font-size: 15px;
-  font-weight: 600;
-  color: white;
-  background: rgba(0,0,0,0.25);
-  line-height: 1.5;
-}
-
-.form-notice.green {
-  border-left-color: var(--gold);
-  background: var(--green);
-  color: #c8d8cc;
-  font-weight: 400;
-}
-
-.form-notice.green .notice-head {
-  display: block;
-  color: var(--gold);
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  margin-bottom: 5px;
-}
-
-.form-notice.warn {
-  border-left-color: #E24B4A;
-  background: rgba(226,75,74,0.12);
-  color: #222;
-}
-
-.checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
-.check-item {
-  display: flex; align-items: center; gap: 8px;
-  background: white; border: 1px solid #bbb;
-  border-radius: 8px; padding: 10px 12px;
-  cursor: pointer; transition: all .15s;
-}
-.check-item:hover { border-color: var(--green); }
-.check-item.checked { border: 1.5px solid var(--green); background: #e8ede9; }
-.check-item input[type=checkbox] { width: 16px; height: 16px; flex-shrink: 0; accent-color: var(--green); cursor: pointer; }
-.check-item span { font-size: 15px; color: var(--green); font-weight: 500; }
-
-.extra-input { margin-top: 8px; margin-bottom: 4px; display: none; }
-.extra-input.show { display: block; }
-
-.divider { border: none; border-top: 1px solid rgba(60,81,72,0.15); margin: 16px 0; }
-
-.submit-btn {
-  margin-top: 20px; width: 100%; padding: 13px;
-  border: none; border-radius: 8px;
-  background: var(--green); color: #E1F5EE;
-  font-size: 17px; font-weight: 700; cursor: pointer;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  letter-spacing: 0.5px; transition: background .15s;
-}
-.submit-btn:hover { background: #2e3d33; }
-.submit-btn:disabled { background: #ccc; color: #999; cursor: not-allowed; }
-
-.success { display: none; text-align: center; padding: 40px 20px; }
-.success-check {
-  width: 52px; height: 52px; border-radius: 50%;
-  background: #E1F5EE; display: flex; align-items: center;
-  justify-content: center; margin: 0 auto 16px; font-size: 26px; color: #0F6E56;
-}
-.success h3 { font-size: 20px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
-.success p { font-size: 16px; color: #555; line-height: 1.6; }
-.reset-btn {
-  margin-top: 16px; background: none; border: 1px solid #ccc;
-  border-radius: 8px; padding: 8px 20px; cursor: pointer;
-  font-size: 15px; color: var(--green);
-  font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-/* ════════════════════════════════
-   FOOTER
-════════════════════════════════ */
-footer {
-  background: #1e2d24;
-  padding: 56px 64px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 48px;
-}
-
-footer h4 {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: #7aab8a;
-  margin-bottom: 16px;
-}
-
-footer p, footer a {
-  font-size: 17px;
-  color: #c8ddd0;
-  line-height: 1.8;
-  text-decoration: none;
-}
-
-footer a:hover { color: var(--gold); }
-
-.footer-bottom {
-  background: #161f1a;
-  padding: 16px clamp(28px, 4.5vw, 64px);
-  font-size: 13px;
-  color: #3a5040;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* ════════════════════════════════
-   RESPONSIVE — tablet / medium screens
-════════════════════════════════ */
-@media (max-width: 1050px) {
-  .mode-grid { grid-template-columns: repeat(2, 1fr); max-width: 100%; }
-  footer { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 820px) {
-  .field-row { grid-template-columns: 1fr; }
-  footer { grid-template-columns: 1fr; }
-  .contact-watermark { display: none; }
-}
+:root{
+  --paper:#f7f4ee; --card:#ffffff; --ink:#1d2722; --muted:#6a736d;
+  --green:#2f4339; --green-dark:#202d27; --gold:#FFAD00; --gold-deep:#D99300;
+  --line:#e6e1d6;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.display{font-family:'Barlow Semi Condensed',sans-serif;font-weight:800;text-transform:uppercase;line-height:0.98;letter-spacing:0.5px}
+.eyebrow{font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-deep)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,56px)}
+section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:1.2px;text-transform:uppercase;padding:14px 26px;border-radius:999px;cursor:pointer;border:none;transition:transform .12s,background .15s,box-shadow .15s}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold-deep);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid rgba(0,0,0,0.18)}
+.btn-ghost:hover{border-color:var(--green)}
+.nav-btn{display:inline-flex;align-items:center;font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;letter-spacing:1px;text-transform:uppercase;padding:9px 18px;border-radius:999px;border:none;background:var(--gold);color:var(--ink);cursor:pointer;transition:transform .12s,background .15s;white-space:nowrap}
+.nav-btn:hover{background:var(--gold-deep);transform:translateY(-1px)}
+
+/* ── hero info overlay (address / status / phone on the hero) ── */
+.hero-info{position:absolute;top:0;left:0;right:0;z-index:3;display:flex;justify-content:space-between;align-items:center;padding:9px clamp(20px,5vw,56px);font-size:12.5px;letter-spacing:.4px;color:#d7ddd4}
+.hero-info a{color:#d7ddd4}.hero-info a:hover{color:var(--gold)}
+.hero-info b{color:var(--gold);font-weight:600}
+.hero-info .open-today{color:#fff}
+.herobar-info .open-today{color:#fff}
+.clk{width:13px;height:13px;vertical-align:-2px;margin-right:4px}
+.herobar-info{display:none}
+@media(max-width:640px){.hero-info{display:none}
+  .herobar-info{display:flex;justify-content:center;align-items:center;gap:7px;padding:8px 14px;font-size:12px;letter-spacing:.3px;color:#d7ddd4;border-top:1px solid rgba(255,173,0,.3)}
+  .herobar-info a{color:#d7ddd4}.herobar-info b{color:var(--gold);font-weight:600}}
+.brand{display:flex;align-items:center;gap:11px}
+.brand img{height:40px;width:auto}
+
+/* ── hero ── */
+.hero{position:relative;min-height:clamp(205px,27vh,310px);display:flex;align-items:center;color:#fff;overflow:hidden;
+  background:linear-gradient(rgba(32,45,39,0.93),rgba(32,45,39,0.96)),url('assets/lauhala.jpg') center/cover}
+.hero .wrap{position:relative;z-index:2;text-align:center;padding:40px 0 36px}
+.hero h1{font-size:clamp(30px,7.2vw,94px);white-space:nowrap;margin:0 auto;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.32)}
+.hero .tag{display:flex;align-items:center;justify-content:center;gap:clamp(10px,2vw,18px);font-family:'Oswald',sans-serif;font-weight:600;font-size:clamp(14px,2vw,22px);letter-spacing:3px;text-transform:uppercase;margin-top:14px;color:var(--gold)}
+.hero .tag::before,.hero .tag::after{content:'';height:2px;width:clamp(20px,5vw,56px);background:var(--gold);opacity:.6}
+/* action bar under hero — full-width green, button cluster centered */
+.herobar{background:var(--green)}
+.herobar-group{display:flex;width:clamp(300px,34%,540px);margin:0 auto;border-left:1px solid rgba(255,173,0,.45);border-right:1px solid rgba(255,173,0,.45)}
+.herobtn{flex:1;text-align:center;font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:1px;text-transform:uppercase;color:#fff;padding:7px 8px;border-right:1px solid rgba(255,173,0,.45);cursor:pointer;transition:background .15s,color .15s}
+.herobtn:last-child{border-right:none}
+.herobtn:hover{background:var(--gold);color:var(--ink)}
+@media(max-width:540px){
+  .hero{min-height:clamp(110px,17vh,160px)}
+  .hero .wrap{padding:18px 16px 16px}
+  .hero .tag{font-size:11px;letter-spacing:2px;margin-top:8px;gap:8px}
+  .hero .tag::before,.hero .tag::after{width:18px}
+  .herobar-group{width:100%;border-left:none;border-right:none}
+  .herobtn{font-size:12px;padding:11px 4px;letter-spacing:.5px}
+}
+
+/* ── everyday (pillar 1): we sell it & we fix it ── */
+.everyday{background:var(--paper);border-bottom:1px solid var(--line)}
+.ev-top{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,56px);align-items:start}
+.ev-top>*{min-width:0}
+@media(max-width:820px){.ev-top{grid-template-columns:1fr;gap:26px}}
+@media(max-width:540px){.ev-top{gap:10px}}
+.ev-text h2{font-family:'Oswald',sans-serif;font-weight:600;font-size:clamp(26px,3.3vw,40px);color:var(--green);line-height:1.16;margin-bottom:16px}
+.ev-text p{font-size:clamp(15px,1.55vw,17px);color:#3f4842;line-height:1.65;margin-bottom:14px}
+.ev-text p:last-of-type{margin-bottom:0}
+.ev-pgrid-col{align-self:stretch;display:flex;flex-direction:column;justify-content:flex-end}
+.ev-pgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.ev-pgrid .feat{aspect-ratio:4/3;margin:0;cursor:zoom-in;width:100%}
+.ev-pgrid .feat:nth-child(1){grid-column:1;grid-row:1/4;aspect-ratio:unset}
+.ev-pgrid .feat:nth-child(2){grid-column:2;grid-row:1}
+.ev-pgrid .feat:nth-child(3){grid-column:2;grid-row:2}
+.ev-pgrid .feat:nth-child(4){grid-column:2;grid-row:3}
+.ev-pgrid .feat:nth-child(5){grid-column:1/3;grid-row:4;aspect-ratio:16/5}
+.ev-pgrid .feat img{width:100%;height:100%;object-fit:cover;display:block;transition:none}
+.ev-pgrid .feat::after{display:none}
+@media(max-width:480px){
+  .ev-pgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .ev-pgrid .feat{height:auto;margin:0;overflow:hidden;display:block;background:#ebe8e1}
+  .ev-pgrid .feat img{width:100%;height:100%;object-fit:cover;object-position:center}
+}
+.ev-text p.ev-signoff{font-family:'Barlow Semi Condensed',sans-serif;font-size:clamp(20px,2.3vw,28px);font-weight:800;text-transform:uppercase;color:var(--green);margin-top:20px;line-height:1.1}
+.ev-list{display:grid;grid-template-columns:repeat(3,1fr);gap:0 14px;margin:8px 0 0;padding:0;list-style:none}
+.ev-list li{font-size:clamp(14px,1.35vw,16px);color:#3f4842;padding:3px 0;font-weight:500}
+.ev-list li::before{content:none}
+.ev-list .ev-more{grid-column:2/4;text-align:right;font-style:italic;color:#5a6b5e;font-size:clamp(14px,1.3vw,16px);padding-top:6px}
+.ev-list .ev-more::before{content:none}
+.ev-list-label{font-size:clamp(14px,1.4vw,16px)!important;color:#FFAD00!important;font-style:normal;font-weight:600;margin-bottom:4px!important;margin-top:14px!important}
+.ev-text h2{font-family:'Oswald',sans-serif;font-weight:600;font-size:clamp(26px,3.3vw,40px);color:var(--green);line-height:1.16;margin-bottom:16px}
+.ev-text p{font-size:clamp(15px,1.55vw,17.5px);color:#3f4842;line-height:1.62;margin-bottom:14px}
+.ev-text p:last-child{margin-bottom:0}
+.feat{position:relative;aspect-ratio:4/3;border-radius:11px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,0.08);cursor:pointer}
+.feat img{width:100%;height:100%;object-fit:cover;display:block}
+.feat .cap{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 9px;background:linear-gradient(transparent,rgba(0,0,0,.74));color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:1px;text-transform:uppercase;transition:opacity .2s}
+.feat .ov{position:absolute;inset:0;background:rgba(20,28,24,.93);padding:12px 14px;display:flex;flex-direction:column;justify-content:center;opacity:0;transition:opacity .2s;overflow:auto}
+.feat:hover .ov,.feat.open .ov{opacity:1}
+.feat:hover .cap,.feat.open .cap{opacity:0}
+.feat::after{content:'+';position:absolute;top:8px;right:8px;z-index:2;width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--ink);font-family:'Oswald',sans-serif;font-weight:700;font-size:18px;line-height:23px;text-align:center;box-shadow:0 2px 7px rgba(0,0,0,.32);transition:opacity .2s,transform .2s;pointer-events:none}
+.feat:hover::after,.feat.open::after{opacity:0;transform:scale(.6)}
+.feat .ov h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);margin-bottom:9px}
+.ovcols{display:flex;gap:10px}
+.ovcol{flex:1;min-width:0}
+.ovcol .b{font-family:'Oswald',sans-serif;font-size:9.5px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#9fbfa6;margin-bottom:4px;line-height:1.2}
+.ovcol ul{list-style:none;display:flex;flex-direction:column;gap:3px}
+.ovcol li{font-size:11.5px;color:#eef2ef;line-height:1.25}
+.ov-line{font-size:12px;color:#eef2ef;line-height:1.4}
+.ov-from{font-size:11px;color:#c6d0c8;line-height:1.35;margin-top:5px}
+.ov-sub{font-size:10.5px;letter-spacing:.3px;color:#9fbfa6;margin-bottom:8px;line-height:1.3}
+.ev-do{display:flex;flex-direction:column;gap:15px;margin-top:24px}
+.vcol{display:flex;gap:14px;align-items:flex-start}
+.vcol svg{width:27px;height:27px;flex:0 0 27px;fill:var(--gold-deep);margin-top:3px}
+.vcol h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:16px;letter-spacing:.9px;text-transform:uppercase;color:var(--green)}
+.vcol p{font-size:14.5px;color:#46504a;line-height:1.45;margin-top:4px}
+.everyday .shead h2{font-size:clamp(26px,3.4vw,42px);color:var(--green)}
+.ev-qs{margin:0 0 14px}
+.ev-qs p{position:relative;padding-left:20px;font-size:clamp(15px,1.7vw,18px);font-weight:500;color:var(--ink);line-height:1.4;margin-bottom:9px}
+.ev-qs p::before{content:'›';position:absolute;left:0;color:var(--gold-deep);font-weight:700}
+.ev-closer{font-size:clamp(15px,1.7vw,18px);font-weight:600;color:#3f4842}
+.everyday{padding-top:clamp(28px,3.5vw,46px);padding-bottom:clamp(34px,4.5vw,60px)}
+#stock{padding-top:clamp(34px,4.5vw,60px)}
+
+/* ── single large photo in ev-text ── */
+.ev-solo-photo{margin-top:18px;border-radius:11px;overflow:hidden;aspect-ratio:3/2;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.ev-solo-photo img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ── section heads ── */
+.shead{max-width:680px;margin-bottom:clamp(32px,4vw,52px)}
+.shead.center{margin-left:auto;margin-right:auto;text-align:center}
+.shead h2{font-size:clamp(30px,4.4vw,52px);margin-top:12px;color:var(--ink)}
+.shead p{color:#545c56;font-size:clamp(15px,1.7vw,18px);margin-top:12px}
+
+
+/* ── brands ── */
+.brandbar{background:#fff;border-bottom:1px solid var(--line);padding:10px 0}
+.brandbar .wrap{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:clamp(12px,2.4vw,28px)}
+.brandbar .lab{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.ev-brands{margin-top:28px;display:flex;flex-direction:column;gap:clamp(10px,1.3vw,16px)}
+.brow{display:flex;justify-content:center;align-items:center;gap:clamp(12px,1.9vw,26px);flex-wrap:wrap}
+.ev-logo{height:44px;width:auto;max-width:122px;object-fit:contain;flex:0 0 auto}
+@media(max-width:820px){.ev-brands{max-width:540px;margin-left:auto;margin-right:auto}}
+@media(max-width:540px){.brow{gap:8px}.ev-logo{height:28px;max-width:78px}}
+
+/* ── logo bar (between hero and everyday) ── */
+.logo-bar{background:#fff;border-bottom:1px solid var(--line);padding:clamp(14px,2vw,24px) 0}
+.logo-bar .ev-brands{margin:0}
+.logo-bar .ev-logo{height:46px;max-width:130px}
+.logo-bar-mobile .ev-logo{height:38px;max-width:108px}
+@media(max-width:540px){.logo-bar-mobile .ev-logo{height:30px;max-width:84px}}
+.logo-bar-mobile{display:none}
+@media(max-width:820px){.logo-bar-mobile{display:block}.logo-bar:not(.logo-bar-mobile){display:none}
+  .logo-bar-mobile .brow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px 10px;align-items:center;justify-items:center}
+  .logo-bar-mobile .ev-logo{height:30px;max-width:100%;width:auto}}
+
+/* ── in stock ── */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;justify-content:center}
+.filters button{font-family:'Oswald';font-weight:500;font-size:13px;letter-spacing:1px;text-transform:uppercase;padding:9px 18px;border-radius:999px;border:1.5px solid rgba(255,255,255,0.62);background:rgba(255,255,255,0.14);color:#fff;cursor:pointer;transition:background .12s,color .12s,border-color .12s}
+.filters button.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.scroller{overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;padding:4px 0 16px 0;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.3) rgba(255,255,255,0.08)}
+.scroller::-webkit-scrollbar{height:4px}
+.scroller::-webkit-scrollbar-track{background:rgba(255,255,255,0.08);border-radius:2px}
+.scroller::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.3);border-radius:2px}
+.s2-caro{position:relative}
+#stock{overflow-x:hidden}
+.scroll-rows{display:inline-flex;flex-direction:column;gap:clamp(14px,2vw,22px)}
+.scroll-row{display:flex;gap:20px}
+.scroll-row .card{flex:0 0 clamp(210px,24vw,305px);scroll-snap-align:start;height:312px}
+
+.caro-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:52px;height:52px;border-radius:50%;border:none;background:var(--gold);color:var(--ink);font-size:30px;font-weight:700;line-height:1;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;transition:background .15s,transform .1s}
+.caro-btn:hover{background:var(--gold-deep)}
+.caro-btn:active{transform:translateY(-50%) scale(.92)}
+.caro-btn.left{left:-12px;opacity:0;pointer-events:none;transition:opacity .2s}
+.caro-btn.left.show{opacity:1;pointer-events:auto}
+.caro-btn.right{right:-12px}
+.scroll-cue{position:absolute;right:14px;bottom:50%;transform:translateY(50%);z-index:6;background:rgba(255,255,255,0.15);backdrop-filter:blur(6px);color:#fff;font-family:'Oswald',sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;padding:10px 16px;border-radius:999px;pointer-events:none;transition:opacity .45s;box-shadow:0 2px 12px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,0.2)}
+.scroll-cue.gone{opacity:0}
+@media(max-width:600px){.caro-btn{display:none}}
+.card{background:var(--card);border:1px solid rgba(255,255,255,0.06);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .15s,transform .12s;position:relative;box-shadow:0 6px 22px rgba(0,0,0,0.28)}
+.card:hover{box-shadow:0 16px 42px rgba(0,0,0,0.38);transform:translateY(-3px)}
+.card .ph{position:relative;height:220px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:contain;padding:14px}
+.badge{position:absolute;top:12px;left:12px;font-family:'Oswald';font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:5px 11px;border-radius:999px}
+.badge.avail{background:#e7f0e8;color:#2f6b3f}
+.badge.enroute{background:#fff3d6;color:#9a6b00;display:none}
+.badge.sold{background:#c8c6c0;color:#5a5a54;font-size:13px;padding:7px 15px}
+.badge.sale{position:absolute;top:22px;left:-32px;width:130px;padding:7px 0;background:#c0392b;color:#fff;border-radius:0;letter-spacing:1.5px;text-align:center;transform:rotate(-45deg);box-shadow:0 2px 8px rgba(0,0,0,.25);z-index:10;display:none}
+.card.is-sold .ph img{filter:grayscale(.8);opacity:.7}
+.cnote-bar{position:absolute;top:0;left:0;right:0;z-index:5;background:rgba(255,173,0,0.8);color:var(--ink);font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-align:center;padding:5px 10px;line-height:1}
+.cbody{padding:11px 12px 10px;display:flex;flex-direction:column;flex:none;margin-top:-22px;position:relative;z-index:2}
+.cbody .k{font-family:'Oswald';font-weight:500;font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold-deep);margin-bottom:1px}
+.title-row{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:6px}
+.cbody h3{font-family:'Barlow Semi Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:16px;line-height:1.05;margin:0;color:var(--ink);white-space:nowrap}
+.type-label{font-size:11.5px;color:#3d4640;font-style:italic;text-align:right;flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cbody .specs{display:none}
+.scard-stats{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:0;margin-bottom:0}
+.scard-stat{padding:5px 5px;border-right:1px solid var(--line)}
+.scard-stat:last-child{border-right:none}
+.scard-stat .l{font-family:'Oswald',sans-serif;font-size:9px;letter-spacing:.5px;text-transform:uppercase;color:#545e58}
+.scard-stat .v{font-weight:600;font-size:12px;color:var(--ink);margin-top:1px}
+.cbody .cnote{display:none}
+.stock-sub{text-align:center;font-size:clamp(15px,1.7vw,19px);margin-top:8px;line-height:1.5}
+#stock .stock-sub{color:#fff}
+.stock-note{text-align:center;color:rgba(255,255,255,0.88);font-family:'Oswald',sans-serif;font-weight:600;font-size:clamp(19px,2.2vw,24px);margin-top:18px;margin-bottom:0;font-style:normal}
+.stock-note b{color:var(--gold)}
+#stock{position:relative;overflow:hidden;padding-bottom:clamp(28px,3.5vw,44px);background:linear-gradient(rgba(22,34,27,0.93),rgba(22,34,27,0.93)),url('assets/lauhala.jpg') center/cover}
+#stock::before{display:none}
+#stock>.wrap{position:relative;z-index:1}
+#stock .shead{max-width:760px}
+#stock .shead h2{font-size:clamp(30px,4.5vw,52px);line-height:1.06;color:var(--gold)}
+#stock .shead{margin-bottom:clamp(16px,2vw,26px)}
+.hl-accent{color:var(--gold)}
+.hl-green{color:#4ea86a}
+
+/* ── contact ── */
+.contact{background:var(--paper);color:var(--ink);position:relative}
+.contact::before{content:'';position:absolute;top:0;right:-3%;width:min(82%,860px);height:100%;background:var(--green);opacity:.14;-webkit-mask:url('assets/logos/maui.png') top right/contain no-repeat;mask:url('assets/logos/maui.png') top right/contain no-repeat;pointer-events:none;z-index:0}
+.contact>.wrap{position:relative;z-index:1}
+.cgrid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:clamp(32px,5vw,64px)}
+@media(max-width:860px){.cgrid{grid-template-columns:1fr}}
+.contact h2{color:var(--green);font-size:clamp(30px,4vw,48px)}
+.contact .eyebrow{color:var(--gold-deep)}
+.cinfo{list-style:none;margin-top:28px;display:grid;gap:18px}
+.cinfo li{display:flex;gap:14px;align-items:flex-start}
+.cinfo .ic{flex:0 0 38px;height:38px;border-radius:50%;background:rgba(47,67,57,0.1);display:flex;align-items:center;justify-content:center}
+.cinfo .ic svg{width:18px;height:18px;fill:var(--green)}
+.cinfo .l{font-family:'Oswald';font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:700}
+.cinfo .v{font-size:16px;color:var(--green)}
+.cinfo a.v:hover{color:var(--green-dark)}
+.fcard{background:#fff;border-radius:18px;padding:clamp(24px,3vw,34px);color:var(--ink);border:2px solid var(--green);box-shadow:0 4px 24px rgba(47,67,57,0.12)}
+.fcard h3{font-family:'Barlow Semi Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:22px;color:var(--green)}
+.fcard .sub{color:var(--muted);font-size:14px;margin:4px 0 18px}
+.ftabs{display:flex;gap:8px;margin-bottom:20px;background:var(--paper);padding:5px;border-radius:10px}
+.ftab{flex:1;font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:.5px;text-transform:uppercase;padding:11px;border:none;border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;transition:.15s}
+.ftab.on{background:var(--green);color:#fff}
+.fpanel{display:none}.fpanel.on{display:block}
+.notice{border:1.5px solid var(--gold);background:rgba(255,173,0,.1);border-radius:9px;padding:12px 14px;font-size:13px;color:#5a5247;line-height:1.5;margin-bottom:16px}
+.notice b{color:var(--green)}
+#p-serial{border-color:var(--gold)!important;background:#fffaf0!important}
+.fhint{font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:.5px;text-transform:uppercase;color:var(--green);margin:2px 0 9px}
+.pchecks{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+@media(max-width:520px){.pchecks{grid-template-columns:1fr}}
+.pc{display:flex;align-items:center;gap:9px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px 11px;cursor:pointer;font-size:13.5px}
+.pc.on{border-color:var(--green);background:#eef3ee}
+.pc input{width:16px;height:16px;accent-color:var(--green)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:13px}
+@media(max-width:520px){.frow{grid-template-columns:1fr}}
+.fg{display:flex;flex-direction:column;gap:6px}
+.fg.full{grid-column:1/-1}
+.fg label{font-family:'Oswald';font-size:12px;letter-spacing:.5px;text-transform:uppercase;color:var(--green)}
+.fg input,.fg select,.fg textarea{padding:12px 13px;border:1px solid var(--line);border-radius:9px;font-size:15px;font-family:'Inter';background:var(--paper);width:100%}
+.fg input:focus,.fg select:focus,.fg textarea:focus{outline:none;border-color:var(--green);background:#fff}
+.fg textarea{resize:vertical;min-height:96px}
+.fcard .btn{width:100%;justify-content:center;margin-top:6px}
+.fdone{display:none;text-align:center;padding:26px 8px}
+.fdone.show{display:block}
+.fdone .chk{width:52px;height:52px;border-radius:50%;background:#e7f0e8;color:var(--green);display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 12px}
+
+/* ── footer ── */
+footer{background:var(--green-dark);color:#9fbfa6;padding:32px 0 18px;border-top:none}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}
+@media(max-width:640px){.fgrid{grid-template-columns:1fr;gap:16px;text-align:center}.fgrid .brand{justify-content:center}.fgrid p{margin-left:auto;margin-right:auto}}
+footer .brand .bt{color:#fff}
+footer h4{font-family:'Oswald';font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+footer p,footer a{font-size:13px;color:rgba(255,255,255,0.82);line-height:1.65}
+footer a:hover{color:var(--gold)}
+.fbottom{border-top:1px solid rgba(255,255,255,0.1);margin-top:18px;padding-top:10px;font-size:11px;color:#7a9a82;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.mock-flag{position:fixed;bottom:14px;right:14px;z-index:99;background:var(--gold);color:var(--ink);font-family:'Oswald';font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:7px 13px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+#photo-popup{position:fixed;z-index:900;background:#111;border-radius:12px;box-shadow:0 24px 64px rgba(0,0,0,.5);overflow:hidden;opacity:0;pointer-events:none;transition:opacity .18s;max-width:480px;max-height:380px}
+#photo-popup.show{opacity:1;pointer-events:auto}
+#photo-popup img{display:block;width:100%;height:100%;object-fit:contain;max-width:480px;max-height:380px}
+#photo-adj-bar{position:fixed;bottom:18px;right:18px;z-index:999;display:flex;gap:8px;align-items:center}
+#photo-adj-bar button{font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;letter-spacing:1px;text-transform:uppercase;border:none;border-radius:6px;padding:9px 18px;cursor:pointer;transition:background .12s}
+#btn-adj-toggle{background:#2f4339;color:#fff}
+#btn-adj-toggle.active{background:#c0392b}
+#btn-adj-save{background:var(--gold);color:#1d2722;display:none}
+#adj-hint{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:999;background:rgba(31,47,41,0.92);color:#fff;font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:.5px;padding:8px 20px;border-radius:8px;display:none;pointer-events:none}
+.ev-pgrid .feat.adj-mode{outline:3px dashed rgba(255,173,0,0.7);cursor:grab;user-select:none}
+.ev-pgrid .feat.adj-active{outline:3px solid var(--gold);cursor:grabbing}
+.adj-overlay{position:absolute;z-index:20}
+.adj-label{top:6px;left:8px;background:rgba(0,0,0,.62);color:#fff;font-family:'Oswald',sans-serif;font-size:13px;font-weight:700;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.adj-rhandle{top:0;right:0;bottom:0;width:13px;background:rgba(255,173,0,.8);cursor:col-resize;border-left:2px solid rgba(255,173,0,1);display:flex;align-items:center;justify-content:center}
+.adj-rhandle::after{content:'⋮';font-size:16px;color:rgba(0,0,0,.5)}
+.adj-portrait-btn{bottom:6px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.65);color:#fff;border:none;font-size:10px;padding:3px 8px;border-radius:4px;cursor:pointer;white-space:nowrap;letter-spacing:.5px;font-family:'Oswald',sans-serif}
+#btn-adj-swap{background:#2f6b3f;color:#fff;display:none}
+#btn-adj-swap.active{background:#c0392b}
+.ev-pgrid .feat.adj-swap-mode{cursor:crosshair!important}
+.ev-pgrid .feat.adj-swap-selected{outline:4px solid #e74c3c!important;box-shadow:0 0 0 2px rgba(231,76,60,.4)}
+.cue-touch{display:none}
+@media(pointer:coarse){.cue-mouse{display:none}.cue-touch{display:inline}}
+@media(max-width:600px){.scroll-row .card{flex:0 0 clamp(240px,60vw,320px)}}
 </style>
+<style id="photo-adjustments">
+.ev-pgrid .feat:nth-child(1) img{object-position:50.0% 50.0%;transform:scale(1.00);transform-origin:50.0% 50.0%}
+.ev-pgrid .feat:nth-child(2) img{object-position:50.0% 50.0%;transform:scale(1.00);transform-origin:50.0% 50.0%}
+.ev-pgrid .feat:nth-child(3) img{object-position:50.0% 50.0%;transform:scale(1.00);transform-origin:50.0% 50.0%}
+.ev-pgrid .feat:nth-child(4) img{object-position:50.0% 50.0%;transform:scale(1.00);transform-origin:50.0% 50.0%}
+.ev-pgrid .feat:nth-child(5) img{object-position:50.0% 50.0%;transform:scale(1.00);transform-origin:50.0% 50.0%}
+</style>
+<style id="grid-adjustments">
+</style>
+<script id="photo-assignments">
+window.PHOTO_SRCS=["assets/shop/2.jpg", "assets/shop/1.jpg", "assets/shop/5.jpg", "assets/shop/6.jpg", "assets/shop/3.jpg"];
+</script>
 </head>
 <body>
 
-<!-- ════════════════════════════
-     NAV
-════════════════════════════ -->
-<nav>
-  <a class="brand" href="#">
-    <img class="mpe-logo" src="assets/logos/logo-gold.png" alt="MPE">
-    <div class="brand-text">
-      <div class="name">Maui Power Equipment</div>
-    </div>
-  </a>
-  <ul class="nav-links">
-    <li><a href="#instock">In Stock</a></li>
-    <li><a href="#brands">Brands</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a class="nav-cta" href="#contact" onclick="activateParts()">Request a Part</a></li>
-  </ul>
-</nav>
+<!-- hero -->
+<header class="hero" id="top">
+  <div class="hero-info">
+    <span><svg class="clk" viewBox="0 0 24 24" fill="#FFAD00"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg><span class="open-today"></span></span>
+    <span><a href="tel:8082492730">(808) 249-2730</a></span>
+  </div>
+  <div class="wrap">
+    <h1 class="display">Maui Power Equipment</h1>
+    <p class="tag">Sales · Service · Parts</p>
+  </div>
+</header>
 
-<!-- ════════════════════════════
-     HERO
-════════════════════════════ -->
-<div class="hero">
-  <div class="slides">
-    <div class="slide active"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
+<!-- action bar under hero -->
+<div class="herobar">
+  <div class="herobar-group">
+    <a class="herobtn" href="#stock">In Stock Now</a>
+    <a class="herobtn" href="#contact">Contact Us</a>
+    <a class="herobtn" href="#contact" onclick="ftab('parts')">Request Parts</a>
   </div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <span class="hero-heading">Maui Power Equipment</span>
-    <span class="hero-sub">Sales &nbsp;&middot;&nbsp; Service &nbsp;&middot;&nbsp; Parts</span>
-    <div class="hero-search">
-      <input type="text" id="hero-search-input" placeholder="Enter model or part number" onkeydown="if(event.key==='Enter')heroSearch()">
-      <button onclick="heroSearch()">Request a Part &rarr;</button>
-    </div>
-  </div>
-  <div class="hero-dots">
-    <div class="dot active" onclick="goToSlide(0)"></div>
-    <div class="dot" onclick="goToSlide(1)"></div>
-    <div class="dot" onclick="goToSlide(2)"></div>
-    <div class="dot" onclick="goToSlide(3)"></div>
-    <div class="dot" onclick="goToSlide(4)"></div>
-  </div>
+  <div class="herobar-info"><svg class="clk" viewBox="0 0 24 24" fill="#FFAD00"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg><span class="open-today"></span> &nbsp;·&nbsp; <a href="tel:8082492730">(808) 249-2730</a></div>
 </div>
 
-<!-- ════════════════════════════
-     BRANDS
-════════════════════════════ -->
-<section class="brands" id="brands">
-  <div class="section-title">Authorized dealer of dozens of brands.</div>
-  <div class="logo-grid">
-    <div class="logo-card"><img src="assets/brands/stihl.png" alt="Stihl"></div>
-    <div class="logo-card"><img src="assets/brands/honda.png" alt="Honda"></div>
-    <div class="logo-card"><img src="assets/brands/scag.png" alt="Scag"></div>
-    <div class="logo-card"><img src="assets/brands/echo.png" alt="Echo"></div>
-    <div class="logo-card"><img src="assets/brands/shindaiwa.png" alt="Shindaiwa"></div>
-    <div class="logo-card"><img src="assets/brands/wright.png" alt="Wright"></div>
-    <div class="logo-card"><img src="assets/brands/maruyama.png" alt="Maruyama"></div>
-    <div class="logo-card"><img src="assets/brands/toro.png" alt="Toro"></div>
-    <div class="logo-card"><img src="assets/brands/hillsboro.png" alt="Hillsboro"></div>
-    <div class="logo-card"><img src="assets/brands/bigtex.png" alt="Big Tex"></div>
-    <div class="logo-card logo-card--felco"><img src="assets/brands/felco.png" alt="Felco"></div>
-    <div class="logo-card"><img src="assets/brands/silky.png" alt="Silky"></div>
-    <div class="logo-card"><img src="assets/brands/gwc.avif" alt="Greenworks Commercial"></div>
-    <div class="logo-card"><img src="assets/brands/bluebird.png" alt="Bluebird"></div>
-    <div class="logo-card logo-card--more">and many more!</div>
-  </div>
-</section>
-
-<!-- ════════════════════════════
-     IN STOCK
-════════════════════════════ -->
-<section class="instock" id="instock">
-  <div class="section-title">Currently In Stock</div>
-  <div class="stock-grid" id="stockGrid">
-    <div style="color:#888;font-size:15px">Loading inventory...</div>
-  </div>
-  <p class="stock-note">Inventory updated regularly. Call or stop by to confirm availability before making the trip.</p>
-</section>
-
-<!-- ════════════════════════════
-     CONTACT
-════════════════════════════ -->
-<section class="contact" id="contact">
-  <img class="contact-watermark" src="assets/logos/logo-gold.png" alt="">
-  <div class="section-title">Contact Us</div>
-  <p class="contact-intro">Request parts, get a quote, schedule a repair, or ask us anything.</p>
-
-  <p class="contact-notice">* Need a faster response? Call us directly at <a href="tel:8082492730">(808) 249-2730</a> — these forms are checked regularly but not instantly.</p>
-
-  <div class="mode-grid">
-    <button class="mode-btn active" onclick="selectMode('parts', this)">
-      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-      <span class="mode-label">I'm looking for a part</span>
-    </button>
-    <button class="mode-btn" onclick="selectMode('quote', this)">
-      <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
-      <span class="mode-label">I want a price quote</span>
-    </button>
-    <button class="mode-btn" onclick="selectMode('repair', this)">
-      <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
-      <span class="mode-label">I need a repair</span>
-    </button>
-    <button class="mode-btn" onclick="selectMode('general', this)">
-      <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
-      <span class="mode-label">General question</span>
-    </button>
-  </div>
-
-  <!-- PARTS FORM -->
-  <div class="form-panel active" id="form-parts">
-    <div class="form-bg">
-      <div id="parts-main">
-        <div class="form-notice green">
-          <span class="notice-head">✦ &nbsp;Serial number strongly recommended</span>
-          We'll do our best without it — but in many cases we can't guarantee the right part without one.
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Name</label><input type="text" id="p-fname"></div>
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Phone</label><input type="tel" id="p-phone" placeholder="At least one required"></div>
-          <div class="field-group"><label>Email</label><input type="email" id="p-email" placeholder="At least one required"></div>
-        </div>
-        <div class="pref-wrap">
-          <span class="pref-label">How would you prefer we reach you?</span>
-          <span class="pref-hint">Select all that apply</span>
-          <div class="pref-btns" id="pref-parts">
-            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Call</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Text</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'parts')">Email</button>
-          </div>
-        </div>
-        <hr class="divider">
-        <div class="field-row full">
-          <div class="field-group">
-            <label>Equipment make</label>
-            <select id="p-make" onchange="checkMake(this)">
-              <option value="">Select a brand...</option>
-              <option>Stihl</option><option>Honda</option><option>Maruyama</option>
-              <option>Echo</option><option>Shindaiwa</option><option>Scag</option>
-              <option>Wright</option><option>Kawasaki</option><option>Kohler</option>
-              <option>Briggs &amp; Stratton</option><option value="other">Other</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-notice warn" id="make-warn" style="display:none">We don't keep inventory parts for other brands. There is a chance we may be able to source it, but it would have to be ordered special and there is no guarantee.</div>
-        <div class="field-row">
-          <div class="field-group"><label>Model number</label><input type="text" id="p-model" placeholder="e.g. MS 271, EU2200i"></div>
-          <div class="field-group"><label>Serial number</label><input type="text" id="p-serial" placeholder="Strongly recommended"></div>
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Part number</label><input type="text" id="p-partnum" placeholder="If known"></div>
-        </div>
-        <hr class="divider">
-        <span class="pref-label">Which part(s) do you need?</span>
-        <span class="pref-hint" style="margin-bottom:10px">Select all that apply</span>
-        <div class="checkbox-grid" id="parts-grid">
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Carburetor"><span>Carburetor</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Air Filter"><span>Air Filter</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Spark Plug"><span>Spark Plug</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Fuel Filter"><span>Fuel Filter</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Primer Bulb"><span>Primer Bulb</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Ignition Coil"><span>Ignition Coil</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Drive Shaft"><span>Drive Shaft</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Throttle Cable"><span>Throttle Cable</span></label>
-          <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="Cutting Attachment"><span>Cutting Attachment</span></label>
-          <label class="check-item" id="check-belt" onclick="toggleCheck(this);toggleExtra('belt-input','check-belt')"><input type="checkbox" value="Belt"><span>Belt</span></label>
-          <label class="check-item" id="check-other" onclick="toggleCheck(this);toggleExtra('other-input','check-other')"><input type="checkbox" value="Other"><span>Other</span></label>
-          <label class="check-item" id="check-notsure" style="grid-column:1/-1" onclick="toggleCheck(this);toggleExtra('notsure-input','check-notsure')"><input type="checkbox" value="Not Sure"><span>Not Sure — I'll describe it</span></label>
-        </div>
-        <div class="extra-input" id="belt-input"><input type="text" id="p-belt-text" placeholder="If your unit has more than one type, please specify"></div>
-        <div class="extra-input" id="other-input"><input type="text" id="p-other-text" placeholder="What part are you looking for"></div>
-        <div class="extra-input" id="notsure-input"><textarea id="p-notsure-text" placeholder="Describe what the part does, where it's located, or what's broken — we'll figure out what you need"></textarea></div>
-        <button class="submit-btn" onclick="submitParts()">Submit parts request</button>
+<!-- pillar 1 — everyday: we sell it & we fix it -->
+<section class="everyday" id="everyday"><div class="wrap">
+  <div class="ev-top">
+    <div class="ev-text">
+      <h2>Honest service, <span class="hl-accent" style="white-space:nowrap">low prices.</span></h2>
+      <p>We're a locally-owned, full-service shop specializing in outdoor power equipment, generators, and trailers as well as parts and accessories.</p>
+      <p>We've been running this equipment our whole lives. We know the right tools for the job and will never push you to buy more than you need.</p>
+      <p>When it comes time for servicing, just bring your machine in and we'll get it fixed up for you in no time — no appointment needed!</p>
+      <p class="ev-signoff">We hope to see you soon!</p>
+      <div class="logo-bar logo-bar-mobile"><div class="ev-brands" id="logoGridMobile"></div></div>
+      <div class="ev-solo-photo">
+        <img loading="lazy" src="assets/shop/4.jpg" alt="Shop">
       </div>
-      <div class="success" id="parts-success">
-        <div class="success-check">✓</div>
-        <h3>Message received</h3>
-        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
-        <button class="reset-btn" onclick="resetForm('parts')">Submit another request</button>
+    </div>
+    <div class="ev-pgrid-col">
+      <div class="ev-pgrid">
+        <div class="feat"><img loading="lazy" src="assets/shop/2.jpg" alt="Shop"></div>
+        <div class="feat"><img loading="lazy" src="assets/shop/1.jpg" alt="Shop"></div>
+        <div class="feat"><img loading="lazy" src="assets/shop/5.jpg" alt="Shop"></div>
+        <div class="feat"><img loading="lazy" src="assets/shop/6.jpg" alt="Shop"></div>
+        <div class="feat"><img loading="lazy" src="assets/shop/3.jpg" alt="Shop"></div>
       </div>
     </div>
   </div>
+</div></section>
 
-  <!-- QUOTE FORM -->
-  <div class="form-panel" id="form-quote">
-    <div class="form-bg">
-      <div id="quote-main">
-        <div class="field-row">
-          <div class="field-group"><label>Name</label><input type="text" id="q-fname"></div>
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Phone</label><input type="tel" id="q-phone" placeholder="At least one required"></div>
-          <div class="field-group"><label>Email</label><input type="email" id="q-email" placeholder="At least one required"></div>
-        </div>
-        <div class="pref-wrap">
-          <span class="pref-label">How would you prefer we reach you?</span>
-          <span class="pref-hint">Select all that apply</span>
-          <div class="pref-btns" id="pref-quote">
-            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Call</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Text</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'quote')">Email</button>
-          </div>
-        </div>
-        <div class="field-row full">
-          <div class="field-group"><label>What are you looking for?</label><textarea id="q-desc" placeholder="Tell us what you want — product name, model, quantity"></textarea></div>
-        </div>
-        <button class="submit-btn" onclick="submitForm('quote')">Request a quote</button>
+<!-- logo bar -->
+<div class="logo-bar"><div class="wrap"><div class="ev-brands" id="logoGrid"></div></div></div>
+
+<!-- pillar 2 — big-ticket & special orders (gallery is the proof) -->
+<section id="stock"><div class="wrap">
+  <div class="shead center">
+    <h2>In Stock Now</h2>
+    <p class="stock-sub">Specialty items that are currently on the floor or arriving soon.<br>Get in touch for pricing and more info.</p>
+  </div>
+  <div class="filters" id="filters"></div>
+  <div class="s2-caro">
+    <button class="caro-btn left" onclick="caroScroll(-1)" aria-label="Previous">‹</button>
+    <div class="scroller" id="grid"><p style="color:var(--muted)">Loading inventory…</p></div>
+    <button class="caro-btn right" onclick="caroScroll(1)" aria-label="Next">›</button>
+    <div class="scroll-cue" id="scrollCue"><span class="cue-mouse">Scroll to see more →</span><span class="cue-touch">Swipe to see more →</span></div>
+  </div>
+  <p class="stock-note">Don't see what you're looking for? <a href="#contact" style="color:var(--gold);font-weight:700">We can order it!</a></p>
+</div></section>
+
+<!-- contact -->
+<section class="contact" id="contact"><div class="wrap">
+  <div class="cgrid">
+    <div>
+      <h2 class="display">Get in touch</h2>
+      <ul class="cinfo">
+        <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></span>
+          <div><div class="l">Call or text</div><a class="v" href="tel:8082492730">(808) 249-2730</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1 0-2 .9-2 2v12c0 1.1 1 2 2 2h16c1 0 2-.9 2-2V6c0-1.1-1-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+          <div><div class="l">Email</div><a class="v" href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg></span>
+          <div><div class="l">Find us</div><a class="v" href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank">970 Lower Main St, Wailuku</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg></span>
+          <div><div class="l">Hours</div><div class="v">Mon–Fri: 7:30–4:30<br>Sat: 7:30–2:00<br>Sun: Closed</div></div></li>
+      </ul>
+    </div>
+    <div class="fcard">
+      <div class="ftabs">
+        <button class="ftab on" data-p="msg" onclick="ftab('msg')">Message</button>
+        <button class="ftab" data-p="parts" onclick="ftab('parts')">Parts Request</button>
       </div>
-      <div class="success" id="quote-success">
-        <div class="success-check">✓</div>
-        <h3>Message received</h3>
-        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
-        <button class="reset-btn" onclick="resetForm('quote')">Submit another request</button>
+      <div class="fpanel" id="panel-parts">
+        <div id="form-parts">
+          <div class="notice"><b>Serial number strongly recommended.</b> We'll do our best, but without it we sometimes can't guarantee the right match.</div>
+          <div class="frow"><div class="fg full"><label>Name</label><input id="p-name"></div></div>
+          <div class="frow">
+            <div class="fg full"><label>Phone or email</label><input id="p-contact" placeholder="Best way to reach you"></div>
+          </div>
+          <div class="frow">
+            <div class="fg"><label>Equipment Make</label>
+              <select id="p-make">
+                <option value="">Select a brand…</option>
+                <option>Stihl</option><option>Honda</option><option>Maruyama</option><option>Echo</option>
+                <option>Shindaiwa</option><option>Scag</option><option>Wright</option>
+                <option>Kohler</option><option>Kawasaki</option><option>Briggs &amp; Stratton</option><option>TruCut</option><option>Rolux</option><option>Other</option>
+              </select>
+            </div>
+            <div class="fg"><label>Model Number</label><input id="p-model" placeholder="e.g. MS 271"></div>
+          </div>
+          <div class="frow">
+            <div class="fg"><label>Serial Number</label><input id="p-serial" placeholder="Strongly recommended"></div>
+            <div class="fg"><label>Part Number</label><input id="p-partnum" placeholder="If known"></div>
+          </div>
+          <div class="fhint">Which part(s) do you need?</div>
+          <div class="pchecks" id="pchecks">
+            <label class="pc"><input type="checkbox" value="Carburetor"><span>Carburetor</span></label>
+            <label class="pc"><input type="checkbox" value="Air Filter"><span>Air Filter</span></label>
+            <label class="pc"><input type="checkbox" value="Spark Plug"><span>Spark Plug</span></label>
+            <label class="pc"><input type="checkbox" value="Fuel Filter"><span>Fuel Filter</span></label>
+            <label class="pc"><input type="checkbox" value="Chain / Bar"><span>Chain / Bar</span></label>
+            <label class="pc"><input type="checkbox" value="Belt"><span>Belt</span></label>
+            <label class="pc"><input type="checkbox" value="Cutting Attachment"><span>Cutting Attachment</span></label>
+            <label class="pc"><input type="checkbox" value="Not sure"><span>Not sure — I'll describe</span></label>
+          </div>
+          <div class="frow"><div class="fg full"><label>Other / anything else?</label><textarea id="p-notes" placeholder="Describe the part or the problem"></textarea></div></div>
+          <button class="btn btn-gold" onclick="submitForm('parts')">Submit Parts Request →</button>
+        </div>
+        <div class="fdone" id="done-parts"><div class="chk">✓</div><h3>Got it — mahalo!</h3><p class="sub">We'll be in touch as soon as we can.</p></div>
+      </div>
+      <div class="fpanel on" id="panel-msg">
+        <div id="form-msg">
+          <div class="frow">
+            <div class="fg"><label>Name</label><input id="m-name"></div>
+            <div class="fg"><label>Phone or email</label><input id="m-contact" placeholder="Best way to reach you"></div>
+          </div>
+          <div class="frow"><div class="fg full"><label>Your message</label><textarea id="m-msg" placeholder="Questions, comments — anything"></textarea></div></div>
+          <button class="btn btn-gold" onclick="submitForm('msg')">Send it →</button>
+        </div>
+        <div class="fdone" id="done-msg"><div class="chk">✓</div><h3>Got it — mahalo!</h3><p class="sub">We'll be in touch as soon as we can.</p></div>
       </div>
     </div>
   </div>
+</div></section>
 
-  <!-- REPAIR FORM -->
-  <div class="form-panel" id="form-repair">
-    <div class="form-bg">
-      <div id="repair-main">
-        <div class="field-row">
-          <div class="field-group"><label>Name</label><input type="text" id="r-fname"></div>
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Phone</label><input type="tel" id="r-phone" placeholder="At least one required"></div>
-          <div class="field-group"><label>Email</label><input type="email" id="r-email" placeholder="At least one required"></div>
-        </div>
-        <div class="pref-wrap">
-          <span class="pref-label">How would you prefer we reach you?</span>
-          <span class="pref-hint">Select all that apply</span>
-          <div class="pref-btns" id="pref-repair">
-            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Call</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Text</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'repair')">Email</button>
-          </div>
-        </div>
-        <hr class="divider">
-        <div class="field-row">
-          <div class="field-group"><label>Equipment make</label><input type="text" id="r-make" placeholder="e.g. Stihl, Honda, Husqvarna"></div>
-          <div class="field-group"><label>Model <span class="opt">(if known)</span></label><input type="text" id="r-model" placeholder="e.g. FS 131, HRX217"></div>
-        </div>
-        <div class="field-row full">
-          <div class="field-group"><label>Describe the problem</label><textarea id="r-symptoms" style="min-height:110px" placeholder="What it does, what it doesn't do, when it started, anything you've already tried"></textarea></div>
-        </div>
-        <div class="field-row full">
-          <div class="field-group"><label>How urgent is this?</label>
-            <select id="r-urgency">
-              <option value="flexible">Flexible — no rush</option>
-              <option value="soon">Soon — within the next week or two</option>
-              <option value="urgent">Urgent — equipment is down, costing me time</option>
-            </select>
-          </div>
-        </div>
-        <div style="border-left:3px solid #5DCAA5;border-radius:0 8px 8px 0;padding:.875rem 1rem;margin-bottom:12px;font-size:15px;color:var(--green);background:rgba(93,202,165,0.1)">
-          We'll call you to schedule a drop-off. Walk-ins are always welcome — we're at 970 Lower Main St, Wailuku.
-        </div>
-        <button class="submit-btn" onclick="submitForm('repair')">Submit repair request</button>
-      </div>
-      <div class="success" id="repair-success">
-        <div class="success-check">✓</div>
-        <h3>Message received</h3>
-        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
-        <button class="reset-btn" onclick="resetForm('repair')">Submit another request</button>
-      </div>
+<!-- footer -->
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div>
+      <a class="brand" href="#top"><img src="assets/logos/mpe-hero.png" alt="MPE" style="height:54px"></a>
+      <p style="margin-top:14px;max-width:300px">Locally owned and operated in Wailuku.</p>
     </div>
+    <div style="padding-top:22px"><h4>Visit</h4><p><a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank">970 Lower Main St<br>Wailuku, HI 96793</a></p></div>
+    <div style="padding-top:22px"><h4>Contact</h4><p><a href="tel:8082492730">(808) 249-2730</a><br><a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a></p></div>
   </div>
+  <div class="fbottom"><span>© 2026 Maui Power Equipment, Inc.</span><span>Wailuku, Maui, Hawai'i</span></div>
+</div></footer>
 
-  <!-- GENERAL FORM -->
-  <div class="form-panel" id="form-general">
-    <div class="form-bg">
-      <div id="general-main">
-        <div class="field-row">
-          <div class="field-group"><label>Name</label><input type="text" id="g-fname"></div>
-        </div>
-        <div class="field-row">
-          <div class="field-group"><label>Phone</label><input type="tel" id="g-phone" placeholder="At least one required"></div>
-          <div class="field-group"><label>Email</label><input type="email" id="g-email" placeholder="At least one required"></div>
-        </div>
-        <div class="pref-wrap">
-          <span class="pref-label">How would you prefer we reach you?</span>
-          <span class="pref-hint">Select all that apply</span>
-          <div class="pref-btns" id="pref-general">
-            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Call</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Text</button>
-            <button type="button" class="pref-btn" onclick="togglePref(this,'general')">Email</button>
-          </div>
-        </div>
-        <div class="field-row full">
-          <div class="field-group"><label>Your question or message</label><textarea id="g-message" style="min-height:120px"></textarea></div>
-        </div>
-        <button class="submit-btn" onclick="submitForm('general')">Send message</button>
-      </div>
-      <div class="success" id="general-success">
-        <div class="success-check">✓</div>
-        <h3>Message received</h3>
-        <p>Mahalo for getting in touch. We will get back to you as soon as we can.</p>
-        <button class="reset-btn" onclick="resetForm('general')">Submit another request</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ════════════════════════════
-     FOOTER
-════════════════════════════ -->
-<footer>
-  <div>
-    <h4>Hours</h4>
-    <p>Monday – Friday: 8am – 4pm<br>Saturday: 8am – 2pm<br>Sunday: Closed</p>
-  </div>
-  <div>
-    <h4>Find Us</h4>
-    <p>970 Lower Main St<br>Wailuku, HI 96793</p>
-    <a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI" target="_blank" style="display:inline-block;margin-top:10px;color:var(--gold)">Get directions →</a>
-  </div>
-  <div>
-    <h4>Get In Touch</h4>
-    <p>
-      Call or Text<br>
-      <a href="tel:8082492730">(808) 249-2730</a><br>
-      <a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a>
-    </p>
-  </div>
-</footer>
-<div class="footer-bottom">
-  <span>© 2026 Maui Power Equipment, Inc.</span>
-  <span>Wailuku, Maui, Hawaii</span>
-</div>
 
 <script>
-const ENDPOINT = 'https://formspree.io/f/xgodaqdd';
-const SMS = '8089897883@tmomail.net';
+const ENDPOINT='https://formspree.io/f/xgodaqdd';
 
-/* ── Parts activation (nav CTA + hero search) ── */
-function activateParts() {
-  setTimeout(() => {
-    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.form-panel').forEach(f => f.classList.remove('active'));
-    document.querySelector('[onclick*="\'parts\'"]').classList.add('active');
-    document.getElementById('form-parts').classList.add('active');
-  }, 300);
+/* apply saved photo assignments */
+if(window.PHOTO_SRCS){document.querySelectorAll('.ev-pgrid .feat img').forEach((img,i)=>{if(window.PHOTO_SRCS[i])img.src=window.PHOTO_SRCS[i];});}
+
+/* brands */
+const BRANDS=['stihl.png','honda.png','scag.png','maruyama.png','shindaiwa.png','echo.png','wright.png','bigtex.png','rolux.png','toro.png','silky.png','gwc.avif'];
+function buildLogos(rows){let i=0,html='';for(const n of rows){const slice=BRANDS.slice(i,i+n);i+=n;if(!slice.length)break;html+='<div class="brow">'+slice.map(b=>`<img class="ev-logo" loading="lazy" src="assets/brands/${b}" alt="" onerror="this.style.display='none'">`).join('')+'</div>';}return html;}
+document.getElementById('logoGrid').innerHTML=buildLogos([6,6]);
+document.getElementById('logoGridMobile').innerHTML=buildLogos([4,4,4]);
+
+/* feature tiles — tap to toggle the list on touch devices (hover handles desktop) */
+document.querySelectorAll('.feat').forEach(f=>f.addEventListener('click',()=>f.classList.toggle('open')));
+
+/* utility bar — live open/closed status, always in Hawaii time (HST, no DST) */
+(function(){
+  const els=document.querySelectorAll('.open-today');if(!els.length)return;
+  // Sun=0 closed · Sat=6 closes 14:00 · Mon–Fri closes 16:30
+  const closeMins=d=>d===0?null:d===6?14*60:16*60+30;
+  const hoursRange=d=>d===6?'7:30–2:00':'7:30–4:30'; // null days never called
+  function update(){
+    const hst=new Date(new Date().toLocaleString('en-US',{timeZone:'Pacific/Honolulu'}));
+    const day=hst.getDay(), mins=hst.getHours()*60+hst.getMinutes();
+    const close=closeMins(day);
+    let prefix,hours;
+    if(close!==null && mins<close){
+      // Today is open (or will open later) — show today
+      prefix='Open today from ';
+      hours=hoursRange(day);
+    }else if(day===6){
+      // Saturday after 2pm — next open is Monday
+      prefix='Open Monday from ';
+      hours='7:30–4:30';
+    }else{
+      // After hours weekday or all-day Sunday — find next open day
+      let n=1;while(closeMins((day+n)%7)===null)n++;
+      const nextDay=(day+n)%7;
+      prefix='Open '+(n===1?'tomorrow':'Monday')+' from ';
+      hours=hoursRange(nextDay);
+    }
+    els.forEach(e=>e.innerHTML=prefix+'<b>'+hours+'</b>');
+  }
+  update();
+  setInterval(update,60000);
+})();
+
+/* inventory */
+let STOCK=[];
+const FILTERS=[['all','All'],['trailer','Trailers'],['zt','Zero Turns'],['mower','Mowers'],['specialty','Specialty']];
+function cat(t){t=(t||'').toLowerCase();if(t.includes('trailer'))return'trailer';if(t.includes('zero turn'))return'zt';if(t.includes('mower'))return'mower';return'specialty';}
+function badge(s){return s==='available'?['avail','In stock']:s==='enroute'?['enroute','On its way']:s==='sale'?['sale','On sale']:['sold','Sold'];}
+function card(it){
+  const [bc,bt]=badge(it.status);
+  const statItems=(it.stats||[]).slice(0,3);
+  const statsHtml=statItems.length?`<div class="scard-stats">${statItems.map(s=>`<div class="scard-stat"><div class="l">${s.label}</div><div class="v">${s.value}</div></div>`).join('')}</div>`:'';
+  const img=it.photo?`<img src="assets/inventory/${it.photo}" alt="${it.make} ${it.model}" onerror="this.style.display='none'">`:'';
+  const notebar=it.notes?`<div class="cnote-bar">${it.notes}</div>`:'';
+  const insideBadge=it.status!=='available'&&bc!=='sale'?`<span class="badge ${bc}">${bt}</span>`:'';
+  const outsideBadge=bc==='sale'?`<span class="badge sale">On sale</span>`:'';
+  return `<div class="card ${it.status==='sold'?'is-sold':''}">
+    ${notebar}${outsideBadge}
+    <div class="ph">${insideBadge}${img}</div>
+    <div class="cbody">
+      <div class="k">${it.make}</div>
+      <div class="title-row"><h3>${it.model}</h3><span class="type-label">${it.type}</span></div>
+      ${statsHtml}
+    </div></div>`;
 }
-
-function heroSearch() {
-  const q = document.getElementById('hero-search-input').value.trim();
-  if (!q) return;
-  const modelField = document.getElementById('p-model');
-  if (modelField) modelField.value = q;
-  activateParts();
-  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+function render(f){
+  const g=document.getElementById('grid');
+  // STOCK is pre-shuffled at load (non-sold randomized, sold last) so statuses are
+  // mixed across rows rather than clustered. Just filter by category here.
+  let items=STOCK.filter(i=>f==='all'||cat(i.type)===f);
+  if(!items.length){g.innerHTML='<p style="color:var(--muted)">Nothing in this category right now — give us a call.</p>';return;}
+  let top=[],bot=[];
+  if(f==='all'){
+    const bk={trailer:[],zt:[],mower:[],specialty:[]};
+    items.forEach(it=>bk[cat(it.type)].push(it));
+    const pool={trailer:[...bk.trailer],zt:[...bk.zt],mower:[...bk.mower],specialty:[...bk.specialty]};
+    const fillPrio=['specialty','zt','trailer','mower'];
+    function pickFrom(pref){
+      if(pool[pref]&&pool[pref].length&&pool[pref][0].status!=='sold')return pool[pref].shift();
+      for(const p of fillPrio){if(pool[p]&&pool[p].length&&pool[p][0].status!=='sold')return pool[p].shift();}
+      if(pool[pref]&&pool[pref].length)return pool[pref].shift();
+      for(const p of fillPrio){if(pool[p]&&pool[p].length)return pool[p].shift();}
+      return null;
+    }
+    while(Object.values(pool).some(a=>a.length)){
+      const picks=['trailer','zt','mower','specialty'].map(pickFrom).filter(Boolean);
+      if(!picks.length)break;
+      shuffle(picks);
+      top.push(...picks.slice(0,2));
+      bot.push(...picks.slice(2));
+    }
+  }else{items.forEach((it,i)=>(i%2?bot:top).push(it));}
+  g.innerHTML=`<div class="scroll-rows"><div class="scroll-row">${top.map(card).join('')}</div>${bot.length?`<div class="scroll-row">${bot.map(card).join('')}</div>`:''}</div>`;
+  g.scrollLeft=0;updateCaro();
 }
-
-/* ── Slideshow ── */
-let current = 0;
-const slides = document.querySelectorAll('.slide');
-const dots   = document.querySelectorAll('.dot');
-
-function goToSlide(n) {
-  slides[current].classList.remove('active');
-  dots[current].classList.remove('active');
-  current = n;
-  slides[current].classList.add('active');
-  dots[current].classList.add('active');
+function caroScroll(dir){
+  const g=document.getElementById('grid'),card=g.querySelector('.card');
+  if(card)g.scrollBy({left:dir*(card.offsetWidth+18)*2,behavior:'smooth'});
 }
-
-function scheduleNext() {
-  const delay = 6000 + (current * 1000);
-  setTimeout(() => {
-    goToSlide((current + 1) % slides.length);
-    scheduleNext();
-  }, delay);
+function updateCaro(){
+  const g=document.getElementById('grid'),cue=document.getElementById('scrollCue'),
+    la=document.querySelector('.caro-btn.left'),ra=document.querySelector('.caro-btn.right');
+  const over=g.scrollWidth>g.clientWidth+4;
+  if(cue){cue.classList.remove('gone');cue.style.display=over?'':'none';}
+  if(ra)ra.style.display=over?'':'none';
+  if(la)la.classList.remove('show');
 }
-scheduleNext();
-
-/* ── Contact mode selector ── */
-function selectMode(mode, btn) {
-  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.form-panel').forEach(f => f.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('form-' + mode).classList.add('active');
+function wireScroll(){
+  const g=document.getElementById('grid'),cue=document.getElementById('scrollCue'),la=document.querySelector('.caro-btn.left');
+  g.addEventListener('scroll',()=>{
+    if(cue&&!cue.classList.contains('gone')){
+      const card=g.querySelector('.card');
+      const threshold=card?card.offsetWidth*0.9:240;
+      const atEnd=g.scrollLeft+g.clientWidth>=g.scrollWidth-4;
+      if(g.scrollLeft>threshold||atEnd)cue.classList.add('gone');
+    }
+    if(la)la.classList.toggle('show',g.scrollLeft>8);
+  },{passive:true});
 }
-
-/* ── Shared pref state per form ── */
-const prefs = { parts: [], quote: [], repair: [], general: [] };
-
-function togglePref(btn, form) {
-  btn.classList.toggle('selected');
-  const l = btn.textContent.trim(), i = prefs[form].indexOf(l);
-  if (i > -1) prefs[form].splice(i, 1); else prefs[form].push(l);
+function buildFilters(){
+  document.getElementById('filters').innerHTML=FILTERS.map((f,i)=>`<button class="${i===0?'on':''}" data-f="${f[0]}">${f[1]}</button>`).join('');
+  document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');render(b.dataset.f);});
 }
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+function orderStock(d){const live=shuffle(d.filter(x=>x.status!=='sold'));const sold=shuffle(d.filter(x=>x.status==='sold'));return[...live,...sold];}
+fetch('inventory.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{STOCK=orderStock(d);buildFilters();render('all');wireScroll();})
+  .catch(()=>{document.getElementById('grid').innerHTML='<p style="color:var(--muted)">Unable to load inventory — call (808) 249-2730.</p>';});
 
-/* ── Checkbox toggles ── */
-function toggleCheck(label) {
-  const cb = label.querySelector('input[type=checkbox]');
-  cb.checked = !cb.checked;
-  label.classList.toggle('checked', cb.checked);
+/* form tabs + submit */
+function ftab(p){
+  document.querySelectorAll('.ftab').forEach(t=>t.classList.toggle('on',t.dataset.p===p));
+  document.querySelectorAll('.fpanel').forEach(el=>el.classList.toggle('on',el.id==='panel-'+p));
 }
-
-function toggleExtra(id, checkId) {
-  const el = document.getElementById(id);
-  const checked = document.getElementById(checkId).querySelector('input').checked;
-  el.classList.toggle('show', checked);
+document.querySelectorAll('#pchecks .pc input').forEach(cb=>
+  cb.addEventListener('change',()=>cb.closest('.pc').classList.toggle('on',cb.checked)));
+async function submitForm(which){
+  const v=id=>{const e=document.getElementById(id);return e?e.value.trim():'';};
+  if(which==='parts'){
+    if(!v('p-name')||!v('p-contact')){alert('Please add your name and a way to reach you.');return;}
+  }else{
+    if(!v('m-name')||!v('m-contact')){alert('Please add your name and a way to reach you.');return;}
+  }
+  const btn=document.querySelector('#form-'+which+' .btn');btn.textContent='Sending…';
+  let data;
+  if(which==='parts'){
+    const parts=[...document.querySelectorAll('#pchecks input:checked')].map(c=>c.value).join(', ');
+    data={_subject:'MPE Parts Request',Name:v('p-name'),Contact:v('p-contact'),Make:v('p-make'),Model:v('p-model'),Serial:v('p-serial'),Part_Number:v('p-partnum'),Parts_Needed:parts,Notes:v('p-notes')};
+  }else{
+    data={_subject:'MPE Message',Name:v('m-name'),Contact:v('m-contact'),Message:v('m-msg')};
+  }
+  try{
+    await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});
+    document.getElementById('form-'+which).style.display='none';
+    document.getElementById('done-'+which).classList.add('show');
+  }catch(e){btn.textContent='Try again →';}
 }
+(function(){
+  const popup=document.getElementById('photo-popup');
+  const pimg=popup.querySelector('img');
+  let hideTimer;
+  function showPopup(feat,e){
+    clearTimeout(hideTimer);
+    const img=feat.querySelector('img');
+    if(!img)return;
+    pimg.src=img.src;
+    const PW=480,PH=380,GAP=10;
+    const vw=window.innerWidth,vh=window.innerHeight;
+    const r=feat.getBoundingClientRect();
+    let left=r.right+GAP;
+    if(left+PW>vw-8)left=r.left-PW-GAP;
+    if(left<8)left=Math.min(r.left,vw-PW-8);
+    let top=r.top;
+    if(top+PH>vh-8)top=vh-PH-8;
+    if(top<8)top=8;
+    popup.style.left=left+'px';
+    popup.style.top=top+'px';
+    popup.classList.add('show');
+  }
+  function scheduleHide(){hideTimer=setTimeout(()=>popup.classList.remove('show'),120);}
+  document.querySelectorAll('.ev-pgrid .feat').forEach(feat=>{
+    feat.addEventListener('mouseenter',e=>showPopup(feat,e));
+    feat.addEventListener('mouseleave',scheduleHide);
+  });
+  popup.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
+  popup.addEventListener('mouseleave',scheduleHide);
+})();
+</script>
+<div id="photo-popup"><img src="" alt=""></div>
 
-function checkMake(sel) {
-  document.getElementById('make-warn').style.display = sel.value === 'other' ? 'block' : 'none';
-}
+<!-- Photo adjustment tool -->
+<div id="photo-adj-bar">
+  <button id="btn-adj-toggle">Adjust Photos</button>
+  <button id="btn-adj-save">Save Positions</button>
+</div>
+<div id="adj-hint">Drag to reposition · Scroll to zoom in/out · Click outside to deselect</div>
 
-/* ── Helpers ── */
-function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+<script>
+(function(){
+  // Photo editor is a local dev tool only — strip it entirely on the public site.
+  const LOCAL=/^(localhost|127\.0\.0\.1|0\.0\.0\.0|\[::1\])$/.test(location.hostname);
+  if(!LOCAL){['photo-adj-bar','adj-hint'].forEach(id=>{const n=document.getElementById(id);if(n)n.remove();});return;}
+  const SERVER='http://localhost:8765';
+  const GRID=document.querySelector('.ev-pgrid');
+  if(!GRID)return;
+  const feats=Array.from(GRID.querySelectorAll('.feat'));
+  const adjBar=document.getElementById('photo-adj-bar');
+  const toggleBtn=document.getElementById('btn-adj-toggle');
+  const saveBtn=document.getElementById('btn-adj-save');
+  const hint=document.getElementById('adj-hint');
 
-function getCheckedParts() {
-  const parts = [];
-  document.querySelectorAll('#parts-grid input[type=checkbox]').forEach(cb => {
-    if (cb.checked) {
-      if (cb.value === 'Belt') { const t = val('p-belt-text'); parts.push('Belt' + (t ? ' (' + t + ')' : '')); }
-      else if (cb.value === 'Other') { const t = val('p-other-text'); parts.push('Other' + (t ? ' (' + t + ')' : '')); }
-      else if (cb.value === 'Not Sure') { const t = val('p-notsure-text'); parts.push('Not Sure' + (t ? ' — ' + t : '')); }
-      else parts.push(cb.value);
+  // Inject swap button
+  const swapBtn=document.createElement('button');
+  swapBtn.id='btn-adj-swap';swapBtn.textContent='Swap Photos';
+  swapBtn.style.display='none';
+  adjBar.insertBefore(swapBtn,saveBtn);
+
+  let adjustMode=false,swapMode=false,swapFirst=null;
+
+  // ── Pan/zoom state (read from computed style so saved values persist) ──
+  const panState=feats.map(feat=>{
+    const img=feat.querySelector('img');
+    if(!img)return{x:50,y:50,scale:1};
+    const cs=window.getComputedStyle(img);
+    const p=(cs.objectPosition||'50% 50%').split(' ');
+    const x=parseFloat(p[0])||50,y=parseFloat(p[1])||50;
+    let scale=1;
+    const t=cs.transform;
+    if(t&&t!=='none'){const m=t.match(/matrix\(([^)]+)\)/);if(m)scale=Math.round(parseFloat(m[1])*100)/100;}
+    return{x,y,scale};
+  });
+
+  // ── Grid state (read from computed style) ──
+  let gridState=feats.map(feat=>{
+    const cs=window.getComputedStyle(feat);
+    return{
+      colStart:parseInt(cs.gridColumnStart)||1,
+      colEnd:parseInt(cs.gridColumnEnd)||2,
+      rowStart:parseInt(cs.gridRowStart)||1,
+      rowEnd:parseInt(cs.gridRowEnd)||2,
+    };
+  });
+
+  function applyPan(i){
+    const img=feats[i]?.querySelector('img');if(!img)return;
+    const s=panState[i];
+    img.style.objectPosition=`${s.x.toFixed(1)}% ${s.y.toFixed(1)}%`;
+    img.style.transform=`scale(${s.scale.toFixed(2)})`;
+    img.style.transformOrigin=`${s.x.toFixed(1)}% ${s.y.toFixed(1)}%`;
+  }
+
+  function applyGrid(){
+    feats.forEach((feat,i)=>{
+      const fs=gridState[i];
+      feat.style.gridColumn=`${fs.colStart}/${fs.colEnd}`;
+      feat.style.gridRow=`${fs.rowStart}/${fs.rowEnd}`;
+    });
+    refreshHandles();
+  }
+
+  // ── Drag state ──
+  let panDrag=null,resizeDrag=null;
+
+  // ── Enter/exit adjust ──
+  function enterAdjust(){
+    adjustMode=true;
+    toggleBtn.textContent='Done';toggleBtn.classList.add('active');
+    saveBtn.style.display='block';swapBtn.style.display='block';
+    hint.style.display='block';
+    hint.textContent='Drag photo to reposition · Scroll to zoom · Gold bar on right edge = resize frame';
+    feats.forEach((f,i)=>{
+      f.classList.add('adj-mode');
+      addLabel(f,i);addResizeHandle(f,i);addPortraitBtn(f,i);
+    });
+  }
+  function exitAdjust(){
+    adjustMode=false;swapMode=false;swapFirst=null;
+    toggleBtn.textContent='Adjust Photos';toggleBtn.classList.remove('active');
+    saveBtn.style.display='none';swapBtn.style.display='none';swapBtn.classList.remove('active');
+    hint.style.display='none';
+    feats.forEach(f=>{
+      f.classList.remove('adj-mode','adj-active','adj-swap-mode','adj-swap-selected');
+      f.querySelectorAll('.adj-overlay').forEach(el=>el.remove());
+    });
+  }
+
+  toggleBtn.addEventListener('click',()=>adjustMode?exitAdjust():enterAdjust());
+
+  // ── Overlay helpers ──
+  function addLabel(feat,i){
+    const el=document.createElement('div');
+    el.className='adj-overlay adj-label';el.textContent=i+1;
+    feat.appendChild(el);
+  }
+  function addResizeHandle(feat,i){
+    const el=document.createElement('div');
+    el.className='adj-overlay adj-rhandle';
+    if(gridState[i].colEnd>=13)el.style.display='none';
+    el.dataset.idx=i;
+    el.addEventListener('mousedown',e=>{
+      e.preventDefault();e.stopPropagation();
+      const gr=GRID.getBoundingClientRect();
+      resizeDrag={idx:i,startX:e.clientX,startColEnd:gridState[i].colEnd,gridLeft:gr.left,gridWidth:gr.width};
+    });
+    feat.appendChild(el);
+  }
+  function addPortraitBtn(feat,i){
+    const el=document.createElement('button');
+    el.className='adj-overlay adj-portrait-btn';
+    function rowLabel(i){return gridState[i].rowEnd-gridState[i].rowStart>1?'▣ 1-row':'▤ 2-row';}
+    el.textContent=rowLabel(i);
+    el.addEventListener('click',e=>{
+      e.stopPropagation();
+      const fs=gridState[i];
+      if(fs.rowEnd-fs.rowStart>1){fs.rowEnd=fs.rowStart+1;}
+      else{fs.rowEnd=Math.min(5,fs.rowStart+2);}
+      applyGrid();
+      el.textContent=rowLabel(i);
+    });
+    feat.appendChild(el);
+  }
+  function refreshHandles(){
+    feats.forEach((feat,i)=>{
+      const rh=feat.querySelector('.adj-rhandle');
+      if(rh)rh.style.display=gridState[i].colEnd>=13?'none':'';
+    });
+  }
+
+  // ── Swap mode ──
+  swapBtn.addEventListener('click',()=>{
+    swapMode=!swapMode;swapFirst=null;
+    swapBtn.classList.toggle('active',swapMode);
+    feats.forEach(f=>{f.classList.toggle('adj-swap-mode',swapMode);f.classList.remove('adj-swap-selected');});
+    hint.textContent=swapMode
+      ?'Click a frame to select it, then click another to swap photos'
+      :'Drag photo to reposition · Scroll to zoom · Gold bar on right edge = resize frame';
+  });
+
+  // ── Per-feat events ──
+  feats.forEach((feat,i)=>{
+    feat.addEventListener('mousedown',e=>{
+      if(!adjustMode||swapMode||e.target.closest('.adj-overlay'))return;
+      e.preventDefault();
+      const r=feat.getBoundingClientRect();
+      panDrag={idx:i,startX:e.clientX,startY:e.clientY,startPX:panState[i].x,startPY:panState[i].y,w:r.width,h:r.height};
+      feat.classList.add('adj-active');
+    });
+    feat.addEventListener('wheel',e=>{
+      if(!adjustMode)return;e.preventDefault();
+      const s=panState[i];
+      s.scale=Math.max(0.5,Math.min(3,Math.round((s.scale+(e.deltaY>0?-0.05:0.05))*100)/100));
+      applyPan(i);
+    },{passive:false});
+    feat.addEventListener('click',e=>{
+      if(!adjustMode||!swapMode||e.target.closest('.adj-overlay'))return;
+      e.stopPropagation();
+      if(swapFirst===null){swapFirst=i;feat.classList.add('adj-swap-selected');}
+      else if(swapFirst===i){feat.classList.remove('adj-swap-selected');swapFirst=null;}
+      else{
+        const ia=feats[swapFirst].querySelector('img'),ib=feat.querySelector('img');
+        if(ia&&ib){[ia.src,ib.src]=[ib.src,ia.src];}
+        feats[swapFirst].classList.remove('adj-swap-selected');swapFirst=null;
+      }
+    });
+  });
+
+  // ── Global mouse events ──
+  document.addEventListener('mousemove',e=>{
+    if(panDrag){
+      const d=panDrag,s=panState[d.idx];
+      s.x=Math.max(0,Math.min(100,d.startPX-(e.clientX-d.startX)/d.w*100));
+      s.y=Math.max(0,Math.min(100,d.startPY-(e.clientY-d.startY)/d.h*100));
+      applyPan(d.idx);
+    }
+    if(resizeDrag){
+      const d=resizeDrag;
+      const rawCol=(e.clientX-d.gridLeft)/d.gridWidth*12+1;
+      const newEnd=Math.max(gridState[d.idx].colStart+2,Math.min(12,Math.round(rawCol)));
+      if(newEnd===gridState[d.idx].colEnd)return;
+      const delta=newEnd-gridState[d.idx].colEnd;
+      const oldEnd=gridState[d.idx].colEnd;
+      gridState[d.idx].colEnd=newEnd;
+      const tf=gridState[d.idx];
+      gridState.forEach((fs,j)=>{
+        if(j===d.idx||fs.colStart!==oldEnd)return;
+        if(fs.rowStart<tf.rowEnd&&fs.rowEnd>tf.rowStart)
+          fs.colStart=Math.max(fs.colEnd-1,Math.min(12,fs.colStart+delta));
+      });
+      applyGrid();
     }
   });
-  return parts;
-}
+  document.addEventListener('mouseup',()=>{
+    if(panDrag){feats[panDrag.idx]?.classList.remove('adj-active');panDrag=null;}
+    resizeDrag=null;
+  });
 
-/* ── Parts validation + submit ── */
-async function submitParts() {
-  let ok = true;
-  const fname = document.getElementById('p-fname');
-  fname.style.borderColor = fname.value.trim() ? '' : '#E24B4A';
-  if (!fname.value.trim()) ok = false;
-  const model = document.getElementById('p-model');
-  model.style.borderColor = model.value.trim() ? '' : '#E24B4A';
-  if (!model.value.trim()) ok = false;
-  const makeEl = document.getElementById('p-make');
-  makeEl.style.borderColor = makeEl.value ? '' : '#E24B4A';
-  if (!makeEl.value) ok = false;
-  const phone = val('p-phone'), email = val('p-email');
-  const phoneEl = document.getElementById('p-phone'), emailEl = document.getElementById('p-email');
-  if (!phone && !email) { phoneEl.style.borderColor = '#E24B4A'; emailEl.style.borderColor = '#E24B4A'; ok = false; }
-  else { phoneEl.style.borderColor = ''; emailEl.style.borderColor = ''; }
-  if (prefs.parts.length === 0) { const pb = document.getElementById('pref-parts'); pb.style.outline = '1.5px solid #E24B4A'; pb.style.borderRadius = '8px'; ok = false; }
-  else { const pb = document.getElementById('pref-parts'); pb.style.outline = ''; }
-  const pg = document.getElementById('parts-grid');
-  if (getCheckedParts().length === 0) { pg.style.outline = '1.5px solid #E24B4A'; pg.style.borderRadius = '8px'; ok = false; }
-  else { pg.style.outline = ''; }
-  if (!ok) return;
-  const btn = document.querySelector('#form-parts .submit-btn');
-  btn.disabled = true; btn.textContent = 'Sending...';
-  const makeEl2 = document.getElementById('p-make');
-  const data = {
-    _subject: 'MPE Parts Request', _cc: SMS,
-    Name: val('p-fname'),
-    Phone: val('p-phone'), Email: val('p-email'),
-    Contact_Preference: prefs.parts.join(', '),
-    Make: makeEl2.options[makeEl2.selectedIndex].text,
-    Model: val('p-model'), Serial: val('p-serial'),
-    Part_Number: val('p-partnum'),
-    Parts_Needed: getCheckedParts().join(' | ')
-  };
-  try {
-    const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) });
-    if (res.ok) { document.getElementById('parts-main').style.display = 'none'; document.getElementById('parts-success').style.display = 'block'; }
-    else { btn.disabled = false; btn.textContent = 'Try again — something went wrong'; }
-  } catch(e) { btn.disabled = false; btn.textContent = 'Try again — connection error'; }
-}
-
-/* ── Generic form submit (quote/repair/general) ── */
-async function submitForm(form) {
-  const subjects = { quote: 'MPE Quote Request', repair: 'MPE Repair Request', general: 'MPE General Inquiry' };
-  const dataMap = {
-    quote:   () => ({ _subject: subjects.quote,   _cc: SMS, Name: val('q-fname'), Phone: val('q-phone'), Email: val('q-email'), Contact_Preference: prefs.quote.join(', '),   Looking_For: val('q-desc') }),
-    repair:  () => ({ _subject: subjects.repair,  _cc: SMS, Name: val('r-fname'), Phone: val('r-phone'), Email: val('r-email'), Contact_Preference: prefs.repair.join(', '),  Make: val('r-make'), Model: val('r-model'), Problem: val('r-symptoms'), Urgency: document.getElementById('r-urgency').value }),
-    general: () => ({ _subject: subjects.general, _cc: SMS, Name: val('g-fname'), Phone: val('g-phone'), Email: val('g-email'), Contact_Preference: prefs.general.join(', '), Message: val('g-message') }),
-  };
-  const required = { quote: ['q-fname','q-desc'], repair: ['r-fname','r-make','r-symptoms'], general: ['g-fname','g-message'] };
-  let ok = true;
-  required[form].forEach(id => { const el = document.getElementById(id); el.style.borderColor = el.value.trim() ? '' : '#E24B4A'; if (!el.value.trim()) ok = false; });
-  if (['quote','repair'].includes(form)) {
-    const phone = val(form[0] + '-phone'), email = val(form[0] + '-email');
-    const phoneEl = document.getElementById(form[0] + '-phone'), emailEl = document.getElementById(form[0] + '-email');
-    if (!phone && !email) { phoneEl.style.borderColor = '#E24B4A'; emailEl.style.borderColor = '#E24B4A'; ok = false; }
-    else { phoneEl.style.borderColor = ''; emailEl.style.borderColor = ''; }
-  }
-  if (['quote','repair'].includes(form) && prefs[form].length === 0) {
-    const pb = document.getElementById('pref-' + form); pb.style.outline = '1.5px solid #E24B4A'; pb.style.borderRadius = '8px'; ok = false;
-  }
-  if (!ok) return;
-  const btn = document.querySelector('#form-' + form + ' .submit-btn');
-  btn.disabled = true; btn.textContent = 'Sending...';
-  try {
-    const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(dataMap[form]()) });
-    if (res.ok) { document.getElementById(form + '-main').style.display = 'none'; document.getElementById(form + '-success').style.display = 'block'; }
-    else { btn.disabled = false; btn.textContent = 'Try again — something went wrong'; }
-  } catch(e) { btn.disabled = false; btn.textContent = 'Try again — connection error'; }
-}
-
-/* ── Reset ── */
-function resetForm(form) {
-  document.getElementById(form + '-main').style.display = '';
-  document.getElementById(form + '-success').style.display = 'none';
-  document.querySelectorAll('#form-' + form + ' input, #form-' + form + ' textarea').forEach(el => el.value = '');
-  document.querySelectorAll('#form-' + form + ' select').forEach(el => el.selectedIndex = 0);
-  document.querySelectorAll('#form-' + form + ' .pref-btn').forEach(b => b.classList.remove('selected'));
-  document.querySelectorAll('#form-' + form + ' .check-item').forEach(l => { l.classList.remove('checked'); l.querySelector('input') && (l.querySelector('input').checked = false); });
-  document.querySelectorAll('#form-' + form + ' .extra-input').forEach(el => el.classList.remove('show'));
-  prefs[form] = [];
-  const btn = document.querySelector('#form-' + form + ' .submit-btn');
-  if (btn) { btn.disabled = false; btn.textContent = form === 'parts' ? 'Submit parts request' : form === 'quote' ? 'Request a quote' : form === 'repair' ? 'Submit repair request' : 'Send message'; }
-}
-
-/* ── In-Stock from Google Sheet ── */
-async function loadStock() {
-  const grid = document.getElementById('stockGrid');
-  try {
-    const res = await fetch('inventory.json');
-    const items = await res.json();
-    if (!items.length) {
-      grid.innerHTML = '<p style="color:#888">No items currently listed. Check back soon or give us a call.</p>';
-      return;
+  // ── Save ──
+  saveBtn.addEventListener('click',async()=>{
+    saveBtn.textContent='Saving…';saveBtn.disabled=true;
+    const positions=panState.map((s,i)=>({index:i,position:`${s.x.toFixed(1)}% ${s.y.toFixed(1)}%`,scale:s.scale}));
+    const frames=gridState.map((fs,i)=>({index:i,...fs}));
+    const photos=feats.map(f=>{const img=f.querySelector('img');return img?img.src.replace(/^https?:\/\/[^/]+\//,''):''});
+    try{
+      const res=await fetch(`${SERVER}/api/save-photo-positions`,{
+        method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({positions,frames,photos}),
+      });
+      const j=await res.json();
+      saveBtn.textContent=j.ok?'Saved!':'Error — check server';
+      setTimeout(()=>{saveBtn.textContent='Save Positions';saveBtn.disabled=false;},2000);
+    }catch{
+      saveBtn.textContent='Server offline';
+      setTimeout(()=>{saveBtn.textContent='Save Positions';saveBtn.disabled=false;},3000);
     }
-    grid.innerHTML = items.map(item => {
-      const sold = item.status === 'sold';
-      const condClass = item.condition.toLowerCase();
-      const photoHTML = item.photo
-        ? `<img class="card-photo" src="assets/inventory/${item.photo}" alt="${item.make} ${item.model}">`
-        : `<div class="card-photo-placeholder">Photo coming soon</div>`;
-      const statsHTML = item.stats.map(s =>
-        `<div class="stat"><span class="stat-label">${s.label}</span><span class="stat-value">${s.value}</span></div>`
-      ).join('');
-      const notesHTML = item.notes ? `<div class="card-notes">${item.notes}</div>` : '';
-      const ctaHTML = sold
-        ? `<span class="call-for-price">Sold</span><a class="card-cta" href="tel:8082492730">Call Now</a>`
-        : `<span class="call-for-price">Call for Price</span><a class="card-cta" href="tel:8082492730">Call Now</a>`;
-      return `
-        <div class="stock-card${sold ? ' sold' : ''}">
-          <div class="card-photo-wrap">
-            ${photoHTML}
-            ${sold ? '<div class="sold-banner">Sold</div>' : ''}
-          </div>
-          <div class="card-body">
-            <div class="card-top">
-              <span class="card-type">${item.type}</span>
-              <span class="card-condition ${condClass}">${item.condition}</span>
-            </div>
-            <div class="card-name">${item.make} ${item.model}</div>
-            <div class="card-year">${item.year}</div>
-            <div class="card-stats">${statsHTML}</div>
-            ${notesHTML}
-            <div class="card-footer">${ctaHTML}</div>
-          </div>
-        </div>`;
-    }).join('');
-  } catch(e) {
-    document.getElementById('stockGrid').innerHTML = '<p style="color:#888">Unable to load inventory. Give us a call at (808) 249-2730.</p>';
-  }
-}
-
-loadStock();
+  });
+})();
 </script>
 </body>
 </html>

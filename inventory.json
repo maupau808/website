@@ -135,7 +135,7 @@
     "type": "Battery Zero Turn Mower",
     "make": "Greenworks Commercial",
     "model": "MZ608 Maximus",
-    "photo": "maximus.png",
+    "photo": "maximus.webp",
     "stats": [
       {
         "label": "Deck",
@@ -201,7 +201,7 @@
     "type": "30\" Walk-Behind Mower",
     "make": "Scag",
     "model": "SFCII-30",
-    "photo": "SCAG-SFCII-30_1000x745-scaled.png",
+    "photo": "SCAG-SFCII-30_1000x745-scaled.webp",
     "stats": [
       {
         "label": "Deck",
@@ -311,7 +311,7 @@
     "type": "Utility Trailer",
     "make": "Hillsboro",
     "model": "Aluminum Utility 14-foot",
-    "photo": "hillsboro-trailers_utility-trailer_feature-image.png",
+    "photo": "hillsboro-trailers_utility-trailer_feature-image.webp",
     "stats": [
       {
         "label": "GVWR",
@@ -378,7 +378,7 @@
     "type": "Zero Turn Mower",
     "make": "Hustler",
     "model": "Fastrak SDX",
-    "photo": "Fastrak.png",
+    "photo": "Fastrak.webp",
     "stats": [
       {
         "label": "Deck",
@@ -401,7 +401,7 @@
     "type": "Zero Turn Mower",
     "make": "Scag",
     "model": "Turf Tiger",
-    "photo": "2021_TurfTiger.png",
+    "photo": "2021_TurfTiger.webp",
     "stats": [
       {
         "label": "Deck",
@@ -445,7 +445,7 @@
     "type": "Zero Turn Mower",
     "make": "Scag",
     "model": "Tiger Cat II",
-    "photo": "Tigercat.png",
+    "photo": "Tigercat.webp",
     "stats": [
       {
         "label": "Deck",
@@ -467,7 +467,7 @@
     "type": "Zero Turn Mower",
     "make": "Scag",
     "model": "Freedom Z",
-    "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.png",
+    "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
     "stats": [
       {
         "label": "Deck",

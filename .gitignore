@@ -1,2 +1,14 @@
+# macOS
 .DS_Store
 **/.DS_Store
+
+# Original-image backups + inventory snapshots — local only, never deploy
+Backups/
+inventory-library-backup.json
+
+# Local editor tooling — runs on your Mac, not part of the public site
+serve.py
+inventory-editor.html
+
+# Editor/IDE local config
+.claude/

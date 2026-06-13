@@ -1,5 +1,49 @@
 [
   {
+    "type": "21\" Commercial Mower",
+    "make": "Toro",
+    "model": "22295",
+    "photo": "Large.jpg",
+    "stats": [
+      {
+        "label": "Engine",
+        "value": "Honda gxv160"
+      },
+      {
+        "label": "Drive",
+        "value": "Variable"
+      },
+      {
+        "label": "Cutting Height",
+        "value": "1\""
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
+  },
+  {
+    "type": "Prosumer Zero Turn Mower",
+    "make": "Scag",
+    "model": "Liberty Z",
+    "photo": "scag-LibertyZ_armrests-studio_hero.webp",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "42\" Hero"
+      },
+      {
+        "label": "Engine",
+        "value": "Kohler 7000"
+      },
+      {
+        "label": "HP",
+        "value": "22hp"
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
+  },
+  {
     "type": "Residential Zero Turn Mower",
     "make": "Hustler",
     "model": "Raptor XD",

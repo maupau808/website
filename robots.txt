@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /qbo-callback.html
 Allow: /
 
 Sitemap: https://mauipowerequipment.com/sitemap.xml

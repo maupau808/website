@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Connecting...</title></head>
+<body>
+<p>Connecting to QuickBooks...</p>
+<script>
+  // Relay OAuth params from Intuit back to the local QBO server
+  const params = window.location.search;
+  window.location.href = 'http://localhost:8766/callback' + params;
+</script>
+</body>
+</html>

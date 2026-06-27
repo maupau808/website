@@ -1,6 +1,28 @@
 [
   {
-    "type": "Prosumer Zero Turn Mower",
+    "type": "Commercial Zero Turn Mower",
+    "make": "Scag",
+    "model": "Patriot",
+    "photo": "patriot_2021_studio.webp",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "52\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FX"
+      },
+      {
+        "label": "HP",
+        "value": "22"
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Residential Zero Turn Mower",
     "make": "Scag",
     "model": "Liberty Z",
     "photo": "scag-LibertyZ_armrests-studio_hero.webp",
@@ -88,7 +110,7 @@
     "status": "enroute"
   },
   {
-    "type": "Battery Zero Turn Mower",
+    "type": "Electric Zero Turn Mower",
     "make": "Greenworks Commercial",
     "model": "MZ608 Maximus",
     "photo": "maximus.webp",
@@ -176,50 +198,6 @@
     "status": "enroute"
   },
   {
-    "type": "Sod-Cutter",
-    "make": "Bluebird",
-    "model": "SC550",
-    "photo": "Sod_Cutter_2_LR-2048x1409.jpg",
-    "stats": [
-      {
-        "label": "Engine",
-        "value": "Honda GX160"
-      },
-      {
-        "label": "Drive Train",
-        "value": "Chain Drive"
-      },
-      {
-        "label": "HP",
-        "value": "5.5"
-      }
-    ],
-    "notes": "",
-    "status": "sold"
-  },
-  {
-    "type": "Chipper/Shredder",
-    "make": "Bluebird",
-    "model": "CH400H",
-    "photo": "0005_2016-11-21_214.tif-2.jpg",
-    "stats": [
-      {
-        "label": "Diameter",
-        "value": "4\""
-      },
-      {
-        "label": "Engine",
-        "value": "Honda GX390"
-      },
-      {
-        "label": "Drive",
-        "value": "Dual Belt Direct"
-      }
-    ],
-    "notes": "",
-    "status": "enroute"
-  },
-  {
     "type": "Economy Car Hauler Trailer",
     "make": "BigTex",
     "model": "60EC 16-foot",
@@ -239,7 +217,7 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "sold"
   },
   {
     "type": "Car Hauler Trailer",
@@ -328,10 +306,10 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "sold"
   },
   {
-    "type": "Zero Turn Mower",
+    "type": "Prosumer Zero Turn Mower",
     "make": "Hustler",
     "model": "Fastrak SDX",
     "photo": "Fastrak.webp",
@@ -349,12 +327,33 @@
         "value": "22hp"
       }
     ],
-    "notes": "54\" also available",
-    "status": "sale",
-    "sale": "$1200"
+    "notes": "",
+    "status": "available"
   },
   {
-    "type": "Zero Turn Mower",
+    "type": "Prosumer Zero Turn Mower",
+    "make": "Hustler",
+    "model": "Fastrak SDX",
+    "photo": "Fastrak.webp",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "52\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FX691"
+      },
+      {
+        "label": "HP",
+        "value": "22hp"
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Commercial Zero Turn Mower",
     "make": "Scag",
     "model": "Turf Tiger",
     "photo": "2021_TurfTiger.webp",
@@ -376,7 +375,7 @@
     "status": "sold"
   },
   {
-    "type": "Zero Turn Mower",
+    "type": "Commercial Zero Turn Mower",
     "make": "Scag",
     "model": "Diesel Turf Tiger",
     "photo": "2021_TurfTiger.webp",
@@ -395,7 +394,7 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "sold"
   },
   {
     "type": "Utility Trailer",
@@ -409,18 +408,40 @@
       },
       {
         "label": "Capacity",
-        "value": "3500 lbs"
+        "value": "4600 lbs"
       },
       {
         "label": "Dimensions",
         "value": "14' x 77\""
       }
     ],
-    "notes": "16' version also available",
+    "notes": "",
     "status": "available"
   },
   {
-    "type": "Zero Turn Mower",
+    "type": "Utility Trailer",
+    "make": "Big Tex",
+    "model": "60PI 16-foot",
+    "photo": "60PI-Nomad-cutout-website-11-20-24.png.webp",
+    "stats": [
+      {
+        "label": "GVWR",
+        "value": "6,000 lbs"
+      },
+      {
+        "label": "Capacity",
+        "value": "4465 lbs"
+      },
+      {
+        "label": "Dimensions",
+        "value": "16' x 77\""
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Commercial Zero Turn Mower",
     "make": "Scag",
     "model": "Tiger Cat II",
     "photo": "Tigercat.webp",
@@ -440,6 +461,50 @@
     ],
     "notes": "",
     "status": "available"
+  },
+  {
+    "type": "Commercial Zero Turn Mower",
+    "make": "Scag",
+    "model": "Tiger Cat II",
+    "photo": "Tigercat.webp",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "Velocity 52\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kawasaki FT EFI"
+      },
+      {
+        "label": "HP",
+        "value": "26 HP"
+      }
+    ],
+    "notes": "",
+    "status": "available"
+  },
+  {
+    "type": "Zero Turn Mower",
+    "make": "Scag",
+    "model": "Freedom Z",
+    "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": "Hero 48\""
+      },
+      {
+        "label": "Engine",
+        "value": "Kohler 7000"
+      },
+      {
+        "label": "HP",
+        "value": "24 HP"
+      }
+    ],
+    "notes": "",
+    "status": "sold"
   },
   {
     "type": "Zero Turn Mower",

@@ -237,9 +237,9 @@ section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
 .card.is-sold .ph img{filter:grayscale(.8);opacity:.7}
 .cnote-bar{position:absolute;top:0;left:0;right:0;z-index:5;background:rgba(255,173,0,0.8);color:var(--ink);font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-align:center;padding:5px 10px;line-height:1}
 .cbody{padding:11px 12px 10px;display:flex;flex-direction:column;flex:none;margin-top:-22px;position:relative;z-index:2}
-.cbody .k{font-family:'Oswald';font-weight:500;font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold-deep);margin-bottom:1px}
+.cbody .k{font-family:'Oswald';font-weight:600;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;color:var(--green);margin-bottom:1px}
 .title-row{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:6px}
-.cbody h3{font-family:'Barlow Semi Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:16px;line-height:1.05;margin:0;color:var(--ink);white-space:nowrap}
+.cbody h3{font-family:'Barlow Semi Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:19px;line-height:1.05;margin:0 0 5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .type-label{font-size:11.5px;color:#3d4640;font-style:italic;text-align:right;flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cbody .specs{display:none}
 .scard-stats{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:0;margin-bottom:0}
@@ -247,6 +247,11 @@ section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
 .scard-stat:last-child{border-right:none}
 .scard-stat .l{font-family:'Oswald',sans-serif;font-size:9px;letter-spacing:.5px;text-transform:uppercase;color:#545e58}
 .scard-stat .v{font-weight:600;font-size:12px;color:var(--ink);margin-top:1px}
+/* free-type tagline under the model — single line, never wraps the card */
+.scard-tag{font-size:14px;color:#3d4640;line-height:1.25;margin-bottom:7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* "more info" button — gold, sits where the stat boxes would be */
+.scard-btn{display:flex;align-items:center;justify-content:center;width:100%;height:37px;margin-top:6px;border:none;border-radius:8px;background:var(--gold);color:var(--ink);font-family:'Oswald',sans-serif;font-size:13.75px;font-weight:600;letter-spacing:.7px;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background .15s}
+.scard-btn:hover{background:var(--gold-deep)}
 .cbody .cnote{display:none}
 .stock-sub{text-align:center;font-size:clamp(15px,1.7vw,19px);margin-top:8px;line-height:1.5}
 #stock .stock-sub{color:#fff}
@@ -560,11 +565,16 @@ document.querySelectorAll('.feat').forEach(f=>f.addEventListener('click',()=>f.c
 let STOCK=[];
 const FILTERS=[['all','All'],['trailer','Trailers'],['zt','Zero Turns'],['mower','Mowers'],['specialty','Specialty']];
 function cat(t){t=(t||'').toLowerCase();if(t.includes('trailer'))return'trailer';if(t.includes('zero turn'))return'zt';if(t.includes('mower'))return'mower';return'specialty';}
+/*__CARD_FN_START__ — inventory-editor.html extracts everything between these sentinels for its live preview; keep them in place */
 function badge(s){return s==='available'?['avail','In stock']:s==='enroute'?['enroute','On its way']:s==='sale'?['sale','On sale']:['sold','Sold'];}
 function card(it){
   const [bc,bt]=badge(it.status);
   const statItems=(it.stats||[]).slice(0,3);
   const statsHtml=statItems.length?`<div class="scard-stats">${statItems.map(s=>`<div class="scard-stat"><div class="l">${s.label}</div><div class="v">${s.value}</div></div>`).join('')}</div>`:'';
+  // link mode (button) unless explicitly set to use stat fields; falls back to stats if no URL
+  const useLink=it.infoMode!=='stats'&&it.info;
+  const infoHtml=useLink?`<a class="scard-btn" href="${it.info}" target="_blank" rel="noopener"><span class="cue-mouse">Click for more info</span><span class="cue-touch">Tap for more info</span></a>`:statsHtml;
+  const tagHtml=it.tagline?`<div class="scard-tag">${it.tagline}</div>`:'';
   const img=it.photo?`<img src="assets/inventory/${it.photo}" alt="${it.make} ${it.model}" onerror="this.style.display='none'">`:'';
   const notebar=it.notes?`<div class="cnote-bar">${it.notes}</div>`:'';
   const insideBadge=it.status!=='available'&&bc!=='sale'?`<span class="badge ${bc}">${bt}</span>`:'';
@@ -574,10 +584,12 @@ function card(it){
     <div class="ph">${insideBadge}${img}</div>
     <div class="cbody">
       <div class="k">${it.make}</div>
-      <div class="title-row"><h3>${it.model}</h3><span class="type-label">${it.type}</span></div>
-      ${statsHtml}
+      <h3>${it.model}</h3>
+      ${tagHtml}
+      ${infoHtml}
     </div></div>`;
 }
+/*__CARD_FN_END__*/
 function render(f){
   const g=document.getElementById('grid');
   // STOCK is pre-shuffled at load (non-sold randomized, sold last) so statuses are

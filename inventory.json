@@ -1,8 +1,33 @@
 [
   {
+    "type": "Battery Zero Turn Mower",
+    "make": "Stihl",
+    "model": "RZA 748 — 48\" Electric ZTR",
+    "photo": "rza760.jpg",
+    "stats": [
+      {
+        "label": "Deck",
+        "value": ""
+      },
+      {
+        "label": "Motor",
+        "value": ""
+      },
+      {
+        "label": "Runtime",
+        "value": ""
+      }
+    ],
+    "notes": "",
+    "status": "available",
+    "tagline": "Commercial Battery w/ 8 hr Charge",
+    "infoMode": "link",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rza-700-series-1027654#stihl-rza-748-1027654"
+  },
+  {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Patriot",
+    "model": "Patriot — 52\"",
     "photo": "patriot_2021_studio.webp",
     "stats": [
       {
@@ -20,12 +45,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Commercial ZTR w/ Kawasaki FX",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/patriot/"
   },
   {
     "type": "Residential Zero Turn Mower",
     "make": "Scag",
-    "model": "Liberty Z",
+    "model": "Liberty Z — 42\" ",
     "photo": "scag-LibertyZ_armrests-studio_hero.webp",
     "stats": [
       {
@@ -43,12 +70,14 @@
     ],
     "notes": "",
     "status": "enroute",
-    "infoMode": "link"
+    "tagline": "Residential Zero Turn Mower w/ Kohler",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/liberty-z/"
   },
   {
     "type": "Residential Zero Turn Mower",
     "make": "Hustler",
-    "model": "Raptor XD",
+    "model": "Raptor XD — 54\"",
     "photo": "69bc50111cf5e796c436727d_Raptor_XD_Front_left_quarter.jpg",
     "stats": [
       {
@@ -66,12 +95,14 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "Residential ZTR Kawasaki 24hp",
+    "infoMode": "link",
+    "info": "https://www.hustlerturf.com/products/raptor-xd"
   },
   {
     "type": "21\" Commercial Mower",
     "make": "Stihl",
-    "model": "RM 756 YC",
+    "model": "RM 756 YC — 21\"",
     "photo": "rm756.jpg",
     "stats": [
       {
@@ -89,12 +120,14 @@
     ],
     "notes": "",
     "status": "enroute",
-    "infoMode": "link"
+    "tagline": "Commercial Mower w/ Kohler Pro 7000",
+    "infoMode": "link",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rm-756-gasoline-lawn-mower-1027659"
   },
   {
     "type": "21\" Commercial Mower",
     "make": "Scag",
-    "model": "SFC-21",
+    "model": "SFC-21 w/ HONDA Engine",
     "photo": "Scag-SFC-21-Walk-Behind-Mower.webp",
     "stats": [
       {
@@ -112,12 +145,14 @@
     ],
     "notes": "",
     "status": "enroute",
-    "infoMode": "link"
+    "tagline": "21\" Commercial Mower w/ Steel Deck",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/walk-behind-mowers/sfc-21/"
   },
   {
     "type": "Electric Zero Turn Mower",
     "make": "Greenworks Commercial",
-    "model": "MZ608 Maximus",
+    "model": "MZ608 All Electric",
     "photo": "maximus.webp",
     "stats": [
       {
@@ -135,7 +170,9 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "Prosumer Battery Mower 6-Hour Runtime",
+    "infoMode": "link",
+    "info": "https://www.greenworkscommercial.com/products/82v-60-maximus-zero-turn-mower-mz608"
   },
   {
     "type": "Hydraulic tilt trailer",
@@ -158,30 +195,9 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
-  },
-  {
-    "type": "30\" Walk-Behind Mower",
-    "make": "Toro",
-    "model": "TurfMaster HDX",
-    "photo": "toro30.jpeg",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "30\" gauge steel"
-      },
-      {
-        "label": "Engine",
-        "value": "Kawasaki FJ180V"
-      },
-      {
-        "label": "Displacement",
-        "value": "179 CCs"
-      }
-    ],
-    "notes": "",
-    "status": "sold",
-    "infoMode": "link"
+    "tagline": "Tilt Deck Trailer 7000 GVWR",
+    "infoMode": "link",
+    "info": "https://www.bigtextrailers.com/trailer/16tl/"
   },
   {
     "type": "30\" Walk-Behind Mower",
@@ -204,7 +220,9 @@
     ],
     "notes": "",
     "status": "enroute",
-    "infoMode": "link"
+    "tagline": "Commercial 30\" Mower w/ Steel Deck",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/walk-behind-mowers/sfcii-30/"
   },
   {
     "type": "Economy Car Hauler Trailer",
@@ -227,7 +245,9 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "Economy Car Hauler Trailer",
+    "infoMode": "link",
+    "info": "https://www.bigtextrailers.com/trailer/60ec/"
   },
   {
     "type": "Car Hauler Trailer",
@@ -250,7 +270,9 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Car Hauler Trailer",
+    "infoMode": "link",
+    "info": "https://www.bigtextrailers.com/trailer/70ch/"
   },
   {
     "type": "Utility Trailer",
@@ -273,12 +295,13 @@
     ],
     "notes": "16' also available",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Lightweight Trailer",
+    "infoMode": "stats"
   },
   {
     "type": "Equipment Trailer",
     "make": "Big Tex",
-    "model": "14OE 18 foot",
+    "model": "14OE 18-foot",
     "photo": "140e.webp",
     "stats": [
       {
@@ -295,9 +318,10 @@
       }
     ],
     "notes": "",
-    "status": "sale",
+    "status": "sold",
+    "tagline": "14000 lb GVWR Trailer",
     "infoMode": "link",
-    "sale": "$2250"
+    "info": "https://www.bigtextrailers.com/trailer/14oe/"
   },
   {
     "type": "Riding Blower",
@@ -319,13 +343,15 @@
       }
     ],
     "notes": "",
-    "status": "sold",
-    "infoMode": "link"
+    "status": "available",
+    "tagline": "2824 CFM w/ Honda Engine",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/stand-on-blowers/windstorm/"
   },
   {
-    "type": "Prosumer Zero Turn Mower",
+    "type": "Commercial Zero Turn Mower",
     "make": "Hustler",
-    "model": "Fastrak SDX",
+    "model": "Fastrak SDX w/ Kawasaki",
     "photo": "Fastrak.webp",
     "stats": [
       {
@@ -343,12 +369,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "48\" Commercial Zero Turn Mower",
+    "infoMode": "link",
+    "info": "https://www.hustlerturf.com/products/fastrak-sdx"
   },
   {
-    "type": "Prosumer Zero Turn Mower",
+    "type": "Commercial Zero Turn Mower",
     "make": "Hustler",
-    "model": "Fastrak SDX",
+    "model": "Fastrak SDX w/ Kawasaki",
     "photo": "Fastrak.webp",
     "stats": [
       {
@@ -366,12 +394,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "52\" Commercial Zero Turn Mower",
+    "infoMode": "link",
+    "info": "https://www.hustlerturf.com/products/fastrak-sdx"
   },
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Turf Tiger",
+    "model": "Turf Tiger w/ 33hp Kawasaki",
     "photo": "2021_TurfTiger.webp",
     "stats": [
       {
@@ -389,12 +419,14 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "61\" Commercial Zero Turn Mower",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
   },
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Diesel Turf Tiger",
+    "model": "Turf Tiger w/ Diesel Kubota",
     "photo": "2021_TurfTiger.webp",
     "stats": [
       {
@@ -412,7 +444,9 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "61\" Commercial Zero Turn Mower",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
   },
   {
     "type": "Utility Trailer",
@@ -435,7 +469,9 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Utility Trailer 6000 GVWR",
+    "infoMode": "link",
+    "info": "https://www.bigtextrailers.com/trailer/60pi/"
   },
   {
     "type": "Utility Trailer",
@@ -458,12 +494,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Utility Trailer 6000 GVWR",
+    "infoMode": "link",
+    "info": "https://www.bigtextrailers.com/trailer/60pi/"
   },
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Tiger Cat II",
+    "model": "Tiger Cat II — 48\"",
     "photo": "Tigercat.webp",
     "stats": [
       {
@@ -481,12 +519,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Commercial ZTR w/ 22hp Kawasaki FX",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/"
   },
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Tiger Cat II",
+    "model": "Tiger Cat II — 52\"",
     "photo": "Tigercat.webp",
     "stats": [
       {
@@ -504,12 +544,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Commercial w/ 26hp Kawasaki FT EFI",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/"
   },
   {
     "type": "Zero Turn Mower",
     "make": "Scag",
-    "model": "Freedom Z",
+    "model": "Freedom Z — 48\"",
     "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
     "stats": [
       {
@@ -527,12 +569,14 @@
     ],
     "notes": "",
     "status": "sold",
-    "infoMode": "link"
+    "tagline": "Prosumer ZTR w/ 24hp Kohler 7000",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/"
   },
   {
     "type": "Zero Turn Mower",
     "make": "Scag",
-    "model": "Freedom Z",
+    "model": "Freedom Z — 48\"",
     "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
     "stats": [
       {
@@ -550,12 +594,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Prosumer ZTR w/ 24hp Kohler 7000",
+    "infoMode": "link",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/"
   },
   {
     "type": "Zero Turn Mower",
     "make": "Wright",
-    "model": "Stander X",
+    "model": "Stander X — 48\"",
     "photo": "Standerx52_1024x1024.png",
     "stats": [
       {
@@ -573,12 +619,14 @@
     ],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Commercial Stander w/ Kawasaki FX730",
+    "infoMode": "stats",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-x/"
   },
   {
     "type": "Skid Sprayer",
     "make": "Maruyama",
-    "model": "MSD41-50T",
+    "model": "MSD41-50T w/ Honda",
     "photo": "50gmaruskid.jpg",
     "stats": [
       {
@@ -596,6 +644,8 @@
     ],
     "notes": "",
     "status": "enroute",
-    "infoMode": "link"
+    "tagline": "50 Gallon Skid Sprayer",
+    "infoMode": "link",
+    "info": "https://maruyama-us.com/product/msd41-50t/"
   }
 ]

@@ -549,5 +549,27 @@
     ],
     "notes": "",
     "status": "available"
+  },
+  {
+    "type": "Skid Sprayer",
+    "make": "Maruyama",
+    "model": "MSD41-50T",
+    "photo": "50gmaruskid.jpg",
+    "stats": [
+      {
+        "label": "Tank size",
+        "value": "50 gallon"
+      },
+      {
+        "label": "Engine",
+        "value": "Honda GX160"
+      },
+      {
+        "label": "Flow",
+        "value": "8 GPM"
+      }
+    ],
+    "notes": "",
+    "status": "enroute"
   }
 ]

@@ -19,7 +19,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Residential Zero Turn Mower",
@@ -41,7 +42,8 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "enroute",
+    "infoMode": "link"
   },
   {
     "type": "Residential Zero Turn Mower",
@@ -63,7 +65,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "21\" Commercial Mower",
@@ -85,7 +88,8 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "enroute",
+    "infoMode": "link"
   },
   {
     "type": "21\" Commercial Mower",
@@ -107,7 +111,8 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "enroute",
+    "infoMode": "link"
   },
   {
     "type": "Electric Zero Turn Mower",
@@ -129,7 +134,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Hydraulic tilt trailer",
@@ -151,7 +157,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "30\" Walk-Behind Mower",
@@ -173,7 +180,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "30\" Walk-Behind Mower",
@@ -195,7 +203,8 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "enroute",
+    "infoMode": "link"
   },
   {
     "type": "Economy Car Hauler Trailer",
@@ -217,7 +226,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Car Hauler Trailer",
@@ -239,7 +249,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Utility Trailer",
@@ -261,7 +272,8 @@
       }
     ],
     "notes": "16' also available",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Equipment Trailer",
@@ -284,6 +296,7 @@
     ],
     "notes": "",
     "status": "sale",
+    "infoMode": "link",
     "sale": "$2250"
   },
   {
@@ -306,7 +319,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Prosumer Zero Turn Mower",
@@ -328,7 +342,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Prosumer Zero Turn Mower",
@@ -350,7 +365,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Commercial Zero Turn Mower",
@@ -372,7 +388,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Commercial Zero Turn Mower",
@@ -394,7 +411,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Utility Trailer",
@@ -416,7 +434,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Utility Trailer",
@@ -438,7 +457,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Commercial Zero Turn Mower",
@@ -460,7 +480,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Commercial Zero Turn Mower",
@@ -482,7 +503,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Zero Turn Mower",
@@ -504,7 +526,8 @@
       }
     ],
     "notes": "",
-    "status": "sold"
+    "status": "sold",
+    "infoMode": "link"
   },
   {
     "type": "Zero Turn Mower",
@@ -526,7 +549,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Zero Turn Mower",
@@ -548,7 +572,8 @@
       }
     ],
     "notes": "",
-    "status": "available"
+    "status": "available",
+    "infoMode": "link"
   },
   {
     "type": "Skid Sprayer",
@@ -570,6 +595,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute"
+    "status": "enroute",
+    "infoMode": "link"
   }
 ]

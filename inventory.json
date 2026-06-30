@@ -1,5 +1,77 @@
 [
   {
+    "type": "Chopsaw",
+    "make": "Stihl",
+    "model": "TS 710i",
+    "photo": "ts710.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "13.5\" Chopsaw Saw, Fuel Injected",
+    "infoMode": "link",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-710i-1027604"
+  },
+  {
+    "type": "Weedeater",
+    "make": "Maruyama",
+    "model": "B420",
+    "photo": "b420.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "41.5cc Bullhorn Brushcutter",
+    "infoMode": "link",
+    "info": "https://maruyama-us.com/product/b420/#"
+  },
+  {
+    "type": "Chainsaw",
+    "make": "Stihl",
+    "model": "MS 881 Magnum",
+    "photo": "ms881.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "121cc Chainsaw w/ 41\" Bar",
+    "infoMode": "link",
+    "info": "https://www.stihlusa.com/en/p/chainsaws-ms-881-gasoline-chainsaw-1027004"
+  },
+  {
+    "type": "Electric Homeowner Mower",
+    "make": "Honda",
+    "model": "HRN-BV",
+    "photo": "hrn-bv_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Battery-Powered Homeowner Mower",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv"
+  },
+  {
+    "type": "Electric Commercial Mower",
+    "make": "Honda",
+    "model": "HRC-BE ",
+    "photo": "hrc-be_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Battery-Powered Commercial Mower",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be"
+  },
+  {
+    "type": "Generator",
+    "make": "Honda",
+    "model": "EU7000iS Inverter Generator",
+    "photo": "eu7000isnac_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Super-Quiet 7000w 120/240v",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/generators/models/eu7000is"
+  },
+  {
     "type": "Battery Zero Turn Mower",
     "make": "Stihl",
     "model": "RZA 748 — 48\" Electric ZTR",

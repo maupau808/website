@@ -116,7 +116,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Commercial ZTR w/ Kawasaki FX",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/patriot/"
@@ -141,7 +141,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "available",
     "tagline": "Residential Zero Turn Mower w/ Kohler",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/liberty-z/"
@@ -291,7 +291,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "available",
     "tagline": "Commercial 30\" Mower w/ Steel Deck",
     "infoMode": "link",
     "info": "https://www.scag.com/product/walk-behind-mowers/sfcii-30/"
@@ -415,7 +415,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "2824 CFM w/ Honda Engine",
     "infoMode": "link",
     "info": "https://www.scag.com/product/stand-on-blowers/windstorm/"
@@ -540,7 +540,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Utility Trailer 6000 GVWR",
     "infoMode": "link",
     "info": "https://www.bigtextrailers.com/trailer/60pi/"
@@ -615,7 +615,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Commercial w/ 26hp Kawasaki FT EFI",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/"
@@ -665,7 +665,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "enroute",
     "tagline": "Prosumer ZTR w/ 24hp Kohler 7000",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/"

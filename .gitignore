@@ -12,3 +12,10 @@ inventory-editor.html
 
 # Editor/IDE local config
 .claude/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

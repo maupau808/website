@@ -1,5 +1,53 @@
 [
   {
+    "type": "Generator",
+    "make": "Honda",
+    "model": "EM6500 Generator",
+    "photo": "em6500x2ag_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "6500w",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/generators/models/em6500"
+  },
+  {
+    "type": "Generator",
+    "make": "Honda",
+    "model": "EM5000 Generator",
+    "photo": "em6500x2ag_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "5000w",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/generators/models/em5000"
+  },
+  {
+    "type": "Generator",
+    "make": "Honda",
+    "model": "EU3000is Quiet Inverter Generator",
+    "photo": "eu3000s1ag_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Super-Quiet 3000",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/generators/models/eu3000is"
+  },
+  {
+    "type": "Generator",
+    "make": "Honda",
+    "model": "EU2200i Quiet Inverter Generator",
+    "photo": "eu2200itag_pe_imglg.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "sold",
+    "tagline": "Super-Quiet 2200w",
+    "infoMode": "link",
+    "info": "https://powerequipment.honda.com/generators/models/eu2200i"
+  },
+  {
     "type": "Chopsaw",
     "make": "Stihl",
     "model": "TS 710i",
@@ -66,7 +114,7 @@
     "photo": "eu7000isnac_pe_imglg.jpg",
     "stats": [],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Super-Quiet 7000w 120/240v",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/generators/models/eu7000is"

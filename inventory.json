@@ -6,7 +6,7 @@
     "photo": "em6500x2ag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "6500w",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/generators/models/em6500"
@@ -18,7 +18,7 @@
     "photo": "em6500x2ag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "5000w",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/generators/models/em5000"
@@ -30,7 +30,7 @@
     "photo": "eu3000s1ag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Super-Quiet 3000",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/generators/models/eu3000is"
@@ -264,7 +264,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "available",
     "tagline": "21\" Commercial Mower w/ Steel Deck",
     "infoMode": "link",
     "info": "https://www.scag.com/product/walk-behind-mowers/sfc-21/"
@@ -488,7 +488,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "48\" Commercial Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.hustlerturf.com/products/fastrak-sdx"
@@ -763,7 +763,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "sold",
     "tagline": "50 Gallon Skid Sprayer",
     "infoMode": "link",
     "info": "https://maruyama-us.com/product/msd41-50t/"

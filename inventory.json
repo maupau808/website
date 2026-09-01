@@ -1,5 +1,36 @@
 [
   {
+    "type": "Reel Mower",
+    "make": "",
+    "model": "",
+    "photo": "",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "infoMode": "link"
+  },
+  {
+    "type": "",
+    "make": "",
+    "model": "",
+    "photo": "",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "infoMode": "link"
+  },
+  {
+    "type": "21\" Commercial Mower",
+    "make": "Toro",
+    "model": "Commercial w/ Honda",
+    "photo": "Large.jpg",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "infoMode": "link",
+    "info": "https://www.toro.com/en/product/22295"
+  },
+  {
     "type": "Generator",
     "make": "Honda",
     "model": "EM6500 Generator",
@@ -66,7 +97,7 @@
     "photo": "b420.jpg",
     "stats": [],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "41.5cc Bullhorn Brushcutter",
     "infoMode": "link",
     "info": "https://maruyama-us.com/product/b420/#"
@@ -239,7 +270,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "sold",
     "tagline": "Commercial Mower w/ Kohler Pro 7000",
     "infoMode": "link",
     "info": "https://www.stihlusa.com/en/p/lawn-mowers-rm-756-gasoline-lawn-mower-1027659"
@@ -389,7 +420,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Car Hauler Trailer",
     "infoMode": "link",
     "info": "https://www.bigtextrailers.com/trailer/70ch/"
@@ -467,31 +498,6 @@
     "tagline": "2824 CFM w/ Honda Engine",
     "infoMode": "link",
     "info": "https://www.scag.com/product/stand-on-blowers/windstorm/"
-  },
-  {
-    "type": "Commercial Zero Turn Mower",
-    "make": "Hustler",
-    "model": "Fastrak SDX w/ Kawasaki",
-    "photo": "Fastrak.webp",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "48\""
-      },
-      {
-        "label": "Engine",
-        "value": "Kawasaki FX691"
-      },
-      {
-        "label": "HP",
-        "value": "22hp"
-      }
-    ],
-    "notes": "",
-    "status": "sold",
-    "tagline": "48\" Commercial Zero Turn Mower",
-    "infoMode": "link",
-    "info": "https://www.hustlerturf.com/products/fastrak-sdx"
   },
   {
     "type": "Commercial Zero Turn Mower",
@@ -613,7 +619,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Utility Trailer 6000 GVWR",
     "infoMode": "link",
     "info": "https://www.bigtextrailers.com/trailer/60pi/"
@@ -638,7 +644,7 @@
       }
     ],
     "notes": "",
-    "status": "available",
+    "status": "sold",
     "tagline": "Commercial ZTR w/ 22hp Kawasaki FX",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/"

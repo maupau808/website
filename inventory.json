@@ -1,23 +1,51 @@
 [
   {
     "type": "Reel Mower",
-    "make": "",
-    "model": "",
-    "photo": "",
+    "make": "Rolux",
+    "model": "20” Reel Mower",
+    "photo": "Z-Series Grey 6.png",
     "stats": [],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Honda GX160 9-Blade",
+    "infoMode": "link",
+    "info": "https://myrolux.com/products/z20-9bl-gun-metal-honda-gx160"
   },
   {
-    "type": "",
-    "make": "",
-    "model": "",
-    "photo": "",
+    "type": "Reel Mower",
+    "make": "Rolux",
+    "model": "20” Battery Reel Mower",
+    "photo": "7.png",
     "stats": [],
     "notes": "",
     "status": "available",
-    "infoMode": "link"
+    "tagline": "Two-slot Ego powerhead",
+    "infoMode": "link",
+    "info": "https://myrolux.com/products/z20-9bl-wimbledon-white-ego-pu2710-excludes-batteries-and-charger"
+  },
+  {
+    "type": "Reel Mower",
+    "make": "Rolux",
+    "model": "25” Reel Mower",
+    "photo": "Z-Series White 16.png",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Honda GX160 9-Blade",
+    "infoMode": "link",
+    "info": "https://myrolux.com/products/z25-9bl-white-honda-gx160"
+  },
+  {
+    "type": "Reel Mower",
+    "make": "Rolux",
+    "model": "25” Battery Reel Mower",
+    "photo": "7.png",
+    "stats": [],
+    "notes": "",
+    "status": "available",
+    "tagline": "Two-slot Ego powerhead",
+    "infoMode": "link",
+    "info": "https://myrolux.com/products/z25-9bl-metallic-grey-honda-gx160"
   },
   {
     "type": "21\" Commercial Mower",

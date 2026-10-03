@@ -105,107 +105,134 @@
     "make": "STIHL",
     "model": "Al 101 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.068 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-101-battery-charger-1027003",
     "photo": "catalog/stihl-al-101-charger.webp",
-    "manufacturerName": "Al 101 Charger"
+    "manufacturerName": "Al 101 Charger",
+    "powerKw": 0.068,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-101-battery-charger-1027003"
   },
   {
     "id": "stihl-al-301-charger",
     "make": "STIHL",
     "model": "AL 301 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.276 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-301-rapid-battery-charger-1027358",
     "photo": "catalog/stihl-al-301-charger.webp",
-    "manufacturerName": "AL 301 Charger"
+    "manufacturerName": "AL 301 Charger",
+    "powerKw": 0.276,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-301-rapid-battery-charger-1027358"
   },
   {
     "id": "stihl-al-301-4-charger",
     "make": "STIHL",
     "model": "AL 301-4 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.276 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-301-4-multi-battery-charger-1027356",
     "photo": "catalog/stihl-al-301-4-charger.webp",
-    "manufacturerName": "AL 301-4 Charger"
+    "manufacturerName": "AL 301-4 Charger",
+    "powerKw": 0.276,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-301-4-multi-battery-charger-1027356"
   },
   {
     "id": "stihl-al-501-charger",
     "make": "STIHL",
     "model": "AL 501 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.51 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-501-high-speed-charger-1027437",
     "photo": "catalog/stihl-al-501-charger.webp",
-    "manufacturerName": "AL 501 Charger"
+    "manufacturerName": "AL 501 Charger",
+    "powerKw": 0.51,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-501-high-speed-charger-1027437"
   },
   {
     "id": "stihl-al-1602-0-high-speed-charger",
     "make": "STIHL",
     "model": "AL 1602.0 High-speed charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 1.53 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-1602-mo-charger-1048015",
     "photo": "catalog/stihl-al-1602-0-high-speed-charger.webp",
-    "manufacturerName": "AL 1602.0 High-speed charger"
+    "manufacturerName": "AL 1602.0 High-speed charger",
+    "powerKw": 1.53,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-1602-mo-charger-1048015"
   },
   {
     "id": "stihl-al-1-charger",
     "make": "STIHL",
     "model": "AL 1 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.025 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-1-standard-charger-1027317",
     "photo": "catalog/stihl-al-1-charger.webp",
-    "manufacturerName": "AL 1 Charger"
+    "manufacturerName": "AL 1 Charger",
+    "powerKw": 0.025,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-1-standard-charger-1027317"
   },
   {
     "id": "stihl-al-5-2-charger",
     "make": "STIHL",
     "model": "AL 5-2 Charger",
     "cat": "battery",
-    "tagline": "Battery charger",
+    "tagline": "Battery charger · 0.101 kW charging",
     "info": "https://www.stihlusa.com/en/ap/al-5-2-hi-speed-charger-1027579",
     "photo": "catalog/stihl-al-5-2-charger.webp",
-    "manufacturerName": "AL 5-2 Charger"
+    "manufacturerName": "AL 5-2 Charger",
+    "powerKw": 0.101,
+    "powerKind": "charging",
+    "powerSource": "https://www.stihlusa.com/en/ap/al-5-2-hi-speed-charger-1027579"
   },
   {
     "id": "stihl-bg-50",
     "make": "STIHL",
     "model": "BG 50",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas blower · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-50-gasoline-blower-1027372#bg-50-1027372",
     "photo": "catalog/stihl-bg-50.webp",
-    "manufacturerName": "BG 50"
+    "manufacturerName": "BG 50",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bg-86",
     "make": "STIHL",
     "model": "BG 86",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas blower · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-86-gasoline-blower-1027359#bg-86-1027359",
     "photo": "catalog/stihl-bg-86.webp",
-    "manufacturerName": "BG 86"
+    "manufacturerName": "BG 86",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bg-86-c-e",
     "make": "STIHL",
     "model": "BG 86 C-E",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas blower · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-86-gasoline-blower-1027359#bg-86-c-e-1027045",
     "photo": "catalog/stihl-bg-86-c-e.webp",
-    "manufacturerName": "BG 86 C-E"
+    "manufacturerName": "BG 86 C-E",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bga-50",
     "make": "STIHL",
     "model": "BGA 50",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-50-battery-powered-blower-1029003#bga-50-set-1029003",
     "photo": "catalog/stihl-bga-50.webp",
     "manufacturerName": "BGA 50"
@@ -215,7 +242,7 @@
     "make": "STIHL",
     "model": "BGA 60",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-60-ak-system-1027408#bga-60-unit-only-1027408",
     "photo": "catalog/stihl-bga-60.webp",
     "manufacturerName": "BGA 60"
@@ -225,7 +252,7 @@
     "make": "STIHL",
     "model": "BGA 160.0",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-160-battery-powered-blower-1027666#bga-160-unit-only-1027665",
     "photo": "catalog/stihl-bga-160-0.webp",
     "manufacturerName": "BGA 160.0"
@@ -235,7 +262,7 @@
     "make": "STIHL",
     "model": "BGA 250",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-250-battery-powered-blower-1027602#bga-250-unit-only-1027602",
     "photo": "catalog/stihl-bga-250.webp",
     "manufacturerName": "BGA 250"
@@ -245,7 +272,7 @@
     "make": "STIHL",
     "model": "BGA 300.1",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-300-ap-system-1027560#bga-300-unit-only-1027560",
     "photo": "catalog/stihl-bga-300-1.webp",
     "manufacturerName": "BGA 300.1"
@@ -255,7 +282,7 @@
     "make": "STIHL",
     "model": "BR 450",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas backpack blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-450-gasoline-backpack-blower-1027371#br-450-1027371",
     "photo": "catalog/stihl-br-450.webp",
     "manufacturerName": "BR 450"
@@ -265,7 +292,7 @@
     "make": "STIHL",
     "model": "BR 600",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas backpack blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-600-gasoline-backpack-blower-1027126#br-600-1027126",
     "photo": "catalog/stihl-br-600.webp",
     "manufacturerName": "BR 600"
@@ -275,27 +302,31 @@
     "make": "STIHL",
     "model": "BR 800 X",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas backpack blower · 79.9 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-800-gasoline-backpack-blower-1027163#br-800-x-magnum-1027338",
     "photo": "catalog/stihl-br-800-x.webp",
-    "manufacturerName": "BR 800 X"
+    "manufacturerName": "BR 800 X",
+    "displacementCc": 79.9,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-br-800-c-e",
     "make": "STIHL",
     "model": "BR 800 C-E",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Gas backpack blower · 79.9 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-800-gasoline-backpack-blower-1027163#br-800-c-e-magnum-1027163",
     "photo": "catalog/stihl-br-800-c-e.webp",
-    "manufacturerName": "BR 800 C-E"
+    "manufacturerName": "BR 800 C-E",
+    "displacementCc": 79.9,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bra-200",
     "make": "STIHL",
     "model": "BRA 200",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery backpack blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-200-battery-powered-backpack-blower-1037003#bra-200-unit-only-1038000",
     "photo": "catalog/stihl-bra-200.webp",
     "manufacturerName": "BRA 200"
@@ -305,7 +336,7 @@
     "make": "STIHL",
     "model": "BRA 280",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery backpack blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-280-battery-powered-backpack-blower-1037002#bra-280-unit-only-1037001",
     "photo": "catalog/stihl-bra-280.webp",
     "manufacturerName": "BRA 280"
@@ -315,7 +346,7 @@
     "make": "STIHL",
     "model": "BRA 600",
     "cat": "blower",
-    "tagline": "Leaf blower",
+    "tagline": "Battery backpack blower",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-600-battery-backpack-blower-1027648#bra-600-unit-only-1027648",
     "photo": "catalog/stihl-bra-600.webp",
     "manufacturerName": "BRA 600"
@@ -325,454 +356,630 @@
     "make": "STIHL",
     "model": "FS 56 R C-E",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 1.7 cu in",
+    "tagline": "Gas trimmer · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-56-gasoline-grass-trimmer-1027023#fs-56-rc-e-1027023",
     "photo": "catalog/stihl-fs-56-r-c-e.webp",
-    "manufacturerName": "FS 56 RC-E"
+    "manufacturerName": "FS 56 RC-E",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-70-r",
     "make": "STIHL",
     "model": "FS 70 R",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 1.7 cu in",
+    "tagline": "Gas trimmer · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-70-gasoline-grass-trimmer-1027348#fs-70-r-1027348",
     "photo": "catalog/stihl-fs-70-r.webp",
-    "manufacturerName": "FS 70 R"
+    "manufacturerName": "FS 70 R",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-91-r",
     "make": "STIHL",
     "model": "FS 91 R",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 1.7 cu in",
+    "tagline": "Gas trimmer · 28.4 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-91-gasoline-grass-trimmer-1027237#fs-91-r-1027237",
     "photo": "catalog/stihl-fs-91-r.webp",
-    "manufacturerName": "FS 91 R"
+    "manufacturerName": "FS 91 R",
+    "displacementCc": 28.4,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-94-r",
     "make": "STIHL",
     "model": "FS 94 R",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 1.5 cu in",
+    "tagline": "Gas trimmer · 24.1 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-94-gasoline-grass-trimmer-1027032#fs-94-r-1027032",
     "photo": "catalog/stihl-fs-94-r.webp",
-    "manufacturerName": "FS 94 R"
+    "manufacturerName": "FS 94 R",
+    "displacementCc": 24.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-131-r",
     "make": "STIHL",
     "model": "FS 131 R",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 2.2 cu in",
+    "tagline": "Gas trimmer · 36.3 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-131-gasoline-grass-trimmer-1027873#fs-131-r-1027873",
     "photo": "catalog/stihl-fs-131-r.webp",
-    "manufacturerName": "FS 131 R"
+    "manufacturerName": "FS 131 R",
+    "displacementCc": 36.3,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-131-bike",
     "make": "STIHL",
     "model": "FS 131 Bike",
     "cat": "trimmer",
-    "tagline": "Gas grass trimmer · 2.2 cu in",
+    "tagline": "Gas trimmer · 36.3 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-131-gasoline-grass-trimmer-1027873#fs-131-1033005",
     "photo": "catalog/stihl-fs-131-bike.webp",
-    "manufacturerName": "FS 131"
+    "manufacturerName": "FS 131",
+    "displacementCc": 36.3,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-251-r",
     "make": "STIHL",
     "model": "FS 251 R",
     "cat": "trimmer",
-    "tagline": "Gas brushcutter / clearing saw · 2.5 cu in",
+    "tagline": "Gas trimmer · 41.6 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-251-gasoline-brushcutter-clearing-saw-1027517#fs-251-r-1027517",
     "photo": "catalog/stihl-fs-251-r.webp",
     "sourceNote": "Exact part 4147 200 0742 not listed; used STIHL FS 251 R page (4147 200 0576).",
-    "manufacturerName": "FS 251 R"
+    "manufacturerName": "FS 251 R",
+    "displacementCc": 41.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-251-bike",
     "make": "STIHL",
     "model": "FS 251 Bike",
     "cat": "trimmer",
-    "tagline": "Gas brushcutter / clearing saw · 2.5 cu in",
+    "tagline": "Gas trimmer · 41.6 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-251-gasoline-brushcutter-clearing-saw-1027517#fs-251-1035003",
     "photo": "catalog/stihl-fs-251-bike.webp",
-    "manufacturerName": "FS 251"
+    "manufacturerName": "FS 251",
+    "displacementCc": 41.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fs-461-c-em",
     "make": "STIHL",
     "model": "FS 461 C-EM",
     "cat": "trimmer",
-    "tagline": "Gas brushcutter / clearing saw · 2.8 cu in",
+    "tagline": "Gas trimmer · 45.6 cc",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-461-gasoline-brushcutter-clearing-saw-1006007#fs-461-c-em-1006007",
     "photo": "catalog/stihl-fs-461-c-em.webp",
-    "manufacturerName": "FS 461 C-EM"
+    "manufacturerName": "FS 461 C-EM",
+    "displacementCc": 45.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-60-r",
     "make": "STIHL",
     "model": "FSA 60 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer · AK System",
+    "tagline": "Battery trimmer · 0.51 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-60-ak-system-1027234#fsa-60-r-unit-only-1027015",
     "photo": "catalog/stihl-fsa-60-r.webp",
-    "manufacturerName": "FSA 60 R"
+    "manufacturerName": "FSA 60 R",
+    "powerKw": 0.51,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-70-0-r",
     "make": "STIHL",
     "model": "FSA 70.0 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer",
+    "tagline": "Battery trimmer · 0.8 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-70-r-battery-powered-grass-trimmer-1027575#fsa-70-r-set-w-ak-20-1027575",
     "photo": "catalog/stihl-fsa-70-0-r.webp",
-    "manufacturerName": "FSA 70 R Set w/AK 20"
+    "manufacturerName": "FSA 70 R Set w/AK 20",
+    "powerKw": 0.8,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "90% 0%"
   },
   {
     "id": "stihl-fsa-80-r",
     "make": "STIHL",
     "model": "FSA 80 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer · AK System",
+    "tagline": "Battery trimmer · 0.8 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-80-ak-system-1027492#fsa-80-r-unit-only-1027492",
     "photo": "catalog/stihl-fsa-80-r.webp",
-    "manufacturerName": "FSA 80 R"
+    "manufacturerName": "FSA 80 R",
+    "powerKw": 0.8,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-110-0-r",
     "make": "STIHL",
     "model": "FSA 110.0 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer",
+    "tagline": "Battery trimmer · 0.94 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-110-r-battery-powered-grass-trimmer-1027574#fsa-110-r-unit-only-1027574",
     "photo": "catalog/stihl-fsa-110-0-r.webp",
-    "manufacturerName": "FSA 110 R"
+    "manufacturerName": "FSA 110 R",
+    "powerKw": 0.94,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-120-r",
     "make": "STIHL",
     "model": "FSA 120 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer · AP System",
+    "tagline": "Battery trimmer · 0.8 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-120-ap-system-1027661#fsa-120-r-set-1027661",
     "photo": "catalog/stihl-fsa-120-r.webp",
     "sourceNote": "Unit-only FA08 200 0006 not listed; STIHL page shows FSA 120 R Set.",
-    "manufacturerName": "FSA 120 R Set"
+    "manufacturerName": "FSA 120 R Set",
+    "powerKw": 0.8,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "90% 0%"
   },
   {
     "id": "stihl-fsa-135-140-r",
     "make": "STIHL",
     "model": "FSA 135/140 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer · AP System",
+    "tagline": "Battery trimmer · 0.9 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-135-ap-system-1027314#fsa-135-r-unit-only-1027314",
     "photo": "catalog/stihl-fsa-135-140-r.webp",
-    "manufacturerName": "FSA 135 R"
+    "manufacturerName": "FSA 135 R",
+    "powerKw": 0.9,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-200-r",
     "make": "STIHL",
     "model": "FSA 200 R",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer · AP System",
+    "tagline": "Battery trimmer · 1.55 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-200-ap-system-1027483#fsa-200-r-unit-only-1027483",
     "photo": "catalog/stihl-fsa-200-r.webp",
-    "manufacturerName": "FSA 200 R"
+    "manufacturerName": "FSA 200 R",
+    "powerKw": 1.55,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-400-k",
     "make": "STIHL",
     "model": "FSA 400 K",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer",
+    "tagline": "Battery trimmer · 2 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-400-battery-powered-grass-trimmer-1027630#fsa-400-k-unit-only-1027635",
     "photo": "catalog/stihl-fsa-400-k.webp",
-    "manufacturerName": "FSA 400 K"
+    "manufacturerName": "FSA 400 K",
+    "powerKw": 2.0,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-fsa-400",
     "make": "STIHL",
     "model": "FSA 400",
     "cat": "trimmer",
-    "tagline": "Battery grass trimmer",
+    "tagline": "Battery trimmer · 2 kW",
     "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-400-battery-powered-grass-trimmer-1027630#fsa-400-unit-only-1027630",
     "photo": "catalog/stihl-fsa-400.webp",
-    "manufacturerName": "FSA 400"
+    "manufacturerName": "FSA 400",
+    "powerKw": 2.0,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hl-94-k",
     "make": "STIHL",
     "model": "HL 94 K",
     "cat": "hedge",
-    "tagline": "Gas extended-reach hedge trimmer · 1.5 cu in",
+    "tagline": "Gas pole hedge trimmer · 24.1 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hl-94-gasoline-extended-reach-hedge-trimmer-1027426#hl-94-k-145degres-1027427",
     "photo": "catalog/stihl-hl-94-k.webp",
-    "manufacturerName": "HL 94 K (145°)"
+    "manufacturerName": "HL 94 K (145°)",
+    "displacementCc": 24.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hl-94",
     "make": "STIHL",
     "model": "HL 94",
     "cat": "hedge",
-    "tagline": "Gas extended-reach hedge trimmer · 1.5 cu in",
+    "tagline": "Gas pole hedge trimmer · 24.1 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hl-94-gasoline-extended-reach-hedge-trimmer-1027426#hl-94-145degres-1027426",
     "photo": "catalog/stihl-hl-94.webp",
-    "manufacturerName": "HL 94 (145°)"
+    "manufacturerName": "HL 94 (145°)",
+    "displacementCc": 24.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hla-56",
     "make": "STIHL",
     "model": "HLA 56",
     "cat": "hedge",
-    "tagline": "Battery long-reach hedge trimmer · AK System",
+    "tagline": "Battery pole hedge trimmer · 0.21 kW",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-56-ak-system-1027236#hla-56-unit-only-1027236",
     "photo": "catalog/stihl-hla-56.webp",
-    "manufacturerName": "HLA 56"
+    "manufacturerName": "HLA 56",
+    "powerKw": 0.21,
+    "powerKind": "output",
+    "powerSource": "https://www.stihl.co.uk/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-56-ak-system-93677",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-hla-66",
     "make": "STIHL",
     "model": "HLA 66",
     "cat": "hedge",
-    "tagline": "Battery long-reach hedge trimmer · AP System",
+    "tagline": "Battery pole hedge trimmer · 0.4 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-66-ap-system-1027206#hla-66-unit-only-1027206",
     "photo": "catalog/stihl-hla-66.webp",
-    "manufacturerName": "HLA 66"
+    "manufacturerName": "HLA 66",
+    "powerKw": 0.4,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-66-ap-system-1027206#hla-66-unit-only-1027206",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hla-86",
     "make": "STIHL",
     "model": "HLA 86",
     "cat": "hedge",
-    "tagline": "Battery long-reach hedge trimmer · AP System",
+    "tagline": "Battery pole hedge trimmer · 0.4 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-86-ap-system-1027305#hla-86-unit-only-1027305",
     "photo": "catalog/stihl-hla-86.webp",
-    "manufacturerName": "HLA 86"
+    "manufacturerName": "HLA 86",
+    "powerKw": 0.4,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-86-ap-system-1027305#hla-86-unit-only-1027305",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-hla-135-k",
     "make": "STIHL",
     "model": "HLA 135 K",
     "cat": "hedge",
-    "tagline": "Battery long-reach hedge trimmer · AP System",
+    "tagline": "Battery pole hedge trimmer · 1 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-135-ap-system-1027315#hla-135-k-unit-only-1027259",
     "photo": "catalog/stihl-hla-135-k.webp",
     "sourceNote": "Part HA04 200 0008 not listed; used HLA 135 K (HA04 200 0007) page.",
-    "manufacturerName": "HLA 135 K"
+    "manufacturerName": "HLA 135 K",
+    "powerKw": 1.0,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-135-ap-system-1027315#hla-135-k-unit-only-1027259",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hla-135-140",
     "make": "STIHL",
     "model": "HLA 135/140",
     "cat": "hedge",
-    "tagline": "Battery long-reach hedge trimmer · AP System",
+    "tagline": "Battery pole hedge trimmer · 1 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-135-ap-system-1027315#hla-135-145degres-unit-only-1027315",
     "photo": "catalog/stihl-hla-135-140.webp",
-    "manufacturerName": "HLA 135 (145°)"
+    "manufacturerName": "HLA 135 (145°)",
+    "powerKw": 1.0,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-135-ap-system-1027315#hla-135-145degres-unit-only-1027315",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hs-45",
     "make": "STIHL",
     "model": "HS 45",
     "cat": "hedge",
-    "tagline": "Gas hedge trimmer · 1.7 cu in",
+    "tagline": "Gas hedge trimmer · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-45-gasoline-hedge-trimmer-1027025#hs-45-1027025",
     "photo": "catalog/stihl-hs-45.webp",
-    "manufacturerName": "HS 45"
+    "manufacturerName": "HS 45",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-hs-46-c-e",
     "make": "STIHL",
     "model": "HS 46 C-E",
     "cat": "hedge",
-    "tagline": "Gas hedge trimmer · 1.3 cu in",
+    "tagline": "Gas hedge trimmer · 21.4 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-46-gasoline-hedge-trimmer-1027307#hs-46-c-e-1027307",
     "photo": "catalog/stihl-hs-46-c-e.webp",
-    "manufacturerName": "HS 46 C-E"
+    "manufacturerName": "HS 46 C-E",
+    "displacementCc": 21.4,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-hsa-50-1",
     "make": "STIHL",
     "model": "HSA 50.1",
     "cat": "hedge",
-    "tagline": "Battery hedge trimmer · AK System",
+    "tagline": "Battery hedge trimmer · 0.35 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-50-ak-system-1033001#hsa-50-set-1033001",
     "photo": "catalog/stihl-hsa-50-1.webp",
-    "manufacturerName": "HSA 50 Set"
+    "manufacturerName": "HSA 50 Set",
+    "powerKw": 0.35,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-50-ak-system-1033001#hsa-50-set-1033001"
   },
   {
     "id": "stihl-hs-82-r",
     "make": "STIHL",
     "model": "HS 82 R",
     "cat": "hedge",
-    "tagline": "Gas hedge trimmer · 1.4 cu in",
+    "tagline": "Gas hedge trimmer · 22.7 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-82-gasoline-hedge-trimmer-1027087#hs-82-r-1027248",
     "photo": "catalog/stihl-hs-82-r.webp",
-    "manufacturerName": "HS 82 R"
+    "manufacturerName": "HS 82 R",
+    "displacementCc": 22.7,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-hs-82-t",
     "make": "STIHL",
     "model": "HS 82 T",
     "cat": "hedge",
-    "tagline": "Gas hedge trimmer · 1.4 cu in",
+    "tagline": "Gas hedge trimmer · 22.7 cc",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-82-gasoline-hedge-trimmer-1027087#hs-82-t-1027087",
     "photo": "catalog/stihl-hs-82-t.webp",
-    "manufacturerName": "HS 82 T"
+    "manufacturerName": "HS 82 T",
+    "displacementCc": 22.7,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-hsa-60",
     "make": "STIHL",
     "model": "HSA 60",
     "cat": "hedge",
-    "tagline": "Battery hedge trimmer · AK System",
+    "tagline": "Battery hedge trimmer · 0.29 kW",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-60-ak-system-1027628#hsa-60-set-1027628",
     "photo": "catalog/stihl-hsa-60.webp",
-    "manufacturerName": "HSA 60 Set"
+    "manufacturerName": "HSA 60 Set",
+    "powerKw": 0.29,
+    "powerKind": "output",
+    "powerSource": "https://www.stihl.co.uk/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-60-ak-system-183459"
   },
   {
     "id": "stihl-hsa-140-t",
     "make": "STIHL",
     "model": "HSA 140 T",
     "cat": "hedge",
-    "tagline": "Battery hedge trimmer",
+    "tagline": "Battery hedge trimmer · 0.65 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-140-1030006#hsa-140-t-unit-only-1027556",
     "photo": "catalog/stihl-hsa-140-t.webp",
-    "manufacturerName": "HSA 140 T"
+    "manufacturerName": "HSA 140 T",
+    "powerKw": 0.65,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-140-1030006#hsa-140-t-unit-only-1027556"
   },
   {
     "id": "stihl-ht-56-c-e",
     "make": "STIHL",
     "model": "HT 56 C-E",
     "cat": "hedge",
-    "tagline": "Gas pole pruner · 1.7 cu in",
+    "tagline": "Gas pole saw · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-ht-56-c-e-1027213#ht-56-c-e-1027213",
     "photo": "catalog/stihl-ht-56-c-e.webp",
-    "manufacturerName": "HT 56 C-E"
+    "manufacturerName": "HT 56 C-E",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-ht-135",
     "make": "STIHL",
     "model": "HT 135",
     "cat": "hedge",
-    "tagline": "Gas pole pruner · 2.2 cu in",
+    "tagline": "Gas pole saw · 36.3 cc",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-ht-135-gasoline-pole-pruner-1027390#ht-135-1027390",
     "photo": "catalog/stihl-ht-135.webp",
-    "manufacturerName": "HT 135"
+    "manufacturerName": "HT 135",
+    "displacementCc": 36.3,
+    "specSource": "https://www.stihlusa.com/en/p/pole-pruners-ht-135-gasoline-pole-pruner-1027390#ht-135-1027390",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hta-50",
     "make": "STIHL",
     "model": "HTA 50",
     "cat": "hedge",
-    "tagline": "Battery pole pruner · AK System",
+    "tagline": "Battery pole saw · 0.58 kW",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-50-ak-system-1027398#hta-50-unit-only-1027398",
     "photo": "catalog/stihl-hta-50.webp",
     "sourceNote": "Set (LA02 200 0018) not listed; used HTA 50 unit-only page.",
-    "manufacturerName": "HTA 50"
+    "manufacturerName": "HTA 50",
+    "powerKw": 0.58,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hta-66",
     "make": "STIHL",
     "model": "HTA 66",
     "cat": "hedge",
-    "tagline": "Battery pole pruner · AP System",
+    "tagline": "Battery pole saw · 1.1 kW input",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-66-ap-system-1027341#hta-66-unit-only-1027341",
     "photo": "catalog/stihl-hta-66.webp",
-    "manufacturerName": "HTA 66"
+    "manufacturerName": "HTA 66",
+    "powerKw": 1.1,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/pole-pruners-hta-66-ap-system-1027341#hta-66-unit-only-1027341",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hta-86",
     "make": "STIHL",
     "model": "HTA 86",
     "cat": "hedge",
-    "tagline": "Battery pole pruner · AP System",
+    "tagline": "Battery pole saw · 0.83 kW",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-86-ap-system-1027139#hta-86-unit-only-1027139",
     "photo": "catalog/stihl-hta-86.webp",
-    "manufacturerName": "HTA 86"
+    "manufacturerName": "HTA 86",
+    "powerKw": 0.83,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-hta-135",
     "make": "STIHL",
     "model": "HTA 135",
     "cat": "hedge",
-    "tagline": "Battery pole pruner · AP System",
+    "tagline": "Battery pole saw · 1.1 kW",
     "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-135-ap-system-1027043#hta-135-unit-only-1027043",
     "photo": "catalog/stihl-hta-135.webp",
-    "manufacturerName": "HTA 135"
+    "manufacturerName": "HTA 135",
+    "powerKw": 1.1,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "stihl-km-56-rc-e-combiengine",
     "make": "STIHL",
     "model": "KM 56 RC-E CombiEngine",
     "cat": "multi",
-    "tagline": "Gas KombiSystem · 1.7 cu in",
+    "tagline": "Gas Kombi powerhead · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-km-56-rc-e-gasoline-kombisystem-1027290#km-56-rc-e-1027290",
     "photo": "catalog/stihl-km-56-rc-e-combiengine.webp",
-    "manufacturerName": "KM 56 RC-E"
+    "manufacturerName": "KM 56 RC-E",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-km-91-r-combiengine",
     "make": "STIHL",
     "model": "KM 91 R CombiEngine",
     "cat": "multi",
-    "tagline": "Gas KombiSystem · 1.7 cu in",
+    "tagline": "Gas Kombi powerhead · 28.4 cc",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-km-91-r-gasoline-kombisystem-1002312#km-91-r-1002312",
     "photo": "catalog/stihl-km-91-r-combiengine.webp",
-    "manufacturerName": "KM 91 R"
+    "manufacturerName": "KM 91 R",
+    "displacementCc": 28.4,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-km-94-r-combiengine",
     "make": "STIHL",
     "model": "KM 94 R CombiEngine",
     "cat": "multi",
-    "tagline": "Gas KombiSystem · 1.5 cu in",
+    "tagline": "Gas Kombi powerhead · 24.1 cc",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-km-94-rc-e-gasoline-kombisystem-1027323#km-94-r-1027323",
     "photo": "catalog/stihl-km-94-r-combiengine.webp",
-    "manufacturerName": "KM 94 R"
+    "manufacturerName": "KM 94 R",
+    "displacementCc": 24.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-km-131-r-combiengine",
     "make": "STIHL",
     "model": "KM 131 R CombiEngine",
     "cat": "multi",
-    "tagline": "Gas KombiSystem · 2.2 cu in",
+    "tagline": "Gas Kombi powerhead · 36.3 cc",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-km-131-gasoline-kombisystem-1027170#km-131-r-1027170",
     "photo": "catalog/stihl-km-131-r-combiengine.webp",
-    "manufacturerName": "KM 131 R"
+    "manufacturerName": "KM 131 R",
+    "displacementCc": 36.3,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-kma-80-r",
     "make": "STIHL",
     "model": "KMA 80 R",
     "cat": "multi",
-    "tagline": "Battery KombiSystem · AK System",
+    "tagline": "Battery Kombi powerhead · 0.8 kW",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-80-r-ak-system-1027496#kma-80-r-unit-only-1027489",
     "photo": "catalog/stihl-kma-80-r.webp",
-    "manufacturerName": "KMA 80 R"
+    "manufacturerName": "KMA 80 R",
+    "powerKw": 0.8,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-kma-135-r-kombimotor",
     "make": "STIHL",
     "model": "KMA 135 R KombiMotor",
     "cat": "multi",
-    "tagline": "Battery KombiSystem · AP System",
+    "tagline": "Battery Kombi powerhead · 0.95 kW",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-135-r-ap-system-1027316#kma-135-r-1027316",
     "photo": "catalog/stihl-kma-135-r-kombimotor.webp",
-    "manufacturerName": "KMA 135 R"
+    "manufacturerName": "KMA 135 R",
+    "powerKw": 0.95,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-kma-200-r-kombimotor",
     "make": "STIHL",
     "model": "KMA 200 R KombiMotor",
     "cat": "multi",
-    "tagline": "Battery KombiSystem",
+    "tagline": "Battery Kombi powerhead · 1.5 kW",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-200-r-battery-kombisystem-1027530#kma-200-r-unit-only-1027530",
     "photo": "catalog/stihl-kma-200-r-kombimotor.webp",
-    "manufacturerName": "KMA 200 R"
+    "manufacturerName": "KMA 200 R",
+    "powerKw": 1.5,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-fs-km-autocut-27-2",
@@ -782,7 +989,9 @@
     "tagline": "KombiTool line head trimmer",
     "info": "https://www.stihlusa.com/en/ap/fs-km-line-head-trimmer-1027051",
     "photo": "catalog/stihl-fs-km-autocut-27-2.webp",
-    "manufacturerName": "FS-KM Line Head Trimmer"
+    "manufacturerName": "FS-KM Line Head Trimmer",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-fh-km-145-scrub-cutter",
@@ -792,7 +1001,9 @@
     "tagline": "KombiTool adjustable power scythe",
     "info": "https://www.stihlusa.com/en/ap/fh-km-145degres-adjustable-power-scythe-1027145",
     "photo": "catalog/stihl-fh-km-145-scrub-cutter.webp",
-    "manufacturerName": "FH-KM 145° Adjustable Power Scythe"
+    "manufacturerName": "FH-KM 145° Adjustable Power Scythe",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-hl-km-24-145",
@@ -803,7 +1014,9 @@
     "info": "https://www.stihlusa.com/en/ap/hl-km-145degres-adjustable-hedge-trimmer-1027335",
     "photo": "catalog/stihl-hl-km-24-145.webp",
     "sourceNote": "Part 4243 740 5009 not listed; used HL-KM 145° page (4243 740 5004).",
-    "manufacturerName": "HL-KM 145° Adjustable Hedge Trimmer"
+    "manufacturerName": "HL-KM 145° Adjustable Hedge Trimmer",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-ht-km-polesaw",
@@ -813,7 +1026,9 @@
     "tagline": "KombiTool pole pruner",
     "info": "https://www.stihlusa.com/en/ap/ht-km-pole-pruner-1027245",
     "photo": "catalog/stihl-ht-km-polesaw.webp",
-    "manufacturerName": "HT-KM Pole Pruner"
+    "manufacturerName": "HT-KM Pole Pruner",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-fcs-km-edger",
@@ -823,7 +1038,9 @@
     "tagline": "KombiTool straight lawn edger",
     "info": "https://www.stihlusa.com/en/ap/fcs-km-straight-lawn-edger-1027331",
     "photo": "catalog/stihl-fcs-km-edger.webp",
-    "manufacturerName": "FCS-KM Straight Lawn Edger"
+    "manufacturerName": "FCS-KM Straight Lawn Edger",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-kb-km-bristle-brush",
@@ -833,7 +1050,9 @@
     "tagline": "KombiTool bristle brush",
     "info": "https://www.stihlusa.com/en/ap/kb-km-bristle-brush-attachment-1027119",
     "photo": "catalog/stihl-kb-km-bristle-brush.webp",
-    "manufacturerName": "KB-KM Bristle Brush Attachment"
+    "manufacturerName": "KB-KM Bristle Brush Attachment",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-kw-km-sweeper-drum",
@@ -843,7 +1062,9 @@
     "tagline": "KombiTool PowerSweep sweeper",
     "info": "https://www.stihlusa.com/en/ap/kw-km-stihl-powersweep-1002177",
     "photo": "catalog/stihl-kw-km-sweeper-drum.webp",
-    "manufacturerName": "KW-KM STIHL PowerSweep™"
+    "manufacturerName": "KW-KM STIHL PowerSweep™",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-bg-km-axial-blower",
@@ -853,7 +1074,9 @@
     "tagline": "KombiTool blower",
     "info": "https://www.stihlusa.com/en/ap/bg-km-blower-1027286",
     "photo": "catalog/stihl-bg-km-axial-blower.webp",
-    "manufacturerName": "BG-KM Blower"
+    "manufacturerName": "BG-KM Blower",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-fbd-km-bed-redefiner",
@@ -863,7 +1086,9 @@
     "tagline": "KombiTool bed redefiner",
     "info": "https://www.stihlusa.com/en/ap/fbd-km-bed-redefiner-1027289",
     "photo": "catalog/stihl-fbd-km-bed-redefiner.webp",
-    "manufacturerName": "FBD-KM Bed Redefiner"
+    "manufacturerName": "FBD-KM Bed Redefiner",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-bf-km-cultivator",
@@ -873,7 +1098,9 @@
     "tagline": "KombiTool mini-cultivator",
     "info": "https://www.stihlusa.com/en/ap/bf-km-mini-cultivator-1027098",
     "photo": "catalog/stihl-bf-km-cultivator.webp",
-    "manufacturerName": "BF-KM Mini-Cultivator"
+    "manufacturerName": "BF-KM Mini-Cultivator",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-hl-km-0-hedgetrimmer",
@@ -884,7 +1111,9 @@
     "info": "https://www.stihlusa.com/en/ap/hl-km-0degres-straight-hedge-trimmer-1027154",
     "photo": "catalog/stihl-hl-km-0-hedgetrimmer.webp",
     "sourceNote": "Part 4243 740 5010 not listed; used HL-KM 0° page (4243 740 5001).",
-    "manufacturerName": "HL-KM 0° Straight Hedge Trimmer"
+    "manufacturerName": "HL-KM 0° Straight Hedge Trimmer",
+    "photoZoom": 1.7,
+    "photoPosition": "65% 50%"
   },
   {
     "id": "stihl-carbon-fiber-km-extension",
@@ -901,167 +1130,199 @@
     "make": "STIHL",
     "model": "MS 151 T C-E",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 23.6 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-151-gasoline-chainsaw-1027337#ms-151-t-c-e-1027063",
     "photo": "catalog/stihl-ms-151-t-c-e.webp",
-    "manufacturerName": "MS 151 T C-E"
+    "manufacturerName": "MS 151 T C-E",
+    "displacementCc": 23.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-162",
     "make": "STIHL",
     "model": "MS 162",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 30.1 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-162-gasoline-chainsaw-1027385#ms-162-1027385",
     "photo": "catalog/stihl-ms-162.webp",
-    "manufacturerName": "MS 162"
+    "manufacturerName": "MS 162",
+    "displacementCc": 30.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-172-c-e",
     "make": "STIHL",
     "model": "MS 172 C-E",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 31.8 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-172-gasoline-chainsaw-1027405#ms-172-c-e-1027405",
     "photo": "catalog/stihl-ms-172-c-e.webp",
-    "manufacturerName": "MS 172 C-E"
+    "manufacturerName": "MS 172 C-E",
+    "displacementCc": 31.8,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-182",
     "make": "STIHL",
     "model": "MS 182",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 35.8 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-182-gasoline-chainsaw-1027406#ms-182-1027406",
     "photo": "catalog/stihl-ms-182.webp",
-    "manufacturerName": "MS 182"
+    "manufacturerName": "MS 182",
+    "displacementCc": 35.8,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-182-c-be",
     "make": "STIHL",
     "model": "MS 182 C-BE",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 35.8 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-182-gasoline-chainsaw-1027406#ms-182-c-be-1027418",
     "photo": "catalog/stihl-ms-182-c-be.webp",
-    "manufacturerName": "MS 182 C-BE"
+    "manufacturerName": "MS 182 C-BE",
+    "displacementCc": 35.8,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-194-t",
     "make": "STIHL",
     "model": "MS 194 T",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 31.8 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-194-gasoline-chainsaw-1027108?bvstate=pg%3A5%2Fct%3Ar",
     "photo": "catalog/stihl-ms-194-t.webp",
-    "manufacturerName": "MS 194 T"
+    "manufacturerName": "MS 194 T",
+    "displacementCc": 31.8,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-201-t-c-m",
     "make": "STIHL",
     "model": "MS 201 T C-M",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 35.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-201-gasoline-chainsaw-1027285#ms-201-t-c-m-1027365",
     "photo": "catalog/stihl-ms-201-t-c-m.webp",
-    "manufacturerName": "MS 201 T C-M"
+    "manufacturerName": "MS 201 T C-M",
+    "displacementCc": 35.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-212-c-be",
     "make": "STIHL",
     "model": "MS 212 C-BE",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 38.6 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-212-gasoline-chainsaw-1027438#ms-212-c-be-1027438",
     "photo": "catalog/stihl-ms-212-c-be.webp",
-    "manufacturerName": "MS 212 C-BE"
+    "manufacturerName": "MS 212 C-BE",
+    "displacementCc": 38.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-250",
     "make": "STIHL",
     "model": "MS 250",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 45.4 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-250-gasoline-chainsaw-1027308#ms-250-1027308",
     "photo": "catalog/stihl-ms-250.webp",
-    "manufacturerName": "MS 250"
+    "manufacturerName": "MS 250",
+    "displacementCc": 45.4,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-251",
     "make": "STIHL",
     "model": "MS 251",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 45.6 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-251-gasoline-chainsaw-1027228#ms-251-wood-boss-1027228",
     "photo": "catalog/stihl-ms-251.webp",
-    "manufacturerName": "MS 251"
+    "manufacturerName": "MS 251",
+    "displacementCc": 45.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-251-c-be",
     "make": "STIHL",
     "model": "MS 251 C-BE",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 45.6 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-251-gasoline-chainsaw-1027228#ms-251-c-be-1027380",
     "photo": "catalog/stihl-ms-251-c-be.webp",
-    "manufacturerName": "MS 251 C-BE"
+    "manufacturerName": "MS 251 C-BE",
+    "displacementCc": 45.6,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-261",
     "make": "STIHL",
     "model": "MS 261",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 50.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-261-1027249#ms-261-1027249",
     "photo": "catalog/stihl-ms-261.webp",
-    "manufacturerName": "MS 261"
+    "manufacturerName": "MS 261",
+    "displacementCc": 50.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-271",
     "make": "STIHL",
     "model": "MS 271",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 50.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-271-gasoline-chainsaw-1027150#ms-271-farm-boss-18%22-1027089",
     "photo": "catalog/stihl-ms-271.webp",
-    "manufacturerName": "MS 271"
+    "manufacturerName": "MS 271",
+    "displacementCc": 50.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-291",
     "make": "STIHL",
     "model": "MS 291",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 55.5 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-291-gasoline-chainsaw-1027069#ms-291-1027069",
     "photo": "catalog/stihl-ms-291.webp",
-    "manufacturerName": "MS 291"
+    "manufacturerName": "MS 291",
+    "displacementCc": 55.5,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-311",
     "make": "STIHL",
     "model": "MS 311",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 59 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-311-1027268#ms-311-1027268",
     "photo": "catalog/stihl-ms-311.webp",
-    "manufacturerName": "MS 311"
+    "manufacturerName": "MS 311",
+    "displacementCc": 59.0,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-362",
     "make": "STIHL",
     "model": "MS 362",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 59 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-362-gasoline-chainsaw-1027130#ms-362-1027130",
     "photo": "catalog/stihl-ms-362.webp",
-    "manufacturerName": "MS 362"
+    "manufacturerName": "MS 362",
+    "displacementCc": 59.0,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-362-c-m",
     "make": "STIHL",
     "model": "MS 362 C-M",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-362-gasoline-chainsaw-1027130#ms-362-c-m-1027029",
     "photo": "catalog/stihl-ms-362-c-m.webp",
     "manufacturerName": "MS 362 C-M"
@@ -1071,67 +1332,79 @@
     "make": "STIHL",
     "model": "MS 391",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 64.1 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-391-gasoline-chainsaw-1027244#ms-391-1027244",
     "photo": "catalog/stihl-ms-391.webp",
-    "manufacturerName": "MS 391"
+    "manufacturerName": "MS 391",
+    "displacementCc": 64.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-400-c-m",
     "make": "STIHL",
     "model": "MS 400 C-M",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 66.8 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-400-gasoline-chainsaw-1027093#ms-400-c-m-1027093",
     "photo": "catalog/stihl-ms-400-c-m.webp",
-    "manufacturerName": "MS 400 C-M"
+    "manufacturerName": "MS 400 C-M",
+    "displacementCc": 66.8,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-462",
     "make": "STIHL",
     "model": "MS 462",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 72.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-462-gasoline-chainsaw-1027370#ms-462-1027370",
     "photo": "catalog/stihl-ms-462.webp",
-    "manufacturerName": "MS 462"
+    "manufacturerName": "MS 462",
+    "displacementCc": 72.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-462-c-m",
     "make": "STIHL",
     "model": "MS 462 C-M",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 72.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-462-gasoline-chainsaw-1027370#baseurl-products-chain-saws-professional-saws-ms462cm--1027147",
     "photo": "catalog/stihl-ms-462-c-m.webp",
-    "manufacturerName": "MS 462 C-M"
+    "manufacturerName": "MS 462 C-M",
+    "displacementCc": 72.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-500i",
     "make": "STIHL",
     "model": "MS 500i",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 79.2 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-500i-1027221#ms-500i-1027221",
     "photo": "catalog/stihl-ms-500i.webp",
-    "manufacturerName": "MS 500i"
+    "manufacturerName": "MS 500i",
+    "displacementCc": 79.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-661",
     "make": "STIHL",
     "model": "MS 661",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw · 91.1 cc",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-661-gasoline-chainsaw-1027056#ms-661-magnum-1027056",
     "photo": "catalog/stihl-ms-661.webp",
-    "manufacturerName": "MS 661"
+    "manufacturerName": "MS 661",
+    "displacementCc": 91.1,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-ms-881",
     "make": "STIHL",
     "model": "MS 881",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Gas chainsaw",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-881-gasoline-chainsaw-1027004#ms-881-magnum-1027004",
     "photo": "catalog/stihl-ms-881.webp",
     "manufacturerName": "MS 881"
@@ -1141,175 +1414,223 @@
     "make": "STIHL",
     "model": "MSA 60 C-B",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 0.7 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-60-ak-system-1027460#msa-60-c-b-unit-only-1027459",
     "photo": "catalog/stihl-msa-60-c-b.webp",
-    "manufacturerName": "MSA 60 C-B"
+    "manufacturerName": "MSA 60 C-B",
+    "powerKw": 0.7,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-70-c-b",
     "make": "STIHL",
     "model": "MSA 70 C-B",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 0.9 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-70-ak-system-1027462#msa-70-c-b-set-1027462",
     "photo": "catalog/stihl-msa-70-c-b.webp",
-    "manufacturerName": "MSA 70 C-B"
+    "manufacturerName": "MSA 70 C-B",
+    "powerKw": 0.9,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-80-c-b",
     "make": "STIHL",
     "model": "MSA 80 C-B",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 1.2 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-80-battery-powered-chainsaw-1027671#msa-80-c-b-unit-only-1027515",
     "photo": "catalog/stihl-msa-80-c-b.webp",
-    "manufacturerName": "MSA 80 C-B"
+    "manufacturerName": "MSA 80 C-B",
+    "powerKw": 1.2,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-160-c-b",
     "make": "STIHL",
     "model": "MSA 160 C-B",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 1.2 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-160-ap-system-1027481#msa-160-c-b-unit-only-1027481",
     "photo": "catalog/stihl-msa-160-c-b.webp",
-    "manufacturerName": "MSA 160 C-B"
+    "manufacturerName": "MSA 160 C-B",
+    "powerKw": 1.2,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-161-t",
     "make": "STIHL",
     "model": "MSA 161 T",
     "cat": "chainsaw",
-    "tagline": "Battery top-handle chainsaw",
+    "tagline": "Battery chainsaw · 0.99 kW",
     "info": "https://www.stihl.ca/en/p/chainsaws-msa-161-ap-system-88757",
     "photo": "catalog/stihl-msa-161-t.webp",
     "sourceNote": "Official STIHL Canada product page; USA product page not found.",
-    "manufacturerName": "MSA 161 T"
+    "manufacturerName": "MSA 161 T",
+    "powerKw": 0.99,
+    "powerKind": "output",
+    "powerSource": "https://cdnassets.stihlusa.com/1733333284-stih24_15533_2025fullline_wcov.pdf"
   },
   {
     "id": "stihl-msa-190-t",
     "make": "STIHL",
     "model": "MSA 190 T",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 1.25 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-190-t-battery-powered-chainsaw-1027573#msa-190-t-unit-only-1027573",
     "photo": "catalog/stihl-msa-190-t.webp",
-    "manufacturerName": "MSA 190 T"
+    "manufacturerName": "MSA 190 T",
+    "powerKw": 1.25,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-200-c-b",
     "make": "STIHL",
     "model": "MSA 200 C-B",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 1.5 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-200-ap-system-1027177#msa-200-c-b-unit-only-1027177",
     "photo": "catalog/stihl-msa-200-c-b.webp",
-    "manufacturerName": "MSA 200 C-B"
+    "manufacturerName": "MSA 200 C-B",
+    "powerKw": 1.5,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-220-tc-o",
     "make": "STIHL",
     "model": "MSA 220 TC-O",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 1.7 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-220-tc-o-battery-powered-chainsaw-1027403#msa-220-tc-o-unit-only-1027403",
     "photo": "catalog/stihl-msa-220-tc-o.webp",
-    "manufacturerName": "MSA 220 TC-O"
+    "manufacturerName": "MSA 220 TC-O",
+    "powerKw": 1.7,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-msa-300-c-o",
     "make": "STIHL",
     "model": "MSA 300 C-O",
     "cat": "chainsaw",
-    "tagline": "Chainsaw",
+    "tagline": "Battery chainsaw · 2.5 kW",
     "info": "https://www.stihlusa.com/en/p/chainsaws-msa-300-battery-powered-chainsaw-1027401#msa-300-c-o-unit-only-1027401",
     "photo": "catalog/stihl-msa-300-c-o.webp",
-    "manufacturerName": "MSA 300 C-O"
+    "manufacturerName": "MSA 300 C-O",
+    "powerKw": 2.5,
+    "powerKind": "output",
+    "powerSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bt-131-auger",
     "make": "STIHL",
     "model": "BT 131 Auger",
     "cat": "other",
-    "tagline": "Gas earth auger · 2.2 cu in",
+    "tagline": "Gas earth auger · 36.3 cc",
     "info": "https://www.stihlusa.com/en/p/earth-augers-bt-131-gasoline-earth-auger-1027231",
     "photo": "catalog/stihl-bt-131-auger.webp",
-    "manufacturerName": "BT 131"
+    "manufacturerName": "BT 131",
+    "displacementCc": 36.3,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-bt-45-auger-drill",
     "make": "STIHL",
     "model": "BT 45 Auger / Drill",
     "cat": "other",
-    "tagline": "Gas earth auger / drill · 1.7 cu in",
+    "tagline": "Gas earth auger / drill · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/earth-augers-bt-45-gasoline-earth-auger-1027038",
     "photo": "catalog/stihl-bt-45-auger-drill.webp",
-    "manufacturerName": "BT 45"
+    "manufacturerName": "BT 45",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-fc-96-edger",
     "make": "STIHL",
     "model": "FC 96 Edger",
     "cat": "other",
-    "tagline": "Gas edger · 1.7 cu in",
+    "tagline": "Gas edger · 28.4 cc",
     "info": "https://www.stihlusa.com/en/p/edgers-fc-96-1027423",
     "photo": "catalog/stihl-fc-96-edger.webp",
-    "manufacturerName": "FC 96"
+    "manufacturerName": "FC 96",
+    "displacementCc": 28.4,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-gta-26",
     "make": "STIHL",
     "model": "GTA 26",
     "cat": "other",
-    "tagline": "Battery garden pruner · 4\" bar",
+    "tagline": "Battery pruning saw · 0.3 kW input",
     "info": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-26-as-system-1027100",
     "photo": "catalog/stihl-gta-26.webp",
     "sourceNote": "Photo is unit only; dealer item is the Set.",
-    "manufacturerName": "GTA 26"
+    "manufacturerName": "GTA 26",
+    "powerKw": 0.3,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-26-as-system-1027100"
   },
   {
     "id": "stihl-gta-30",
     "make": "STIHL",
     "model": "GTA 30",
     "cat": "other",
-    "tagline": "Battery garden pruner · 6\" bar",
+    "tagline": "Battery pruning saw · 0.4 kW input",
     "info": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-30-battery-garden-pruner-1027652",
     "photo": "catalog/stihl-gta-30.webp",
     "sourceNote": "Set photo carried a price badge; used clean unit shot.",
-    "manufacturerName": "GTA 30"
+    "manufacturerName": "GTA 30",
+    "powerKw": 0.4,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-30-battery-garden-pruner-1027652"
   },
   {
     "id": "stihl-gta-40-0",
     "make": "STIHL",
     "model": "GTA 40.0",
     "cat": "other",
-    "tagline": "Battery pruner for in-tree pros · 520 W",
+    "tagline": "Battery pruning saw · 0.52 kW input",
     "info": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650",
     "photo": "catalog/stihl-gta-40-0.webp",
     "sourceNote": "STIHL USA names it GTA 40 (not 40.0). Set photo.",
-    "manufacturerName": "GTA 40"
+    "manufacturerName": "GTA 40",
+    "powerKw": 0.52,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650"
   },
   {
     "id": "stihl-gta-40-0-cordless-pruner",
     "make": "STIHL",
     "model": "GTA 40.0 Cordless pruner",
     "cat": "other",
-    "tagline": "Battery pruner for in-tree pros · 520 W",
+    "tagline": "Battery pruning saw · 0.52 kW input",
     "info": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650",
     "photo": "catalog/stihl-gta-40-0-cordless-pruner.webp",
     "sourceNote": "Same page as stihl-gta-40-0; unit-only photo. Possible duplicate.",
-    "manufacturerName": "GTA 40"
+    "manufacturerName": "GTA 40",
+    "powerKw": 0.52,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650"
   },
   {
     "id": "stihl-hsa-26",
     "make": "STIHL",
     "model": "HSA 26",
     "cat": "other",
-    "tagline": "Battery hedge trimmer",
+    "tagline": "Battery hedge trimmer · 0.16 kW input",
     "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-26-as-system-1027216",
     "photo": "catalog/stihl-hsa-26.webp",
-    "manufacturerName": "HSA 26"
+    "manufacturerName": "HSA 26",
+    "powerKw": 0.16,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-26-as-system-1027216"
   },
   {
     "id": "stihl-rm-453-3-v-lawnmower",
@@ -1337,7 +1658,7 @@
     "make": "STIHL",
     "model": "RMA 348",
     "cat": "mower",
-    "tagline": "Battery lawn mower · 18.1\" cutting width",
+    "tagline": "Battery mower",
     "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-348-battery-powered-lawn-mower-1024004",
     "photo": "catalog/stihl-rma-348.webp",
     "sourceNote": "Set photo carried a price badge; used unit-only shot.",
@@ -1348,48 +1669,59 @@
     "make": "STIHL",
     "model": "SEA 20",
     "cat": "other",
-    "tagline": "Battery hand vacuum",
+    "tagline": "Battery vacuum · 0.1 kW input",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-20-battery-powered-hand-vacuum-1027415",
     "photo": "catalog/stihl-sea-20.webp",
-    "manufacturerName": "SEA 20"
+    "manufacturerName": "SEA 20",
+    "powerKw": 0.1,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-20-battery-powered-hand-vacuum-1027415"
   },
   {
     "id": "stihl-sea-60-0-vac",
     "make": "STIHL",
     "model": "SEA 60.0 Vac",
     "cat": "other",
-    "tagline": "Battery wet/dry vacuum",
+    "tagline": "Battery vacuum · 0.45 kW input",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-60-battery-powered-wet-dry-vacuum-1027624",
     "photo": "catalog/stihl-sea-60-0-vac.webp",
     "sourceNote": "STIHL USA names it SEA 60 (not 60.0).",
-    "manufacturerName": "SEA 60"
+    "manufacturerName": "SEA 60",
+    "powerKw": 0.45,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-60-battery-powered-wet-dry-vacuum-1027624"
   },
   {
     "id": "stihl-sea-100-vac",
     "make": "STIHL",
     "model": "SEA 100 Vac",
     "cat": "other",
-    "tagline": "Battery wet/dry vacuum",
+    "tagline": "Battery vacuum · 0.5 kW input",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-100-battery-powered-wet-dry-vacuum-1027875",
     "photo": "catalog/stihl-sea-100-vac.webp",
-    "manufacturerName": "SEA 100"
+    "manufacturerName": "SEA 100",
+    "powerKw": 0.5,
+    "powerKind": "input",
+    "powerSource": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-100-battery-powered-wet-dry-vacuum-1027875"
   },
   {
     "id": "stihl-sh-86-c-e-shredvac",
     "make": "STIHL",
     "model": "SH 86 C-E ShredVac",
     "cat": "other",
-    "tagline": "Gas vacuum shredder · 1.7 cu in",
+    "tagline": "Gas vacuum shredder · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sh-86-gasoline-vacuum-shredder-1027037",
     "photo": "catalog/stihl-sh-86-c-e-shredvac.webp",
-    "manufacturerName": "SH 86 C-E"
+    "manufacturerName": "SH 86 C-E",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-sha-140-shredvac",
     "make": "STIHL",
     "model": "SHA 140 ShredVac",
     "cat": "other",
-    "tagline": "Battery vacuum shredder",
+    "tagline": "Battery shredder vacuum",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sha-140-battery-powered-vacuum-shredder-1027621",
     "photo": "catalog/stihl-sha-140-shredvac.webp",
     "manufacturerName": "SHA 140"
@@ -1399,20 +1731,24 @@
     "make": "STIHL",
     "model": "SR 200 Mistblower",
     "cat": "pump",
-    "tagline": "Gas backpack sprayer · 2.6 gal",
+    "tagline": "Gas backpack sprayer · 2.6 gal · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sr-200-1027067",
     "photo": "catalog/stihl-sr-200-mistblower.webp",
-    "manufacturerName": "SR 200"
+    "manufacturerName": "SR 200",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-sr-450-mistblower",
     "make": "STIHL",
     "model": "SR 450 Mistblower",
     "cat": "pump",
-    "tagline": "Gas backpack sprayer · 3.7 gal",
+    "tagline": "Gas backpack sprayer · 3.7 gal · 63.3 cc",
     "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sr-450-gasoline-backpack-sprayer-1027378",
     "photo": "catalog/stihl-sr-450-mistblower.webp",
-    "manufacturerName": "SR 450"
+    "manufacturerName": "SR 450",
+    "displacementCc": 63.3,
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
   },
   {
     "id": "stihl-kga-770-sweeper",
@@ -1449,10 +1785,12 @@
     "make": "STIHL",
     "model": "MM 56 Yard Boss",
     "cat": "other",
-    "tagline": "Gas MultiEngine / cultivator · 1.7 cu in",
+    "tagline": "Gas MultiEngine / cultivator · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-mm-56-multiengine-1027064",
     "photo": "catalog/stihl-mm-56-yard-boss.webp",
-    "manufacturerName": "MM 56 C-E Yard Boss"
+    "manufacturerName": "MM 56 C-E Yard Boss",
+    "displacementCc": 27.2,
+    "specSource": "https://www.stihlusa.com/en/p/kombisystem-multisystem-mm-56-multiengine-1027064"
   },
   {
     "id": "shindaiwa-t262",
@@ -1462,7 +1800,9 @@
     "tagline": "Straight-shaft trimmer · 25.4 cc",
     "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/t262-straight-shaft-trimmer",
     "photo": "catalog/shindaiwa-t262.webp",
-    "manufacturerName": "T262"
+    "manufacturerName": "T262",
+    "photoZoom": 2.1,
+    "photoPosition": "90% 30%"
   },
   {
     "id": "shindaiwa-t302",
@@ -1472,7 +1812,9 @@
     "tagline": "Straight-shaft trimmer · 30.5 cc",
     "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/t302-straight-shaft-trimmer",
     "photo": "catalog/shindaiwa-t302.webp",
-    "manufacturerName": "T302"
+    "manufacturerName": "T302",
+    "photoZoom": 2.1,
+    "photoPosition": "90% 30%"
   },
   {
     "id": "echo-cs-2511p",
@@ -1654,33 +1996,42 @@
     "make": "Honda",
     "model": "HRN216VKA4",
     "cat": "mower",
-    "tagline": "21\" battery lawn mower",
+    "tagline": "Battery mower · 1.5 kW",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv",
     "photo": "catalog/honda-hrn216vka4.webp",
     "sourceNote": "Honda page lists this as HRN-BV (HRN216YXBVKA4).",
-    "manufacturerName": "HRN-BV"
+    "manufacturerName": "HRN-BV",
+    "powerKw": 1.5,
+    "powerKind": "motor rating",
+    "powerSource": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv"
   },
   {
     "id": "honda-hrx217exa6",
     "make": "Honda",
     "model": "HRX217EXA6",
     "cat": "mower",
-    "tagline": "21\" battery lawn mower",
+    "tagline": "Battery mower · 1.5 kW",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrx-be",
     "photo": "catalog/honda-hrx217exa6.webp",
     "sourceNote": "Honda page lists this as HRX-BE (HRX217YXBEXA6).",
-    "manufacturerName": "HRX-BE"
+    "manufacturerName": "HRX-BE",
+    "powerKw": 1.5,
+    "powerKind": "motor rating",
+    "powerSource": "https://powerequipment.honda.com/lawn-mowers/models/hrx-be"
   },
   {
     "id": "honda-hrc216exa6",
     "make": "Honda",
     "model": "HRC216EXA6",
     "cat": "mower",
-    "tagline": "21\" battery commercial lawn mower",
+    "tagline": "Battery mower · 2 kW",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be",
     "photo": "catalog/honda-hrc216exa6.webp",
     "sourceNote": "Honda page lists this as HRC-BE (HRC217YXBEXA6); dealer code says 216.",
-    "manufacturerName": "HRC-BE"
+    "manufacturerName": "HRC-BE",
+    "powerKw": 2,
+    "powerKind": "motor rating",
+    "powerSource": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be"
   },
   {
     "id": "honda-dp5080cbna",
@@ -1762,16 +2113,6 @@
     "info": "https://powerequipment.honda.com/pumps/models/wh20",
     "photo": "catalog/honda-wh20.webp",
     "manufacturerName": "WH20"
-  },
-  {
-    "id": "honda-wmp20",
-    "make": "Honda",
-    "model": "WMP20",
-    "cat": "pump",
-    "tagline": null,
-    "info": "",
-    "photo": "",
-    "sourceNote": "No WMP20 page on powerequipment.honda.com (not in pumps lineup; likely discontinued)."
   },
   {
     "id": "honda-wsp100",
@@ -1915,26 +2256,6 @@
     "manufacturerName": "FRC800"
   },
   {
-    "id": "honda-umc425",
-    "make": "Honda",
-    "model": "UMC425",
-    "cat": "trimmer",
-    "tagline": null,
-    "info": "",
-    "photo": "",
-    "sourceNote": "No UMC425 page on Honda site (only UMC435 power head listed; UMC425 likely discontinued)."
-  },
-  {
-    "id": "honda-umc435",
-    "make": "Honda",
-    "model": "UMC435",
-    "cat": "trimmer",
-    "tagline": "VersAttach multi-tool power head",
-    "info": "https://powerequipment.honda.com/trimmers/models/versattach-umc435-powerhead",
-    "photo": "catalog/honda-umc435.webp",
-    "manufacturerName": "UMC435"
-  },
-  {
     "id": "maruyama-bt230l",
     "make": "Maruyama",
     "model": "BT230L",
@@ -1942,7 +2263,9 @@
     "tagline": "Big M straight-shaft trimmer · 22.5 cc",
     "info": "https://maruyama-us.com/product/bt230l/",
     "photo": "catalog/maruyama-bt230l.webp",
-    "manufacturerName": "BT230L"
+    "manufacturerName": "BT230L",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-b270l",
@@ -1953,7 +2276,9 @@
     "info": "https://maruyama-us.com/product/b270l-turbo/",
     "photo": "catalog/maruyama-b270l.webp",
     "sourceNote": "Turbo page used per dealer desc; site Item No. 366473 differs from input 364852.",
-    "manufacturerName": "B270L TURBO"
+    "manufacturerName": "B270L TURBO",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-b300l",
@@ -1964,7 +2289,9 @@
     "info": "https://maruyama-us.com/product/b300l-turbo/",
     "photo": "catalog/maruyama-b300l.webp",
     "sourceNote": "Turbo page used per dealer desc; site Item No. 366476 differs from input 364855.",
-    "manufacturerName": "B300L TURBO"
+    "manufacturerName": "B300L TURBO",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-b420",
@@ -1974,7 +2301,9 @@
     "tagline": "Bike-handle brush cutter · 41.5 cc",
     "info": "https://maruyama-us.com/product/b420/",
     "photo": "catalog/maruyama-b420.webp",
-    "manufacturerName": "B420"
+    "manufacturerName": "B420",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-b420l",
@@ -1984,7 +2313,9 @@
     "tagline": "Loop-handle brush cutter · 41.5 cc",
     "info": "https://maruyama-us.com/product/b420l/",
     "photo": "catalog/maruyama-b420l.webp",
-    "manufacturerName": "B420L"
+    "manufacturerName": "B420L",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-tpp300",
@@ -1994,7 +2325,9 @@
     "tagline": "Telescopic pole pruner · 30.1 cc",
     "info": "https://maruyama-us.com/product/tpp300/",
     "photo": "catalog/maruyama-tpp300.webp",
-    "manufacturerName": "TPP300"
+    "manufacturerName": "TPP300",
+    "photoZoom": 2.1,
+    "photoPosition": "65% 0%"
   },
   {
     "id": "maruyama-eh230dsl",
@@ -2111,11 +2444,14 @@
     "make": "STIHL",
     "model": "RZA 748",
     "cat": "zt",
-    "tagline": "Battery zero-turn mower · 48\" deck",
+    "tagline": "Battery zero-turn · 5 kW drive",
     "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rza-700-series-1027654",
     "photo": "catalog/stihl-rza-748.webp",
     "sourceNote": "Exact RZA 748 image from manufacturer product API.",
-    "manufacturerName": "RZA 748"
+    "manufacturerName": "RZA 748",
+    "powerKw": 5,
+    "powerKind": "traction drive",
+    "powerSource": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rza-700-series-1027654"
   },
   {
     "id": "scag-patriot",
@@ -2152,7 +2488,7 @@
     "make": "Greenworks Commercial",
     "model": "MZ608 All Electric",
     "cat": "zt",
-    "tagline": "82V 60\" Maximus zero-turn mower",
+    "tagline": "60\" battery zero-turn mower · 82V",
     "info": "https://www.greenworkscommercial.com/products/82v-60-maximus-zero-turn-mower-mz608",
     "photo": "catalog/greenworks-commercial-mz608-all-electric.webp",
     "manufacturerName": "MZ608"
@@ -2207,5 +2543,53 @@
     "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-x/",
     "photo": "catalog/wright-stander-x.webp",
     "manufacturerName": "Stander X"
+  },
+  {
+    "id": "bluebird-pr22",
+    "make": "Bluebird",
+    "model": "PR22 Power Rake",
+    "cat": "other",
+    "tagline": "22\" power rake",
+    "info": "https://bluebirdturf.com/product/pr22-power-rake/",
+    "photo": "catalog/bluebird-pr22.webp"
+  },
+  {
+    "id": "bluebird-530",
+    "make": "Bluebird",
+    "model": "530 Lawn Aerator",
+    "cat": "other",
+    "tagline": "19\" core aerator",
+    "info": "https://bluebirdturf.com/product/530-lawn-aerator/",
+    "photo": "catalog/bluebird-530.webp"
+  },
+  {
+    "id": "bluebird-ch400h",
+    "make": "Bluebird",
+    "model": "CH400H Chipper",
+    "cat": "other",
+    "tagline": "4\" chipper · Honda GX390",
+    "info": "https://bluebirdturf.com/product/chipper-ch400h/",
+    "photo": "catalog/bluebird-ch400h.webp"
+  },
+  {
+    "id": "greenworks-atm30c",
+    "make": "Greenworks Commercial",
+    "model": "ATM30C 30\" Mower",
+    "cat": "mower",
+    "tagline": "30\" battery mower · 6.5 kW max",
+    "info": "https://www.greenworkscommercial.com/products/gen-ii-30-mower-casters-tool-only-atm30c",
+    "photo": "catalog/greenworks-atm30c.webp",
+    "powerKw": 6.5,
+    "powerKind": "maximum",
+    "powerSource": "https://www.greenworksaustralia.com/product/optimus-atm-30-all-terrain-lawnmower/"
+  },
+  {
+    "id": "altoz-trx-354",
+    "make": "Altoz",
+    "model": "TRX 354",
+    "cat": "zt",
+    "tagline": "Tracked- ZTR",
+    "info": "https://altoz.com/tracked-zero-turn-mowers/trx",
+    "photo": "catalog/altoz-trx-354.webp"
   }
 ]

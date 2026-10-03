@@ -32,7 +32,7 @@ def build():
         tag = f" — {a('tagline')}" if it.get("tagline") else ""
         rows.append(
             f'<li data-cat="{a("cat")}" data-make="{a("make")}" data-model="{a("model")}" '
-            f'data-tag="{a("tagline")}" data-photo="{a("photo")}" data-info="{a("info")}">{link}{tag}</li>'
+            f'data-zoom="{a("photoZoom")}" data-position="{a("photoPosition")}" data-tag="{a("tagline")}" data-photo="{a("photo")}" data-info="{a("info")}">{link}{tag}</li>'
         )
     block = f'{START}\n<ul class="catalog-list" id="catalogList">\n' + "\n".join(rows) + f"\n</ul>\n{END}"
     with open(INDEX, encoding="utf-8") as f:

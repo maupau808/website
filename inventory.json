@@ -88,7 +88,7 @@
     "photo": "em6500x2ag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
-    "status": "enroute",
+    "status": "available",
     "tagline": "5000w",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/generators/models/em5000"
@@ -136,7 +136,7 @@
     "photo": "b420.jpg",
     "stats": [],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "41.5cc Bullhorn Brushcutter",
     "infoMode": "link",
     "info": "https://maruyama-us.com/product/b420/#"
@@ -234,7 +234,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "Commercial ZTR w/ Kawasaki FX",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/patriot/"
@@ -309,7 +309,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "Residential ZTR Kawasaki 24hp",
     "infoMode": "link",
     "info": "https://www.hustlerturf.com/products/raptor-xd"
@@ -384,7 +384,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "Prosumer Battery Mower 6-Hour Runtime",
     "infoMode": "link",
     "info": "https://www.greenworkscommercial.com/products/82v-60-maximus-zero-turn-mower-mz608"
@@ -558,7 +558,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "2824 CFM w/ Honda Engine",
     "infoMode": "link",
     "info": "https://www.scag.com/product/stand-on-blowers/windstorm/"
@@ -608,7 +608,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "61\" Commercial Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
@@ -633,7 +633,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "61\" Commercial Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
@@ -758,7 +758,7 @@
       }
     ],
     "notes": "",
-    "status": "enroute",
+    "status": "available",
     "tagline": "Prosumer ZTR w/ Kawasaki",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/"
@@ -833,7 +833,7 @@
       }
     ],
     "notes": "",
-    "status": "sold",
+    "status": "available",
     "tagline": "50 Gallon Skid Sprayer",
     "infoMode": "link",
     "info": "https://maruyama-us.com/product/msd41-50t/"

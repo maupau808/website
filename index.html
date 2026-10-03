@@ -838,6 +838,30 @@ const catOf=it=>it.cat||cat(it.type);
 // regular lineup: baked into the page as plain HTML by generate_catalog.py (crawlable), rendered through card() here
 const CATALOG=[...document.querySelectorAll('#catalogList li')].map(li=>({cat:li.dataset.cat,make:li.dataset.make,model:li.dataset.model,tagline:li.dataset.tag,photo:li.dataset.photo,photoZoom:Number(li.dataset.zoom)||1,photoPosition:li.dataset.position||'50% 50%',info:li.dataset.info,infoMode:'link',status:'available',stats:[],src:'catalog'}));
 /*__CARD_FN_START__ — inventory-editor.html extracts everything between these sentinels for its live preview; keep them in place */
+// Fit the complete product, discounting only plain white/transparent photo margins.
+window.addEventListener('resize',()=>document.querySelectorAll('.card .ph img').forEach(img=>img.fitPhoto?.()));
+function fitProductPhoto(img){
+  if(!img.naturalWidth)return;
+  const canvas=document.createElement('canvas'),ratio=Math.min(1,600/Math.max(img.naturalWidth,img.naturalHeight));
+  canvas.width=Math.round(img.naturalWidth*ratio);canvas.height=Math.round(img.naturalHeight*ratio);
+  const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0,canvas.width,canvas.height);
+  let pixels;try{pixels=ctx.getImageData(0,0,canvas.width,canvas.height).data}catch{return}
+  const w=canvas.width,h=canvas.height,ink=(x,y)=>{const i=(y*w+x)*4;return pixels[i+3]>24&&Math.min(pixels[i],pixels[i+1],pixels[i+2])<245};
+  // Lifestyle photos and colored backgrounds keep their original framing.
+  if([[0,0],[w-1,0],[0,h-1],[w-1,h-1]].some(([x,y])=>ink(x,y)))return;
+  let left=w,top=h,right=-1,bottom=-1;
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++)if(ink(x,y)){left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y)}
+  if(right<left)return;
+  left=Math.max(0,left-3);top=Math.max(0,top-3);right=Math.min(w,right+4);bottom=Math.min(h,bottom+4);
+  const fit=()=>{
+    const box=img.parentElement,iw=img.clientWidth-28,ih=img.clientHeight-28;
+    const base=Math.min(iw/w,ih/h),scale=Math.min(2.5,(box.clientWidth-24)/((right-left)*base),(box.clientHeight-24)/((bottom-top)*base));
+    if(scale<1.12){img.style.transform='none';return}
+    const dx=(w/2-(left+right)/2)*base*scale,dy=(h/2-(top+bottom)/2)*base*scale;
+    img.style.transformOrigin='50% 50%';img.style.transform=`translate(${dx}px,${dy}px) scale(${scale})`;
+  };
+  img.fitPhoto=fit;fit();
+}
 function badge(s){return s==='available'?['avail','In stock']:s==='enroute'?['enroute','On its way']:s==='sale'?['sale','On sale']:['sold','Sold'];}
 function card(it){
   const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -849,7 +873,7 @@ function card(it){
   const infoHtml=useLink?`<a class="scard-btn" href="${esc(it.info)}" target="_blank" rel="noopener"><span class="cue-mouse">Click for more info</span><span class="cue-touch">Tap for more info</span></a>`:statsHtml||(it.src==='catalog'?'<a class="scard-btn" href="tel:8082492730">Call for details</a>':'');
   const tagHtml=it.tagline?`<div class="scard-tag" title="${esc(it.tagline)}">${esc(it.tagline)}</div>`:'';
   const zoom=Math.min(3,Math.max(1,Number(it.photoZoom)||1));
-  const img=it.photo?`<img loading="lazy" style="transform:scale(${zoom});transform-origin:${esc(it.photoPosition||'50% 50%')}" src="assets/inventory/${esc(it.photo)}" alt="${esc(it.make)} ${esc(it.model)}" onerror="this.style.display='none'">`:(it.src==='catalog'?'<span style="color:#545e58;font-size:14px">Photo unavailable</span>':'');
+  const img=it.photo?`<img loading="lazy" onload="fitProductPhoto(this)" style="transform:scale(${zoom});transform-origin:${esc(it.photoPosition||'50% 50%')}" src="assets/inventory/${esc(it.photo)}" alt="${esc(it.make)} ${esc(it.model)}" onerror="this.style.display='none'">`:(it.src==='catalog'?'<span style="color:#545e58;font-size:14px">Photo unavailable</span>':'');
   const notebar=it.notes?`<div class="cnote-bar">${esc(it.notes)}</div>`:'';
   const insideBadge=(it.status!=='available'&&bc!=='sale')?`<span class="badge ${bc}">${bt}</span>`:'';
   const outsideBadge=bc==='sale'?`<span class="badge sale">On sale</span>`:'';

@@ -829,7 +829,7 @@ document.querySelectorAll('.feat').forEach(f=>f.addEventListener('click',()=>f.c
 /* inventory */
 let STOCK=[];
 // trailers stay out of the gallery for now (no 'trailer' filter; cat() still tags them so they're skipped)
-const FILTERS=[['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Trimmers'],['blower','Blowers'],['hedge','Hedge & Pole'],['multi','Multi-Tools'],['generator','Generators'],['pump','Pumps & Sprayers'],['battery','Batteries'],['other','More']];
+const FILTERS=[['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Weedeaters'],['blower','Blowers'],['hedge','Hedge & Pole'],['multi','Multi-Tools'],['generator','Generators'],['pump','Pumps & Sprayers'],['battery','Batteries'],['other','More']];
 const HIDDEN_CATS=['trailer'];
 function cat(t){t=(t||'').toLowerCase();if(t.includes('trailer'))return'trailer';if(t.includes('zero turn'))return'zt';if(t.includes('mower'))return'mower';
   if(t.includes('chainsaw'))return'chainsaw';if(t.includes('weedeater')||t.includes('trimmer')||t.includes('brushcutter'))return'trimmer';if(t.includes('blower'))return'blower';

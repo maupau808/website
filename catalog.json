@@ -2491,5 +2491,24 @@
     "tagline": "Tracked- ZTR",
     "info": "https://altoz.com/tracked-zero-turn-mowers/trx",
     "photo": "catalog/altoz-trx-354-clean.webp"
+  },
+  {
+    "id": "toro-72910",
+    "make": "Toro",
+    "model": "Z Master 5000 · 72910",
+    "cat": "zt",
+    "tagline": "60\" commercial ZTR · 852 cc Kawasaki",
+    "info": "https://www.toro.com/en/product/72910",
+    "photo": "catalog/toro-72910.webp",
+    "displacementCc": 852
+  },
+  {
+    "id": "stihl-rma-765",
+    "make": "STIHL",
+    "model": "RMA 765 V",
+    "cat": "mower",
+    "tagline": "25\" battery mower · self-propelled",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-765-ap-system-1027026",
+    "photo": "catalog/stihl-rma-765.webp"
   }
 ]

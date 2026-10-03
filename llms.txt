@@ -1,0 +1,14 @@
+# Maui Power Equipment
+
+> Locally owned outdoor power equipment dealer at 970 Lower Main St, Wailuku, HI 96793 (Maui). Sales, walk-in service (no appointment needed), and parts for STIHL, Honda, SCAG, Wright, ECHO, Shindaiwa, Maruyama, and Hustler, plus generators and Big Tex trailers. Phone (808) 249-2730. Email Info@mauipowerequipment.com. Open Mon–Fri 7:30am–4:30pm, Sat 7:30am–2:00pm, closed Sunday.
+
+## Main
+- [Home](https://mauipowerequipment.com/): Services, hours, contact, and parts requests
+- [Current inventory](https://mauipowerequipment.com/inventory-static.html): Equipment in stock at the Wailuku store
+
+## Dealer profiles
+- [STIHL dealer page](https://mauipowerequipmentwailuku.stihldealer.net/)
+- [Honda Power Equipment dealer page](https://mauipowerequipment.powerdealer.honda.com/)
+
+## Optional
+- [Facebook](https://www.facebook.com/mauipowerequipment/)

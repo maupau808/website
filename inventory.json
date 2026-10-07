@@ -7,7 +7,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Honda GX160 9-Blade",
+    "tagline": "Prosumer · Honda GX160 9-Blade",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z20-9bl-gun-metal-honda-gx160",
     "best": true
@@ -20,7 +20,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Two-slot Ego powerhead",
+    "tagline": "Prosumer · Two-slot Ego powerhead",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z20-9bl-wimbledon-white-ego-pu2710-excludes-batteries-and-charger",
     "best": true
@@ -33,7 +33,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Honda GX160 9-Blade",
+    "tagline": "Prosumer · Honda GX160 9-Blade",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z25-9bl-white-honda-gx160",
     "best": true
@@ -46,7 +46,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Two-slot Ego powerhead",
+    "tagline": "Prosumer · Two-slot Ego powerhead",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z25-9bl-metallic-grey-honda-gx160",
     "best": true
@@ -61,7 +61,7 @@
     "status": "available",
     "infoMode": "link",
     "info": "https://www.toro.com/en/product/22298",
-    "tagline": "21\" commercial mower · Kawasaki engine"
+    "tagline": "Commercial 21\" mower · Kawasaki engine"
   },
   {
     "type": "21\" Commercial Mower",
@@ -74,7 +74,7 @@
     "infoMode": "link",
     "info": "https://www.toro.com/en/product/22295",
     "best": true,
-    "tagline": "21\" commercial mower · Honda engine"
+    "tagline": "Commercial 21\" mower · Honda engine"
   },
   {
     "type": "Generator",
@@ -103,7 +103,7 @@
   {
     "type": "Generator",
     "make": "Honda",
-    "model": "EU3000is Quiet Inverter Generator",
+    "model": "EU3000is",
     "photo": "eu3000s1ag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
@@ -115,7 +115,7 @@
   {
     "type": "Generator",
     "make": "Honda",
-    "model": "EU2200i Quiet Inverter Generator",
+    "model": "EU2200i",
     "photo": "eu2200itag_pe_imglg.jpg",
     "stats": [],
     "notes": "",
@@ -168,7 +168,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Battery-Powered Homeowner Mower",
+    "tagline": "Residential battery mower",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv"
   },
@@ -180,14 +180,14 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Battery-Powered Commercial Mower",
+    "tagline": "Commercial battery mower",
     "infoMode": "link",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be"
   },
   {
     "type": "Generator",
     "make": "Honda",
-    "model": "EU7000iS Inverter Generator",
+    "model": "EU7000iS",
     "photo": "eu7000isnac_pe_imglg.jpg",
     "stats": [],
     "notes": "",
@@ -367,7 +367,7 @@
     ],
     "notes": "",
     "status": "available",
-    "tagline": "21\" Commercial Mower w/ Steel Deck",
+    "tagline": "Commercial 21\" Mower w/ Steel Deck",
     "infoMode": "link",
     "info": "https://www.scag.com/product/walk-behind-mowers/sfc-21/"
   },
@@ -592,7 +592,7 @@
     ],
     "notes": "",
     "status": "available",
-    "tagline": "52\" Commercial Zero Turn Mower",
+    "tagline": "Commercial 52\" Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.hustlerturf.com/products/fastrak-sdx"
   },
@@ -617,7 +617,7 @@
     ],
     "notes": "",
     "status": "available",
-    "tagline": "61\" Commercial Zero Turn Mower",
+    "tagline": "Commercial 61\" Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
   },
@@ -642,7 +642,7 @@
     ],
     "notes": "",
     "status": "available",
-    "tagline": "61\" Commercial Zero Turn Mower",
+    "tagline": "Commercial 61\" Zero Turn Mower",
     "infoMode": "link",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
   },
@@ -699,32 +699,7 @@
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Tiger Cat II — 48\"",
-    "photo": "Tigercat.webp",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "Velocity 48\""
-      },
-      {
-        "label": "Engine",
-        "value": "Kawasaki FX"
-      },
-      {
-        "label": "HP",
-        "value": "22 HP"
-      }
-    ],
-    "notes": "",
-    "status": "available",
-    "tagline": "Commercial ZTR w/ 22hp Kawasaki FX",
-    "infoMode": "link",
-    "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/"
-  },
-  {
-    "type": "Commercial Zero Turn Mower",
-    "make": "Scag",
-    "model": "Tiger Cat II — 52\"",
+    "model": "Tiger Cat II",
     "photo": "Tigercat.webp",
     "stats": [
       {

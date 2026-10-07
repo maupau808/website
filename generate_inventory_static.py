@@ -40,8 +40,7 @@ SLUG = {"zt": "zero-turn-mowers", "mower": "lawn-mowers", "chainsaw": "chainsaws
 BRANDS = [("STIHL", "stihl"), ("Honda", "honda"), ("SCAG", "scag"), ("Maruyama", "maruyama"),
           ("ECHO", "echo"), ("Shindaiwa", "shindaiwa"), ("Wright", "wright"),
           ("Hustler", "hustler"), ("Greenworks Commercial", "greenworks-commercial")]
-SAMPLE = ("This is a sample of what we carry, not the full list. We often have other models in the shop "
-          "and can order most others, so call to check on anything you don't see.")
+SAMPLE = "Call (808) 249-2730 for models not listed."
 
 
 def cat(t):
@@ -236,7 +235,7 @@ footer a:hover{{color:var(--gold)}}
     return len(ld_items)
 
 
-SHOP = "Sales, walk-in service (no appointment needed), and parts at our locally owned shop on Lower Main St in Wailuku."
+SHOP = "Sales, service and parts in Wailuku, Maui."
 
 
 def build():
@@ -273,7 +272,7 @@ def build():
         page(sub, path, f"{brand} on Maui | Sales, Service & Parts — Maui Power Equipment",
              f"{brand} {', '.join(kinds[:4])} at Maui Power Equipment in Wailuku, Maui. "
              f"{brand} service and parts, walk-in. Call (808) 249-2730.",
-             f"{brand} on Maui", f"{brand} {and_list(kinds)}. " + SHOP)
+             f"{brand} on Maui", f"{brand} " + (", ".join(kinds[:4]) + " and more" if len(kinds) > 5 else and_list(kinds)) + ". " + SHOP)
         written.add(path)
     bat = [it for it in items if is_battery(it)]
     bmakes = []
@@ -284,12 +283,12 @@ def build():
     page(bat, f"{SUBDIR}/battery-powered.html", "Battery Powered Equipment on Maui | Maui Power Equipment, Wailuku",
          f"Battery-powered mowers, trimmers, blowers, chainsaws and more from {', '.join(bmakes[:4])} at Maui Power "
          "Equipment in Wailuku, Maui. Walk-in service and parts. Call (808) 249-2730.",
-         "Battery Powered Equipment", f"Quiet, no-gas equipment from {and_list(bmakes)}. " + SHOP)
+         "Battery Powered Equipment", f"Battery equipment from {and_list(bmakes)}. " + SHOP)
     bm = [it for it in bat if catof(it) in ("mower", "zt")]
     page(bm, f"{SUBDIR}/battery-mowers.html", "Battery Lawn Mowers & Zero-Turns on Maui | Maui Power Equipment",
          "Battery push mowers, electric zero-turns and stand-ons at Maui Power Equipment in Wailuku, Maui. "
          "Walk-in service and parts. Call (808) 249-2730.",
-         "Battery Mowers & Zero-Turns", "Electric push mowers, zero-turns and stand-ons — no gas, no oil changes. " + SHOP)
+         "Battery Mowers & Zero-Turns", "Battery mowers and zero-turns. " + SHOP)
     written |= {f"{SUBDIR}/battery-powered.html", f"{SUBDIR}/battery-mowers.html"}
     for f in os.listdir(os.path.join(HERE, SUBDIR)):  # drop pages for categories/brands that emptied out
         if f.endswith(".html") and f"{SUBDIR}/{f}" not in written:

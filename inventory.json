@@ -7,7 +7,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Prosumer · Honda GX160 9-Blade",
+    "tagline": "Commercial · Honda GX160 9-Blade",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z20-9bl-gun-metal-honda-gx160",
     "best": true
@@ -20,7 +20,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Prosumer · Two-slot Ego powerhead",
+    "tagline": "Commercial · Two-slot Ego powerhead",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z20-9bl-wimbledon-white-ego-pu2710-excludes-batteries-and-charger",
     "best": true
@@ -33,7 +33,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Prosumer · Honda GX160 9-Blade",
+    "tagline": "Commercial · Honda GX160 9-Blade",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z25-9bl-white-honda-gx160",
     "best": true
@@ -46,7 +46,7 @@
     "stats": [],
     "notes": "",
     "status": "available",
-    "tagline": "Prosumer · Two-slot Ego powerhead",
+    "tagline": "Commercial · Two-slot Ego powerhead",
     "infoMode": "link",
     "info": "https://myrolux.com/products/z25-9bl-metallic-grey-honda-gx160",
     "best": true
@@ -54,27 +54,14 @@
   {
     "type": "21\" Commercial Mower",
     "make": "Toro",
-    "model": "Commercial w/ Kawasaki",
+    "model": "21\" Commercial Mower",
     "photo": "Large.jpg",
     "stats": [],
     "notes": "",
     "status": "available",
     "infoMode": "link",
-    "info": "https://www.toro.com/en/product/22298",
-    "tagline": "Commercial 21\" mower · Kawasaki engine"
-  },
-  {
-    "type": "21\" Commercial Mower",
-    "make": "Toro",
-    "model": "Commercial w/ Honda",
-    "photo": "Large.jpg",
-    "stats": [],
-    "notes": "",
-    "status": "available",
-    "infoMode": "link",
-    "info": "https://www.toro.com/en/product/22295",
-    "best": true,
-    "tagline": "Commercial 21\" mower · Honda engine"
+    "info": "https://www.toro.com/en/product/22296",
+    "tagline": "Commercial 21\" mower · Honda or Kawasaki engine · blade brake clutch"
   },
   {
     "type": "Generator",
@@ -199,7 +186,7 @@
   {
     "type": "Battery Zero Turn Mower",
     "make": "Stihl",
-    "model": "RZA 748 — 48\" Electric ZTR",
+    "model": "RZA 748",
     "photo": "rza760.jpg",
     "stats": [
       {
@@ -224,7 +211,7 @@
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Patriot — 52\"",
+    "model": "Patriot",
     "photo": "patriot_2021_studio.webp",
     "stats": [
       {
@@ -249,32 +236,7 @@
   {
     "type": "Residential Zero Turn Mower",
     "make": "Scag",
-    "model": "Liberty Z — 36\" ",
-    "photo": "scag-LibertyZ_armrests-studio_hero.webp",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "42\" Hero"
-      },
-      {
-        "label": "Engine",
-        "value": "Kohler 7000"
-      },
-      {
-        "label": "HP",
-        "value": "22hp"
-      }
-    ],
-    "notes": "",
-    "status": "available",
-    "tagline": "Residential Zero Turn Mower w/ Kohler",
-    "infoMode": "link",
-    "info": "https://www.scag.com/product/zero-turn-riding-mowers/liberty-z/"
-  },
-  {
-    "type": "Residential Zero Turn Mower",
-    "make": "Scag",
-    "model": "Liberty Z — 42\" ",
+    "model": "Liberty Z",
     "photo": "scag-LibertyZ_armrests-studio_hero.webp",
     "stats": [
       {
@@ -299,7 +261,7 @@
   {
     "type": "Residential Zero Turn Mower",
     "make": "Hustler",
-    "model": "Raptor XD — 54\"",
+    "model": "Raptor XD",
     "photo": "69bc50111cf5e796c436727d_Raptor_XD_Front_left_quarter.jpg",
     "stats": [
       {
@@ -324,7 +286,7 @@
   {
     "type": "21\" Commercial Mower",
     "make": "Stihl",
-    "model": "RM 756 YC — 21\"",
+    "model": "RM 756 YC",
     "photo": "rm756.jpg",
     "stats": [
       {
@@ -349,7 +311,7 @@
   {
     "type": "21\" Commercial Mower",
     "make": "Scag",
-    "model": "SFC-21 w/ HONDA Engine",
+    "model": "SFC-21",
     "photo": "Scag-SFC-21-Walk-Behind-Mower.webp",
     "stats": [
       {
@@ -574,7 +536,7 @@
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Hustler",
-    "model": "Fastrak SDX w/ Kawasaki",
+    "model": "Fastrak SDX",
     "photo": "Fastrak.webp",
     "stats": [
       {
@@ -599,7 +561,7 @@
   {
     "type": "Commercial Zero Turn Mower",
     "make": "Scag",
-    "model": "Turf Tiger w/ 33hp Kawasaki",
+    "model": "Turf Tiger",
     "photo": "2021_TurfTiger.webp",
     "stats": [
       {
@@ -613,31 +575,6 @@
       {
         "label": "HP ",
         "value": "31 hp"
-      }
-    ],
-    "notes": "",
-    "status": "available",
-    "tagline": "Commercial 61\" Zero Turn Mower",
-    "infoMode": "link",
-    "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/"
-  },
-  {
-    "type": "Commercial Zero Turn Mower",
-    "make": "Scag",
-    "model": "Turf Tiger w/ Diesel Kubota",
-    "photo": "2021_TurfTiger.webp",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "61\" Velocity+"
-      },
-      {
-        "label": "Engine",
-        "value": "Kubota Diesel "
-      },
-      {
-        "label": "Type",
-        "value": "31hp Liq. Cooled"
       }
     ],
     "notes": "",
@@ -724,7 +661,7 @@
   {
     "type": "Zero Turn Mower",
     "make": "Scag",
-    "model": "Freedom Z — 48\"",
+    "model": "Freedom Z",
     "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
     "stats": [
       {
@@ -748,33 +685,8 @@
   },
   {
     "type": "Zero Turn Mower",
-    "make": "Scag",
-    "model": "Freedom Z — 48\"",
-    "photo": "FreedomZ_2023_studio_5D4-0057_E1_shadow_PCG_flat.webp",
-    "stats": [
-      {
-        "label": "Deck",
-        "value": "Hero 48\""
-      },
-      {
-        "label": "Engine",
-        "value": "Kohler 7000"
-      },
-      {
-        "label": "HP",
-        "value": "24 HP"
-      }
-    ],
-    "notes": "",
-    "status": "available",
-    "tagline": "Prosumer ZTR w/ 24hp Kohler 7000",
-    "infoMode": "link",
-    "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/"
-  },
-  {
-    "type": "Zero Turn Mower",
     "make": "Wright",
-    "model": "Stander X — 48\"",
+    "model": "Stander X",
     "photo": "Standerx52_1024x1024.png",
     "stats": [
       {

@@ -12,3 +12,9 @@ inventory-editor.html
 
 # Editor/IDE local config
 .claude/
+
+# Finder/iCloud duplicate copies ("name 2.webp") — never publish
+assets/**/* [0-9].webp
+assets/**/* [0-9].jpg
+assets/**/* [0-9].png
+!assets/inventory/Z-Series*

@@ -15,6 +15,7 @@ styled like the site) so Google and AI crawlers can read and link to it.
 import html
 import json
 import os
+import re
 from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -26,16 +27,19 @@ SITE = "https://mauipowerequipment.com"
 
 # Same categories, labels and order as the homepage filters (index.html FILTERS / cat()).
 CATS = [("zt", "Zero-Turn Mowers"), ("mower", "Lawn Mowers"), ("chainsaw", "Chainsaws"),
-        ("trimmer", "String Trimmers & Weedeaters"), ("blower", "Leaf Blowers"),
+        ("trimmer", "String Trimmers & Weedeaters"), ("edger", "Edgers"), ("blower", "Leaf Blowers"),
         ("hedge", "Hedge Trimmers"), ("polesaw", "Pole Saws"), ("multi", "Multi-Task Tools"),
-        ("generator", "Generators"), ("pump", "Water Pumps & Sprayers"),
+        ("generator", "Generators"), ("sprayer", "Sprayers & Mistblowers"), ("pump", "Water Pumps"),
+        ("pressure", "Pressure Washers"), ("cutoff", "Cut-Off Saws & Concrete Cutters"), ("vacuum", "Vacuums & Shredders"),
         ("battery", "Batteries & Chargers"), ("other", "More Equipment")]
 SLUG = {"zt": "zero-turn-mowers", "mower": "lawn-mowers", "chainsaw": "chainsaws", "trimmer": "string-trimmers",
         "blower": "leaf-blowers", "hedge": "hedge-trimmers", "polesaw": "pole-saws", "multi": "multi-task-tools",
-        "generator": "generators", "pump": "water-pumps-sprayers", "battery": "batteries-chargers"}
+        "generator": "generators", "sprayer": "sprayers", "pump": "water-pumps",
+        "pressure": "pressure-washers", "cutoff": "cut-off-saws", "vacuum": "vacuums", "edger": "edgers", "battery": "batteries-chargers"}
 # Brand pages only for dealer brands with enough models to be a useful page.
 BRANDS = [("STIHL", "stihl"), ("Honda", "honda"), ("SCAG", "scag"), ("Maruyama", "maruyama"),
-          ("ECHO", "echo"), ("Shindaiwa", "shindaiwa")]
+          ("ECHO", "echo"), ("Shindaiwa", "shindaiwa"), ("Wright", "wright"),
+          ("Hustler", "hustler"), ("Greenworks Commercial", "greenworks-commercial")]
 SAMPLE = ("This is a sample of what we carry, not the full list. We often have other models in the shop "
           "and can order most others, so call to check on anything you don't see.")
 
@@ -44,7 +48,8 @@ def cat(t):
     t = (t or "").lower()
     for word, c in (("trailer", "trailer"), ("zero turn", "zt"), ("mower", "mower"), ("chainsaw", "chainsaw"),
                     ("weedeater", "trimmer"), ("trimmer", "trimmer"), ("brushcutter", "trimmer"),
-                    ("blower", "blower"), ("generator", "generator"), ("sprayer", "pump"), ("pump", "pump")):
+                    ("blower", "blower"), ("generator", "generator"), ("pressure washer", "pressure"),
+                    ("sprayer", "sprayer"), ("edger", "edger"), ("pump", "pump")):
         if word in t:
             return c
     return "other"
@@ -56,12 +61,15 @@ def load():
     with open(INVENTORY, encoding="utf-8") as f:
         floor = [x for x in json.load(f) if cat(x.get("type")) != "trailer" and x.get("photo")]
     key = lambda x: f"{x.get('make') or ''} {x.get('model') or ''}".strip().lower()
-    seen = {key(c) for c in items} | {c.get("info") for c in items if c.get("info")}
-    for x in floor:  # same product as a lineup card = one entry, like the homepage
-        if key(x) not in seen and x.get("info") not in seen:
-            seen.add(key(x))
-            items.append(x)
-    return [it for it in items if key(it)]
+    url = lambda x: (x.get("info") or "").split("#")[0].rstrip("/")
+    out, seen = [], set()
+    for x in items + floor:  # one entry per product, catalog first — like the homepage's dedupe
+        ids = {key(x)} | ({url(x)} if url(x) and x in floor else set())
+        if not key(x) or ids & seen:
+            continue
+        seen |= {key(x)} | ({url(x)} if url(x) else set())
+        out.append(x)
+    return out
 
 
 def and_list(xs):
@@ -70,6 +78,21 @@ def and_list(xs):
 
 def e(s):
     return html.escape(str(s or "").strip(), quote=True)
+
+
+BATTERY_RE = re.compile(r"\b(battery|cordless|\d{2}\s?V|kWh|A[KPS] System)\b", re.I)
+
+
+def is_battery(it):
+    """Battery-powered machine or battery/charger. Catalog items carry no power field, so read the
+    tagline, then maker naming conventions: STIHL "xxA" models (MSA, FSA, RMA...), ECHO "D" models
+    (DPB, DCS, DSRM...), and Greenworks Commercial (all 82V)."""
+    make, model = (it.get("make") or "").strip().upper(), (it.get("model") or "").strip().upper()
+    if catof(it) == "battery" or BATTERY_RE.search(it.get("tagline") or "") or make == "GREENWORKS COMMERCIAL":
+        return True
+    if make == "STIHL" and re.match(r"^[A-Z]{1,3}A\s?\d", model):
+        return True
+    return make == "ECHO" and re.match(r"^D[A-Z]+-", model) is not None
 
 
 def catof(it):
@@ -87,7 +110,7 @@ def page(items, path, title, desc, h1, intro):
         if not groups[c]:
             continue
         cards = []
-        for it in groups[c]:
+        for it in sorted(groups[c], key=lambda it: not it.get("best")):  # best sellers first
             name = f"{(it.get('make') or '').strip()} {(it.get('model') or '').strip()}".strip()
             photo = (it.get("photo") or "").strip()
             src = f"/assets/inventory/{quote(photo)}" if photo and os.path.exists(
@@ -102,7 +125,8 @@ def page(items, path, title, desc, h1, intro):
             img = f'<img loading="lazy" src="{src}" alt="{e(name)}">' if src else ""
             more = f'<a class="info" href="{e(info)}" rel="noopener" target="_blank">Specs ›</a>' if info else ""
             tag = f'<p class="tag">{e(it.get("tagline"))}</p>' if it.get("tagline") else ""
-            cards.append(f'<li class="card"><div class="ph">{img}</div><div class="cb">'
+            best = '<span class="best-pill" title="Featured" aria-label="Featured">★</span>' if it.get("best") else ""
+            cards.append(f'<li class="card{" best" if it.get("best") else ""}">{best}<div class="ph">{img}</div><div class="cb">'
                          f'<div class="k">{e(it.get("make"))}</div><h3>{e(it.get("model"))}</h3>{tag}{more}</div></li>')
         sections.append(f'<section id="{c}"><h2>{e(label)} <span>{len(cards)}</span></h2>'
                         f'<ul class="grid">{"".join(cards)}</ul></section>')
@@ -111,6 +135,8 @@ def page(items, path, title, desc, h1, intro):
     pill = lambda href, label: f'<a href="{href}"{" aria-current=\"page\"" if href == here else ""}>{e(label)}</a>'
     jump = (pill("/inventory-static.html", "All equipment")
             + "".join(pill(f"/{SUBDIR}/{SLUG[c]}.html", l) for c, l in CATS if c in SLUG)
+            + pill(f"/{SUBDIR}/battery-powered.html", "Battery powered")
+            + pill(f"/{SUBDIR}/battery-mowers.html", "Battery mowers")
             + "".join(pill(f"/{SUBDIR}/{s}.html", b) for b, s in BRANDS))
     ld = {"@context": "https://schema.org", "@type": "ItemList",
           "name": h1 + " — Maui Power Equipment, Wailuku, Maui",
@@ -159,7 +185,11 @@ section{{padding:34px 0 8px;scroll-margin-top:60px}}
 h2{{font-family:'Barlow Semi Condensed',sans-serif;font-weight:800;text-transform:uppercase;font-size:28px;margin-bottom:14px}}
 h2 span{{font-family:'Inter';font-weight:500;font-size:14px;color:var(--muted)}}
 .grid{{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}}
-.card{{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}}
+.card{{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;position:relative}}
+.card.best{{border:3px solid var(--gold)}}
+.star-key{{text-align:right;font-size:12px;color:var(--muted);margin-top:10px}}
+.best-pill.key{{position:static;display:inline-flex;width:18px;height:18px;font-size:11px;box-shadow:none;vertical-align:-3px}}
+.best-pill{{position:absolute;top:8px;left:8px;z-index:6;width:28px;height:28px;border-radius:50%;background:var(--gold);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:16px;line-height:1;box-shadow:0 2px 6px rgba(0,0,0,.2)}}
 .ph{{height:170px;display:flex;align-items:center;justify-content:center}}
 .ph img{{width:100%;height:100%;object-fit:contain;padding:12px}}
 .cb{{padding:10px 12px 12px;border-top:1px solid var(--line);flex:1;display:flex;flex-direction:column}}
@@ -186,6 +216,7 @@ footer a:hover{{color:var(--gold)}}
     <a class="btn ghost" href="{SITE}/#contact">Send a message</a></div>
 </div></header>
 <nav aria-label="Equipment categories and brands"><div class="wrap">{jump}</div></nav>
+<p class="wrap star-key"><span class="best-pill key">★</span> Staff Picks</p>
 <main class="wrap">
 {chr(10).join(sections)}
 <div class="order"><h2>Don't see it?</h2><p>This page shows some of what we carry. We often have other models in the shop, and we can order most equipment and parts. Call or text (808) 249-2730, or email <a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a>.</p></div>
@@ -244,6 +275,22 @@ def build():
              f"{brand} service and parts, walk-in. Call (808) 249-2730.",
              f"{brand} on Maui", f"{brand} {and_list(kinds)}. " + SHOP)
         written.add(path)
+    bat = [it for it in items if is_battery(it)]
+    bmakes = []
+    for it in bat:
+        mk = (it.get("make") or "").strip()
+        if mk and mk not in bmakes:
+            bmakes.append(mk)
+    page(bat, f"{SUBDIR}/battery-powered.html", "Battery Powered Equipment on Maui | Maui Power Equipment, Wailuku",
+         f"Battery-powered mowers, trimmers, blowers, chainsaws and more from {', '.join(bmakes[:4])} at Maui Power "
+         "Equipment in Wailuku, Maui. Walk-in service and parts. Call (808) 249-2730.",
+         "Battery Powered Equipment", f"Quiet, no-gas equipment from {and_list(bmakes)}. " + SHOP)
+    bm = [it for it in bat if catof(it) in ("mower", "zt")]
+    page(bm, f"{SUBDIR}/battery-mowers.html", "Battery Lawn Mowers & Zero-Turns on Maui | Maui Power Equipment",
+         "Battery push mowers, electric zero-turns and stand-ons at Maui Power Equipment in Wailuku, Maui. "
+         "Walk-in service and parts. Call (808) 249-2730.",
+         "Battery Mowers & Zero-Turns", "Electric push mowers, zero-turns and stand-ons — no gas, no oil changes. " + SHOP)
+    written |= {f"{SUBDIR}/battery-powered.html", f"{SUBDIR}/battery-mowers.html"}
     for f in os.listdir(os.path.join(HERE, SUBDIR)):  # drop pages for categories/brands that emptied out
         if f.endswith(".html") and f"{SUBDIR}/{f}" not in written:
             os.remove(os.path.join(HERE, SUBDIR, f))

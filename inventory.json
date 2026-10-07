@@ -9,7 +9,8 @@
     "status": "available",
     "tagline": "Honda GX160 9-Blade",
     "infoMode": "link",
-    "info": "https://myrolux.com/products/z20-9bl-gun-metal-honda-gx160"
+    "info": "https://myrolux.com/products/z20-9bl-gun-metal-honda-gx160",
+    "best": true
   },
   {
     "type": "Reel Mower",
@@ -21,7 +22,8 @@
     "status": "available",
     "tagline": "Two-slot Ego powerhead",
     "infoMode": "link",
-    "info": "https://myrolux.com/products/z20-9bl-wimbledon-white-ego-pu2710-excludes-batteries-and-charger"
+    "info": "https://myrolux.com/products/z20-9bl-wimbledon-white-ego-pu2710-excludes-batteries-and-charger",
+    "best": true
   },
   {
     "type": "Reel Mower",
@@ -33,7 +35,8 @@
     "status": "available",
     "tagline": "Honda GX160 9-Blade",
     "infoMode": "link",
-    "info": "https://myrolux.com/products/z25-9bl-white-honda-gx160"
+    "info": "https://myrolux.com/products/z25-9bl-white-honda-gx160",
+    "best": true
   },
   {
     "type": "Reel Mower",
@@ -45,7 +48,8 @@
     "status": "available",
     "tagline": "Two-slot Ego powerhead",
     "infoMode": "link",
-    "info": "https://myrolux.com/products/z25-9bl-metallic-grey-honda-gx160"
+    "info": "https://myrolux.com/products/z25-9bl-metallic-grey-honda-gx160",
+    "best": true
   },
   {
     "type": "21\" Commercial Mower",
@@ -56,7 +60,8 @@
     "notes": "",
     "status": "available",
     "infoMode": "link",
-    "info": "https://www.toro.com/en/product/22298"
+    "info": "https://www.toro.com/en/product/22298",
+    "tagline": "21\" commercial mower · Kawasaki engine"
   },
   {
     "type": "21\" Commercial Mower",
@@ -67,7 +72,9 @@
     "notes": "",
     "status": "available",
     "infoMode": "link",
-    "info": "https://www.toro.com/en/product/22295"
+    "info": "https://www.toro.com/en/product/22295",
+    "best": true,
+    "tagline": "21\" commercial mower · Honda engine"
   },
   {
     "type": "Generator",
@@ -437,7 +444,8 @@
     "status": "available",
     "tagline": "Commercial 30\" Mower w/ Steel Deck",
     "infoMode": "link",
-    "info": "https://www.scag.com/product/walk-behind-mowers/sfcii-30/"
+    "info": "https://www.scag.com/product/walk-behind-mowers/sfcii-30/",
+    "best": true
   },
   {
     "type": "Economy Car Hauler Trailer",

@@ -7,7 +7,8 @@
     "tagline": "21\" Honda mower · blade brake clutch",
     "info": "https://www.toro.com/en/product/22296",
     "photo": "catalog/toro-21-commercial-mower.webp",
-    "manufacturerName": "22296 Commercial Mower"
+    "manufacturerName": "22296 Commercial Mower",
+    "best": true
   },
   {
     "id": "scag-sfc-21-commercial-mower",
@@ -17,7 +18,8 @@
     "tagline": "21\" finish-cut walk-behind mower",
     "info": "https://www.scag.com/product/walk-behind-mowers/sfc-21/",
     "photo": "catalog/scag-sfc-21-commercial-mower.webp",
-    "manufacturerName": "SFC-21"
+    "manufacturerName": "SFC-21",
+    "best": true
   },
   {
     "id": "stihl-ap-100-0-p-battery",
@@ -47,7 +49,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/ap-300-0-p-1048012",
       "note": "Battery pack: motor consumption/output is not a pack specification."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-ap-30-1-battery",
@@ -62,7 +65,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/ap-30-1-1048018",
       "note": "Battery pack: motor consumption/output is not a pack specification."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-ap-300s-battery",
@@ -123,7 +127,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/ak-30-s-lithium-ion-battery-1031002",
       "note": "Battery pack: motor consumption/output is not a pack specification."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-as-2-battery",
@@ -174,7 +179,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/al-301-rapid-battery-charger-1027358",
       "note": "Charger output verified in watts and converted to kW; labeled charging."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-al-301-4-charger",
@@ -192,7 +198,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/al-301-4-multi-battery-charger-1027356",
       "note": "Charger output verified in watts and converted to kW; labeled charging."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-al-501-charger",
@@ -228,7 +235,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/ap/al-1602-mo-charger-1048015",
       "note": "Charger output verified in watts and converted to kW; labeled charging."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-al-1-charger",
@@ -271,31 +279,33 @@
     "make": "STIHL",
     "model": "BG 50",
     "cat": "blower",
-    "tagline": "Gas blower · 27.2 cc",
+    "tagline": "Gas blower · 27.2 cc · 412 cfm · 159 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-50-gasoline-blower-1027372#bg-50-1027372",
     "photo": "catalog/stihl-bg-50.webp",
     "manufacturerName": "BG 50",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-bg-86",
     "make": "STIHL",
     "model": "BG 86",
     "cat": "blower",
-    "tagline": "Gas blower · 27.2 cc",
+    "tagline": "Gas blower · 27.2 cc · 444 cfm · 199 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-86-gasoline-blower-1027359#bg-86-1027359",
     "photo": "catalog/stihl-bg-86.webp",
     "manufacturerName": "BG 86",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-bg-86-c-e",
     "make": "STIHL",
     "model": "BG 86 C-E",
     "cat": "blower",
-    "tagline": "Gas blower · 27.2 cc",
+    "tagline": "Gas blower · 27.2 cc · 444 cfm · 199 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-86-gasoline-blower-1027359#bg-86-c-e-1027045",
     "photo": "catalog/stihl-bg-86-c-e.webp",
     "manufacturerName": "BG 86 C-E",
@@ -307,7 +317,7 @@
     "make": "STIHL",
     "model": "BGA 50 Set",
     "cat": "blower",
-    "tagline": "Battery blower",
+    "tagline": "Battery blower · 455 cfm · 123 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-50-battery-powered-blower-1029003#bga-50-set-1029003",
     "photo": "catalog/stihl-bga-50.webp",
     "manufacturerName": "BGA 50 Set",
@@ -322,7 +332,7 @@
     "make": "STIHL",
     "model": "BGA 60",
     "cat": "blower",
-    "tagline": "Battery blower",
+    "tagline": "Battery blower · 36V AK · 459 cfm · 154 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-60-ak-system-1027408#bga-60-unit-only-1027408",
     "photo": "catalog/stihl-bga-60.webp",
     "manufacturerName": "BGA 60 (Unit Only)",
@@ -337,7 +347,7 @@
     "make": "STIHL",
     "model": "BGA 160",
     "cat": "blower",
-    "tagline": "Battery blower",
+    "tagline": "Battery blower · 571 cfm · 174 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-160-battery-powered-blower-1027666#bga-160-unit-only-1027665",
     "photo": "catalog/stihl-bga-160-0.webp",
     "manufacturerName": "BGA 160 (Unit Only)",
@@ -345,14 +355,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-160-battery-powered-blower-1027666#bga-160-unit-only-1027665",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-bga-250",
     "make": "STIHL",
     "model": "BGA 250",
     "cat": "blower",
-    "tagline": "Battery blower",
+    "tagline": "Battery blower · 612 cfm · 190 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-250-battery-powered-blower-1027602#bga-250-unit-only-1027602",
     "photo": "catalog/stihl-bga-250.webp",
     "manufacturerName": "BGA 250 (Unit Only)",
@@ -360,14 +371,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-250-battery-powered-blower-1027602#bga-250-unit-only-1027602",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-bga-300-1",
     "make": "STIHL",
     "model": "BGA 300",
     "cat": "blower",
-    "tagline": "Battery blower",
+    "tagline": "Battery blower · 571 cfm · 192 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-300-ap-system-1027560#bga-300-unit-only-1027560",
     "photo": "catalog/stihl-bga-300-1.webp",
     "manufacturerName": "BGA 300 (Unit Only)",
@@ -382,7 +394,7 @@
     "make": "STIHL",
     "model": "BR 450",
     "cat": "blower",
-    "tagline": "Gas backpack blower",
+    "tagline": "Gas backpack blower · 642 cfm · 222 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-450-gasoline-backpack-blower-1027371#br-450-1027371",
     "photo": "catalog/stihl-br-450.webp",
     "manufacturerName": "BR 450"
@@ -392,41 +404,44 @@
     "make": "STIHL",
     "model": "BR 600",
     "cat": "blower",
-    "tagline": "Gas backpack blower",
+    "tagline": "Gas backpack blower · 686 cfm · 238 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-600-gasoline-backpack-blower-1027126#br-600-1027126",
     "photo": "catalog/stihl-br-600.webp",
-    "manufacturerName": "BR 600"
+    "manufacturerName": "BR 600",
+    "best": true
   },
   {
     "id": "stihl-br-800-x",
     "make": "STIHL",
     "model": "BR 800 X MAGNUM®",
     "cat": "blower",
-    "tagline": "Gas backpack blower · 79.9 cc",
+    "tagline": "Gas backpack blower · 79.9 cc · 912 cfm · 239 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-800-gasoline-backpack-blower-1027163#br-800-x-magnum-1027338",
     "photo": "catalog/stihl-br-800-x.webp",
     "manufacturerName": "BR 800 X MAGNUM®",
     "displacementCc": 79.9,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-br-800-c-e",
     "make": "STIHL",
     "model": "BR 800 C-E MAGNUM®",
     "cat": "blower",
-    "tagline": "Gas backpack blower · 79.9 cc",
+    "tagline": "Gas backpack blower · 79.9 cc · 912 cfm · 239 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-800-gasoline-backpack-blower-1027163#br-800-c-e-magnum-1027163",
     "photo": "catalog/stihl-br-800-c-e.webp",
     "manufacturerName": "BR 800 C-E MAGNUM®",
     "displacementCc": 79.9,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-bra-200",
     "make": "STIHL",
     "model": "BRA 200",
     "cat": "blower",
-    "tagline": "Battery backpack blower",
+    "tagline": "Battery backpack blower · 527 cfm · 177 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-200-battery-powered-backpack-blower-1037003#bra-200-unit-only-1038000",
     "photo": "catalog/stihl-bra-200.webp",
     "manufacturerName": "BRA 200 (Unit Only)",
@@ -441,7 +456,7 @@
     "make": "STIHL",
     "model": "BRA 280",
     "cat": "blower",
-    "tagline": "Battery backpack blower",
+    "tagline": "Battery backpack blower · 571 cfm · 192 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-280-battery-powered-backpack-blower-1037002#bra-280-unit-only-1037001",
     "photo": "catalog/stihl-bra-280.webp",
     "manufacturerName": "BRA 280 (Unit Only)",
@@ -449,14 +464,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-280-battery-powered-backpack-blower-1037002#bra-280-unit-only-1037001",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-bra-600",
     "make": "STIHL",
     "model": "BRA 600",
     "cat": "blower",
-    "tagline": "Battery backpack blower",
+    "tagline": "Battery backpack blower · 883 cfm · 253 mph",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-600-battery-backpack-blower-1027648#bra-600-unit-only-1027648",
     "photo": "catalog/stihl-bra-600.webp",
     "manufacturerName": "BRA 600 (Unit Only)",
@@ -464,7 +480,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-600-battery-backpack-blower-1027648#bra-600-unit-only-1027648",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-fs-56-r-c-e",
@@ -476,7 +493,8 @@
     "photo": "catalog/stihl-fs-56-r-c-e.webp",
     "manufacturerName": "FS 56 RC-E",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-70-r",
@@ -500,7 +518,8 @@
     "photo": "catalog/stihl-fs-91-r.webp",
     "manufacturerName": "FS 91 R",
     "displacementCc": 28.4,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-94-r",
@@ -512,7 +531,8 @@
     "photo": "catalog/stihl-fs-94-r.webp",
     "manufacturerName": "FS 94 R",
     "displacementCc": 24.1,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-131-r",
@@ -524,7 +544,8 @@
     "photo": "catalog/stihl-fs-131-r.webp",
     "manufacturerName": "FS 131 R",
     "displacementCc": 36.3,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-131-bike",
@@ -549,7 +570,8 @@
     "sourceNote": "Exact part 4147 200 0742 not listed; used STIHL FS 251 R page (4147 200 0576).",
     "manufacturerName": "FS 251 R",
     "displacementCc": 41.6,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-251-bike",
@@ -561,7 +583,8 @@
     "photo": "catalog/stihl-fs-251-bike.webp",
     "manufacturerName": "FS 251",
     "displacementCc": 41.6,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fs-461-c-em",
@@ -573,7 +596,8 @@
     "photo": "catalog/stihl-fs-461-c-em.webp",
     "manufacturerName": "FS 461 C-EM",
     "displacementCc": 45.6,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-fsa-60-r",
@@ -682,7 +706,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-135-ap-system-1027314#fsa-135-r-unit-only-1027314",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-fsa-200-r",
@@ -700,7 +725,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-200-ap-system-1027483#fsa-200-r-unit-only-1027483",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-fsa-400-k",
@@ -736,7 +762,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-400-battery-powered-grass-trimmer-1027630#fsa-400-unit-only-1027630",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hl-94-k",
@@ -748,7 +775,8 @@
     "photo": "catalog/stihl-hl-94-k.webp",
     "manufacturerName": "HL 94 K (145°)",
     "displacementCc": 24.1,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-hl-94",
@@ -760,7 +788,8 @@
     "photo": "catalog/stihl-hl-94.webp",
     "manufacturerName": "HL 94 (145°)",
     "displacementCc": 24.1,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-hla-56",
@@ -796,7 +825,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-66-ap-system-1027206#hla-66-unit-only-1027206",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hla-86",
@@ -814,7 +844,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-86-ap-system-1027305#hla-86-unit-only-1027305",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hla-135-k",
@@ -851,7 +882,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-135-ap-system-1027315#hla-135-145degres-unit-only-1027315",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hs-45",
@@ -863,7 +895,8 @@
     "photo": "catalog/stihl-hs-45.webp",
     "manufacturerName": "HS 45",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-hs-46-c-e",
@@ -965,7 +998,8 @@
     "photo": "catalog/stihl-ht-56-c-e.webp",
     "manufacturerName": "HT 56 C-E",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ht-135",
@@ -977,7 +1011,8 @@
     "photo": "catalog/stihl-ht-135.webp",
     "manufacturerName": "HT 135",
     "displacementCc": 36.3,
-    "specSource": "https://www.stihlusa.com/en/p/pole-pruners-ht-135-gasoline-pole-pruner-1027390#ht-135-1027390"
+    "specSource": "https://www.stihlusa.com/en/p/pole-pruners-ht-135-gasoline-pole-pruner-1027390#ht-135-1027390",
+    "best": true
   },
   {
     "id": "stihl-hta-50",
@@ -996,7 +1031,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/pole-pruners-hta-50-ak-system-1027398#hta-50-unit-only-1027398",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hta-66",
@@ -1050,7 +1086,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/pole-pruners-hta-135-ap-system-1027043#hta-135-unit-only-1027043",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-km-56-rc-e-combiengine",
@@ -1062,7 +1099,8 @@
     "photo": "catalog/stihl-km-56-rc-e-combiengine.webp",
     "manufacturerName": "KM 56 RC-E",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-km-91-r-combiengine",
@@ -1074,7 +1112,8 @@
     "photo": "catalog/stihl-km-91-r-combiengine.webp",
     "manufacturerName": "KM 91 R",
     "displacementCc": 28.4,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-km-94-r-combiengine",
@@ -1098,7 +1137,8 @@
     "photo": "catalog/stihl-km-131-r-combiengine.webp",
     "manufacturerName": "KM 131 R",
     "displacementCc": 36.3,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-kma-80-r",
@@ -1116,7 +1156,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-kma-135-r-kombimotor",
@@ -1134,7 +1175,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-kma-200-r-kombimotor",
@@ -1152,129 +1194,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
       "note": "Electrical consumption/input verified."
-    }
-  },
-  {
-    "id": "stihl-fs-km-autocut-27-2",
-    "make": "STIHL",
-    "model": "FS-KM Line Head Trimmer",
-    "cat": "multi",
-    "tagline": "KombiTool line head trimmer",
-    "info": "https://www.stihlusa.com/en/ap/fs-km-line-head-trimmer-1027051",
-    "photo": "catalog/stihl-fs-km-autocut-27-2.webp",
-    "manufacturerName": "FS-KM Line Head Trimmer"
-  },
-  {
-    "id": "stihl-fh-km-145-scrub-cutter",
-    "make": "STIHL",
-    "model": "FH-KM 145° Adjustable Power Scythe",
-    "cat": "multi",
-    "tagline": "KombiTool adjustable power scythe",
-    "info": "https://www.stihlusa.com/en/ap/fh-km-145degres-adjustable-power-scythe-1027145",
-    "photo": "catalog/stihl-fh-km-145-scrub-cutter.webp",
-    "manufacturerName": "FH-KM 145° Adjustable Power Scythe"
-  },
-  {
-    "id": "stihl-hl-km-24-145",
-    "make": "STIHL",
-    "model": "HL-KM 145° Adjustable Hedge Trimmer",
-    "cat": "multi",
-    "tagline": "KombiTool adjustable hedge trimmer",
-    "info": "https://www.stihlusa.com/en/ap/hl-km-145degres-adjustable-hedge-trimmer-1027335",
-    "photo": "catalog/stihl-hl-km-24-145.webp",
-    "sourceNote": "Part 4243 740 5009 not listed; used HL-KM 145° page (4243 740 5004).",
-    "manufacturerName": "HL-KM 145° Adjustable Hedge Trimmer"
-  },
-  {
-    "id": "stihl-ht-km-polesaw",
-    "make": "STIHL",
-    "model": "HT-KM Pole Pruner",
-    "cat": "multi",
-    "tagline": "KombiTool pole pruner",
-    "info": "https://www.stihlusa.com/en/ap/ht-km-pole-pruner-1027245",
-    "photo": "catalog/stihl-ht-km-polesaw.webp",
-    "manufacturerName": "HT-KM Pole Pruner"
-  },
-  {
-    "id": "stihl-fcs-km-edger",
-    "make": "STIHL",
-    "model": "FCS-KM Straight Lawn Edger",
-    "cat": "multi",
-    "tagline": "KombiTool straight lawn edger",
-    "info": "https://www.stihlusa.com/en/ap/fcs-km-straight-lawn-edger-1027331",
-    "photo": "catalog/stihl-fcs-km-edger.webp",
-    "manufacturerName": "FCS-KM Straight Lawn Edger"
-  },
-  {
-    "id": "stihl-kb-km-bristle-brush",
-    "make": "STIHL",
-    "model": "KB-KM Bristle Brush Attachment",
-    "cat": "multi",
-    "tagline": "KombiTool bristle brush",
-    "info": "https://www.stihlusa.com/en/ap/kb-km-bristle-brush-attachment-1027119",
-    "photo": "catalog/stihl-kb-km-bristle-brush.webp",
-    "manufacturerName": "KB-KM Bristle Brush Attachment"
-  },
-  {
-    "id": "stihl-kw-km-sweeper-drum",
-    "make": "STIHL",
-    "model": "KW-KM STIHL PowerSweep™",
-    "cat": "multi",
-    "tagline": "KombiTool PowerSweep sweeper",
-    "info": "https://www.stihlusa.com/en/ap/kw-km-stihl-powersweep-1002177",
-    "photo": "catalog/stihl-kw-km-sweeper-drum.webp",
-    "manufacturerName": "KW-KM STIHL PowerSweep™"
-  },
-  {
-    "id": "stihl-bg-km-axial-blower",
-    "make": "STIHL",
-    "model": "BG-KM Blower",
-    "cat": "multi",
-    "tagline": "KombiTool blower",
-    "info": "https://www.stihlusa.com/en/ap/bg-km-blower-1027286",
-    "photo": "catalog/stihl-bg-km-axial-blower.webp",
-    "manufacturerName": "BG-KM Blower"
-  },
-  {
-    "id": "stihl-fbd-km-bed-redefiner",
-    "make": "STIHL",
-    "model": "FBD-KM Bed Redefiner",
-    "cat": "multi",
-    "tagline": "KombiTool bed redefiner",
-    "info": "https://www.stihlusa.com/en/ap/fbd-km-bed-redefiner-1027289",
-    "photo": "catalog/stihl-fbd-km-bed-redefiner.webp",
-    "manufacturerName": "FBD-KM Bed Redefiner"
-  },
-  {
-    "id": "stihl-bf-km-cultivator",
-    "make": "STIHL",
-    "model": "BF-KM Mini-Cultivator",
-    "cat": "multi",
-    "tagline": "KombiTool mini-cultivator",
-    "info": "https://www.stihlusa.com/en/ap/bf-km-mini-cultivator-1027098",
-    "photo": "catalog/stihl-bf-km-cultivator.webp",
-    "manufacturerName": "BF-KM Mini-Cultivator"
-  },
-  {
-    "id": "stihl-hl-km-0-hedgetrimmer",
-    "make": "STIHL",
-    "model": "HL-KM 0° Straight Hedge Trimmer",
-    "cat": "multi",
-    "tagline": "KombiTool straight hedge trimmer",
-    "info": "https://www.stihlusa.com/en/ap/hl-km-0degres-straight-hedge-trimmer-1027154",
-    "photo": "catalog/stihl-hl-km-0-hedgetrimmer.webp",
-    "sourceNote": "Part 4243 740 5010 not listed; used HL-KM 0° page (4243 740 5001).",
-    "manufacturerName": "HL-KM 0° Straight Hedge Trimmer"
-  },
-  {
-    "id": "stihl-carbon-fiber-km-extension",
-    "make": "STIHL",
-    "model": "HT/HL-KM CFK Shaft Extension",
-    "cat": "multi",
-    "tagline": "Carbon shaft extension for HT/HL-KM",
-    "info": "https://www.stihlusa.com/en/ap/ht-hl-km-cfk-shaft-extension-1027382",
-    "photo": "catalog/stihl-carbon-fiber-km-extension.webp",
-    "manufacturerName": "HT/HL-KM CFK Shaft Extension"
+    },
+    "best": true
   },
   {
     "id": "stihl-ms-151-t-c-e",
@@ -1286,7 +1207,8 @@
     "photo": "catalog/stihl-ms-151-t-c-e.webp",
     "manufacturerName": "MS 151 T C-E",
     "displacementCc": 23.6,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-162",
@@ -1310,7 +1232,8 @@
     "photo": "catalog/stihl-ms-172-c-e.webp",
     "manufacturerName": "MS 172 C-E",
     "displacementCc": 31.8,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-182",
@@ -1358,7 +1281,8 @@
     "photo": "catalog/stihl-ms-201-t-c-m.webp",
     "manufacturerName": "MS 201 T C-M",
     "displacementCc": 35.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-212-c-be",
@@ -1382,7 +1306,8 @@
     "photo": "catalog/stihl-ms-250.webp",
     "manufacturerName": "MS 250",
     "displacementCc": 45.4,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-251",
@@ -1418,7 +1343,8 @@
     "photo": "catalog/stihl-ms-261.webp",
     "manufacturerName": "MS 261",
     "displacementCc": 50.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-271",
@@ -1430,7 +1356,8 @@
     "photo": "catalog/stihl-ms-271.webp",
     "manufacturerName": "MS 271 FARM BOSS® 18\"",
     "displacementCc": 50.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-291",
@@ -1473,7 +1400,7 @@
     "make": "STIHL",
     "model": "MS 362 C-M",
     "cat": "chainsaw",
-    "tagline": "Gas chainsaw",
+    "tagline": "Gas chainsaw · 59.0 cc · 16–25\" bar",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-362-gasoline-chainsaw-1027130#ms-362-c-m-1027029",
     "photo": "catalog/stihl-ms-362-c-m.webp",
     "manufacturerName": "MS 362 C-M"
@@ -1488,7 +1415,8 @@
     "photo": "catalog/stihl-ms-391.webp",
     "manufacturerName": "MS 391",
     "displacementCc": 64.1,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-400-c-m",
@@ -1512,7 +1440,8 @@
     "photo": "catalog/stihl-ms-462.webp",
     "manufacturerName": "MS 462",
     "displacementCc": 72.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-462-c-m",
@@ -1536,7 +1465,8 @@
     "photo": "catalog/stihl-ms-500i.webp",
     "manufacturerName": "MS 500i",
     "displacementCc": 79.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-ms-661",
@@ -1555,7 +1485,7 @@
     "make": "STIHL",
     "model": "MS 881 MAGNUM®",
     "cat": "chainsaw",
-    "tagline": "Gas chainsaw",
+    "tagline": "Gas chainsaw · 121.6 cc · 25–41\" bar",
     "info": "https://www.stihlusa.com/en/p/chainsaws-ms-881-gasoline-chainsaw-1027004#ms-881-magnum-1027004",
     "photo": "catalog/stihl-ms-881.webp",
     "manufacturerName": "MS 881 MAGNUM®"
@@ -1594,7 +1524,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/chainsaws-msa-70-ak-system-1027462#msa-70-c-b-set-1027462",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-msa-80-c-b",
@@ -1703,7 +1634,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/chainsaws-msa-220-tc-o-battery-powered-chainsaw-1027403#msa-220-tc-o-unit-only-1027403",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-msa-300-c-o",
@@ -1733,7 +1665,8 @@
     "photo": "catalog/stihl-bt-131-auger.webp",
     "manufacturerName": "BT 131 Earth Auger",
     "displacementCc": 36.3,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-bt-45-auger-drill",
@@ -1751,13 +1684,14 @@
     "id": "stihl-fc-96-edger",
     "make": "STIHL",
     "model": "FC 96",
-    "cat": "other",
+    "cat": "edger",
     "tagline": "Gas edger · 28.4 cc",
     "info": "https://www.stihlusa.com/en/p/edgers-fc-96-1027423",
     "photo": "catalog/stihl-fc-96-edger.webp",
     "manufacturerName": "FC 96",
     "displacementCc": 28.4,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-gta-26",
@@ -1776,7 +1710,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-26-as-system-1027100",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-gta-30",
@@ -1814,7 +1749,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-gta-40-0-cordless-pruner",
@@ -1833,7 +1769,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/secateurs-shears-saws-pruners-gta-40-battery-garden-pruner-1027650",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-hsa-26",
@@ -1851,35 +1788,38 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-26-as-system-1027216",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-rm-453-3-v-lawnmower",
     "make": "STIHL",
     "model": "RM 453 T",
     "cat": "mower",
-    "tagline": "Gas lawn mower · 20.1\" cutting width",
+    "tagline": "Gas lawn mower · 20.1\" cut",
     "info": "https://www.stihlusa.com/en/p/lawn-mowers-rm-453-gasoline-lawn-mower-1027472",
     "photo": "catalog/stihl-rm-453-3-v-lawnmower.webp",
     "sourceNote": "STIHL USA lists it as RM 453 V (no .3).",
-    "manufacturerName": "RM 453 T"
+    "manufacturerName": "RM 453 T",
+    "best": true
   },
   {
     "id": "stihl-rm-756-yc-lawnmower",
     "make": "STIHL",
     "model": "RM 756 YC",
     "cat": "mower",
-    "tagline": "Pro gas lawn mower · Kohler engine",
+    "tagline": "Pro gas lawn mower · Kohler engine · 21.3\" cut",
     "info": "https://www.stihlusa.com/en/p/lawn-mowers-rm-756-gasoline-lawn-mower-1027659",
     "photo": "catalog/stihl-rm-756-yc-lawnmower.webp",
-    "manufacturerName": "RM 756 YC"
+    "manufacturerName": "RM 756 YC",
+    "best": true
   },
   {
     "id": "stihl-rma-348",
     "make": "STIHL",
     "model": "RMA 348",
     "cat": "mower",
-    "tagline": "Battery mower",
+    "tagline": "Battery mower · 18.1\" cut",
     "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-348-battery-powered-lawn-mower-1024004",
     "photo": "catalog/stihl-rma-348.webp",
     "sourceNote": "Set photo carried a price badge; used unit-only shot.",
@@ -1894,7 +1834,7 @@
     "id": "stihl-sea-20",
     "make": "STIHL",
     "model": "SEA 20",
-    "cat": "other",
+    "cat": "vacuum",
     "tagline": "Battery vacuum · 0.1 kW",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-20-battery-powered-hand-vacuum-1027415",
     "photo": "catalog/stihl-sea-20.webp",
@@ -1912,7 +1852,7 @@
     "id": "stihl-sea-60-0-vac",
     "make": "STIHL",
     "model": "SEA 60",
-    "cat": "other",
+    "cat": "vacuum",
     "tagline": "Battery vacuum · 0.45 kW",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-60-battery-powered-wet-dry-vacuum-1027624",
     "photo": "catalog/stihl-sea-60-0-vac.webp",
@@ -1931,7 +1871,7 @@
     "id": "stihl-sea-100-vac",
     "make": "STIHL",
     "model": "SEA 100 Set",
-    "cat": "other",
+    "cat": "vacuum",
     "tagline": "Battery vacuum · 0.5 kW",
     "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-100-battery-powered-wet-dry-vacuum-1027875",
     "photo": "catalog/stihl-sea-100-vac.webp",
@@ -1943,25 +1883,27 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-100-battery-powered-wet-dry-vacuum-1027875",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-sh-86-c-e-shredvac",
     "make": "STIHL",
     "model": "SH 86 C-E",
-    "cat": "other",
+    "cat": "vacuum",
     "tagline": "Gas vacuum shredder · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sh-86-gasoline-vacuum-shredder-1027037",
     "photo": "catalog/stihl-sh-86-c-e-shredvac.webp",
     "manufacturerName": "SH 86 C-E",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-sha-140-shredvac",
     "make": "STIHL",
     "model": "SHA 140",
-    "cat": "other",
+    "cat": "vacuum",
     "tagline": "Battery shredder vacuum",
     "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sha-140-battery-powered-vacuum-shredder-1027621",
     "photo": "catalog/stihl-sha-140-shredvac.webp",
@@ -1970,31 +1912,34 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sha-140-battery-powered-vacuum-shredder-1027621",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "stihl-sr-200-mistblower",
     "make": "STIHL",
     "model": "SR 200",
-    "cat": "pump",
+    "cat": "sprayer",
     "tagline": "Gas backpack sprayer · 2.6 gal · 27.2 cc",
     "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sr-200-1027067",
     "photo": "catalog/stihl-sr-200-mistblower.webp",
     "manufacturerName": "SR 200",
     "displacementCc": 27.2,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-sr-450-mistblower",
     "make": "STIHL",
     "model": "SR 450",
-    "cat": "pump",
+    "cat": "sprayer",
     "tagline": "Gas backpack sprayer · 3.7 gal · 63.3 cc",
     "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sr-450-gasoline-backpack-sprayer-1027378",
     "photo": "catalog/stihl-sr-450-mistblower.webp",
     "manufacturerName": "SR 450",
     "displacementCc": 63.3,
-    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf"
+    "specSource": "https://www.stihlusa.com/content/dam/stihl/vu/us/en/download-files/pdf-files/2026_STIHL_Power_Tools_Catalog_VU_D_2026.pdf",
+    "best": true
   },
   {
     "id": "stihl-kga-770-sweeper",
@@ -2015,18 +1960,19 @@
     "id": "stihl-ts-710i-cut-off-saw-14",
     "make": "STIHL",
     "model": "TS 710i STIHL Cutquik®",
-    "cat": "other",
+    "cat": "cutoff",
     "tagline": "Gas cut-off machine · 14\" wheel",
     "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-710i-1027604",
     "photo": "catalog/stihl-ts-710i-cut-off-saw-14.webp",
-    "manufacturerName": "TS 710i STIHL Cutquik®"
+    "manufacturerName": "TS 710i STIHL Cutquik®",
+    "best": true
   },
   {
     "id": "stihl-rb-200-high-pressure-washer",
     "make": "STIHL",
     "model": "RB 200",
-    "cat": "other",
-    "tagline": "Gas pressure washer · 2,500 psi",
+    "cat": "pressure",
+    "tagline": "Gas pressure washer · 190 cc · 2,500 psi · 2.3 gpm",
     "info": "https://www.stihlusa.com/en/p/pressure-washers-rb-200-1027626",
     "photo": "catalog/stihl-rb-200-high-pressure-washer.webp",
     "manufacturerName": "RB 200"
@@ -2051,7 +1997,8 @@
     "tagline": "Straight-shaft trimmer · 25.4 cc",
     "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/t262-straight-shaft-trimmer",
     "photo": "catalog/shindaiwa-t262.webp",
-    "manufacturerName": "T262"
+    "manufacturerName": "T262",
+    "best": true
   },
   {
     "id": "shindaiwa-t302",
@@ -2061,7 +2008,8 @@
     "tagline": "Straight-shaft trimmer · 30.5 cc",
     "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/t302-straight-shaft-trimmer",
     "photo": "catalog/shindaiwa-t302.webp",
-    "manufacturerName": "T302"
+    "manufacturerName": "T302",
+    "best": true
   },
   {
     "id": "echo-cs-2511p",
@@ -2083,7 +2031,8 @@
     "info": "https://www.echo-usa.com/chainsaws/cs-2511t",
     "photo": "catalog/echo-cs-2511t.webp",
     "sourceNote": "Official studio shot includes ECHO X-Series logo on grey background.",
-    "manufacturerName": "CS-2511T"
+    "manufacturerName": "CS-2511T",
+    "best": true
   },
   {
     "id": "echo-lm-2119sp",
@@ -2093,29 +2042,32 @@
     "tagline": "Self-propelled 21\" gas mower · 190 cc",
     "info": "https://www.echo-usa.com/mowers/lm-2119sp",
     "photo": "catalog/echo-lm-2119sp.webp",
-    "manufacturerName": "LM-2119SP"
+    "manufacturerName": "LM-2119SP",
+    "best": true
   },
   {
     "id": "echo-eb610",
     "make": "Shindaiwa",
     "model": "EB610",
     "cat": "blower",
-    "tagline": "Backpack blower · 59.7 cc · 700 CFM",
+    "tagline": "Backpack blower · 59.7 cc · 700 cfm · 200 mph",
     "info": "https://www.shindaiwa-usa.com/blowers/eb610rt-blackpack-blower",
     "photo": "catalog/echo-eb610.webp",
     "sourceNote": "Shindaiwa model (input make says ECHO); official page is on shindaiwa-usa.com.",
-    "manufacturerName": "EB610RT"
+    "manufacturerName": "EB610RT",
+    "best": true
   },
   {
     "id": "echo-eb910rt",
     "make": "Shindaiwa",
     "model": "EB910RT",
     "cat": "blower",
-    "tagline": "Backpack blower, hip throttle · 79.9 cc",
+    "tagline": "Backpack blower, hip throttle · 79.9 cc · 1,110 cfm · 220 mph",
     "info": "https://www.shindaiwa-usa.com/blowers/eb910rt-backpack-blower-hip-throttle",
     "photo": "catalog/echo-eb910rt.webp",
     "sourceNote": "Shindaiwa model (input make says ECHO); official page is on shindaiwa-usa.com.",
-    "manufacturerName": "EB910RT"
+    "manufacturerName": "EB910RT",
+    "best": true
   },
   {
     "id": "echo-sc-3013-chipper",
@@ -2125,7 +2077,8 @@
     "tagline": "Chipper/shredder · 306 cc",
     "info": "https://www.echo-usa.com/chipper-shredders/sc-3013",
     "photo": "catalog/echo-sc-3013-chipper.webp",
-    "manufacturerName": "SC-3013"
+    "manufacturerName": "SC-3013",
+    "best": true
   },
   {
     "id": "echo-rs-600-spreader",
@@ -2136,7 +2089,8 @@
     "info": "https://www.shindaiwa-usa.com/spreaders/rs600-heavy-duty-broadcast-spreader",
     "photo": "catalog/echo-rs-600-spreader.webp",
     "sourceNote": "Shindaiwa model (input make says ECHO); official page is on shindaiwa-usa.com.",
-    "manufacturerName": "RS600"
+    "manufacturerName": "RS600",
+    "best": true
   },
   {
     "id": "echo-wt-1610",
@@ -2176,7 +2130,8 @@
     "tagline": "Super-quiet 2,200 W inverter generator",
     "info": "https://powerequipment.honda.com/generators/models/eu2200i",
     "photo": "catalog/honda-eu2200i.webp",
-    "manufacturerName": "EU2200i"
+    "manufacturerName": "EU2200i",
+    "best": true
   },
   {
     "id": "honda-eu2200i-companion",
@@ -2193,20 +2148,22 @@
     "make": "Honda",
     "model": "EU3000IS",
     "cat": "generator",
-    "tagline": "Super-quiet inverter generator · e-start",
+    "tagline": "Inverter generator · 3,000 W max · 2,800 W rated",
     "info": "https://powerequipment.honda.com/generators/models/eu3000is",
     "photo": "catalog/honda-eu3000is.webp",
-    "manufacturerName": "EU3000iS"
+    "manufacturerName": "EU3000iS",
+    "best": true
   },
   {
     "id": "honda-eu3200i",
     "make": "Honda",
     "model": "EU3200i",
     "cat": "generator",
-    "tagline": "Inverter generator with CO-MINDER",
+    "tagline": "Inverter generator · 3,200 W max · 2,600 W rated",
     "info": "https://powerequipment.honda.com/generators/models/eu3200i",
     "photo": "catalog/honda-eu3200i.webp",
-    "manufacturerName": "EU3200i"
+    "manufacturerName": "EU3200i",
+    "best": true
   },
   {
     "id": "honda-eu7000is",
@@ -2216,7 +2173,8 @@
     "tagline": "Super-quiet 7,000 W inverter generator",
     "info": "https://powerequipment.honda.com/generators/models/eu7000is",
     "photo": "catalog/honda-eu7000is.webp",
-    "manufacturerName": "EU7000iS"
+    "manufacturerName": "EU7000iS",
+    "best": true
   },
   {
     "id": "honda-em5000",
@@ -2253,7 +2211,7 @@
     "make": "Honda",
     "model": "HRN216VKA4",
     "cat": "mower",
-    "tagline": "Battery mower · 1.5 kW rated",
+    "tagline": "Battery mower · 21\" cut · 1.5 kW rated",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv",
     "photo": "catalog/honda-hrn216vka4.webp",
     "sourceNote": "Honda page lists this as HRN-BV (HRN216YXBVKA4).",
@@ -2265,14 +2223,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://powerequipment.honda.com/lawn-mowers/models/hrn-bv",
       "note": "Honda rated motor power verified; not represented as electrical input."
-    }
+    },
+    "best": true
   },
   {
     "id": "honda-hrx217exa6",
     "make": "Honda",
     "model": "HRX217EXA6",
     "cat": "mower",
-    "tagline": "Battery mower · 1.5 kW rated",
+    "tagline": "Battery mower · 21\" cut · 1.5 kW rated",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrx-be",
     "photo": "catalog/honda-hrx217exa6.webp",
     "sourceNote": "Honda page lists this as HRX-BE (HRX217YXBEXA6).",
@@ -2284,14 +2243,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://powerequipment.honda.com/lawn-mowers/models/hrx-be",
       "note": "Honda rated motor power verified; not represented as electrical input."
-    }
+    },
+    "best": true
   },
   {
     "id": "honda-hrc216exa6",
     "make": "Honda",
     "model": "HRC216EXA6",
     "cat": "mower",
-    "tagline": "Battery mower · 2 kW rated",
+    "tagline": "Battery mower · 21\" cut · 2 kW rated",
     "info": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be",
     "photo": "catalog/honda-hrc216exa6.webp",
     "sourceNote": "Honda page lists this as HRC-BE (HRC217YXBEXA6); dealer code says 216.",
@@ -2303,7 +2263,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://powerequipment.honda.com/lawn-mowers/models/hrc-be",
       "note": "Honda rated motor power verified; not represented as electrical input."
-    }
+    },
+    "best": true
   },
   {
     "id": "honda-dp5080cbna",
@@ -2374,7 +2335,8 @@
     "tagline": "2\" centrifugal water pump",
     "info": "https://powerequipment.honda.com/pumps/models/wb20",
     "photo": "catalog/honda-wb20.webp",
-    "manufacturerName": "WB20"
+    "manufacturerName": "WB20",
+    "best": true
   },
   {
     "id": "honda-wb30",
@@ -2411,7 +2373,7 @@
     "make": "Honda",
     "model": "WSP100",
     "cat": "pump",
-    "tagline": "Submersible water pump",
+    "tagline": "Submersible water pump · 2\" outlet · 150 gpm",
     "info": "https://powerequipment.honda.com/pumps/models/wsp100",
     "photo": "catalog/honda-wsp100.webp",
     "manufacturerName": "WSP100"
@@ -2421,7 +2383,7 @@
     "make": "Honda",
     "model": "WSP33",
     "cat": "pump",
-    "tagline": "Submersible water pump",
+    "tagline": "Submersible water pump · 1.25\" outlet · 40 gpm",
     "info": "https://powerequipment.honda.com/pumps/models/wsp33",
     "photo": "catalog/honda-wsp33.webp",
     "manufacturerName": "WSP33"
@@ -2431,7 +2393,7 @@
     "make": "Honda",
     "model": "WSP50",
     "cat": "pump",
-    "tagline": "Submersible water pump",
+    "tagline": "Submersible water pump · 2\" outlet · 110 gpm",
     "info": "https://powerequipment.honda.com/pumps/models/wsp50",
     "photo": "catalog/honda-wsp50.webp",
     "manufacturerName": "WSP50"
@@ -2441,7 +2403,7 @@
     "make": "Honda",
     "model": "WSP53",
     "cat": "pump",
-    "tagline": "Submersible water pump",
+    "tagline": "Submersible water pump · 1.5\" outlet · 70 gpm",
     "info": "https://powerequipment.honda.com/pumps/models/wsp53",
     "photo": "catalog/honda-wsp53.webp",
     "manufacturerName": "WSP53"
@@ -2451,7 +2413,7 @@
     "make": "Honda",
     "model": "WSP73",
     "cat": "pump",
-    "tagline": "Submersible water pump",
+    "tagline": "Submersible water pump · 1.5\" outlet · 74 gpm",
     "info": "https://powerequipment.honda.com/pumps/models/wsp73",
     "photo": "catalog/honda-wsp73.webp",
     "manufacturerName": "WSP73"
@@ -2464,7 +2426,8 @@
     "tagline": "2\" trash pump",
     "info": "https://powerequipment.honda.com/pumps/models/wt20",
     "photo": "catalog/honda-wt20.webp",
-    "manufacturerName": "WT20"
+    "manufacturerName": "WT20",
+    "best": true
   },
   {
     "id": "honda-wt30",
@@ -2474,7 +2437,8 @@
     "tagline": "3\" trash pump",
     "info": "https://powerequipment.honda.com/pumps/models/wt30",
     "photo": "catalog/honda-wt30.webp",
-    "manufacturerName": "WT30"
+    "manufacturerName": "WT30",
+    "best": true
   },
   {
     "id": "honda-wt40",
@@ -2494,7 +2458,8 @@
     "tagline": "1\" lightweight water pump",
     "info": "https://powerequipment.honda.com/pumps/models/wx10",
     "photo": "catalog/honda-wx10.webp",
-    "manufacturerName": "WX10"
+    "manufacturerName": "WX10",
+    "best": true
   },
   {
     "id": "honda-wx15",
@@ -2514,7 +2479,8 @@
     "tagline": "Mini-tiller cultivator",
     "info": "https://powerequipment.honda.com/tillers/models/fg110",
     "photo": "catalog/honda-fg110.webp",
-    "manufacturerName": "FG110"
+    "manufacturerName": "FG110",
+    "best": true
   },
   {
     "id": "honda-f220k",
@@ -2555,29 +2521,30 @@
     "tagline": "Big M straight-shaft trimmer · 22.5 cc",
     "info": "https://maruyama-us.com/product/bt230l/",
     "photo": "catalog/maruyama-bt230l.webp",
-    "manufacturerName": "BT230L"
+    "manufacturerName": "BT230L",
+    "best": true
   },
   {
-    "id": "maruyama-b270l",
+    "id": "maruyama-b270l-turbo",
     "make": "Maruyama",
-    "model": "B270L",
+    "model": "B270L-Turbo",
     "cat": "trimmer",
-    "tagline": "Turbo straight-shaft trimmer · 25.4 cc",
+    "tagline": "Gas string trimmer · 25.4 cc",
     "info": "https://maruyama-us.com/product/b270l-turbo/",
-    "photo": "catalog/maruyama-b270l.webp",
-    "sourceNote": "Turbo page used per dealer desc; site Item No. 366473 differs from input 364852.",
-    "manufacturerName": "B270L TURBO"
+    "photo": "catalog/maruyama-b270l-turbo.webp",
+    "manufacturerName": "B270L-Turbo",
+    "best": true
   },
   {
-    "id": "maruyama-b300l",
+    "id": "maruyama-b300l-turbo",
     "make": "Maruyama",
-    "model": "B300L",
+    "model": "B300L-Turbo",
     "cat": "trimmer",
-    "tagline": "Turbo straight-shaft trimmer · 30.1 cc",
+    "tagline": "Gas string trimmer · 30.1 cc",
     "info": "https://maruyama-us.com/product/b300l-turbo/",
-    "photo": "catalog/maruyama-b300l.webp",
-    "sourceNote": "Turbo page used per dealer desc; site Item No. 366476 differs from input 364855.",
-    "manufacturerName": "B300L TURBO"
+    "photo": "catalog/maruyama-b300l-turbo.webp",
+    "manufacturerName": "B300L-Turbo",
+    "best": true
   },
   {
     "id": "maruyama-b420",
@@ -2587,7 +2554,8 @@
     "tagline": "Bike-handle brush cutter · 41.5 cc",
     "info": "https://maruyama-us.com/product/b420/",
     "photo": "catalog/maruyama-b420.webp",
-    "manufacturerName": "B420"
+    "manufacturerName": "B420",
+    "best": true
   },
   {
     "id": "maruyama-b420l",
@@ -2597,7 +2565,8 @@
     "tagline": "Loop-handle brush cutter · 41.5 cc",
     "info": "https://maruyama-us.com/product/b420l/",
     "photo": "catalog/maruyama-b420l.webp",
-    "manufacturerName": "B420L"
+    "manufacturerName": "B420L",
+    "best": true
   },
   {
     "id": "maruyama-tpp300",
@@ -2607,7 +2576,8 @@
     "tagline": "Telescopic pole pruner · 30.1 cc",
     "info": "https://maruyama-us.com/product/tpp300/",
     "photo": "catalog/maruyama-tpp300.webp",
-    "manufacturerName": "TPP300"
+    "manufacturerName": "TPP300",
+    "best": true
   },
   {
     "id": "maruyama-eh230dsl",
@@ -2634,30 +2604,33 @@
     "make": "Maruyama",
     "model": "H23DFR",
     "cat": "hedge",
-    "tagline": "Rotating-handle hedge trimmer · 24\" blade",
+    "tagline": "Rotating-handle hedge trimmer · 22.5 cc",
     "info": "https://maruyama-us.com/product/h23dfr/",
     "photo": "catalog/maruyama-h23dfr.webp",
-    "manufacturerName": "H23DFR"
+    "manufacturerName": "H23DFR",
+    "best": true
   },
   {
     "id": "maruyama-bl32",
     "make": "Maruyama",
     "model": "BL32",
     "cat": "blower",
-    "tagline": "Handheld blower · 30.1 cc · 450 CFM",
+    "tagline": "Handheld blower · 30.1 cc · 450 cfm · 180 mph",
     "info": "https://maruyama-us.com/product/bl32/",
     "photo": "catalog/maruyama-bl32.webp",
-    "manufacturerName": "BL32"
+    "manufacturerName": "BL32",
+    "best": true
   },
   {
     "id": "maruyama-bl9000-gt",
     "make": "Maruyama",
     "model": "BL9000-GT",
     "cat": "blower",
-    "tagline": "Backpack blower · 79.2 cc · 1,068 CFM",
+    "tagline": "Backpack blower · 79.2 cc · 1,068 cfm · 185 mph",
     "info": "https://maruyama-us.com/product/bl9000-gt/",
     "photo": "catalog/maruyama-bl9000-gt.webp",
-    "manufacturerName": "BL9000-GT"
+    "manufacturerName": "BL9000-GT",
+    "best": true
   },
   {
     "id": "maruyama-mg10",
@@ -2673,7 +2646,7 @@
     "id": "maruyama-ms40li",
     "make": "Maruyama",
     "model": "MS40Li",
-    "cat": "pump",
+    "cat": "sprayer",
     "tagline": "Battery backpack sprayer · 3.9 gal",
     "info": "https://maruyama-us.com/product/ms40li/",
     "photo": "catalog/maruyama-ms40li.webp",
@@ -2682,7 +2655,8 @@
       "checkedOn": "2026-10-03",
       "source": "https://maruyama-us.com/product/ms40li/",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "maruyama-m300qc",
@@ -2692,7 +2666,8 @@
     "tagline": "Quick-connect multi-cutter · 30.1 cc",
     "info": "https://maruyama-us.com/product/m300qc/",
     "photo": "catalog/maruyama-m300qc.webp",
-    "manufacturerName": "M300QC"
+    "manufacturerName": "M300QC",
+    "best": true
   },
   {
     "id": "maruyama-m420bk-qc",
@@ -2702,34 +2677,37 @@
     "tagline": "Backpack quick-connect multi-cutter · 41.5 cc",
     "info": "https://maruyama-us.com/product/m420bk-qc/",
     "photo": "catalog/maruyama-m420bk-qc.webp",
-    "manufacturerName": "M420BK-QC"
+    "manufacturerName": "M420BK-QC",
+    "best": true
   },
   {
     "id": "maruyama-mm300",
     "make": "Maruyama",
     "model": "MM300",
-    "cat": "pump",
-    "tagline": "Backpack mist blower · 30.1 cc",
+    "cat": "sprayer",
+    "tagline": "Backpack mist blower · 30.1 cc · 3.9 gal",
     "info": "https://maruyama-us.com/product/mm300/",
     "photo": "catalog/maruyama-mm300.webp",
-    "manufacturerName": "MM300"
+    "manufacturerName": "MM300",
+    "best": true
   },
   {
     "id": "maruyama-msd41-50t",
     "make": "Maruyama",
     "model": "MSD41-50T",
-    "cat": "pump",
-    "tagline": "Skid sprayer · Honda GX160",
+    "cat": "sprayer",
+    "tagline": "Skid sprayer · Honda GX160 · 50 gal",
     "info": "https://maruyama-us.com/product/msd41-50t/",
     "photo": "catalog/maruyama-msd41-50t.webp",
-    "manufacturerName": "MSD41-50T"
+    "manufacturerName": "MSD41-50T",
+    "best": true
   },
   {
     "id": "stihl-rza-748",
     "make": "STIHL",
     "model": "STIHL RZA 748",
     "cat": "zt",
-    "tagline": "Battery zero-turn · 5 kW drive",
+    "tagline": "Battery zero-turn · 5 kW drive · 48\" deck",
     "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rza-700-series-1027654",
     "photo": "catalog/stihl-rza-748.webp",
     "sourceNote": "Exact RZA 748 image from manufacturer product API.",
@@ -2741,14 +2719,15 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rza-700-series-1027654",
       "note": "5 kW is traction drive only, explicitly labeled; not total mowing power."
-    }
+    },
+    "best": true
   },
   {
     "id": "scag-patriot",
     "make": "SCAG",
     "model": "Patriot",
     "cat": "zt",
-    "tagline": "Zero-turn riding mower",
+    "tagline": "Zero-turn riding mower · 52\"–61\" decks · Kawasaki / Kohler",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/patriot/",
     "photo": "catalog/scag-patriot.webp",
     "manufacturerName": "Patriot"
@@ -2758,20 +2737,22 @@
     "make": "SCAG",
     "model": "Liberty Z",
     "cat": "zt",
-    "tagline": "Zero-turn riding mower",
+    "tagline": "Zero-turn riding mower · 36\"–61\" decks · Kawasaki / Kohler",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/liberty-z/",
     "photo": "catalog/scag-liberty-z.webp",
-    "manufacturerName": "Liberty Z"
+    "manufacturerName": "Liberty Z",
+    "best": true
   },
   {
     "id": "hustler-raptor-xd",
     "make": "Hustler",
     "model": "Raptor XD",
     "cat": "zt",
-    "tagline": "Residential zero-turn mower",
+    "tagline": "Residential zero-turn mower · 48\"–60\" decks",
     "info": "https://www.hustlerturf.com/products/raptor-xd",
     "photo": "catalog/hustler-raptor-xd.webp",
-    "manufacturerName": "Raptor XD"
+    "manufacturerName": "Raptor XD",
+    "best": true
   },
   {
     "id": "greenworks-commercial-mz608-all-electric",
@@ -2786,24 +2767,26 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.greenworkscommercial.com/products/82v-60-maximus-zero-turn-mower-mz608",
       "note": "Manufacturer does not publish a kW consumption figure on this product page."
-    }
+    },
+    "best": true
   },
   {
     "id": "hustler-fastrak-sdx",
     "make": "Hustler",
     "model": "Fastrak SDX",
     "cat": "zt",
-    "tagline": "Commercial zero-turn mower",
+    "tagline": "Commercial zero-turn mower · 48\"–60\" decks",
     "info": "https://www.hustlerturf.com/products/fastrak-sdx",
     "photo": "catalog/hustler-fastrak-sdx.webp",
-    "manufacturerName": "FasTrak SDX"
+    "manufacturerName": "FasTrak SDX",
+    "best": true
   },
   {
     "id": "scag-turf-tiger",
     "make": "SCAG",
     "model": "Turf Tiger",
     "cat": "zt",
-    "tagline": "Commercial zero-turn riding mower",
+    "tagline": "Commercial zero-turn riding mower · 52\"–72\" decks · Kawasaki / Kohler",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/turf-tiger-ll/",
     "photo": "catalog/scag-turf-tiger.webp",
     "sourceNote": "Official name is Turf Tiger II.",
@@ -2814,30 +2797,33 @@
     "make": "SCAG",
     "model": "Tiger Cat II",
     "cat": "zt",
-    "tagline": "Zero-turn riding mower",
+    "tagline": "Zero-turn riding mower · 48\"–61\" decks · Kawasaki / Kohler",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/tiger-cat-ii/",
     "photo": "catalog/scag-tiger-cat-ii.webp",
-    "manufacturerName": "Tiger Cat II"
+    "manufacturerName": "Tiger Cat II",
+    "best": true
   },
   {
     "id": "scag-freedom-z",
     "make": "SCAG",
     "model": "Freedom Z",
     "cat": "zt",
-    "tagline": "Zero-turn riding mower",
+    "tagline": "Zero-turn riding mower · 48\" deck · Kawasaki / Kohler",
     "info": "https://www.scag.com/product/zero-turn-riding-mowers/freedom-z/",
     "photo": "catalog/scag-freedom-z.webp",
-    "manufacturerName": "Freedom Z"
+    "manufacturerName": "Freedom Z",
+    "best": true
   },
   {
     "id": "wright-stander-x",
     "make": "Wright",
     "model": "Stander X",
     "cat": "zt",
-    "tagline": "Commercial stand-on zero-turn mower",
+    "tagline": "Commercial stand-on zero-turn mower · 48\"–52\" decks",
     "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-x/",
     "photo": "catalog/wright-stander-x.webp",
-    "manufacturerName": "Stander X"
+    "manufacturerName": "Stander X",
+    "best": true
   },
   {
     "id": "bluebird-pr22",
@@ -2888,7 +2874,7 @@
     "make": "Altoz",
     "model": "TRX 354",
     "cat": "zt",
-    "tagline": "Tracked- ZTR",
+    "tagline": "Tracked zero-turn · 54\" deck",
     "info": "https://altoz.com/tracked-zero-turn-mowers/trx",
     "photo": "catalog/altoz-trx-354-clean.webp"
   },
@@ -2921,7 +2907,7 @@
     "id": "stihl-tsa-500",
     "make": "STIHL",
     "model": "TSA 500",
-    "cat": "other",
+    "cat": "cutoff",
     "tagline": "14\" battery cut-off saw · 5 kW",
     "info": "https://www.stihlusa.com/en/p/cut-off-machines-tsa-500-battery-powered-cut-off-machine-1033002",
     "photo": "catalog/stihl-tsa-500.webp",
@@ -2939,7 +2925,7 @@
     "id": "stihl-tsa-230",
     "make": "STIHL",
     "model": "TSA 230",
-    "cat": "other",
+    "cat": "cutoff",
     "tagline": "9\" battery cut-off saw · 2.1 kW",
     "info": "https://www.stihlusa.com/en/p/cut-off-machines-tsa-230-ap-system-1021007",
     "photo": "catalog/stihl-tsa-230.webp",
@@ -2951,6 +2937,2894 @@
       "checkedOn": "2026-10-03",
       "source": "https://www.stihlusa.com/en/p/cut-off-machines-tsa-230-ap-system-1021007",
       "note": "Electrical consumption/input verified."
-    }
+    },
+    "best": true
+  },
+  {
+    "id": "stihl-rz-142",
+    "make": "STIHL",
+    "model": "RZ 142",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 42\" deck",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-142-1027442",
+    "photo": "catalog/stihl-rz-142.webp",
+    "manufacturerName": "RZ 142"
+  },
+  {
+    "id": "stihl-rz-152",
+    "make": "STIHL",
+    "model": "RZ 152",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 52\" deck",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-152-1027443",
+    "photo": "catalog/stihl-rz-152.webp",
+    "manufacturerName": "RZ 152"
+  },
+  {
+    "id": "stihl-rz-261",
+    "make": "STIHL",
+    "model": "RZ 261",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 61\" deck",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-261-1027444",
+    "photo": "catalog/stihl-rz-261.webp",
+    "manufacturerName": "RZ 261"
+  },
+  {
+    "id": "stihl-rz-552-series",
+    "make": "STIHL",
+    "model": "RZ 552 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 52\" deck · RZ 552, RZ 552 K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-552-series-1027445",
+    "photo": "catalog/stihl-rz-552-series.webp",
+    "manufacturerName": "RZ 552 Series"
+  },
+  {
+    "id": "stihl-rz-560-series",
+    "make": "STIHL",
+    "model": "RZ 560 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 59.8\" deck · RZ 560, RZ 560 K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-552-series-1027446",
+    "photo": "catalog/stihl-rz-560-series.webp",
+    "manufacturerName": "RZ 560 Series"
+  },
+  {
+    "id": "stihl-rz-752-series",
+    "make": "STIHL",
+    "model": "RZ 752 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 52\" deck · RZ 752i, RZ 752i K, RZ 752 K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-752-series-1027448",
+    "photo": "catalog/stihl-rz-752-series.webp",
+    "manufacturerName": "RZ 752 Series"
+  },
+  {
+    "id": "stihl-rz-760-series",
+    "make": "STIHL",
+    "model": "RZ 760 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 60\" deck · RZ 760i, RZ 760i K, RZ 760 K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-760-series-1027450",
+    "photo": "catalog/stihl-rz-760-series.webp",
+    "manufacturerName": "RZ 760 Series"
+  },
+  {
+    "id": "stihl-rz-960-series",
+    "make": "STIHL",
+    "model": "RZ 960 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 60\" deck · RZ 960i, RZ 960i K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-960-series-1027452",
+    "photo": "catalog/stihl-rz-960-series.webp",
+    "manufacturerName": "RZ 960 Series"
+  },
+  {
+    "id": "stihl-rz-972-series",
+    "make": "STIHL",
+    "model": "RZ 972 Series",
+    "cat": "zt",
+    "tagline": "Gas zero-turn mower · 72\" deck · RZ 972i, RZ 972 K, RZ 972i K",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-stihl-rz-972-series-1027454",
+    "photo": "catalog/stihl-rz-972-series.webp",
+    "manufacturerName": "RZ 972 Series"
+  },
+  {
+    "id": "stihl-aza-700-series",
+    "make": "STIHL",
+    "model": "AZA 700 Series",
+    "cat": "zt",
+    "tagline": "Battery stand-on zero turn mower · 48\" deck · AZA 748, AZA 752, AZA 760",
+    "info": "https://www.stihlusa.com/en/p/zero-turn-mowers-aza-700-series-1027864",
+    "photo": "catalog/stihl-aza-700-series.webp",
+    "manufacturerName": "AZA 700 Series"
+  },
+  {
+    "id": "stihl-rma-448-v",
+    "make": "STIHL",
+    "model": "RMA 448 V",
+    "cat": "mower",
+    "tagline": "Battery lawn mower · 18.1\" cut",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-448-battery-powered-lawn-mower-1027469",
+    "photo": "catalog/stihl-rma-448-v.webp",
+    "manufacturerName": "RMA 448 V"
+  },
+  {
+    "id": "stihl-rma-453-pv",
+    "make": "STIHL",
+    "model": "RMA 453 PV",
+    "cat": "mower",
+    "tagline": "Battery lawn mower · 20.1\" cut",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-453-battery-powered-lawn-mower-1027474",
+    "photo": "catalog/stihl-rma-453-pv.webp",
+    "manufacturerName": "RMA 453 PV",
+    "best": true
+  },
+  {
+    "id": "stihl-rm-655",
+    "make": "STIHL",
+    "model": "RM 655",
+    "cat": "mower",
+    "tagline": "Gas lawn mower · 21\" cut · RM 655 V, RM 655 YS, RM 655 VS",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rm-655-gasoline-lawn-mower-1027106",
+    "photo": "catalog/stihl-rm-655.webp",
+    "manufacturerName": "RM 655"
+  },
+  {
+    "id": "stihl-rma-510",
+    "make": "STIHL",
+    "model": "RMA 510",
+    "cat": "mower",
+    "tagline": "Battery lawn mower · 20.1\" cut · RMA 510, RMA 510 V",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-510-1027280",
+    "photo": "catalog/stihl-rma-510.webp",
+    "manufacturerName": "RMA 510"
+  },
+  {
+    "id": "stihl-rma-7-rv",
+    "make": "STIHL",
+    "model": "RMA 7 RV",
+    "cat": "mower",
+    "tagline": "Battery mulching lawn mower · 20.1\" cut",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-7-battery-mulching-lawn-mower-1027863",
+    "photo": "catalog/stihl-rma-7-rv.webp",
+    "manufacturerName": "RMA 7 RV"
+  },
+  {
+    "id": "stihl-rma-756-v",
+    "make": "STIHL",
+    "model": "RMA 756 V",
+    "cat": "mower",
+    "tagline": "Battery lawn mower · 21\" cut · AP System",
+    "info": "https://www.stihlusa.com/en/p/lawn-mowers-rma-756-battery-powered-lawn-mower-1027862",
+    "photo": "catalog/stihl-rma-756-v.webp",
+    "manufacturerName": "RMA 756 V"
+  },
+  {
+    "id": "stihl-msa-220-c-b",
+    "make": "STIHL",
+    "model": "MSA 220 C-B",
+    "cat": "chainsaw",
+    "tagline": "Battery chainsaw · AP System",
+    "info": "https://www.stihlusa.com/en/p/chainsaws-msa-220-ap-system-1027482",
+    "photo": "catalog/stihl-msa-220-c-b.webp",
+    "manufacturerName": "MSA 220 C-B"
+  },
+  {
+    "id": "stihl-msa-260-c-o",
+    "make": "STIHL",
+    "model": "MSA 260 C-O",
+    "cat": "chainsaw",
+    "tagline": "Battery chainsaw · 36V AP · 14–18\" bar",
+    "info": "https://www.stihlusa.com/en/p/chainsaws-mssa-260-1051002",
+    "photo": "catalog/stihl-msa-260-c-o.webp",
+    "manufacturerName": "MSA 260 C-O"
+  },
+  {
+    "id": "stihl-fca-80",
+    "make": "STIHL",
+    "model": "FCA 80",
+    "cat": "edger",
+    "tagline": "Battery edger · 36V AK",
+    "info": "https://www.stihlusa.com/en/p/edgers-fca-80-1027501",
+    "photo": "catalog/stihl-fca-80.webp",
+    "manufacturerName": "FCA 80"
+  },
+  {
+    "id": "stihl-fc-56-c-e",
+    "make": "STIHL",
+    "model": "FC 56 C-E",
+    "cat": "edger",
+    "tagline": "Gas edger · 27.2 cc",
+    "info": "https://www.stihlusa.com/en/p/edgers-fc-56-c-e-1027434",
+    "photo": "catalog/stihl-fc-56-c-e.webp",
+    "manufacturerName": "FC 56 C-E"
+  },
+  {
+    "id": "stihl-fc-70",
+    "make": "STIHL",
+    "model": "FC 70",
+    "cat": "edger",
+    "tagline": "Gas edger · 27.2 cc",
+    "info": "https://www.stihlusa.com/en/p/edgers-fc-70-1027436",
+    "photo": "catalog/stihl-fc-70.webp",
+    "manufacturerName": "FC 70"
+  },
+  {
+    "id": "stihl-fc-111",
+    "make": "STIHL",
+    "model": "FC 111",
+    "cat": "edger",
+    "tagline": "Gas edger · 31.4 cc",
+    "info": "https://www.stihlusa.com/en/p/edgers-fc-111-1027200",
+    "photo": "catalog/stihl-fc-111.webp",
+    "manufacturerName": "FC 111"
+  },
+  {
+    "id": "stihl-fca-135",
+    "make": "STIHL",
+    "model": "FCA 135",
+    "cat": "edger",
+    "tagline": "Battery edger · AP System",
+    "info": "https://www.stihlusa.com/en/p/edgers-fca-135-1027499",
+    "photo": "catalog/stihl-fca-135.webp",
+    "manufacturerName": "FCA 135"
+  },
+  {
+    "id": "stihl-fca-140",
+    "make": "STIHL",
+    "model": "FCA 140",
+    "cat": "edger",
+    "tagline": "Battery edger · AP System",
+    "info": "https://www.stihlusa.com/en/p/edgers-fca-140-1027500",
+    "photo": "catalog/stihl-fca-140.webp",
+    "manufacturerName": "FCA 140",
+    "best": true
+  },
+  {
+    "id": "stihl-fc-91",
+    "make": "STIHL",
+    "model": "FC 91",
+    "cat": "edger",
+    "tagline": "Gas edger · 28.4 cc",
+    "info": "https://www.stihlusa.com/en/p/edgers-fc-91-1043001",
+    "photo": "catalog/stihl-fc-91.webp",
+    "manufacturerName": "FC 91"
+  },
+  {
+    "id": "stihl-fsa-50",
+    "make": "STIHL",
+    "model": "FSA 50",
+    "cat": "trimmer",
+    "tagline": "Battery grass trimmer · 36V AK",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-50-battery-grass-trimmer-1024000",
+    "photo": "catalog/stihl-fsa-50.webp",
+    "manufacturerName": "FSA 50"
+  },
+  {
+    "id": "stihl-fs-38",
+    "make": "STIHL",
+    "model": "FS 38",
+    "cat": "trimmer",
+    "tagline": "Gas grass trimmer · 27.2 cc",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-38-gasoline-grass-trimmer-1027364",
+    "photo": "catalog/stihl-fs-38.webp",
+    "manufacturerName": "FS 38"
+  },
+  {
+    "id": "stihl-fsa-86-r",
+    "make": "STIHL",
+    "model": "FSA 86 R",
+    "cat": "trimmer",
+    "tagline": "Battery grass trimmer · AP System",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-86-ap-system-1027006",
+    "photo": "catalog/stihl-fsa-86-r.webp",
+    "manufacturerName": "FSA 86 R"
+  },
+  {
+    "id": "stihl-fs-40-c-e",
+    "make": "STIHL",
+    "model": "FS 40 C-E",
+    "cat": "trimmer",
+    "tagline": "Gas grass trimmer · 27.2 cc",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-40-gasoline-grass-trimmer-1027129",
+    "photo": "catalog/stihl-fs-40-c-e.webp",
+    "manufacturerName": "FS 40 C-E"
+  },
+  {
+    "id": "stihl-fs-50-c-e",
+    "make": "STIHL",
+    "model": "FS 50 C-E",
+    "cat": "trimmer",
+    "tagline": "Gas grass trimmer · 27.2 cc",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-50-gasoline-grass-trimmer-1027140",
+    "photo": "catalog/stihl-fs-50-c-e.webp",
+    "manufacturerName": "FS 50 C-E"
+  },
+  {
+    "id": "stihl-fs-111",
+    "make": "STIHL",
+    "model": "FS 111",
+    "cat": "trimmer",
+    "tagline": "Gas grass trimmer · 31.4 cc · FS 111 R, FS 111, FS 111 RX",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-111-gasoline-grass-trimmer-1027240",
+    "photo": "catalog/stihl-fs-111.webp",
+    "manufacturerName": "FS 111"
+  },
+  {
+    "id": "stihl-fs-361-c-em",
+    "make": "STIHL",
+    "model": "FS 361 C-EM",
+    "cat": "trimmer",
+    "tagline": "Gas brushcutter/clearing saw · 37.7 cc",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-361-gasoline-brushcutter-clearing-saw-1027607",
+    "photo": "catalog/stihl-fs-361-c-em.webp",
+    "manufacturerName": "FS 361 C-EM"
+  },
+  {
+    "id": "stihl-fs-561-c-em",
+    "make": "STIHL",
+    "model": "FS 561 C-EM",
+    "cat": "trimmer",
+    "tagline": "Gas brushcutter/clearing saw · 57.1 cc",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fs-561-gasoline-brushcutter-clearing-saw-1006009",
+    "photo": "catalog/stihl-fs-561-c-em.webp",
+    "manufacturerName": "FS 561 C-EM"
+  },
+  {
+    "id": "stihl-fsa-30",
+    "make": "STIHL",
+    "model": "FSA 30",
+    "cat": "trimmer",
+    "tagline": "Battery grass trimmer · 11V AS",
+    "info": "https://www.stihlusa.com/en/p/brushcutters-grass-trimmers-clearing-saws-fsa-30-grass-trimmer-1027513",
+    "photo": "catalog/stihl-fsa-30.webp",
+    "manufacturerName": "FSA 30"
+  },
+  {
+    "id": "stihl-bg-56-c-e",
+    "make": "STIHL",
+    "model": "BG 56 C-E",
+    "cat": "blower",
+    "tagline": "Gas blower · 412 cfm · 159 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bg-56-gasoline-blower-1027189",
+    "photo": "catalog/stihl-bg-56-c-e.webp",
+    "manufacturerName": "BG 56 C-E"
+  },
+  {
+    "id": "stihl-bga-86",
+    "make": "STIHL",
+    "model": "BGA 86",
+    "cat": "blower",
+    "tagline": "Battery blower · AP System · 459 cfm · 170 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-86-ap-system-1027107",
+    "photo": "catalog/stihl-bga-86.webp",
+    "manufacturerName": "BGA 86"
+  },
+  {
+    "id": "stihl-bga-200",
+    "make": "STIHL",
+    "model": "BGA 200",
+    "cat": "blower",
+    "tagline": "Battery blower · AP System · 553 cfm · 188 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-200-ap-system-1027148",
+    "photo": "catalog/stihl-bga-200.webp",
+    "manufacturerName": "BGA 200"
+  },
+  {
+    "id": "stihl-br-200",
+    "make": "STIHL",
+    "model": "BR 200",
+    "cat": "blower",
+    "tagline": "Gas backpack blower · 400 cfm · 150 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-200-gasoline-backpack-blower-1027021",
+    "photo": "catalog/stihl-br-200.webp",
+    "manufacturerName": "BR 200"
+  },
+  {
+    "id": "stihl-br-700",
+    "make": "STIHL",
+    "model": "BR 700",
+    "cat": "blower",
+    "tagline": "Gas backpack blower · 912 cfm · 196 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-br-700-gasoline-backpack-blower-1027339",
+    "photo": "catalog/stihl-br-700.webp",
+    "manufacturerName": "BR 700"
+  },
+  {
+    "id": "stihl-bra-500",
+    "make": "STIHL",
+    "model": "BRA 500",
+    "cat": "blower",
+    "tagline": "Battery backpack blower · AP System · 848 cfm · 244 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bra-500-battery-backpack-blower-1027647",
+    "photo": "catalog/stihl-bra-500.webp",
+    "manufacturerName": "BRA 500"
+  },
+  {
+    "id": "stihl-bga-110",
+    "make": "STIHL",
+    "model": "BGA 110",
+    "cat": "blower",
+    "tagline": "Battery blower · 538 cfm · 158 mph",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-bga-110-battery-powered-blower-1049018",
+    "photo": "catalog/stihl-bga-110.webp",
+    "manufacturerName": "BGA 110"
+  },
+  {
+    "id": "stihl-sha-56",
+    "make": "STIHL",
+    "model": "SHA 56",
+    "cat": "vacuum",
+    "tagline": "Battery vacuum shredder",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sha-56-battery-powered-vacuum-shredder-1027389",
+    "photo": "catalog/stihl-sha-56.webp",
+    "manufacturerName": "SHA 56"
+  },
+  {
+    "id": "stihl-sh-56-c-e",
+    "make": "STIHL",
+    "model": "SH 56 C-E",
+    "cat": "vacuum",
+    "tagline": "Gas vacuum shredder",
+    "info": "https://www.stihlusa.com/en/p/leaf-blowers-blowers-vacuum-shredders-sh-56-gasoline-vacuum-shredder-1027081",
+    "photo": "catalog/stihl-sh-56-c-e.webp",
+    "manufacturerName": "SH 56 C-E"
+  },
+  {
+    "id": "stihl-hs-56",
+    "make": "STIHL",
+    "model": "HS 56",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.4 cc · 23.6\" blade",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-56-gasoline-hedge-trimmer-1027355",
+    "photo": "catalog/stihl-hs-56.webp",
+    "manufacturerName": "HS 56"
+  },
+  {
+    "id": "stihl-hsa-30",
+    "make": "STIHL",
+    "model": "HSA 30",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 11V AS",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-30-battery-powered-hedge-trimmer-1027507",
+    "photo": "catalog/stihl-hsa-30.webp",
+    "manufacturerName": "HSA 30"
+  },
+  {
+    "id": "stihl-hsa-40",
+    "make": "STIHL",
+    "model": "HSA 40",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 11V AS",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-40-battery-powered-hedge-trimmer-1027503",
+    "photo": "catalog/stihl-hsa-40.webp",
+    "manufacturerName": "HSA 40"
+  },
+  {
+    "id": "stihl-hsa-100",
+    "make": "STIHL",
+    "model": "HSA 100",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · AP System",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-100-battery-powered-hedge-trimmer-1027609",
+    "photo": "catalog/stihl-hsa-100.webp",
+    "manufacturerName": "HSA 100"
+  },
+  {
+    "id": "stihl-hsa-150",
+    "make": "STIHL",
+    "model": "HSA 150",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · AP System · HSA 150 T, HSA 150 R",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hsa-150-1030011",
+    "photo": "catalog/stihl-hsa-150.webp",
+    "manufacturerName": "HSA 150"
+  },
+  {
+    "id": "stihl-hla-40",
+    "make": "STIHL",
+    "model": "HLA 40",
+    "cat": "hedge",
+    "tagline": "Battery extended-reach hedge trimmer · 11V AS · 17.7\" blade",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-40-battery-powered-extended-reach-hedge-trimmer-1034000",
+    "photo": "catalog/stihl-hla-40.webp",
+    "manufacturerName": "HLA 40"
+  },
+  {
+    "id": "stihl-hla-140",
+    "make": "STIHL",
+    "model": "HLA 140",
+    "cat": "hedge",
+    "tagline": "Battery extended-reach hedge trimmer · AP System · HLA 140, HLA 140 K",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-140-battery-powered-extended-reach-hedge-trimmer-1049004",
+    "photo": "catalog/stihl-hla-140.webp",
+    "manufacturerName": "HLA 140"
+  },
+  {
+    "id": "stihl-hla-150",
+    "make": "STIHL",
+    "model": "HLA 150",
+    "cat": "hedge",
+    "tagline": "Battery telescopic hedge trimmer · AP System",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hla-150-battery-powered-telescopic-hedge-trimmer-1051008",
+    "photo": "catalog/stihl-hla-150.webp",
+    "manufacturerName": "HLA 150"
+  },
+  {
+    "id": "stihl-hs-87",
+    "make": "STIHL",
+    "model": "HS 87",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 22.7 cc · 29.5\" blade · HS 87 R, HS 87 T",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hs-87-gasoline-hedge-trimmer-1027238",
+    "photo": "catalog/stihl-hs-87.webp",
+    "manufacturerName": "HS 87"
+  },
+  {
+    "id": "stihl-hl-56-k",
+    "make": "STIHL",
+    "model": "HL 56 K",
+    "cat": "hedge",
+    "tagline": "Gas extended-reach hedge trimmer · 27.2 cc · 19.7\" blade",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hl-56-k-1027435",
+    "photo": "catalog/stihl-hl-56-k.webp",
+    "manufacturerName": "HL 56 K"
+  },
+  {
+    "id": "stihl-hl-91-k",
+    "make": "STIHL",
+    "model": "HL 91 K",
+    "cat": "hedge",
+    "tagline": "Gas extended-reach hedge trimmer · 24.1 cc · 23.6\" blade",
+    "info": "https://www.stihlusa.com/en/p/hedge-trimmers-long-reach-hedge-trimmers-hl-91-1027425",
+    "photo": "catalog/stihl-hl-91-k.webp",
+    "manufacturerName": "HL 91 K"
+  },
+  {
+    "id": "stihl-hta-30",
+    "make": "STIHL",
+    "model": "HTA 30",
+    "cat": "polesaw",
+    "tagline": "Battery pole pruner · 22V AS · 8\" bar",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-30-battery-powered-pole-pruner-1045001",
+    "photo": "catalog/stihl-hta-30.webp",
+    "manufacturerName": "HTA 30"
+  },
+  {
+    "id": "stihl-hta-140",
+    "make": "STIHL",
+    "model": "HTA 140",
+    "cat": "polesaw",
+    "tagline": "Battery pole pruner · 36V AP · 10\" bar",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-140-battery-powered-pole-pruner-1049001",
+    "photo": "catalog/stihl-hta-140.webp",
+    "manufacturerName": "HTA 140"
+  },
+  {
+    "id": "stihl-hta-150",
+    "make": "STIHL",
+    "model": "HTA 150",
+    "cat": "polesaw",
+    "tagline": "Battery pole pruner · AP System",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-150-ap-system-1051001",
+    "photo": "catalog/stihl-hta-150.webp",
+    "manufacturerName": "HTA 150"
+  },
+  {
+    "id": "stihl-hta-160",
+    "make": "STIHL",
+    "model": "HTA 160",
+    "cat": "polesaw",
+    "tagline": "Battery pole pruner · AP System",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-hta-160-ap-system-1051000",
+    "photo": "catalog/stihl-hta-160.webp",
+    "manufacturerName": "HTA 160",
+    "best": true
+  },
+  {
+    "id": "stihl-ht-105",
+    "make": "STIHL",
+    "model": "HT 105",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 31.4 cc · 12\" bar",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-ht-105-gasoline-pole-pruner-1027388",
+    "photo": "catalog/stihl-ht-105.webp",
+    "manufacturerName": "HT 105"
+  },
+  {
+    "id": "stihl-ht-134",
+    "make": "STIHL",
+    "model": "HT 134",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 36.3 cc · 14\" bar",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-ht-134-1027386",
+    "photo": "catalog/stihl-ht-134.webp",
+    "manufacturerName": "HT 134"
+  },
+  {
+    "id": "stihl-ht-250",
+    "make": "STIHL",
+    "model": "HT 250",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 40.2 cc · 14\" bar",
+    "info": "https://www.stihlusa.com/en/p/pole-pruners-ht-250-1027428",
+    "photo": "catalog/stihl-ht-250.webp",
+    "manufacturerName": "HT 250"
+  },
+  {
+    "id": "stihl-kma-120-r",
+    "make": "STIHL",
+    "model": "KMA 120 R",
+    "cat": "multi",
+    "tagline": "Battery KombiSystem · AP System",
+    "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-120-r-ap-system-1027663",
+    "photo": "catalog/stihl-kma-120-r.webp",
+    "manufacturerName": "KMA 120 R"
+  },
+  {
+    "id": "stihl-kma-140-r",
+    "make": "STIHL",
+    "model": "KMA 140 R",
+    "cat": "multi",
+    "tagline": "Battery Kombi tool · AP System",
+    "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-140-r-battery-powered-kombi-tool-1048003",
+    "photo": "catalog/stihl-kma-140-r.webp",
+    "manufacturerName": "KMA 140 R"
+  },
+  {
+    "id": "stihl-km-111-r",
+    "make": "STIHL",
+    "model": "KM 111 R",
+    "cat": "multi",
+    "tagline": "Gas KombiSystem · 31.4 cc",
+    "info": "https://www.stihlusa.com/en/p/kombisystem-multisystem-km-111-r-gasoline-kombisystem-1027340",
+    "photo": "catalog/stihl-km-111-r.webp",
+    "manufacturerName": "KM 111 R"
+  },
+  {
+    "id": "stihl-sga-30",
+    "make": "STIHL",
+    "model": "SGA 30",
+    "cat": "sprayer",
+    "tagline": "Battery sprayer · 1.25 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sga-30-battery-sprayer-1030003",
+    "photo": "catalog/stihl-sga-30.webp",
+    "manufacturerName": "SGA 30"
+  },
+  {
+    "id": "stihl-sga-60",
+    "make": "STIHL",
+    "model": "SGA 60",
+    "cat": "sprayer",
+    "tagline": "Battery backpack sprayer · 4 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sga-60-battery-backpack-sprayer-1030004",
+    "photo": "catalog/stihl-sga-60.webp",
+    "manufacturerName": "SGA 60"
+  },
+  {
+    "id": "stihl-sga-85",
+    "make": "STIHL",
+    "model": "SGA 85",
+    "cat": "sprayer",
+    "tagline": "Battery sprayer · 4.5 gal · AP System",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sga-85-battery-powered-sprayer-1033004",
+    "photo": "catalog/stihl-sga-85.webp",
+    "manufacturerName": "SGA 85"
+  },
+  {
+    "id": "stihl-sg-11",
+    "make": "STIHL",
+    "model": "SG 11",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · 0.4 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sg-11-manual-sprayer-1027146",
+    "photo": "catalog/stihl-sg-11.webp",
+    "manufacturerName": "SG 11"
+  },
+  {
+    "id": "stihl-sg-20",
+    "make": "STIHL",
+    "model": "SG 20",
+    "cat": "sprayer",
+    "tagline": "Manual backpack sprayer · 4.8 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sg-20-1027027",
+    "photo": "catalog/stihl-sg-20.webp",
+    "manufacturerName": "SG 20"
+  },
+  {
+    "id": "stihl-sg-31",
+    "make": "STIHL",
+    "model": "SG 31",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · 1.3 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sg-31-sprayer-1027190",
+    "photo": "catalog/stihl-sg-31.webp",
+    "manufacturerName": "SG 31"
+  },
+  {
+    "id": "stihl-sg-51",
+    "make": "STIHL",
+    "model": "SG 51",
+    "cat": "sprayer",
+    "tagline": "Manual backpack sprayer · 3.2 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sg-51-1027369",
+    "photo": "catalog/stihl-sg-51.webp",
+    "manufacturerName": "SG 51"
+  },
+  {
+    "id": "stihl-sg-71",
+    "make": "STIHL",
+    "model": "SG 71",
+    "cat": "sprayer",
+    "tagline": "Manual backpack sprayer · 4.76 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sg-71-1027344",
+    "photo": "catalog/stihl-sg-71.webp",
+    "manufacturerName": "SG 71"
+  },
+  {
+    "id": "stihl-sr-430",
+    "make": "STIHL",
+    "model": "SR 430",
+    "cat": "sprayer",
+    "tagline": "Gas backpack sprayer · 3.7 gal",
+    "info": "https://www.stihlusa.com/en/p/mistblowers-sprayers-sr-430-1027169",
+    "photo": "catalog/stihl-sr-430.webp",
+    "manufacturerName": "SR 430"
+  },
+  {
+    "id": "stihl-rca-20",
+    "make": "STIHL",
+    "model": "RCA 20",
+    "cat": "pressure",
+    "tagline": "Battery pressure washer · 11V AS · 350 psi · 1 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rca-20-battery-powered-pressure-washer-1027615",
+    "photo": "catalog/stihl-rca-20.webp",
+    "manufacturerName": "RCA 20"
+  },
+  {
+    "id": "stihl-rca-50",
+    "make": "STIHL",
+    "model": "RCA 50",
+    "cat": "pressure",
+    "tagline": "Battery pressure washer · 1,450 psi",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rca-50-battery-powered-pressure-washer-1049013",
+    "photo": "catalog/stihl-rca-50.webp",
+    "manufacturerName": "RCA 50"
+  },
+  {
+    "id": "stihl-rea-60-plus",
+    "make": "STIHL",
+    "model": "REA 60 PLUS",
+    "cat": "pressure",
+    "tagline": "Battery pressure washer · 36V AK · 1,500 psi · 1 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rea-60-plus-battery-powered-pressure-washer-1027617",
+    "photo": "catalog/stihl-rea-60-plus.webp",
+    "manufacturerName": "REA 60 PLUS"
+  },
+  {
+    "id": "stihl-rea-100",
+    "make": "STIHL",
+    "model": "REA 100",
+    "cat": "pressure",
+    "tagline": "Battery pressure washer · 36V AP · 1,800 psi · 1.2 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rea-100-plus-battery-powered-pressure-washer-1027619",
+    "photo": "catalog/stihl-rea-100.webp",
+    "manufacturerName": "REA 100"
+  },
+  {
+    "id": "stihl-re-80",
+    "make": "STIHL",
+    "model": "RE 80",
+    "cat": "pressure",
+    "tagline": "Electric pressure washer · 1,600 psi · 1.2 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-re-80-corded-electric-pressure-washer-1027392",
+    "photo": "catalog/stihl-re-80.webp",
+    "manufacturerName": "RE 80"
+  },
+  {
+    "id": "stihl-re-90-plus",
+    "make": "STIHL",
+    "model": "RE 90 PLUS",
+    "cat": "pressure",
+    "tagline": "Electric pressure washer · 1,800 psi · 1.2 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-re-90-plus-1027394",
+    "photo": "catalog/stihl-re-90-plus.webp",
+    "manufacturerName": "RE 90 PLUS"
+  },
+  {
+    "id": "stihl-re-100-plus-control",
+    "make": "STIHL",
+    "model": "RE 100 PLUS CONTROL",
+    "cat": "pressure",
+    "tagline": "Electric pressure washer · 1,800 psi · 1.2 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-re-100-plus-control-corded-electric-pressure-washer-1027395",
+    "photo": "catalog/stihl-re-100-plus-control.webp",
+    "manufacturerName": "RE 100 PLUS CONTROL"
+  },
+  {
+    "id": "stihl-re-110-plus",
+    "make": "STIHL",
+    "model": "RE 110 PLUS",
+    "cat": "pressure",
+    "tagline": "Electric pressure washer · 2,000 psi · 1.2 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-re-110-plus-corded-electric-pressure-washer-1027399",
+    "photo": "catalog/stihl-re-110-plus.webp",
+    "manufacturerName": "RE 110 PLUS"
+  },
+  {
+    "id": "stihl-rb-400-dirt-boss",
+    "make": "STIHL",
+    "model": "RB 400 DIRT BOSS",
+    "cat": "pressure",
+    "tagline": "Gas pressure washer · 196 cc · 2,700 psi · 2.7 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rb-400-dirt-boss-1027366",
+    "photo": "catalog/stihl-rb-400-dirt-boss.webp",
+    "manufacturerName": "RB 400 DIRT BOSS"
+  },
+  {
+    "id": "stihl-rb-600",
+    "make": "STIHL",
+    "model": "RB 600",
+    "cat": "pressure",
+    "tagline": "Gas pressure washer · 208 cc · 3,200 psi · 3.0 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rb-600-1027214",
+    "photo": "catalog/stihl-rb-600.webp",
+    "manufacturerName": "RB 600"
+  },
+  {
+    "id": "stihl-rb-800",
+    "make": "STIHL",
+    "model": "RB 800",
+    "cat": "pressure",
+    "tagline": "Gas pressure washer · 429 cc · 4,200 psi · 4.0 gpm",
+    "info": "https://www.stihlusa.com/en/p/pressure-washers-rb-800-1027172",
+    "photo": "catalog/stihl-rb-800.webp",
+    "manufacturerName": "RB 800"
+  },
+  {
+    "id": "stihl-wp-300",
+    "make": "STIHL",
+    "model": "WP 300",
+    "cat": "pump",
+    "tagline": "Gas water pump · 2\" outlet · 162 gpm",
+    "info": "https://www.stihlusa.com/en/p/water-pumps-wp-300-gasoline-water-pump-1030000",
+    "photo": "catalog/stihl-wp-300.webp",
+    "manufacturerName": "WP 300"
+  },
+  {
+    "id": "stihl-wp-600",
+    "make": "STIHL",
+    "model": "WP 600",
+    "cat": "pump",
+    "tagline": "Gas water pump · 3\" outlet · 277 gpm",
+    "info": "https://www.stihlusa.com/en/p/water-pumps-wp-600-gasoline-water-pump-1030001",
+    "photo": "catalog/stihl-wp-600.webp",
+    "manufacturerName": "WP 600"
+  },
+  {
+    "id": "stihl-wp-900",
+    "make": "STIHL",
+    "model": "WP 900",
+    "cat": "pump",
+    "tagline": "Gas water pump · 4\" outlet · 413 gpm",
+    "info": "https://www.stihlusa.com/en/p/water-pumps-wp-900-gasoline-water-pump-1030002",
+    "photo": "catalog/stihl-wp-900.webp",
+    "manufacturerName": "WP 900"
+  },
+  {
+    "id": "stihl-bta-140",
+    "make": "STIHL",
+    "model": "BTA 140",
+    "cat": "other",
+    "tagline": "Battery earth auger",
+    "info": "https://www.stihlusa.com/en/p/earth-augers-bta-140-battery-powered-earth-auger-1047000",
+    "photo": "catalog/stihl-bta-140.webp",
+    "manufacturerName": "BTA 140"
+  },
+  {
+    "id": "stihl-ts-410",
+    "make": "STIHL",
+    "model": "TS 410",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off machine",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-410-gasoline-cut-off-machine-1027309",
+    "photo": "catalog/stihl-ts-410.webp",
+    "manufacturerName": "TS 410"
+  },
+  {
+    "id": "stihl-ts-420",
+    "make": "STIHL",
+    "model": "TS 420",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off machine",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-420-gasoline-cut-off-machine-1027324",
+    "photo": "catalog/stihl-ts-420.webp",
+    "manufacturerName": "TS 420"
+  },
+  {
+    "id": "stihl-ts-500i",
+    "make": "STIHL",
+    "model": "TS 500i",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off machine",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-500i-1027353",
+    "photo": "catalog/stihl-ts-500i.webp",
+    "manufacturerName": "TS 500i"
+  },
+  {
+    "id": "stihl-tsa-300",
+    "make": "STIHL",
+    "model": "TSA 300",
+    "cat": "cutoff",
+    "tagline": "Battery cut-off machine · AP System",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-tsa-300-battery-powered-cut-off-machine-1027620",
+    "photo": "catalog/stihl-tsa-300.webp",
+    "manufacturerName": "TSA 300"
+  },
+  {
+    "id": "stihl-ts-910i",
+    "make": "STIHL",
+    "model": "TS 910i",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off machine",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-910%C2%A1-gasoline-cut-off-machine-1027605",
+    "photo": "catalog/stihl-ts-910i.webp",
+    "manufacturerName": "TS 910i"
+  },
+  {
+    "id": "stihl-tsa-350",
+    "make": "STIHL",
+    "model": "TSA 350",
+    "cat": "cutoff",
+    "tagline": "Battery cut-off machine · AP System",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-tsa-350-battery-powered-cut-off-machine-1048007",
+    "photo": "catalog/stihl-tsa-350.webp",
+    "manufacturerName": "TSA 350"
+  },
+  {
+    "id": "stihl-ts-440",
+    "make": "STIHL",
+    "model": "TS 440",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off machine",
+    "info": "https://www.stihlusa.com/en/p/cut-off-machines-ts-440-gasoline-cut-off-machine-1027361",
+    "photo": "catalog/stihl-ts-440.webp",
+    "manufacturerName": "TS 440"
+  },
+  {
+    "id": "stihl-gs-461-rock-boss",
+    "make": "STIHL",
+    "model": "GS 461 ROCK BOSS",
+    "cat": "cutoff",
+    "tagline": "Gas concrete cutter",
+    "info": "https://www.stihlusa.com/en/p/concrete-cutters-gs-461-gasoline-concrete-cutter-1027298",
+    "photo": "catalog/stihl-gs-461-rock-boss.webp",
+    "manufacturerName": "GS 461 ROCK BOSS"
+  },
+  {
+    "id": "stihl-sea-50",
+    "make": "STIHL",
+    "model": "SEA 50",
+    "cat": "vacuum",
+    "tagline": "Battery vacuum",
+    "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-sea-50-battery-powered-vacuum-1039000",
+    "photo": "catalog/stihl-sea-50.webp",
+    "manufacturerName": "SEA 50"
+  },
+  {
+    "id": "stihl-se-33",
+    "make": "STIHL",
+    "model": "SE 33",
+    "cat": "vacuum",
+    "tagline": "Electric vacuum cleaner",
+    "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-se-33-electric-vacuum-cleaner-1027296",
+    "photo": "catalog/stihl-se-33.webp",
+    "manufacturerName": "SE 33"
+  },
+  {
+    "id": "stihl-se-62",
+    "make": "STIHL",
+    "model": "SE 62",
+    "cat": "vacuum",
+    "tagline": "Electric vacuum cleaner",
+    "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-se-62-electric-vacuum-cleaner-1027084",
+    "photo": "catalog/stihl-se-62.webp",
+    "manufacturerName": "SE 62"
+  },
+  {
+    "id": "stihl-se-122",
+    "make": "STIHL",
+    "model": "SE 122",
+    "cat": "vacuum",
+    "tagline": "Electric wet/dry vacuum",
+    "info": "https://www.stihlusa.com/en/p/wet-dry-vacuum-cleaners-se-122-1027304",
+    "photo": "catalog/stihl-se-122.webp",
+    "manufacturerName": "SE 122"
+  },
+  {
+    "id": "stihl-koa-20",
+    "make": "STIHL",
+    "model": "KOA 20",
+    "cat": "other",
+    "tagline": "Battery compressor/inflator",
+    "info": "https://www.stihlusa.com/en/p/inflators-compressors-koa-20-battery-compressor-inflator-1027611",
+    "photo": "catalog/stihl-koa-20.webp",
+    "manufacturerName": "KOA 20"
+  },
+  {
+    "id": "stihl-ps-1",
+    "make": "STIHL",
+    "model": "PS 1",
+    "cat": "other",
+    "tagline": "Portable power supply",
+    "info": "https://www.stihlusa.com/en/p/power-supply-ps-1-portable-power-supply-1027670",
+    "photo": "catalog/stihl-ps-1.webp",
+    "manufacturerName": "PS 1"
+  },
+  {
+    "id": "stihl-fb-131",
+    "make": "STIHL",
+    "model": "FB 131",
+    "cat": "other",
+    "tagline": "Gas bed redefiner",
+    "info": "https://www.stihlusa.com/en/p/bed-redefiner-fb-131-gasoline-bed-redefiner-1027424",
+    "photo": "catalog/stihl-fb-131.webp",
+    "manufacturerName": "FB 131"
+  },
+  {
+    "id": "echo-cs-303t",
+    "make": "ECHO",
+    "model": "CS-303T",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 30.1 cc · 12\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-303t",
+    "photo": "catalog/echo-cs-303t.webp",
+    "manufacturerName": "CS-303T"
+  },
+  {
+    "id": "echo-cs-3410",
+    "make": "ECHO",
+    "model": "CS-3410",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 34.4 cc · 14\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-3410",
+    "photo": "catalog/echo-cs-3410.webp",
+    "manufacturerName": "CS-3410"
+  },
+  {
+    "id": "echo-cs-352",
+    "make": "ECHO",
+    "model": "CS-352",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 34 cc · 16\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-352",
+    "photo": "catalog/echo-cs-352.webp",
+    "manufacturerName": "CS-352"
+  },
+  {
+    "id": "echo-cs-361p",
+    "make": "ECHO",
+    "model": "CS-361P",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 35.8 cc · 14\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-361p",
+    "photo": "catalog/echo-cs-361p.webp",
+    "manufacturerName": "CS-361P"
+  },
+  {
+    "id": "echo-cs-4510",
+    "make": "ECHO",
+    "model": "CS-4510",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 45 cc · 16\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-4510",
+    "photo": "catalog/echo-cs-4510.webp",
+    "manufacturerName": "CS-4510"
+  },
+  {
+    "id": "echo-cs-501p",
+    "make": "ECHO",
+    "model": "CS-501P",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 50.2 cc · 16\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-501p",
+    "photo": "catalog/echo-cs-501p.webp",
+    "manufacturerName": "CS-501P"
+  },
+  {
+    "id": "echo-cs-590",
+    "make": "ECHO",
+    "model": "CS-590",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 59.8 cc · 18\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-590-timber-wolf",
+    "photo": "catalog/echo-cs-590.webp",
+    "manufacturerName": "CS-590"
+  },
+  {
+    "id": "echo-cs-620pw",
+    "make": "ECHO",
+    "model": "CS-620PW",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 59.8 cc · 16\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-620pw",
+    "photo": "catalog/echo-cs-620pw.webp",
+    "manufacturerName": "CS-620PW"
+  },
+  {
+    "id": "echo-cs-7310pw",
+    "make": "ECHO",
+    "model": "CS-7310PW",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 73.5 cc · 20\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/cs-7310pw",
+    "photo": "catalog/echo-cs-7310pw.webp",
+    "manufacturerName": "CS-7310PW"
+  },
+  {
+    "id": "echo-dcs-2500t",
+    "make": "ECHO",
+    "model": "DCS-2500T",
+    "cat": "chainsaw",
+    "tagline": "Battery chainsaw · 56V · 12\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/dcs-2500t",
+    "photo": "catalog/echo-dcs-2500t.webp",
+    "manufacturerName": "DCS-2500T"
+  },
+  {
+    "id": "echo-dcs-5000",
+    "make": "ECHO",
+    "model": "DCS-5000",
+    "cat": "chainsaw",
+    "tagline": "Battery chainsaw · 56V · 18\"\" bar",
+    "info": "https://www.echo-usa.com/chainsaws/dcs-5000",
+    "photo": "catalog/echo-dcs-5000.webp",
+    "manufacturerName": "DCS-5000"
+  },
+  {
+    "id": "echo-dhcs-3400",
+    "make": "ECHO",
+    "model": "DHCS-3400",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 56V · 34\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/dhcs-3400",
+    "photo": "catalog/echo-dhcs-3400.webp",
+    "manufacturerName": "DHCS-3400"
+  },
+  {
+    "id": "echo-hcs-2810",
+    "make": "ECHO",
+    "model": "HCS-2810",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · 28\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/hcs-2810",
+    "photo": "catalog/echo-hcs-2810.webp",
+    "manufacturerName": "HCS-2810"
+  },
+  {
+    "id": "echo-dpe-2100",
+    "make": "ECHO",
+    "model": "DPE-2100",
+    "cat": "edger",
+    "tagline": "Battery edger · 56V",
+    "info": "https://www.echo-usa.com/edgers/dpe-2100",
+    "photo": "catalog/echo-dpe-2100.webp",
+    "manufacturerName": "DPE-2100"
+  },
+  {
+    "id": "echo-dsrm-225",
+    "make": "ECHO",
+    "model": "DSRM-225",
+    "cat": "trimmer",
+    "tagline": "Battery trimmer · 56V",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/dsrm-225",
+    "photo": "catalog/echo-dsrm-225.webp",
+    "manufacturerName": "DSRM-225"
+  },
+  {
+    "id": "echo-dsrm-2600u",
+    "make": "ECHO",
+    "model": "DSRM-2600U",
+    "cat": "trimmer",
+    "tagline": "Battery trimmer · 56V",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/dsrm-2600u",
+    "photo": "catalog/echo-dsrm-2600u.webp",
+    "manufacturerName": "DSRM-2600U"
+  },
+  {
+    "id": "echo-srm-2120sf",
+    "make": "ECHO",
+    "model": "SRM-2120SF",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 21.2 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-2120sf",
+    "photo": "catalog/echo-srm-2120sf.webp",
+    "manufacturerName": "SRM-2120SF"
+  },
+  {
+    "id": "echo-srm-225i",
+    "make": "ECHO",
+    "model": "SRM-225i",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 21.2 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-225i",
+    "photo": "catalog/echo-srm-225i.webp",
+    "manufacturerName": "SRM-225i"
+  },
+  {
+    "id": "echo-srm-2620",
+    "make": "ECHO",
+    "model": "SRM-2620",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 25.4 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-2620",
+    "photo": "catalog/echo-srm-2620.webp",
+    "manufacturerName": "SRM-2620"
+  },
+  {
+    "id": "echo-srm-3020",
+    "make": "ECHO",
+    "model": "SRM-3020",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 30.5 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-3020",
+    "photo": "catalog/echo-srm-3020.webp",
+    "manufacturerName": "SRM-3020"
+  },
+  {
+    "id": "echo-srm-3020u",
+    "make": "ECHO",
+    "model": "SRM-3020U",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 30.5 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-3020u",
+    "photo": "catalog/echo-srm-3020u.webp",
+    "manufacturerName": "SRM-3020U"
+  },
+  {
+    "id": "echo-srm-410u",
+    "make": "ECHO",
+    "model": "SRM-410U",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 42.7 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-410u",
+    "photo": "catalog/echo-srm-410u.webp",
+    "manufacturerName": "SRM-410U"
+  },
+  {
+    "id": "echo-srm-410x",
+    "make": "ECHO",
+    "model": "SRM-410X",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 42.7 cc · straight shaft",
+    "info": "https://www.echo-usa.com/trimmers-brushcutters/srm-410x",
+    "photo": "catalog/echo-srm-410x.webp",
+    "manufacturerName": "SRM-410X"
+  },
+  {
+    "id": "echo-dpb-2500",
+    "make": "ECHO",
+    "model": "DPB-2500",
+    "cat": "blower",
+    "tagline": "Battery blower · 56V · 549 cfm · 158 mph",
+    "info": "https://www.echo-usa.com/blowers/dpb-2500",
+    "photo": "catalog/echo-dpb-2500.webp",
+    "manufacturerName": "DPB-2500"
+  },
+  {
+    "id": "echo-dpb-2610",
+    "make": "ECHO",
+    "model": "DPB-2610",
+    "cat": "blower",
+    "tagline": "Battery blower · 56V · 549 cfm · 158 mph",
+    "info": "https://www.echo-usa.com/blowers/dpb-2610",
+    "photo": "catalog/echo-dpb-2610.webp",
+    "manufacturerName": "DPB-2610"
+  },
+  {
+    "id": "echo-dpb-2810",
+    "make": "ECHO",
+    "model": "DPB-2810",
+    "cat": "blower",
+    "tagline": "Battery blower · 56V · 800 cfm · 190 mph",
+    "info": "https://www.echo-usa.com/blowers/dpb-2810",
+    "photo": "catalog/echo-dpb-2810.webp",
+    "manufacturerName": "DPB-2810"
+  },
+  {
+    "id": "echo-dpb-5800t",
+    "make": "ECHO",
+    "model": "DPB-5800T",
+    "cat": "blower",
+    "tagline": "Battery blower · 56V · 795 cfm · 195 mph",
+    "info": "https://www.echo-usa.com/blowers/dpb-5800t",
+    "photo": "catalog/echo-dpb-5800t.webp",
+    "manufacturerName": "DPB-5800T"
+  },
+  {
+    "id": "echo-dpb-7700t",
+    "make": "ECHO",
+    "model": "DPB-7700T",
+    "cat": "blower",
+    "tagline": "Battery blower · 56V · 950 cfm · 225 mph",
+    "info": "https://www.echo-usa.com/blowers/dpb-7700t",
+    "photo": "catalog/echo-dpb-7700t.webp",
+    "manufacturerName": "DPB-7700T"
+  },
+  {
+    "id": "echo-es-250",
+    "make": "ECHO",
+    "model": "ES-250",
+    "cat": "vacuum",
+    "tagline": "Gas blower · 25.4 cc · 392 cfm",
+    "info": "https://www.echo-usa.com/blowers/es-250",
+    "photo": "catalog/echo-es-250.webp",
+    "manufacturerName": "ES-250"
+  },
+  {
+    "id": "echo-pb-255ln",
+    "make": "ECHO",
+    "model": "PB-255LN",
+    "cat": "blower",
+    "tagline": "Gas blower · 25.4 cc · 354 cfm · 191 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-255ln",
+    "photo": "catalog/echo-pb-255ln.webp",
+    "manufacturerName": "PB-255LN"
+  },
+  {
+    "id": "echo-pb-265ln",
+    "make": "ECHO",
+    "model": "PB-265LN",
+    "cat": "blower",
+    "tagline": "Gas blower · 25.4 cc · 375 cfm · 158 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-265ln",
+    "photo": "catalog/echo-pb-265ln.webp",
+    "manufacturerName": "PB-265LN"
+  },
+  {
+    "id": "echo-pb-5810t",
+    "make": "ECHO",
+    "model": "PB-5810T",
+    "cat": "blower",
+    "tagline": "Gas blower · 59.7 cc · 700 cfm · 200 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-5810t",
+    "photo": "catalog/echo-pb-5810t.webp",
+    "manufacturerName": "PB-5810T"
+  },
+  {
+    "id": "echo-pb-755sh",
+    "make": "ECHO",
+    "model": "PB-755SH",
+    "cat": "blower",
+    "tagline": "Gas blower · 63.3 cc · 651 cfm · 233 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-755s",
+    "photo": "catalog/echo-pb-755sh.webp",
+    "manufacturerName": "PB-755SH"
+  },
+  {
+    "id": "echo-pb-760lnh",
+    "make": "ECHO",
+    "model": "PB-760LNH",
+    "cat": "blower",
+    "tagline": "Gas blower · 63.3 cc · 535 cfm · 214 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-760lnh",
+    "photo": "catalog/echo-pb-760lnh.webp",
+    "manufacturerName": "PB-760LNH"
+  },
+  {
+    "id": "echo-pb-770h",
+    "make": "ECHO",
+    "model": "PB-770H",
+    "cat": "blower",
+    "tagline": "Gas blower · 63.3 cc · 756 cfm · 234 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-770h",
+    "photo": "catalog/echo-pb-770h.webp",
+    "manufacturerName": "PB-770H"
+  },
+  {
+    "id": "echo-pb-7910h",
+    "make": "ECHO",
+    "model": "PB-7910H",
+    "cat": "blower",
+    "tagline": "Gas blower · 79.9 cc · 835 cfm · 240 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-7910h",
+    "photo": "catalog/echo-pb-7910h.webp",
+    "manufacturerName": "PB-7910H"
+  },
+  {
+    "id": "echo-pb-9010h",
+    "make": "ECHO",
+    "model": "PB-9010H",
+    "cat": "blower",
+    "tagline": "Gas blower · 79.9 cc · 1,110 cfm · 220 mph",
+    "info": "https://www.echo-usa.com/blowers/pb-9010h",
+    "photo": "catalog/echo-pb-9010h.webp",
+    "manufacturerName": "PB-9010H"
+  },
+  {
+    "id": "echo-dshc-2600",
+    "make": "ECHO",
+    "model": "DSHC-2600",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 56V · 21\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/dshc-2600",
+    "photo": "catalog/echo-dshc-2600.webp",
+    "manufacturerName": "DSHC-2600"
+  },
+  {
+    "id": "echo-hc-155",
+    "make": "ECHO",
+    "model": "HC-155",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · 24\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/hc-155",
+    "photo": "catalog/echo-hc-155.webp",
+    "manufacturerName": "HC-155"
+  },
+  {
+    "id": "echo-hc-2210",
+    "make": "ECHO",
+    "model": "HC-2210",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · 22\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/hc-2210",
+    "photo": "catalog/echo-hc-2210.webp",
+    "manufacturerName": "HC-2210"
+  },
+  {
+    "id": "echo-hca-2620",
+    "make": "ECHO",
+    "model": "HCA-2620",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 25.4 cc · 21\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/hca-2620",
+    "photo": "catalog/echo-hca-2620.webp",
+    "manufacturerName": "HCA-2620"
+  },
+  {
+    "id": "echo-shc-2620",
+    "make": "ECHO",
+    "model": "SHC-2620",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 25.4 cc · 21\" blade",
+    "info": "https://www.echo-usa.com/hedge-trimmers/shc-2620",
+    "photo": "catalog/echo-shc-2620.webp",
+    "manufacturerName": "SHC-2620"
+  },
+  {
+    "id": "echo-ppf-2620",
+    "make": "ECHO",
+    "model": "PPF-2620",
+    "cat": "polesaw",
+    "tagline": "Gas pole saw · 25.4 cc",
+    "info": "https://www.echo-usa.com/power-pruners/ppf-2620",
+    "photo": "catalog/echo-ppf-2620.webp",
+    "manufacturerName": "PPF-2620"
+  },
+  {
+    "id": "echo-ppt-2620h",
+    "make": "ECHO",
+    "model": "PPT-2620H",
+    "cat": "polesaw",
+    "tagline": "Gas pole saw · 25.4 cc",
+    "info": "https://www.echo-usa.com/power-pruners/ppt-2620h",
+    "photo": "catalog/echo-ppt-2620h.webp",
+    "manufacturerName": "PPT-2620H"
+  },
+  {
+    "id": "shindaiwa-251tsn",
+    "make": "Shindaiwa",
+    "model": "251TSN",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 25.0 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/251tsn-top-handle-chainsaw",
+    "photo": "catalog/shindaiwa-251tsn.webp",
+    "manufacturerName": "251TSN",
+    "best": true
+  },
+  {
+    "id": "shindaiwa-335s",
+    "make": "Shindaiwa",
+    "model": "335S",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 34.4 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/335s-rear-handle-chainsaw",
+    "photo": "catalog/shindaiwa-335s.webp",
+    "manufacturerName": "335S"
+  },
+  {
+    "id": "shindaiwa-358ts",
+    "make": "Shindaiwa",
+    "model": "358TS",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 35.8 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/358ts-top-handle-chainsaw",
+    "photo": "catalog/shindaiwa-358ts.webp",
+    "manufacturerName": "358TS"
+  },
+  {
+    "id": "shindaiwa-493",
+    "make": "Shindaiwa",
+    "model": "493",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 50.1 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/493-rear-handle-chainsaw",
+    "photo": "catalog/shindaiwa-493.webp",
+    "manufacturerName": "493"
+  },
+  {
+    "id": "shindaiwa-591",
+    "make": "Shindaiwa",
+    "model": "591",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 59.8 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/591-rear-handle-chainsaw",
+    "photo": "catalog/shindaiwa-591.webp",
+    "manufacturerName": "591"
+  },
+  {
+    "id": "shindaiwa-600sx",
+    "make": "Shindaiwa",
+    "model": "600SX",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 59.8 cc",
+    "info": "https://www.shindaiwa-usa.com/chainsaws/600sx-rear-handle-chainsaw",
+    "photo": "catalog/shindaiwa-600sx.webp",
+    "manufacturerName": "600SX"
+  },
+  {
+    "id": "shindaiwa-c262",
+    "make": "Shindaiwa",
+    "model": "C262",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 25.4 cc · straight shaft",
+    "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/c262-straight-shaft-trimmer-u-handle",
+    "photo": "catalog/shindaiwa-c262.webp",
+    "manufacturerName": "C262"
+  },
+  {
+    "id": "shindaiwa-c302",
+    "make": "Shindaiwa",
+    "model": "C302",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 30.5 cc · straight shaft",
+    "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/c302-straight-shaft-trimmer-u-handle",
+    "photo": "catalog/shindaiwa-c302.webp",
+    "manufacturerName": "C302"
+  },
+  {
+    "id": "shindaiwa-t235",
+    "make": "Shindaiwa",
+    "model": "T235",
+    "cat": "trimmer",
+    "tagline": "Gas trimmer · 21.2 cc · straight shaft",
+    "info": "https://www.shindaiwa-usa.com/trimmers-brushcutters/t235-straight-shaft-trimmer",
+    "photo": "catalog/shindaiwa-t235.webp",
+    "manufacturerName": "T235"
+  },
+  {
+    "id": "shindaiwa-eb252",
+    "make": "Shindaiwa",
+    "model": "EB252",
+    "cat": "blower",
+    "tagline": "Gas blower · 25.4 cc · 453 cfm · 170 mph",
+    "info": "https://www.shindaiwa-usa.com/blowers/eb252-handheld-blower",
+    "photo": "catalog/shindaiwa-eb252.webp",
+    "manufacturerName": "EB252"
+  },
+  {
+    "id": "shindaiwa-eb262",
+    "make": "Shindaiwa",
+    "model": "EB262",
+    "cat": "blower",
+    "tagline": "Gas blower · 25.4 cc · 456 cfm · 172 mph",
+    "info": "https://www.shindaiwa-usa.com/blowers/eb262-handheld-blower",
+    "photo": "catalog/shindaiwa-eb262.webp",
+    "manufacturerName": "EB262"
+  },
+  {
+    "id": "shindaiwa-eb790",
+    "make": "Shindaiwa",
+    "model": "EB790",
+    "cat": "blower",
+    "tagline": "Gas blower · 79.9 cc · 835 cfm · 240 mph",
+    "info": "https://www.shindaiwa-usa.com/blowers/eb790-backpack-blower-tube-throttle",
+    "photo": "catalog/shindaiwa-eb790.webp",
+    "manufacturerName": "EB790"
+  },
+  {
+    "id": "shindaiwa-ah262",
+    "make": "Shindaiwa",
+    "model": "AH262",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 25.4 cc · articulating · 21\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/ah262-articulating-shafted-hedge-trimmer",
+    "photo": "catalog/shindaiwa-ah262.webp",
+    "manufacturerName": "AH262"
+  },
+  {
+    "id": "shindaiwa-ahs262",
+    "make": "Shindaiwa",
+    "model": "AHS262",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 25.4 cc · articulating · 21\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/ahs262-mid-reach-articulating-hedge-trimmer",
+    "photo": "catalog/shindaiwa-ahs262.webp",
+    "manufacturerName": "AHS262"
+  },
+  {
+    "id": "shindaiwa-dh232",
+    "make": "Shindaiwa",
+    "model": "DH232",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · double-sided · 22\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/dh232-double-sided-hedge-trimmer",
+    "photo": "catalog/shindaiwa-dh232.webp",
+    "manufacturerName": "DH232"
+  },
+  {
+    "id": "shindaiwa-dh235",
+    "make": "Shindaiwa",
+    "model": "DH235",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · double-sided · 28\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/dh235-double-sided-hedge-trimmer",
+    "photo": "catalog/shindaiwa-dh235.webp",
+    "manufacturerName": "DH235"
+  },
+  {
+    "id": "shindaiwa-fh235",
+    "make": "Shindaiwa",
+    "model": "FH235",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · 21\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/fh235-shafted-hedge-trimmer",
+    "photo": "catalog/shindaiwa-fh235.webp",
+    "manufacturerName": "FH235"
+  },
+  {
+    "id": "shindaiwa-ht232",
+    "make": "Shindaiwa",
+    "model": "HT232",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · single-sided · 28\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/ht232-single-sided-hedge-trimmer",
+    "photo": "catalog/shindaiwa-ht232.webp",
+    "manufacturerName": "HT232"
+  },
+  {
+    "id": "shindaiwa-ht235",
+    "make": "Shindaiwa",
+    "model": "HT235",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 21.2 cc · single-sided · 38\" blade",
+    "info": "https://www.shindaiwa-usa.com/hedge-trimmers/ht235-single-sided-hedge-trimmer",
+    "photo": "catalog/shindaiwa-ht235.webp",
+    "manufacturerName": "HT235"
+  },
+  {
+    "id": "shindaiwa-pt262",
+    "make": "Shindaiwa",
+    "model": "PT262",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 25.4 cc",
+    "info": "https://www.shindaiwa-usa.com/power-pruners/pt262-power-pruner",
+    "photo": "catalog/shindaiwa-pt262.webp",
+    "manufacturerName": "PT262"
+  },
+  {
+    "id": "shindaiwa-sp231h",
+    "make": "Shindaiwa",
+    "model": "SP231H",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · 2 gallon",
+    "info": "https://www.shindaiwa-usa.com/sprayers/sp231h-handhelp-manual-sprayer",
+    "photo": "catalog/shindaiwa-sp231h.webp",
+    "manufacturerName": "SP231H"
+  },
+  {
+    "id": "shindaiwa-sp401bp",
+    "make": "Shindaiwa",
+    "model": "SP401BP",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · backpack · 4 gallon",
+    "info": "https://www.shindaiwa-usa.com/sprayers/sp401bp-backpack-piston-sprayer",
+    "photo": "catalog/shindaiwa-sp401bp.webp",
+    "manufacturerName": "SP401BP"
+  },
+  {
+    "id": "shindaiwa-sp401bpd",
+    "make": "Shindaiwa",
+    "model": "SP401BPD",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · backpack · 4 gallon",
+    "info": "https://www.shindaiwa-usa.com/sprayers/sp401bpd-backpack-diaphragm-sprayer",
+    "photo": "catalog/shindaiwa-sp401bpd.webp",
+    "manufacturerName": "SP401BPD"
+  },
+  {
+    "id": "shindaiwa-sp501bp",
+    "make": "Shindaiwa",
+    "model": "SP501BP",
+    "cat": "sprayer",
+    "tagline": "Manual sprayer · backpack · 5 gallon",
+    "info": "https://www.shindaiwa-usa.com/sprayers/sp501bp-backpack-piston-sprayer",
+    "photo": "catalog/shindaiwa-sp501bp.webp",
+    "manufacturerName": "SP501BP"
+  },
+  {
+    "id": "shindaiwa-ec741s",
+    "make": "Shindaiwa",
+    "model": "EC741S",
+    "cat": "cutoff",
+    "tagline": "Gas cut-off saw · 73.4 cc",
+    "info": "https://www.shindaiwa-usa.com/cut-off-saws/ec741s-cut-off-saw",
+    "photo": "catalog/shindaiwa-ec741s.webp",
+    "manufacturerName": "EC741S"
+  },
+  {
+    "id": "shindaiwa-rs850",
+    "make": "Shindaiwa",
+    "model": "RS850",
+    "cat": "other",
+    "tagline": "Manual spreader · 85 lb capacity",
+    "info": "https://www.shindaiwa-usa.com/spreaders/rs850-broadcast-spreader",
+    "photo": "catalog/shindaiwa-rs850.webp",
+    "manufacturerName": "RS850"
+  },
+  {
+    "id": "scag-cheetah-ii",
+    "make": "SCAG",
+    "model": "Cheetah II",
+    "cat": "zt",
+    "tagline": "Zero-turn rider · 61\"–72\" decks · Kawasaki / Kohler",
+    "info": "https://www.scag.com/product/zero-turn-riding-mowers/cheetah-ii/",
+    "photo": "catalog/scag-cheetah-ii.webp",
+    "manufacturerName": "Cheetah II"
+  },
+  {
+    "id": "scag-v-ride-xl",
+    "make": "SCAG",
+    "model": "V-Ride XL",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 52\"-61\" decks · Kawasaki / Kubota",
+    "info": "https://www.scag.com/product/stand-on-mowers/v-ride-xl/",
+    "photo": "catalog/scag-v-ride-xl.webp",
+    "manufacturerName": "V-Ride XL"
+  },
+  {
+    "id": "scag-v-ride-ls",
+    "make": "SCAG",
+    "model": "V-Ride LS",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 48\"-61\" decks · Kawasaki",
+    "info": "https://www.scag.com/product/stand-on-mowers/v-ride-ls/",
+    "photo": "catalog/scag-v-ride-ls.webp",
+    "manufacturerName": "V-Ride LS"
+  },
+  {
+    "id": "scag-sw-belt-drive",
+    "make": "SCAG",
+    "model": "SW Belt-Drive",
+    "cat": "mower",
+    "tagline": "Walk-behind mower · 32\" deck",
+    "info": "https://www.scag.com/product/walk-behind-mowers/sw-belt-drive/",
+    "photo": "catalog/scag-sw-belt-drive.webp",
+    "manufacturerName": "SW Belt-Drive"
+  },
+  {
+    "id": "scag-swz-hydro-drive",
+    "make": "SCAG",
+    "model": "SWZ Hydro-Drive",
+    "cat": "mower",
+    "tagline": "Walk-behind mower · 36\"-48\" decks",
+    "info": "https://www.scag.com/product/walk-behind-mowers/swz-hydro-drive/",
+    "photo": "catalog/scag-swz-hydro-drive.webp",
+    "manufacturerName": "SWZ Hydro-Drive"
+  },
+  {
+    "id": "scag-swzt-hydro-drive",
+    "make": "SCAG",
+    "model": "SWZT Hydro-Drive",
+    "cat": "mower",
+    "tagline": "Walk-behind mower · 30\" deck",
+    "info": "https://www.scag.com/product/walk-behind-mowers/swzt-hydro-drive/",
+    "photo": "catalog/scag-swzt-hydro-drive.webp",
+    "manufacturerName": "SWZT Hydro-Drive"
+  },
+  {
+    "id": "scag-windstorm",
+    "make": "SCAG",
+    "model": "Windstorm",
+    "cat": "blower",
+    "tagline": "Stand-on blower · 37 hp Vanguard · 6,000 cfm",
+    "info": "https://www.scag.com/product/stand-on-blowers/windstorm/",
+    "photo": "catalog/scag-windstorm.webp",
+    "manufacturerName": "Windstorm"
+  },
+  {
+    "id": "scag-extreme-pro-wheel-blower",
+    "make": "SCAG",
+    "model": "Extreme Pro Wheel Blower",
+    "cat": "blower",
+    "tagline": "Wheeled blower · 11.7 hp Honda · 2,824 cfm",
+    "info": "https://www.scag.com/product/wheeled-blowers/extreme-pro/",
+    "photo": "catalog/scag-extreme-pro-wheel-blower.webp",
+    "manufacturerName": "Extreme Pro Wheel Blower"
+  },
+  {
+    "id": "scag-rc-low-profile-mower",
+    "make": "SCAG",
+    "model": "RC Low-Profile Mower",
+    "cat": "other",
+    "tagline": "Remote mower · 36\" deck · electric drive",
+    "info": "https://www.scag.com/product/remote-mowers/rc-low-profile-mower/",
+    "photo": "catalog/scag-rc-low-profile-mower.webp",
+    "manufacturerName": "RC Low-Profile Mower"
+  },
+  {
+    "id": "scag-turf-storm",
+    "make": "SCAG",
+    "model": "Turf Storm",
+    "cat": "other",
+    "tagline": "Stand-on spreader · 220 lb / 60 gal",
+    "info": "https://www.scag.com/product/spreader-sprayers/turf-storm-xl-and-turf-storm/",
+    "photo": "catalog/scag-turf-storm.webp",
+    "manufacturerName": "Turf Storm"
+  },
+  {
+    "id": "scag-aerstorm",
+    "make": "SCAG",
+    "model": "Aerstorm",
+    "cat": "other",
+    "tagline": "Stand-on aerator · 23 hp · Kohler engine",
+    "info": "https://www.scag.com/product/aerators/aerstorm/",
+    "photo": "catalog/scag-aerstorm.webp",
+    "manufacturerName": "Aerstorm"
+  },
+  {
+    "id": "scag-2500x-tracked-power-buggy",
+    "make": "SCAG",
+    "model": "2500X Tracked Power Buggy",
+    "cat": "other",
+    "tagline": "Utility vehicle · 1,125 lb lift",
+    "info": "https://www.scag.com/product/utility-equipment/2500x-tracked-power-buggy/",
+    "photo": "catalog/scag-2500x-tracked-power-buggy.webp",
+    "manufacturerName": "2500X Tracked Power Buggy"
+  },
+  {
+    "id": "scag-jackal",
+    "make": "SCAG",
+    "model": "Jackal",
+    "cat": "other",
+    "tagline": "Stand-on mini skid steer · 1,125 lb lift",
+    "info": "https://www.scag.com/product/stand-on-mini-skid-steers/jackal/",
+    "photo": "catalog/scag-jackal.webp",
+    "manufacturerName": "Jackal"
+  },
+  {
+    "id": "wright-stander-zk",
+    "make": "Wright",
+    "model": "Stander ZK",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 52\"-72\" decks · Kawasaki / Vanguard",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-zk/",
+    "photo": "catalog/wright-stander-zk.webp",
+    "manufacturerName": "Stander ZK"
+  },
+  {
+    "id": "wright-autonomous-zk",
+    "make": "Wright",
+    "model": "Autonomous ZK",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 61\" deck · Kawasaki engine",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/autonomous-zk/",
+    "photo": "catalog/wright-autonomous-zk.webp",
+    "manufacturerName": "Autonomous ZK"
+  },
+  {
+    "id": "wright-stander-lg",
+    "make": "Wright",
+    "model": "Stander LG",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 61\" deck · Kawasaki / Vanguard",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-lg/",
+    "photo": "catalog/wright-stander-lg.webp",
+    "manufacturerName": "Stander LG"
+  },
+  {
+    "id": "wright-stander-i",
+    "make": "Wright",
+    "model": "Stander I",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 36\" deck",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-intensity/",
+    "photo": "catalog/wright-stander-i.webp",
+    "manufacturerName": "Stander I"
+  },
+  {
+    "id": "wright-stander-b",
+    "make": "Wright",
+    "model": "Stander B",
+    "cat": "zt",
+    "tagline": "Stand-on mower · 36\" deck",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/stand-on/stander-b/",
+    "photo": "catalog/wright-stander-b.webp",
+    "manufacturerName": "Stander B"
+  },
+  {
+    "id": "wright-zxt",
+    "make": "Wright",
+    "model": "ZXT",
+    "cat": "zt",
+    "tagline": "Zero-turn rider · 72\" deck · Kawasaki / Vanguard",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/mid-mount/zxt/",
+    "photo": "catalog/wright-zxt.webp",
+    "manufacturerName": "ZXT"
+  },
+  {
+    "id": "wright-zxl",
+    "make": "Wright",
+    "model": "ZXL",
+    "cat": "zt",
+    "tagline": "Zero-turn rider · 61\" deck · Kawasaki / Vanguard",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/mid-mount/zxl/",
+    "photo": "catalog/wright-zxl.webp",
+    "manufacturerName": "ZXL"
+  },
+  {
+    "id": "wright-zts",
+    "make": "Wright",
+    "model": "ZTS",
+    "cat": "zt",
+    "tagline": "Zero-turn rider · 61\" deck · Kawasaki / Vanguard",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/mid-mount/zts/",
+    "photo": "catalog/wright-zts.webp",
+    "manufacturerName": "ZTS"
+  },
+  {
+    "id": "wright-ztb",
+    "make": "Wright",
+    "model": "ZTB",
+    "cat": "zt",
+    "tagline": "Zero-turn rider · 52\" deck · Kawasaki / Briggs",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/mid-mount/ztb/",
+    "photo": "catalog/wright-ztb.webp",
+    "manufacturerName": "ZTB"
+  },
+  {
+    "id": "wright-velke-large-frame-comfort",
+    "make": "Wright",
+    "model": "Velke Large Frame Comfort",
+    "cat": "mower",
+    "tagline": "Walk-behind mower · 52\" deck",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/walk-behind/velke-large-frame-comfort-grip/",
+    "photo": "catalog/wright-velke-large-frame-comfort.webp",
+    "manufacturerName": "Velke Large Frame Comfort"
+  },
+  {
+    "id": "wright-velke-hydrostatic-comfort",
+    "make": "Wright",
+    "model": "Velke Hydrostatic Comfort",
+    "cat": "mower",
+    "tagline": "Walk-behind mower · 36\" deck",
+    "info": "https://www.wrightmfg.com/products/mowers/commercial/walk-behind/velke-hydrostatic-comfort-grip/",
+    "photo": "catalog/wright-velke-hydrostatic-comfort.webp",
+    "manufacturerName": "Velke Hydrostatic Comfort"
+  },
+  {
+    "id": "maruyama-mhm480",
+    "make": "Maruyama",
+    "model": "MHM480",
+    "cat": "mower",
+    "tagline": "Gas hover mower · 79.2 cc · 19\" cut",
+    "info": "https://maruyama-us.com/product/mhm480/",
+    "photo": "catalog/maruyama-mhm480.webp",
+    "manufacturerName": "MHM480"
+  },
+  {
+    "id": "maruyama-mcv31r-14",
+    "make": "Maruyama",
+    "model": "MCV31R-14",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 30.1 cc",
+    "info": "https://maruyama-us.com/product/mcv31r-14/",
+    "photo": "catalog/maruyama-mcv31r-14.webp",
+    "manufacturerName": "MCV31R-14"
+  },
+  {
+    "id": "maruyama-mcv31t-14",
+    "make": "Maruyama",
+    "model": "MCV31T-14",
+    "cat": "chainsaw",
+    "tagline": "Gas chainsaw · 30.1 cc",
+    "info": "https://maruyama-us.com/product/mcv31t-14/",
+    "photo": "catalog/maruyama-mcv31t-14.webp",
+    "manufacturerName": "MCV31T-14"
+  },
+  {
+    "id": "maruyama-e270",
+    "make": "Maruyama",
+    "model": "E270",
+    "cat": "edger",
+    "tagline": "Gas edger · 25.4 cc",
+    "info": "https://maruyama-us.com/product/e270/",
+    "photo": "catalog/maruyama-e270.webp",
+    "manufacturerName": "E270"
+  },
+  {
+    "id": "maruyama-e300s",
+    "make": "Maruyama",
+    "model": "E300S",
+    "cat": "edger",
+    "tagline": "Gas edger · 30.1 cc",
+    "info": "https://maruyama-us.com/product/e300s/",
+    "photo": "catalog/maruyama-e300s.webp",
+    "manufacturerName": "E300S"
+  },
+  {
+    "id": "maruyama-bl70-ha",
+    "make": "Maruyama",
+    "model": "BL70-HA",
+    "cat": "blower",
+    "tagline": "Gas blower · 60.9 cc · 885 cfm · 180 mph",
+    "info": "https://maruyama-us.com/product/bl70-ha/",
+    "photo": "catalog/maruyama-bl70-ha.webp",
+    "manufacturerName": "BL70-HA"
+  },
+  {
+    "id": "maruyama-eh270d-s",
+    "make": "Maruyama",
+    "model": "EH270D-S",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 25.4 cc · 20\" blade",
+    "info": "https://maruyama-us.com/product/eh270d-s/",
+    "photo": "catalog/maruyama-eh270d-s.webp",
+    "manufacturerName": "EH270D-S"
+  },
+  {
+    "id": "maruyama-h23f",
+    "make": "Maruyama",
+    "model": "H23F",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 22.5 cc · 30\" blade",
+    "info": "https://maruyama-us.com/product/h23f/",
+    "photo": "catalog/maruyama-h23f.webp",
+    "manufacturerName": "H23F"
+  },
+  {
+    "id": "maruyama-h23fl",
+    "make": "Maruyama",
+    "model": "H23FL",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 22.5 cc · 40\" blade",
+    "info": "https://maruyama-us.com/product/h23fl/",
+    "photo": "catalog/maruyama-h23fl.webp",
+    "manufacturerName": "H23FL"
+  },
+  {
+    "id": "maruyama-eh230d-l",
+    "make": "Maruyama",
+    "model": "EH230D-L",
+    "cat": "hedge",
+    "tagline": "Gas hedge trimmer · 22.5 cc · 20\" blade",
+    "info": "https://maruyama-us.com/product/eh230d-l/",
+    "photo": "catalog/maruyama-eh230d-l.webp",
+    "manufacturerName": "EH230D-L"
+  },
+  {
+    "id": "maruyama-ps300",
+    "make": "Maruyama",
+    "model": "PS300",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 30.1 cc · 10\" blade",
+    "info": "https://maruyama-us.com/product/ps300/",
+    "photo": "catalog/maruyama-ps300.webp",
+    "manufacturerName": "PS300"
+  },
+  {
+    "id": "maruyama-tpp270",
+    "make": "Maruyama",
+    "model": "TPP270",
+    "cat": "polesaw",
+    "tagline": "Gas pole pruner · 25.4 cc · 10\" blade",
+    "info": "https://maruyama-us.com/product/tpp270/",
+    "photo": "catalog/maruyama-tpp270.webp",
+    "manufacturerName": "TPP270"
+  },
+  {
+    "id": "maruyama-bm240",
+    "make": "Maruyama",
+    "model": "BM240",
+    "cat": "multi",
+    "tagline": "Gas multi-tool powerhead · 22.5 cc",
+    "info": "https://maruyama-us.com/product/bm240/",
+    "photo": "catalog/maruyama-bm240.webp",
+    "manufacturerName": "BM240"
+  },
+  {
+    "id": "maruyama-m270qc",
+    "make": "Maruyama",
+    "model": "M270QC",
+    "cat": "multi",
+    "tagline": "Gas multi-tool powerhead · 25.4 cc · straight shaft",
+    "info": "https://maruyama-us.com/product/m270qc/",
+    "photo": "catalog/maruyama-m270qc.webp",
+    "manufacturerName": "M270QC"
+  },
+  {
+    "id": "maruyama-ms75e",
+    "make": "Maruyama",
+    "model": "MS75E",
+    "cat": "sprayer",
+    "tagline": "Gas barrel-top sprayer · 30.1 cc · 356 psi · 1.9 gpm",
+    "info": "https://maruyama-us.com/product/ms75e/",
+    "photo": "catalog/maruyama-ms75e.webp",
+    "manufacturerName": "MS75E"
+  },
+  {
+    "id": "maruyama-md300",
+    "make": "Maruyama",
+    "model": "MD300",
+    "cat": "sprayer",
+    "tagline": "Gas duster/granular blower · 30.1 cc · 3.43 gal hopper",
+    "info": "https://maruyama-us.com/product/md300/",
+    "photo": "catalog/maruyama-md300.webp",
+    "manufacturerName": "MD300"
+  },
+  {
+    "id": "maruyama-msd41-100t",
+    "make": "Maruyama",
+    "model": "MSD41-100T",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 570 psi · 100 gal",
+    "info": "https://maruyama-us.com/product/msd41-100t/",
+    "photo": "catalog/maruyama-msd41-100t.webp",
+    "manufacturerName": "MSD41-100T"
+  },
+  {
+    "id": "maruyama-msd41-100",
+    "make": "Maruyama",
+    "model": "MSD41-100",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 570 psi · 100 gal",
+    "info": "https://maruyama-us.com/product/msd41-100/",
+    "photo": "catalog/maruyama-msd41-100.webp",
+    "manufacturerName": "MSD41-100"
+  },
+  {
+    "id": "maruyama-msd41-200",
+    "make": "Maruyama",
+    "model": "MSD41-200",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 570 psi · 200 gal",
+    "info": "https://maruyama-us.com/product/msd41-200/",
+    "photo": "catalog/maruyama-msd41-200.webp",
+    "manufacturerName": "MSD41-200"
+  },
+  {
+    "id": "maruyama-msd41tec-h",
+    "make": "Maruyama",
+    "model": "MSD41TEC-H",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer pump · Honda GX160 · 570 psi · 8 gpm",
+    "info": "https://maruyama-us.com/product/msd41tec-h/",
+    "photo": "catalog/maruyama-msd41tec-h.webp",
+    "manufacturerName": "MSD41TEC-H"
+  },
+  {
+    "id": "maruyama-mm91-v",
+    "make": "Maruyama",
+    "model": "MM91-V",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 79.2 cc · 3.43 gal",
+    "info": "https://maruyama-us.com/product/mm91-v/",
+    "photo": "catalog/maruyama-mm91-v.webp",
+    "manufacturerName": "MM91-V"
+  },
+  {
+    "id": "maruyama-ms75",
+    "make": "Maruyama",
+    "model": "MS75",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 30.1 cc · 6.6 gal",
+    "info": "https://maruyama-us.com/product/ms75/",
+    "photo": "catalog/maruyama-ms75.webp",
+    "manufacturerName": "MS75",
+    "best": true
+  },
+  {
+    "id": "maruyama-ms75e-25ss",
+    "make": "Maruyama",
+    "model": "MS75E-25SS",
+    "cat": "sprayer",
+    "tagline": "Gas sprayer · 30.1 cc · 25 gal",
+    "info": "https://maruyama-us.com/product/ms75e-25ss/",
+    "photo": "catalog/maruyama-ms75e-25ss.webp",
+    "manufacturerName": "MS75E-25SS",
+    "best": true
+  },
+  {
+    "id": "hustler-surfer-x",
+    "make": "Hustler",
+    "model": "Surfer X",
+    "cat": "zt",
+    "tagline": "Gas stand-on mower · 34\"-48\" decks · 22hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/surfer-x",
+    "photo": "catalog/hustler-surfer-x.webp",
+    "manufacturerName": "Surfer X"
+  },
+  {
+    "id": "hustler-x-one",
+    "make": "Hustler",
+    "model": "X-ONE",
+    "cat": "zt",
+    "tagline": "Gas zero-turn · 52\"-72\" decks · 27-29.5 hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/x-one",
+    "photo": "catalog/hustler-x-one.webp",
+    "manufacturerName": "X-ONE"
+  },
+  {
+    "id": "hustler-x-ride",
+    "make": "Hustler",
+    "model": "X-RIDE",
+    "cat": "zt",
+    "tagline": "Gas zero-turn · 60\" deck · 34.5 hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/x-ride",
+    "photo": "catalog/hustler-x-ride.webp",
+    "manufacturerName": "X-RIDE"
+  },
+  {
+    "id": "hustler-super-z",
+    "make": "Hustler",
+    "model": "Super Z",
+    "cat": "zt",
+    "tagline": "Gas zero-turn · 54\"-72\" decks · 27-38.5 hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/super-z",
+    "photo": "catalog/hustler-super-z.webp",
+    "manufacturerName": "Super Z"
+  },
+  {
+    "id": "hustler-hyperdrive",
+    "make": "Hustler",
+    "model": "HyperDrive",
+    "cat": "zt",
+    "tagline": "Gas zero-turn · 60\"-72\" decks · 35-40 hp multi-brand",
+    "info": "https://www.hustlerturf.com/products/hyperdrive",
+    "photo": "catalog/hustler-hyperdrive.webp",
+    "manufacturerName": "HyperDrive"
+  },
+  {
+    "id": "hustler-diesel-z",
+    "make": "Hustler",
+    "model": "Diesel Z",
+    "cat": "zt",
+    "tagline": "Diesel zero-turn · 60\"-72\" decks · 25 hp Perkins",
+    "info": "https://www.hustlerturf.com/products/diesel-z",
+    "photo": "catalog/hustler-diesel-z.webp",
+    "manufacturerName": "Diesel Z"
+  },
+  {
+    "id": "hustler-surfer-pro",
+    "make": "Hustler",
+    "model": "Surfer Pro",
+    "cat": "zt",
+    "tagline": "Gas stand-on mower · 34\"-48\" decks · 15 hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/surfer-pro",
+    "photo": "catalog/hustler-surfer-pro.webp",
+    "manufacturerName": "Surfer Pro"
+  },
+  {
+    "id": "hustler-super-s",
+    "make": "Hustler",
+    "model": "Super S",
+    "cat": "zt",
+    "tagline": "Gas stand-on mower · 36\"-60\" decks · 15-29.5 hp",
+    "info": "https://www.hustlerturf.com/products/super-s",
+    "photo": "catalog/hustler-super-s.webp",
+    "manufacturerName": "Super S"
+  },
+  {
+    "id": "hustler-super-sf",
+    "make": "Hustler",
+    "model": "Super SF",
+    "cat": "zt",
+    "tagline": "Gas stand-on mower · 60\"-72\" decks · 38.5 hp Kawasaki",
+    "info": "https://www.hustlerturf.com/products/super-sf",
+    "photo": "catalog/hustler-super-sf.webp",
+    "manufacturerName": "Super SF"
+  },
+  {
+    "id": "hustler-dash-xd",
+    "make": "Hustler",
+    "model": "Dash XD",
+    "cat": "zt",
+    "tagline": "Gas zero-turn residential · 34\"-48\" decks · 15-18 hp",
+    "info": "https://www.hustlerturf.com/products/dash-xd",
+    "photo": "catalog/hustler-dash-xd.webp",
+    "manufacturerName": "Dash XD"
+  },
+  {
+    "id": "hustler-raptor-xl",
+    "make": "Hustler",
+    "model": "Raptor XL",
+    "cat": "zt",
+    "tagline": "Gas zero-turn residential · 42\"-54\" decks · 21.5-23 hp",
+    "info": "https://www.hustlerturf.com/products/raptor-xl",
+    "photo": "catalog/hustler-raptor-xl.webp",
+    "manufacturerName": "Raptor XL"
+  },
+  {
+    "id": "hustler-trimstar",
+    "make": "Hustler",
+    "model": "TrimStar",
+    "cat": "mower",
+    "tagline": "Gas walk-behind mower · 36\"-60\" decks · 15-23 hp",
+    "info": "https://www.hustlerturf.com/products/trimstar",
+    "photo": "catalog/hustler-trimstar.webp",
+    "manufacturerName": "TrimStar"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-oz972",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ OZ972",
+    "cat": "zt",
+    "tagline": "Battery zero-turn · 72\" side discharge · 36 kWh",
+    "info": "https://www.greenworkscommercial.com/products/optimusz-series-9-72-side-discharge-ride-on-ztr-36-kwh-oz972",
+    "photo": "catalog/greenworks-commercial-optimusz-oz972.webp",
+    "manufacturerName": "OptimusZ OZ972"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-oz960r",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ OZ960R",
+    "cat": "zt",
+    "tagline": "Battery zero-turn · 60\" rear discharge · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/optimusz-series-9-60-ride-on-ztr-24-kwh-oz960r",
+    "photo": "catalog/greenworks-commercial-optimusz-oz960r.webp",
+    "manufacturerName": "OptimusZ OZ960R"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-oz948",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ OZ948",
+    "cat": "zt",
+    "tagline": "Battery zero-turn · 48\" deck · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/optimusz-series-9-48-ride-on-ztr-24-kwh-oz948",
+    "photo": "catalog/greenworks-commercial-optimusz-oz948.webp",
+    "manufacturerName": "OptimusZ OZ948"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-os948",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ OS948",
+    "cat": "zt",
+    "tagline": "Battery stand-on mower · 48\" deck · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/optimusz-series-9-48-stand-on-ztr-24-kwh-os948",
+    "photo": "catalog/greenworks-commercial-optimusz-os948.webp",
+    "manufacturerName": "OptimusZ OS948"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-cz60r24x",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ CZ60R24X",
+    "cat": "zt",
+    "tagline": "Battery zero-turn · 60\" deck · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/cz60r24x-optimusz-60-24kwh-ride-on-zero-turn-mower",
+    "photo": "catalog/greenworks-commercial-optimusz-cz60r24x.webp",
+    "manufacturerName": "OptimusZ CZ60R24X"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-cz52s24x",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ CZ52S24X",
+    "cat": "zt",
+    "tagline": "Battery stand-on mower · 52\" deck · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/cz52s24x-optimusz-52-24kwh-stand-on-zero-turn-mower",
+    "photo": "catalog/greenworks-commercial-optimusz-cz52s24x.webp",
+    "manufacturerName": "OptimusZ CZ52S24X"
+  },
+  {
+    "id": "greenworks-commercial-optimusz-cz48s24x",
+    "make": "Greenworks Commercial",
+    "model": "OptimusZ CZ48S24X",
+    "cat": "zt",
+    "tagline": "Battery stand-on mower · 48\" deck · 24 kWh",
+    "info": "https://www.greenworkscommercial.com/products/optimusz-48-24kwh-stand-on-zero-turn-mower-cz48s24x",
+    "photo": "catalog/greenworks-commercial-optimusz-cz48s24x.webp",
+    "manufacturerName": "OptimusZ CZ48S24X"
+  },
+  {
+    "id": "greenworks-commercial-optimus-atm22a",
+    "make": "Greenworks Commercial",
+    "model": "Optimus ATM22A",
+    "cat": "mower",
+    "tagline": "Battery self-propelled mower · 22\" deck · 82V",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-22-self-propelled-mower-atm22a",
+    "photo": "catalog/greenworks-commercial-optimus-atm22a.webp",
+    "manufacturerName": "Optimus ATM22A"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82lm30s",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82LM30S",
+    "cat": "mower",
+    "tagline": "Battery self-propelled mower · 30\" deck · 82V",
+    "info": "https://www.greenworkscommercial.com/products/82lm30s-82v-30-self-propelled-lawn-mower-tool-only",
+    "photo": "catalog/greenworks-commercial-optimus-82lm30s.webp",
+    "manufacturerName": "Optimus 82LM30S"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ocs800",
+    "make": "Greenworks Commercial",
+    "model": "Optimus OCS800",
+    "cat": "chainsaw",
+    "tagline": "Battery chainsaw · 5.0 kW · 82V · 20\"-28\" bars",
+    "info": "https://www.greenworkscommercial.com/products/82v-optimus-hog-saw-core530-kit-ocs800-c5dp-20",
+    "photo": "catalog/greenworks-commercial-optimus-ocs800.webp",
+    "manufacturerName": "Optimus OCS800"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ots350",
+    "make": "Greenworks Commercial",
+    "model": "Optimus OTS350",
+    "cat": "chainsaw",
+    "tagline": "Battery top-handle chainsaw · 48V · 1.8 kW",
+    "info": "https://www.greenworkscommercial.com/products/48v-top-handle-chainsaw-powerhead-48v-4-ah-battery-5a-charger-ots350-t4sc",
+    "photo": "catalog/greenworks-commercial-optimus-ots350.webp",
+    "manufacturerName": "Optimus OTS350"
+  },
+  {
+    "id": "greenworks-commercial-optimus-st161",
+    "make": "Greenworks Commercial",
+    "model": "Optimus ST161",
+    "cat": "trimmer",
+    "tagline": "Battery string trimmer · 1.6 kW · 82V",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-1-6-kw-string-trimmer-st161",
+    "photo": "catalog/greenworks-commercial-optimus-st161.webp",
+    "manufacturerName": "Optimus ST161"
+  },
+  {
+    "id": "greenworks-commercial-optimus-tb201",
+    "make": "Greenworks Commercial",
+    "model": "Optimus TB201",
+    "cat": "trimmer",
+    "tagline": "Battery bike-handle trimmer · 2.0 kW · 82V",
+    "info": "https://www.greenworkscommercial.com/products/82v-2-0-kw-bike-handle-string-trimmer-tb201",
+    "photo": "catalog/greenworks-commercial-optimus-tb201.webp",
+    "manufacturerName": "Optimus TB201"
+  },
+  {
+    "id": "greenworks-commercial-optimus-st201",
+    "make": "Greenworks Commercial",
+    "model": "Optimus ST201",
+    "cat": "trimmer",
+    "tagline": "Battery string trimmer · 2.0 kW · 82V",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-2-0-kw-string-trimmer-st201",
+    "photo": "catalog/greenworks-commercial-optimus-st201.webp",
+    "manufacturerName": "Optimus ST201"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bb50x",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BB50X",
+    "cat": "blower",
+    "tagline": "Battery backpack blower · 82V · 1,145 cfm · 205 mph",
+    "info": "https://www.greenworkscommercial.com/products/82v-50n-backpack-blower-bb50x",
+    "photo": "catalog/greenworks-commercial-optimus-bb50x.webp",
+    "manufacturerName": "Optimus BB50X"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bb42x",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BB42X",
+    "cat": "blower",
+    "tagline": "Battery backpack blower · 82V · 1,069 cfm · 192 mph",
+    "info": "https://www.greenworkscommercial.com/products/82v-42n-backpack-blower-bb42x",
+    "photo": "catalog/greenworks-commercial-optimus-bb42x.webp",
+    "manufacturerName": "Optimus BB42X"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bb361",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BB361",
+    "cat": "blower",
+    "tagline": "Battery backpack blower · 82V · 755 cfm · 225 mph",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-755-cfm-dual-port-backpack-blower-bb361",
+    "photo": "catalog/greenworks-commercial-optimus-bb361.webp",
+    "manufacturerName": "Optimus BB361"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bb261",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BB261",
+    "cat": "blower",
+    "tagline": "Battery backpack blower · 82V · 742 cfm · 169 mph",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-26n-backpack-blower-bb261-1",
+    "photo": "catalog/greenworks-commercial-optimus-bb261.webp",
+    "manufacturerName": "Optimus BB261"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bh32x",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BH32X",
+    "cat": "blower",
+    "tagline": "Battery handheld blower · 82V · 1,000 cfm · 150 mph",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-32n-handheld-blower-bh32x",
+    "photo": "catalog/greenworks-commercial-optimus-bh32x.webp",
+    "manufacturerName": "Optimus BH32X"
+  },
+  {
+    "id": "greenworks-commercial-optimus-bh261",
+    "make": "Greenworks Commercial",
+    "model": "Optimus BH261",
+    "cat": "blower",
+    "tagline": "Battery handheld blower · 82V · 880 cfm · 200 mph",
+    "info": "https://www.greenworkscommercial.com/products/82v-26n-handheld-blower-bh261",
+    "photo": "catalog/greenworks-commercial-optimus-bh261.webp",
+    "manufacturerName": "Optimus BH261"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ph302f",
+    "make": "Greenworks Commercial",
+    "model": "Optimus PH302F",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 82V · Short-pole fixed",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-short-pole-fixed-hedge-trimmer-ph302f",
+    "photo": "catalog/greenworks-commercial-optimus-ph302f.webp",
+    "manufacturerName": "Optimus PH302F"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ph662t",
+    "make": "Greenworks Commercial",
+    "model": "Optimus PH662T",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 82V · Telescoping pole",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-telescoping-hedge-trimmer-with-1-2-5-ah-battery-and-dual-port-charger-ph662t-25dp",
+    "photo": "catalog/greenworks-commercial-optimus-ph662t.webp",
+    "manufacturerName": "Optimus PH662T"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ht301s",
+    "make": "Greenworks Commercial",
+    "model": "Optimus HT301S",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 82V · 30\" single-sided",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-30-single-sided-hedge-trimmer-ht301s",
+    "photo": "catalog/greenworks-commercial-optimus-ht301s.webp",
+    "manufacturerName": "Optimus HT301S"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ht241",
+    "make": "Greenworks Commercial",
+    "model": "Optimus HT241",
+    "cat": "hedge",
+    "tagline": "Battery hedge trimmer · 82V · 24\" blade",
+    "info": "https://www.greenworkscommercial.com/products/ht241",
+    "photo": "catalog/greenworks-commercial-optimus-ht241.webp",
+    "manufacturerName": "Optimus HT241"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ph482a",
+    "make": "Greenworks Commercial",
+    "model": "Optimus PH482A",
+    "cat": "hedge",
+    "tagline": "Battery articulating hedge trimmer · 82V · Mid-pole",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-articulating-mid-pole-hedge-trimmer-ph482a",
+    "photo": "catalog/greenworks-commercial-optimus-ph482a.webp",
+    "manufacturerName": "Optimus PH482A"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ops300t",
+    "make": "Greenworks Commercial",
+    "model": "Optimus OPS300T",
+    "cat": "polesaw",
+    "tagline": "Battery pole saw · 82V · 10\" bar · 12.5 ft reach",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-10-polesaw-with-carbon-fiber-shaft-ops300t",
+    "photo": "catalog/greenworks-commercial-optimus-ops300t.webp",
+    "manufacturerName": "Optimus OPS300T"
+  },
+  {
+    "id": "greenworks-commercial-optimus-ops300",
+    "make": "Greenworks Commercial",
+    "model": "Optimus OPS300",
+    "cat": "polesaw",
+    "tagline": "Battery pole saw · 82V · 10\" bar · Fixed shaft",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-fixed-shaft-polesaw-ops300",
+    "photo": "catalog/greenworks-commercial-optimus-ops300.webp",
+    "manufacturerName": "Optimus OPS300"
+  },
+  {
+    "id": "greenworks-commercial-optimus-oas161",
+    "make": "Greenworks Commercial",
+    "model": "Optimus OAS161",
+    "cat": "multi",
+    "tagline": "Battery attachment powerhead · 1.6 kW · 82V",
+    "info": "https://www.greenworkscommercial.com/products/optimus-82v-1-6-kw-attachment-capable-powerhead-oas161",
+    "photo": "catalog/greenworks-commercial-optimus-oas161.webp",
+    "manufacturerName": "Optimus OAS161"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82bd800",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82BD800",
+    "cat": "battery",
+    "tagline": "Battery pack · 82V · 8 Ah · Bluetooth readout",
+    "info": "https://www.greenworkscommercial.com/products/82v-8-ah-21700-battery-w-bluetooth-and-digital-readout-coming-in-2022",
+    "photo": "catalog/greenworks-commercial-optimus-82bd800.webp",
+    "manufacturerName": "Optimus 82BD800"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82bd500",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82BD500",
+    "cat": "battery",
+    "tagline": "Battery pack · 82V · 5 Ah · Bluetooth readout",
+    "info": "https://www.greenworkscommercial.com/products/82v-5-ah-battery-w-bluetooth-and-digital-readout-new-for-2022-replaces-gl500",
+    "photo": "catalog/greenworks-commercial-optimus-82bd500.webp",
+    "manufacturerName": "Optimus 82BD500"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82bd400",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82BD400",
+    "cat": "battery",
+    "tagline": "Battery pack · 82V · 4 Ah · Bluetooth readout",
+    "info": "https://www.greenworkscommercial.com/products/82v-4-ah-21700-battery-w-bluetooth-and-digital-readout-new-for-2022-replaces-gl400bt",
+    "photo": "catalog/greenworks-commercial-optimus-82bd400.webp",
+    "manufacturerName": "Optimus 82BD400"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82bd250",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82BD250",
+    "cat": "battery",
+    "tagline": "Battery pack · 82V · 2.5 Ah · Bluetooth readout",
+    "info": "https://www.greenworkscommercial.com/products/82v-2-5-ah-battery-w-bluetooth-and-digital-readout-new-for-2022-replaces-gl250",
+    "photo": "catalog/greenworks-commercial-optimus-82bd250.webp",
+    "manufacturerName": "Optimus 82BD250"
+  },
+  {
+    "id": "greenworks-commercial-optimus-gl600bt",
+    "make": "Greenworks Commercial",
+    "model": "Optimus GL600BT",
+    "cat": "battery",
+    "tagline": "Battery pack · 82V · 6 Ah · Bluetooth",
+    "info": "https://www.greenworkscommercial.com/products/82-volt-6ah-battery-with-bluetooth-new-for-2022",
+    "photo": "catalog/greenworks-commercial-optimus-gl600bt.webp",
+    "manufacturerName": "Optimus GL600BT"
+  },
+  {
+    "id": "greenworks-commercial-optimus-82dpc8a",
+    "make": "Greenworks Commercial",
+    "model": "Optimus 82DPC8A",
+    "cat": "battery",
+    "tagline": "Charger · 82V · Dual-port fast charger",
+    "info": "https://www.greenworkscommercial.com/products/82dcp8a-82-volt-dual-port-charger",
+    "photo": "catalog/greenworks-commercial-optimus-82dpc8a.webp",
+    "manufacturerName": "Optimus 82DPC8A"
+  },
+  {
+    "id": "brown-bededger-series",
+    "make": "Brown",
+    "model": "BedEdger Series",
+    "cat": "edger",
+    "tagline": "Gas bed edger · Honda GX270 9 hp · 0.5-9 in width",
+    "info": "https://brown-products.com/products/bededger-series/",
+    "photo": "catalog/brown-bededger-series.webp",
+    "manufacturerName": "BedEdger Series"
+  },
+  {
+    "id": "brown-edgemaster-series",
+    "make": "Brown",
+    "model": "EdgeMaster Series",
+    "cat": "edger",
+    "tagline": "Gas bed edger · Honda GX160 5.5 hp · 10 in curb height",
+    "info": "https://brown-products.com/products/edgemaster-series/",
+    "photo": "catalog/brown-edgemaster-series.webp",
+    "manufacturerName": "EdgeMaster Series",
+    "best": true
+  },
+  {
+    "id": "powertrim-300-h",
+    "make": "Powertrim",
+    "model": "300-H",
+    "cat": "edger",
+    "tagline": "Gas bed edger · Honda GX120",
+    "info": "https://www.powertrim.com/edgers/",
+    "photo": "catalog/powertrim-300-h.webp",
+    "manufacturerName": "300-H"
+  },
+  {
+    "id": "bluebird-bb650",
+    "make": "Bluebird",
+    "model": "BB650",
+    "cat": "edger",
+    "tagline": "Gas bed edger · Honda GX200 5.5 hp · 2-4 in depth",
+    "info": "https://bluebirdturf.com/product/bb550a-bb650-landscape-edger/",
+    "photo": "catalog/bluebird-bb650.webp",
+    "manufacturerName": "BB650"
+  },
+  {
+    "id": "propower-pc190rb-2529bxd",
+    "make": "ProPower",
+    "model": "PC190RB-2529BXD",
+    "cat": "pressure",
+    "tagline": "Homeowner · 2,900 psi · 2.5 gpm",
+    "info": "https://www.propowerproductsusa.com/product/pc190rb-2529bxd/",
+    "photo": "catalog/propower-pc190rb-2529bxd.webp",
+    "manufacturerName": "PC190RB-2529BXD"
+  },
+  {
+    "id": "propower-px160rb-2529bxd",
+    "make": "ProPower",
+    "model": "PX160RB-2529BXD",
+    "cat": "pressure",
+    "tagline": "Homeowner · 2,900 psi · 2.5 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px160rb-2529bxd/",
+    "photo": "catalog/propower-px160rb-2529bxd.webp",
+    "manufacturerName": "PX160RB-2529BXD"
+  },
+  {
+    "id": "propower-px200ra-3025rcv",
+    "make": "ProPower",
+    "model": "PX200RA-3025RCV",
+    "cat": "pressure",
+    "tagline": "Commercial · 2,500 psi · 3.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px200ra-3025rcv/",
+    "photo": "catalog/propower-px200ra-3025rcv.webp",
+    "manufacturerName": "PX200RA-3025RCV"
+  },
+  {
+    "id": "propower-px200rb-3029bwd",
+    "make": "ProPower",
+    "model": "PX200RB-3029BWD",
+    "cat": "pressure",
+    "tagline": "Commercial · 2,900 psi · 3.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px200rb-3029bwd/",
+    "photo": "catalog/propower-px200rb-3029bwd.webp",
+    "manufacturerName": "PX200RB-3029BWD"
+  },
+  {
+    "id": "propower-px390ra-4040ewd",
+    "make": "ProPower",
+    "model": "PX390RA-4040EWD",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px390ra-4040ewd/",
+    "photo": "catalog/propower-px390ra-4040ewd.webp",
+    "manufacturerName": "PX390RA-4040EWD"
+  },
+  {
+    "id": "propower-px390ra-4040rrv",
+    "make": "ProPower",
+    "model": "PX390RA-4040RRV",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px390ra-4040rrv/",
+    "photo": "catalog/propower-px390ra-4040rrv.webp",
+    "manufacturerName": "PX390RA-4040RRV"
+  },
+  {
+    "id": "propower-px390rb-4040zwd",
+    "make": "ProPower",
+    "model": "PX390RB-4040ZWD",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px390rb-4040zwd/",
+    "photo": "catalog/propower-px390rb-4040zwd.webp",
+    "manufacturerName": "PX390RB-4040ZWD"
+  },
+  {
+    "id": "propower-px390ra-4040zwd-c",
+    "make": "ProPower",
+    "model": "PX390RA-4040ZWD-C",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px390ra-4040zwd-c/",
+    "photo": "catalog/propower-px390ra-4040zwd-c.webp",
+    "manufacturerName": "PX390RA-4040ZWD-C"
+  },
+  {
+    "id": "vortexx-4000hot",
+    "make": "Vortexx",
+    "model": "4000HOT",
+    "cat": "pressure",
+    "tagline": "Hot water commercial · 4,000 psi · 4 gpm · GX390",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-4000hot/",
+    "photo": "catalog/vortexx-4000hot.webp",
+    "manufacturerName": "4000HOT"
+  },
+  {
+    "id": "vortexx-4000xg",
+    "make": "Vortexx",
+    "model": "4000XG",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4 gpm · gear drive",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-4000xg/",
+    "photo": "catalog/vortexx-4000xg.webp",
+    "manufacturerName": "4000XG"
+  },
+  {
+    "id": "vortexx-4000hd",
+    "make": "Vortexx",
+    "model": "4000HD",
+    "cat": "pressure",
+    "tagline": "Commercial · 4,000 psi · 4 gpm · Honda GX390",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-4000hd/",
+    "photo": "catalog/vortexx-4000hd.webp",
+    "manufacturerName": "4000HD"
+  },
+  {
+    "id": "vortexx-3000hd",
+    "make": "Vortexx",
+    "model": "3000HD",
+    "cat": "pressure",
+    "tagline": "Commercial · 2,950 psi · 3 gpm · Honda",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-3000hd/",
+    "photo": "catalog/vortexx-3000hd.webp",
+    "manufacturerName": "3000HD"
+  },
+  {
+    "id": "vortexx-2750ld",
+    "make": "Vortexx",
+    "model": "2750LD",
+    "cat": "pressure",
+    "tagline": "Commercial · 2,750 psi · 3 gpm · Honda GX200",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-2750ld/",
+    "photo": "catalog/vortexx-2750ld.webp",
+    "manufacturerName": "2750LD"
+  },
+  {
+    "id": "vortexx-4000hdp",
+    "make": "Vortexx",
+    "model": "4000HDP",
+    "cat": "pressure",
+    "tagline": "Prosumer · 4,000 psi · 4 gpm · Honda GX390",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-4000hdp/",
+    "photo": "catalog/vortexx-4000hdp.webp",
+    "manufacturerName": "4000HDP"
+  },
+  {
+    "id": "vortexx-3000hdp",
+    "make": "Vortexx",
+    "model": "3000HDP",
+    "cat": "pressure",
+    "tagline": "Prosumer · 3,000 psi · 3 gpm · Honda GX200",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-3000hdp/",
+    "photo": "catalog/vortexx-3000hdp.webp",
+    "manufacturerName": "3000HDP"
+  },
+  {
+    "id": "vortexx-2750ldp",
+    "make": "Vortexx",
+    "model": "2750LDP",
+    "cat": "pressure",
+    "tagline": "Prosumer · 2,750 psi · 3 gpm · Honda GX200",
+    "info": "https://vortexxpressurewashers.com/product/vortexx-2750ldp/",
+    "photo": "catalog/vortexx-2750ldp.webp",
+    "manufacturerName": "2750LDP"
+  },
+  {
+    "id": "propower-px160ra-2527lab",
+    "make": "ProPower",
+    "model": "PX160RA-2527LAB",
+    "cat": "pressure",
+    "tagline": "Prosumer · 2,700 psi · 2.5 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px160ra-2527lab/",
+    "photo": "catalog/propower-px160ra-2527lab.webp",
+    "manufacturerName": "PX160RA-2527LAB"
+  },
+  {
+    "id": "propower-px200rb-3029axd",
+    "make": "ProPower",
+    "model": "PX200RB-3029AXD",
+    "cat": "pressure",
+    "tagline": "Prosumer · 2,900 psi · 3.0 gpm",
+    "info": "https://www.propowerproductsusa.com/product/px200rb-3029axd/",
+    "photo": "catalog/propower-px200rb-3029axd.webp",
+    "manufacturerName": "PX200RB-3029AXD"
   }
 ]

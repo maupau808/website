@@ -1,10 +1,40 @@
 # Maui Power Equipment
 
-> Locally owned outdoor power equipment dealer at 970 Lower Main St, Wailuku, HI 96793 (Maui). Sales, walk-in service (no appointment needed), and parts for STIHL, Honda, SCAG, Wright, ECHO, Shindaiwa, Maruyama, and Hustler, plus generators and Big Tex trailers. Phone (808) 249-2730. Email Info@mauipowerequipment.com. Open Mon–Fri 7:30am–4:30pm, Sat 7:30am–2:00pm, closed Sunday.
+> Locally owned outdoor power equipment dealer at 970 Lower Main St, Wailuku, HI 96793 (Maui). Sales, walk-in service (no appointment needed), and parts for STIHL, Honda, SCAG, Wright, ECHO, Shindaiwa, Maruyama, Hustler, Greenworks Commercial, Toro and Rolux, plus Big Tex trailers. Phone (808) 249-2730. Email Info@mauipowerequipment.com. Open Mon–Fri 7:30am–4:30pm, Sat 7:30am–2:00pm, closed Sunday.
 
 ## Main
 - [Home](https://mauipowerequipment.com/): Services, hours, contact, and parts requests
-- [Current inventory](https://mauipowerequipment.com/inventory-static.html): Equipment in stock at the Wailuku store
+- [Equipment we carry](https://mauipowerequipment.com/inventory-static.html): Full equipment list for the Wailuku store
+
+## Equipment
+<!-- equipment-pages -->
+- [Batteries & Chargers on Maui](https://mauipowerequipment.com/equipment/batteries-chargers.html)
+- [Battery Mowers & Zero-Turns](https://mauipowerequipment.com/equipment/battery-mowers.html)
+- [Battery Powered Equipment](https://mauipowerequipment.com/equipment/battery-powered.html)
+- [Chainsaws on Maui](https://mauipowerequipment.com/equipment/chainsaws.html)
+- [Cut-Off Saws & Concrete Cutters on Maui](https://mauipowerequipment.com/equipment/cut-off-saws.html)
+- [ECHO on Maui](https://mauipowerequipment.com/equipment/echo.html)
+- [Edgers on Maui](https://mauipowerequipment.com/equipment/edgers.html)
+- [Generators on Maui](https://mauipowerequipment.com/equipment/generators.html)
+- [Greenworks Commercial on Maui](https://mauipowerequipment.com/equipment/greenworks-commercial.html)
+- [Hedge Trimmers on Maui](https://mauipowerequipment.com/equipment/hedge-trimmers.html)
+- [Honda on Maui](https://mauipowerequipment.com/equipment/honda.html)
+- [Hustler on Maui](https://mauipowerequipment.com/equipment/hustler.html)
+- [Lawn Mowers on Maui](https://mauipowerequipment.com/equipment/lawn-mowers.html)
+- [Leaf Blowers on Maui](https://mauipowerequipment.com/equipment/leaf-blowers.html)
+- [Maruyama on Maui](https://mauipowerequipment.com/equipment/maruyama.html)
+- [Multi-Task Tools on Maui](https://mauipowerequipment.com/equipment/multi-task-tools.html)
+- [Pole Saws on Maui](https://mauipowerequipment.com/equipment/pole-saws.html)
+- [Pressure Washers on Maui](https://mauipowerequipment.com/equipment/pressure-washers.html)
+- [SCAG on Maui](https://mauipowerequipment.com/equipment/scag.html)
+- [Shindaiwa on Maui](https://mauipowerequipment.com/equipment/shindaiwa.html)
+- [Sprayers & Mistblowers on Maui](https://mauipowerequipment.com/equipment/sprayers.html)
+- [STIHL on Maui](https://mauipowerequipment.com/equipment/stihl.html)
+- [String Trimmers & Weedeaters on Maui](https://mauipowerequipment.com/equipment/string-trimmers.html)
+- [Vacuums & Shredders on Maui](https://mauipowerequipment.com/equipment/vacuums.html)
+- [Water Pumps on Maui](https://mauipowerequipment.com/equipment/water-pumps.html)
+- [Wright on Maui](https://mauipowerequipment.com/equipment/wright.html)
+- [Zero-Turn Mowers on Maui](https://mauipowerequipment.com/equipment/zero-turn-mowers.html)
 
 ## Dealer profiles
 - [STIHL dealer page](https://mauipowerequipmentwailuku.stihldealer.net/)

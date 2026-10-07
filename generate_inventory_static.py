@@ -293,7 +293,68 @@ def build():
     for f in os.listdir(os.path.join(HERE, SUBDIR)):  # drop pages for categories/brands that emptied out
         if f.endswith(".html") and f"{SUBDIR}/{f}" not in written:
             os.remove(os.path.join(HERE, SUBDIR, f))
+    build_fit()
+    build_llms(written)
     return n
+
+
+def build_llms(paths):
+    """Keep the Equipment section of llms.txt in step with the equipment/ pages."""
+    p = os.path.join(HERE, "llms.txt")
+    s = open(p).read()
+    mark = "<!-- equipment-pages -->"
+    if mark not in s:
+        return
+    head, rest = s.split(mark, 1)
+    tail = rest[rest.find("\n## "):] if "\n## " in rest else "\n"
+    lines = []
+    for path in sorted(paths):
+        h1 = re.search(r"<h1>(.*?)</h1>", open(os.path.join(HERE, path)).read())
+        if h1:
+            lines.append(f"- [{html.unescape(h1.group(1))}](https://mauipowerequipment.com/{path})")
+    open(p, "w").write(head + mark + "\n" + "\n".join(lines) + "\n" + tail)
+
+
+def build_fit():
+    """Precompute each product photo's trim box (same rules as fitProductPhoto in index.html) into
+    assets/inventory/fit.json so the browser skips its per-photo pixel scan while scrolling."""
+    try:
+        from PIL import Image, ImageChops
+    except ImportError:
+        return
+    root = os.path.join(HERE, "assets/inventory")
+    out = os.path.join(root, "fit.json")
+    try:
+        old = json.load(open(out))
+    except (OSError, ValueError):
+        old = {}
+    fit = {}
+    for d, _, files in os.walk(root):
+        for f in files:
+            if not f.lower().endswith((".webp", ".png", ".jpg", ".jpeg", ".avif")):
+                continue
+            path = os.path.join(d, f)
+            key = os.path.relpath(path, root)
+            mt = int(os.path.getmtime(path))
+            if key in old and old[key][0] == mt:
+                fit[key] = old[key]
+                continue
+            try:
+                im = Image.open(path).convert("RGBA")
+            except Exception:
+                continue
+            k = min(1, 600 / max(im.size))
+            im = im.resize((round(im.width * k), round(im.height * k)))
+            r, g, b, a = im.split()
+            ink = ImageChops.multiply(ImageChops.darker(ImageChops.darker(r, g), b).point(lambda v: 255 if v < 245 else 0),
+                                      a.point(lambda v: 255 if v > 24 else 0))
+            w, h = im.size
+            box = ink.getbbox()
+            corner = any(ink.getpixel(c) for c in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)))
+            # 0 = leave framing alone (lifestyle photo / colored background / blank)
+            fit[key] = [mt, 0] if corner or not box else [mt, [w, h, max(0, box[0] - 3), max(0, box[1] - 3), min(w, box[2] + 3), min(h, box[3] + 3)]]
+    with open(out, "w") as fh:
+        json.dump(fit, fh, separators=(",", ":"))
 
 
 if __name__ == "__main__":

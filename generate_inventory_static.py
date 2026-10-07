@@ -27,11 +27,11 @@ SITE = "https://mauipowerequipment.com"
 # Same categories, labels and order as the homepage filters (index.html FILTERS / cat()).
 CATS = [("zt", "Zero-Turn Mowers"), ("mower", "Lawn Mowers"), ("chainsaw", "Chainsaws"),
         ("trimmer", "String Trimmers & Weedeaters"), ("blower", "Leaf Blowers"),
-        ("hedge", "Hedge Trimmers & Pole Saws"), ("multi", "Multi-Task Tools"),
+        ("hedge", "Hedge Trimmers"), ("polesaw", "Pole Saws"), ("multi", "Multi-Task Tools"),
         ("generator", "Generators"), ("pump", "Water Pumps & Sprayers"),
         ("battery", "Batteries & Chargers"), ("other", "More Equipment")]
 SLUG = {"zt": "zero-turn-mowers", "mower": "lawn-mowers", "chainsaw": "chainsaws", "trimmer": "string-trimmers",
-        "blower": "leaf-blowers", "hedge": "hedge-trimmers-pole-saws", "multi": "multi-task-tools",
+        "blower": "leaf-blowers", "hedge": "hedge-trimmers", "polesaw": "pole-saws", "multi": "multi-task-tools",
         "generator": "generators", "pump": "water-pumps-sprayers", "battery": "batteries-chargers"}
 # Brand pages only for dealer brands with enough models to be a useful page.
 BRANDS = [("STIHL", "stihl"), ("Honda", "honda"), ("SCAG", "scag"), ("Maruyama", "maruyama"),

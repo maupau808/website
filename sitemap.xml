@@ -37,12 +37,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mauipowerequipment.com/equipment/hedge-trimmers-pole-saws.html</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mauipowerequipment.com/equipment/honda.html</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,6 +98,18 @@
   </url>
   <url>
     <loc>https://mauipowerequipment.com/equipment/zero-turn-mowers.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mauipowerequipment.com/equipment/hedge-trimmers.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mauipowerequipment.com/equipment/pole-saws.html</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

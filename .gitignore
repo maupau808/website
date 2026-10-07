@@ -13,6 +13,13 @@ inventory-editor.html
 # Editor/IDE local config
 .claude/
 
+# Agent instruction files — local only, must never go public
+CLAUDE.md
+AGENTS.md
+
+# Planning handoff docs — local only, not part of the public site
+HANDOFF_*.md
+
 # Finder/iCloud duplicate copies ("name 2.webp") — never publish
 assets/**/* [0-9].webp
 assets/**/* [0-9].jpg

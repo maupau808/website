@@ -960,8 +960,8 @@ function orderStock(d){
   const sold=shuffle(d.filter(x=>x.status==='sold'&&!lineLinks.has(productLink(x))));
   const line=CATALOG.filter(x=>!liveLinks.has(productLink(x)));
   return[...mixBrands([...live,...line]),...sold];}
-function startStock(d){STOCK=orderStock(d);buildFilters();render('all');wireScroll();}
-fetch('inventory.json',{cache:'no-store'}).then(r=>r.json()).then(startStock).catch(()=>startStock([]));
+function startStock(d){const nm=x=>`${x.make} ${x.model}`.toLowerCase();STOCK=orderStock(d).filter((x,i,a)=>a.findIndex(y=>nm(y)===nm(x))===i);buildFilters();render('all');wireScroll();}
+fetch('inventory.json',{cache:'no-store'}).then(r=>r.json()).then(d=>startStock(d.filter(x=>!/trailer/i.test(x.type||'')).map(x=>x.status==='sold'?{...x,status:'available'}:x)))  // stock status retired: no Sold markers; trailers hidden for now.catch(()=>startStock([]));
 
 /* form tabs + submit */
 function ftab(p){

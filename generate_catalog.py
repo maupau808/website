@@ -48,3 +48,5 @@ def build():
 
 if __name__ == "__main__":
     build()
+    import generate_inventory_static
+    print(f"inventory-static.html written ({generate_inventory_static.build()} items)")

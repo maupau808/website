@@ -1190,9 +1190,6 @@ function render(f){
   if(f==='all'){const picks=HOME_PICKS.map(p=>items.find(x=>x.make.toLowerCase()===p[0]&&x.model.startsWith(p[1]))).filter(Boolean);
     const stars=items.filter(x=>!picks.includes(x)&&HOME_STARS.some(n=>{const m=(x.make+' '+x.model).toLowerCase().trim();return m===n||m.startsWith(n+' —')||m.startsWith(n+' w/')}));
     items=[...picks,...mixBrands(stars)].map(x=>({...x,best:true})).concat(mixBrands(items.filter(x=>!picks.includes(x)&&!stars.includes(x))).map(x=>({...x,best:false})));}
-  if(f==='all'){const picks=HOME_PICKS.map(p=>items.find(x=>x.make.toLowerCase()===p[0]&&x.model.startsWith(p[1]))).filter(Boolean);
-    const stars=items.filter(x=>!picks.includes(x)&&HOME_STARS.some(n=>(x.make+' '+x.model).toLowerCase().startsWith(n)));
-    items=[...picks,...mixBrands(stars)].map(x=>({...x,best:true})).concat(mixBrands(items.filter(x=>!picks.includes(x)&&!stars.includes(x))).map(x=>({...x,best:false})));}
   if(!items.length){g.innerHTML='<p style="color:var(--muted)">Nothing in this category right now — give us a call.</p>';return;}
   const top=[],bot=[];
   items.forEach((it,i)=>(i%2?bot:top).push(it));

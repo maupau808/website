@@ -328,6 +328,7 @@ section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
 .catalog-list{width:100%;columns:3 240px;gap:24px;color:#fff;font-size:14px;line-height:1.5;list-style:none;padding:0;margin:0}
 .catalog-list a{color:var(--gold)}
 .hl-accent{color:var(--gold)}
+.ev-top .hl-accent{color:#B87A00}
 .hl-green{color:#4ea86a}
 
 /* ── contact ── */
@@ -376,10 +377,11 @@ section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
 
 /* ── footer ── */
 footer{background:var(--green-dark);color:#9fbfa6;padding:32px 0 18px;border-top:none}
+.fgrid p a{display:inline-block;padding:4px 0}
 .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}
 @media(max-width:640px){.fgrid{grid-template-columns:1fr;gap:16px;text-align:center}.fgrid .brand{justify-content:center}.fgrid p{margin-left:auto;margin-right:auto}}
 footer .brand .bt{color:#fff}
-footer h4{font-family:'Oswald';font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+footer h3{font-family:'Oswald';font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
 footer p,footer a{font-size:13px;color:rgba(255,255,255,0.82);line-height:1.65}
 footer a:hover{color:var(--gold)}
 .fbottom{border-top:1px solid rgba(255,255,255,0.1);margin-top:18px;padding-top:10px;font-size:11px;color:#7a9a82;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
@@ -435,6 +437,7 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
   </div>
 </header>
 
+<main>
 <!-- action bar under hero -->
 <div class="herobar">
   <div class="herobar-group">
@@ -1055,7 +1058,7 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
       <div class="fpanel on" id="panel-msg">
         <div id="form-msg">
           <div class="frow">
-            <div class="fg"><label>Name</label><input id="m-name"></div>
+            <div class="fg"><label for="m-name">Name</label><input id="m-name" autocomplete="name"></div>
             <div class="fg"><label>Phone or email</label><input id="m-contact" placeholder="Best way to reach you"></div>
           </div>
           <div class="frow"><div class="fg full"><label>Your message</label><textarea id="m-msg" placeholder="Questions, comments — anything"></textarea></div></div>
@@ -1068,14 +1071,16 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
 </div></section>
 
 <!-- footer -->
+</main>
+
 <footer><div class="wrap">
   <div class="fgrid">
     <div>
       <a class="brand" href="#top"><img src="assets/logos/mpe-hero.png" alt="MPE" style="height:54px"></a>
       <p style="margin-top:14px;max-width:300px">Locally owned and operated in Wailuku.</p>
     </div>
-    <div style="padding-top:22px"><h4>Visit</h4><p><a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank">970 Lower Main St<br>Wailuku, HI 96793</a><br><a href="https://maps.app.goo.gl/xXnSiBESpUxJjeYg7" target="_blank" rel="noopener">Google reviews &amp; directions</a></p></div>
-    <div style="padding-top:22px"><h4>Contact</h4><p><a href="tel:8082492730">(808) 249-2730</a><br><a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a></p></div>
+    <div style="padding-top:22px"><h3>Visit</h3><p><a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank">970 Lower Main St<br>Wailuku, HI 96793</a><br><a href="https://maps.app.goo.gl/xXnSiBESpUxJjeYg7" target="_blank" rel="noopener">Google reviews &amp; directions</a></p></div>
+    <div style="padding-top:22px"><h3>Contact</h3><p><a href="tel:8082492730">(808) 249-2730</a><br><a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a></p></div>
   </div>
   <div class="fbottom"><span>© <span class="yr">2026</span> Maui Power Equipment, Inc.</span><script>document.querySelectorAll(".yr").forEach(e=>e.textContent=new Date().getFullYear())</script><span><a href="inventory-static.html">Inventory list</a> · Wailuku, Maui, Hawai'i</span></div>
 </div></footer>

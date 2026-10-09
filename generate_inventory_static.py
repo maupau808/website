@@ -258,7 +258,9 @@ def build():
             if m and m.lower() not in [x.lower() for x in makes]:
                 makes.append(m)
         path = f"{SUBDIR}/{SLUG[c]}.html"
-        page(sub, path, f"{label} on Maui | Maui Power Equipment, Wailuku",
+        # Honda is the only generator make carried; if that changes the plain title returns.
+        tl = "Honda Generators" if c == "generator" and makes == ["Honda"] else label
+        page(sub, path, f"{tl} on Maui | Maui Power Equipment, Wailuku",
              f"{label} from {', '.join(makes[:4])} at Maui Power Equipment in Wailuku, Maui. "
              f"Walk-in service and parts. Call (808) 249-2730.",
              f"{label} on Maui", f"{label} from {and_list(makes)}. " + SHOP)

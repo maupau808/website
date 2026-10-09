@@ -43,6 +43,11 @@ BRANDS = [("STIHL", "stihl"), ("Honda", "honda"), ("SCAG", "scag"), ("Maruyama",
 SAMPLE = "Call (808) 249-2730 for models not listed."
 
 
+
+def fit(title, shorter):
+    """Bing flags titles over 70 characters; fall back to the shorter form."""
+    return title if len(title) <= 70 else shorter
+
 def cat(t):
     t = (t or "").lower()
     for word, c in (("trailer", "trailer"), ("zero turn", "zt"), ("mower", "mower"), ("chainsaw", "chainsaw"),
@@ -260,7 +265,7 @@ def build():
         path = f"{SUBDIR}/{SLUG[c]}.html"
         # Honda is the only generator make carried; if that changes the plain title returns.
         tl = "Honda Generators" if c == "generator" and makes == ["Honda"] else label
-        page(sub, path, f"{tl} on Maui | Maui Power Equipment, Wailuku",
+        page(sub, path, fit(f"{tl} on Maui | Maui Power Equipment, Wailuku", f"{tl} on Maui | Maui Power Equipment"),
              f"{label} from {', '.join(makes[:4])} at Maui Power Equipment in Wailuku, Maui. "
              f"Walk-in service and parts. Call (808) 249-2730.",
              f"{label} on Maui", f"{label} from {and_list(makes)}. " + SHOP)
@@ -271,7 +276,8 @@ def build():
             continue
         kinds = [l.lower() for c, l in CATS if c in SLUG and any(catof(it) == c for it in sub)]
         path = f"{SUBDIR}/{slug}.html"
-        page(sub, path, f"{brand} on Maui | Sales, Service & Parts — Maui Power Equipment",
+        page(sub, path, fit(f"{brand} on Maui | Sales, Service & Parts — Maui Power Equipment",
+                            f"{brand} on Maui | Maui Power Equipment, Wailuku"),
              f"{brand} {', '.join(kinds[:4])} at Maui Power Equipment in Wailuku, Maui. "
              f"{brand} service and parts, walk-in. Call (808) 249-2730.",
              f"{brand} on Maui", f"{brand} " + (", ".join(kinds[:4]) + " and more" if len(kinds) > 5 else and_list(kinds)) + ". " + SHOP)

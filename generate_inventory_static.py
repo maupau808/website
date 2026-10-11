@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate inventory-static.html from catalog.json + inventory.json (same items as the homepage gallery).
 
-WRITES TO : inventory-static.html (this repo only — never pricing data)
+WRITES TO : inventory-static.html, equipment/*.html, llms.txt, sitemap.xml (this repo only — never pricing data)
 TRIGGER   : run by price_compare_server.py /api/commit before each inventory
             git commit, or manually: python3 generate_inventory_static.py
             and by generate_catalog.py after a catalog change
@@ -160,12 +160,13 @@ def page(items, path, title, desc, h1, intro):
 <meta property="og:image" content="{SITE}/assets/og-image.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@700;800&display=swap"></noscript>
 <script type="application/ld+json">
 {json.dumps(ld, ensure_ascii=False)}
 </script>
 <style>
-:root{{--paper:#f7f4ee;--ink:#1d2722;--muted:#6a736d;--green:#2f4339;--green-dark:#202d27;--gold:#FFAD00;--gold-deep:#D99300;--line:#e6e1d6}}
+:root{{--paper:#f7f4ee;--ink:#1d2722;--muted:#5f6862;--green:#2f4339;--green-dark:#202d27;--gold:#FFAD00;--gold-deep:#D99300;--line:#e6e1d6}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}}
 a{{color:inherit;text-decoration:none}}
@@ -200,7 +201,7 @@ h2 span{{font-family:'Inter';font-weight:500;font-size:14px;color:var(--muted)}}
 .k{{font-family:'Oswald',sans-serif;font-weight:600;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:var(--green)}}
 h3{{font-family:'Barlow Semi Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:18px;line-height:1.1;margin:1px 0 4px}}
 .tag{{font-size:13px;color:var(--muted);flex:1}}
-.info{{font-size:12.5px;font-weight:600;color:var(--gold-deep);margin-top:6px}}
+.info{{font-size:12.5px;font-weight:600;color:#8a5d00;margin-top:6px}}
 .order{{margin:34px 0 0;padding:22px;border-radius:14px;background:#fff;border:1px solid var(--line)}}
 .order h2{{font-size:22px;margin-bottom:6px}}
 footer{{background:var(--green-dark);color:rgba(255,255,255,.82);font-size:13px;margin-top:40px;padding:26px 0}}
@@ -211,7 +212,7 @@ footer a:hover{{color:var(--gold)}}
 </head>
 <body>
 <header><div class="wrap">
-  <div class="top"><a href="{SITE}/"><img src="/assets/logos/mpe-hero.png" alt="Maui Power Equipment home"></a>
+  <div class="top"><a href="{SITE}/"><img src="/assets/logos/mpe-hero-260.webp" alt="Maui Power Equipment home" width="97" height="40"></a>
     <span class="addr">970 Lower Main St, Wailuku · <a href="tel:8082492730">(808) 249-2730</a></span></div>
   <h1>{e(h1)}</h1>
   <p class="lead">{e(intro)} {e(SAMPLE)}</p>
@@ -220,7 +221,7 @@ footer a:hover{{color:var(--gold)}}
     <a class="btn ghost" href="{SITE}/#contact">Send a message</a></div>
 </div></header>
 <nav aria-label="Equipment categories and brands"><div class="wrap">{jump}</div></nav>
-<p class="wrap star-key"><span class="best-pill key">★</span> Staff Picks</p>
+<p class="wrap star-key"><span class="best-pill key">★</span> Favorites and Best Sellers</p>
 <main class="wrap">
 {chr(10).join(sections)}
 <div class="order"><h2>Don't see it?</h2><p>This page shows some of what we carry. We often have other models in the shop, and we can order most equipment and parts. Call or text (808) 249-2730, or email <a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a>.</p></div>
@@ -304,7 +305,30 @@ def build():
             os.remove(os.path.join(HERE, SUBDIR, f))
     build_fit()
     build_llms(written)
+    build_sitemap()
     return n
+
+
+def build_sitemap():
+    """Write sitemap.xml from the pages that actually exist, so it can't drift from the site.
+    lastmod = last commit date of the file (today if it has uncommitted changes). Google ignores
+    priority/changefreq, so they're left out."""
+    import datetime
+    import subprocess
+    pages = ["index.html", "inventory-static.html"]
+    pages += ["updates.html"] if os.path.exists(os.path.join(HERE, "updates.html")) else []
+    pages += sorted(f"{SUBDIR}/{f}" for f in os.listdir(os.path.join(HERE, SUBDIR)) if f.endswith(".html"))
+
+    def lastmod(p):
+        git = lambda *a: subprocess.run(["git", *a, "--", p], cwd=HERE, capture_output=True, text=True).stdout.strip()
+        committed = git("log", "-1", "--format=%cs")
+        return committed if committed and not git("status", "--porcelain") else datetime.date.today().isoformat()
+
+    body = "".join(f"  <url>\n    <loc>{SITE}/{'' if p == 'index.html' else p}</loc>\n"
+                   f"    <lastmod>{lastmod(p)}</lastmod>\n  </url>\n" for p in pages)
+    with open(os.path.join(HERE, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
 
 
 def build_llms(paths):

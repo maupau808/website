@@ -230,6 +230,7 @@ footer a:hover{{color:var(--gold)}}
   <span>Mon–Fri 7:30am–4:30pm · Sat 7:30am–2:00pm · Sun closed</span>
   <a href="{SITE}/">Home</a>
 </div></footer>
+<script data-goatcounter="https://mowpow808.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """

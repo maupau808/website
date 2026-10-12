@@ -221,7 +221,7 @@ footer a:hover{{color:var(--gold)}}
     <a class="btn ghost" href="{SITE}/#contact">Send a message</a></div>
 </div></header>
 <nav aria-label="Equipment categories and brands"><div class="wrap">{jump}</div></nav>
-<p class="wrap star-key"><span class="best-pill key">★</span> Favorites and Best Sellers</p>
+<p class="wrap star-key"><span class="best-pill key">★</span> Top Picks</p>
 <main class="wrap">
 {chr(10).join(sections)}
 <div class="order"><h2>Don't see it?</h2><p>This page shows some of what we carry. We often have other models in the shop, and we can order most equipment and parts. Call or text (808) 249-2730, or email <a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a>.</p></div>

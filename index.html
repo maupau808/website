@@ -480,7 +480,7 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
 <!-- pillar 2 — big-ticket & special orders (gallery is the proof) -->
 <section id="stock" aria-label="What we carry"><div class="wrap">
   <div class="filters" id="filters"></div>
-  <div class="star-key"><span class="key-star">★</span> Favorites and Best Sellers</div>
+  <div class="star-key"><span class="key-star">★</span> Top Picks</div>
   <div class="s2-caro">
     <button class="caro-btn left" onclick="caroScroll(-1)" aria-label="Previous">‹</button>
     <div class="scroller" id="grid">
@@ -1133,7 +1133,7 @@ document.querySelectorAll('.feat').forEach(f=>f.addEventListener('click',()=>f.c
 /* inventory */
 let STOCK=[];
 // trailers stay out of the gallery for now (no 'trailer' filter; cat() still tags them so they're skipped)
-const FILTERS=[['picks','Favorites and Best Sellers'],['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Weedeaters'],['edger','Edgers'],['blower','Blowers'],['hedge','Hedge Trimmers'],['polesaw','Pole Saws'],['multi','Multi-Tools'],['generator','Generators'],['sprayer','Sprayers'],['pump','Water Pumps'],['pressure','Pressure Washers'],['cutoff','Cut-Off Saws'],['vacuum','Vacuums & Shredders'],['battery','Batteries'],['other','More']];
+const FILTERS=[['picks','Top Picks'],['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Weedeaters'],['edger','Edgers'],['blower','Blowers'],['hedge','Hedge Trimmers'],['polesaw','Pole Saws'],['multi','Multi-Tools'],['generator','Generators'],['sprayer','Sprayers'],['pump','Water Pumps'],['pressure','Pressure Washers'],['cutoff','Cut-Off Saws'],['vacuum','Vacuums & Shredders'],['battery','Batteries'],['other','More']];
 const HIDDEN_CATS=['trailer'];
 function cat(t){t=(t||'').toLowerCase();if(t.includes('trailer'))return'trailer';if(t.includes('zero turn'))return'zt';if(t.includes('mower'))return'mower';
   if(t.includes('chainsaw'))return'chainsaw';if(t.includes('weedeater')||t.includes('trimmer')||t.includes('brushcutter'))return'trimmer';if(t.includes('blower'))return'blower';

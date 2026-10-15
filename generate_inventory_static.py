@@ -103,13 +103,32 @@ def catof(it):
     return it.get("cat") or cat(it.get("type"))
 
 
+def small_copy(photo):
+    """400px-wide copy of an inventory photo in assets/inventory-400/ (made once, kept outside fit.json's
+    folder); returns its site path, or None if not possible."""
+    full, out = os.path.join(HERE, "assets", "inventory", photo), os.path.join(HERE, "assets", "inventory-400", photo)
+    if not photo.endswith(".webp"):
+        return None
+    if not os.path.exists(out):
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        try:
+            from PIL import Image
+            im = Image.open(full)
+            if im.width <= 400:
+                return None
+            im.resize((400, round(im.height * 400 / im.width)), Image.LANCZOS).save(out, "WEBP", quality=82)
+        except Exception:
+            return None
+    return f"/assets/inventory-400/{quote(photo)}"
+
+
 def page(items, path, title, desc, h1, intro):
     """Render one landing page of items grouped by category; returns item count."""
     groups = {c: [] for c, _ in CATS}
     for it in items:
         groups.get(catof(it), groups["other"]).append(it)
 
-    ld_items, sections = [], []
+    ld_items, sections, shown = [], [], 0
     for c, label in CATS:
         if not groups[c]:
             continue
@@ -126,7 +145,13 @@ def page(items, path, title, desc, h1, intro):
             if info:
                 ld["url"] = info
             ld_items.append(ld)
-            img = f'<img loading="lazy" src="{src}" alt="{e(name)}">' if src else ""
+            img = ""
+            if src:
+                small = small_copy(photo)
+                srcset = f' srcset="{small} 400w, {src} 800w" sizes="(max-width:520px) 45vw, 260px"' if small else ""
+                load = ' fetchpriority="high"' if shown == 0 else ("" if shown < 4 else ' loading="lazy"')  # first row loads at once
+                img = f'<img{load} src="{src}"{srcset} alt="{e(name)}">'
+                shown += 1
             more = f'<a class="info" href="{e(info)}" rel="noopener" target="_blank">Specs ›</a>' if info else ""
             tag = f'<p class="tag">{e(it.get("tagline"))}</p>' if it.get("tagline") else ""
             best = '<span class="best-pill" title="Featured" aria-label="Featured">★</span>' if it.get("best") else ""

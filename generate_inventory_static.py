@@ -149,7 +149,7 @@ def page(items, path, title, desc, h1, intro):
             if src:
                 small = small_copy(photo)
                 srcset = f' srcset="{small} 400w, {src} 800w" sizes="(max-width:520px) 45vw, 260px"' if small else ""
-                load = ' fetchpriority="high"' if shown == 0 else ("" if shown < 4 else ' loading="lazy"')  # first row loads at once
+                load = "" if shown < 4 else ' loading="lazy"'  # first row loads at once; the header picture is the main paint
                 img = f'<img{load} src="{src}"{srcset} alt="{e(name)}">'
                 shown += 1
             more = f'<a class="info" href="{e(info)}" rel="noopener" target="_blank">Specs ›</a>' if info else ""
@@ -185,6 +185,7 @@ def page(items, path, title, desc, h1, intro):
 <meta property="og:image" content="{SITE}/assets/og-image.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="/assets/lauhala.webp" fetchpriority="high">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Inter:wght@400;500;600&family=Barlow+Semi+Condensed:wght@700;800&display=swap"></noscript>
 <script type="application/ld+json">
@@ -196,7 +197,7 @@ def page(items, path, title, desc, h1, intro):
 body{{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}}
 a{{color:inherit;text-decoration:none}}
 .wrap{{max-width:1200px;margin:0 auto;padding:0 clamp(16px,5vw,56px)}}
-header{{background:linear-gradient(rgba(32,45,39,.93),rgba(32,45,39,.96)),url('/assets/lauhala.jpg') center/cover;color:#fff;padding:18px 0 34px}}
+header{{background:linear-gradient(rgba(32,45,39,.93),rgba(32,45,39,.96)),url('/assets/lauhala.webp') center/cover;color:#fff;padding:18px 0 34px}}
 .top{{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:#d7ddd4}}
 .top img{{height:40px;width:auto}}
 .top a:hover{{color:var(--gold)}}

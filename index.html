@@ -441,7 +441,7 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
 <!-- action bar under hero -->
 <div class="herobar">
   <div class="herobar-group">
-    <a class="herobtn" href="#stock">What We Carry</a>
+    <a class="herobtn" href="inventory-static.html">What We Carry</a>
     <a class="herobtn" href="#contact">Contact Us</a>
     <a class="herobtn" href="#contact" onclick="ftab('parts')">Request Parts</a>
   </div>
@@ -1133,7 +1133,7 @@ document.querySelectorAll('.feat').forEach(f=>f.addEventListener('click',()=>f.c
 /* inventory */
 let STOCK=[];
 // trailers stay out of the gallery for now (no 'trailer' filter; cat() still tags them so they're skipped)
-const FILTERS=[['picks','Top Picks'],['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Weedeaters'],['edger','Edgers'],['blower','Blowers'],['hedge','Hedge Trimmers'],['polesaw','Pole Saws'],['multi','Multi-Tools'],['generator','Generators'],['sprayer','Sprayers'],['pump','Water Pumps'],['pressure','Pressure Washers'],['cutoff','Cut-Off Saws'],['vacuum','Vacuums & Shredders'],['battery','Batteries'],['other','More']];
+const FILTERS=[['all','All'],['zt','Zero Turns'],['mower','Mowers'],['chainsaw','Chainsaws'],['trimmer','Weedeaters'],['edger','Edgers'],['blower','Blowers'],['hedge','Hedge Trimmers'],['polesaw','Pole Saws'],['multi','Multi-Tools'],['generator','Generators'],['sprayer','Sprayers'],['pump','Water Pumps'],['pressure','Pressure Washers'],['cutoff','Cut-Off Saws'],['vacuum','Vacuums & Shredders'],['battery','Batteries'],['other','More']];
 const HIDDEN_CATS=['trailer'];
 function cat(t){t=(t||'').toLowerCase();if(t.includes('trailer'))return'trailer';if(t.includes('zero turn'))return'zt';if(t.includes('mower'))return'mower';
   if(t.includes('chainsaw'))return'chainsaw';if(t.includes('weedeater')||t.includes('trimmer')||t.includes('brushcutter'))return'trimmer';if(t.includes('blower'))return'blower';
@@ -1205,12 +1205,12 @@ function render(f){
   const g=document.getElementById('grid');
   // STOCK is pre-shuffled at load (non-sold randomized, sold last) so statuses are
   // mixed across rows rather than clustered. Just filter by category here.
-  // 'picks' (the default) draws only the starred items; 'all' draws them first, then everything else.
-  const home=f==='all'||f==='picks';
+  // The default All view shows the curated Top Picks first, then everything else.
+  const home=f==='all';
   let items=STOCK.filter(i=>home||catOf(i)===f);
   if(home){const picks=HOME_PICKS.map(p=>items.find(x=>x.make.toLowerCase()===p[0]&&x.model.startsWith(p[1]))).filter(Boolean);
     const stars=items.filter(x=>!picks.includes(x)&&HOME_STARS.some(n=>{const m=(x.make+' '+x.model).toLowerCase().trim();return m===n||m.startsWith(n+' —')||m.startsWith(n+' w/')}));
-    items=[...picks,...mixBrands(stars)].map(x=>({...x,best:true})).concat(f==='picks'?[]:mixBrands(items.filter(x=>!picks.includes(x)&&!stars.includes(x))).map(x=>({...x,best:false})));}
+    items=[...picks,...mixBrands(stars)].map(x=>({...x,best:true})).concat(mixBrands(items.filter(x=>!picks.includes(x)&&!stars.includes(x))).map(x=>({...x,best:false})));}
   if(!items.length){g.innerHTML='<p style="color:var(--muted)">Nothing in this category right now — give us a call.</p>';return;}
   const top=[],bot=[];
   items.forEach((it,i)=>(i%2?bot:top).push(it));
@@ -1277,7 +1277,7 @@ function orderStock(d){
   const line=CATALOG.filter(x=>!liveLinks.has(productLink(x)));
   const all=mixBrands([...live,...line]);  // best sellers pinned first in every filter
   return[...all.filter(x=>x.best),...all.filter(x=>!x.best),...sold];}
-function startStock(d){const nm=x=>`${x.make} ${x.model}`.toLowerCase();STOCK=orderStock(d).filter((x,i,a)=>a.findIndex(y=>nm(y)===nm(x))===i);buildFilters();render('picks');wireScroll();}
+function startStock(d){const nm=x=>`${x.make} ${x.model}`.toLowerCase();STOCK=orderStock(d).filter((x,i,a)=>a.findIndex(y=>nm(y)===nm(x))===i);buildFilters();render('all');wireScroll();}
 Promise.all([fetch('inventory.json',{cache:'no-store'}).then(r=>r.json()),fetch('assets/inventory/fit.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({}))]).then(([d,f])=>{FIT=f;return d}).then(d=>startStock(d.filter(x=>!/trailer/i.test(x.type||'')).map(x=>x.status==='sold'?{...x,status:'available'}:x)))  // stock status retired: no Sold markers; trailers hidden for now.catch(()=>startStock([]));
 
 /* form tabs + submit */

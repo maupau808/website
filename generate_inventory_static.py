@@ -256,6 +256,8 @@ footer a:hover{{color:var(--gold)}}
   <span>Maui Power Equipment · <a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank" rel="noopener">970 Lower Main St, Wailuku, HI 96793</a></span>
   <span>Mon–Fri 7:30am–4:30pm · Sat 7:30am–2:00pm · Sun closed</span>
   <a href="{SITE}/">Home</a>
+  <a href="{SITE}/privacy.html">Privacy Policy</a>
+  <a href="{SITE}/#contact">Contact Us</a>
 </div></footer>
 <script data-goatcounter="https://mowpow808.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>

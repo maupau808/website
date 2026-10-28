@@ -375,6 +375,18 @@ section{padding:clamp(56px,7vw,104px) 0;scroll-margin-top:18px}
 .fdone.show{display:block}
 .fdone .chk{width:52px;height:52px;border-radius:50%;background:#e7f0e8;color:var(--green);display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 12px}
 
+.reply-method{border:0;padding:0;margin:0 0 13px;min-width:0}
+.reply-method legend{font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:.5px;text-transform:uppercase;color:var(--green);margin-bottom:8px}
+.reply-options{display:flex;gap:24px;flex-wrap:wrap}
+.reply-options label{display:flex;align-items:center;gap:7px;min-height:32px;cursor:pointer;font-size:14px}
+.reply-options input{width:17px;height:17px;accent-color:var(--green)}
+.reply-options input:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.sms-consent{display:flex;align-items:flex-start;gap:10px;margin:16px 0 8px;font-size:13px;line-height:1.6;color:var(--ink);cursor:pointer}
+.sms-consent input{flex:none;width:18px;height:18px;margin-top:3px;accent-color:var(--green)}
+.sms-consent input:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.sms-note{font-size:12px;line-height:1.6;color:var(--ink);margin:0 0 14px}
+.sms-note a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+
 /* ── footer ── */
 footer{background:var(--green-dark);color:#9fbfa6;padding:32px 0 18px;border-top:none}
 .fgrid p a{display:inline-block;padding:4px 0}
@@ -1021,8 +1033,13 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
         <div id="form-parts">
           <div class="notice"><b>Serial number strongly recommended.</b> We'll do our best, but without it we sometimes can't guarantee the right match.</div>
           <div class="frow"><div class="fg full"><label>Name</label><input id="p-name"></div></div>
+          <fieldset class="reply-method"><legend>How should we reply?</legend><div class="reply-options">
+            <label><input type="radio" name="p-reply" value="Call" onchange="setReplyMethod('p')">Call</label>
+            <label><input type="radio" name="p-reply" value="Text" onchange="setReplyMethod('p')">Text</label>
+            <label><input type="radio" name="p-reply" value="Email" onchange="setReplyMethod('p')">Email</label>
+          </div></fieldset>
           <div class="frow">
-            <div class="fg full"><label>Phone or email</label><input id="p-contact" placeholder="Best way to reach you"></div>
+            <div class="fg full"><label for="p-contact" id="p-contact-label">Phone or email</label><input id="p-contact" placeholder="Best way to reach you"></div>
           </div>
           <div class="frow">
             <div class="fg"><label>Equipment Make</label>
@@ -1051,17 +1068,30 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
             <label class="pc"><input type="checkbox" value="Not sure"><span>Not sure — I'll describe</span></label>
           </div>
           <div class="frow"><div class="fg full"><label>Other / anything else?</label><textarea id="p-notes" placeholder="Describe the part or the problem"></textarea></div></div>
+          <div id="p-sms-options" hidden>
+          <label class="sms-consent"><input type="checkbox" id="p-sms-consent"><span>I agree to receive texts from Maui Power Equipment about my inquiry, parts, orders, or repairs (optional).</span></label>
+          <p class="sms-note">Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. You can buy from us without signing up for texts. <a href="privacy.html">Privacy Policy</a></p>
+          </div>
           <button class="btn btn-gold" onclick="submitForm('parts')">Submit Parts Request →</button>
         </div>
         <div class="fdone" id="done-parts"><div class="chk">✓</div><h3>Got it — mahalo!</h3><p class="sub">We'll be in touch as soon as we can.</p></div>
       </div>
       <div class="fpanel on" id="panel-msg">
         <div id="form-msg">
+          <fieldset class="reply-method"><legend>How should we reply?</legend><div class="reply-options">
+            <label><input type="radio" name="m-reply" value="Call" onchange="setReplyMethod('m')">Call</label>
+            <label><input type="radio" name="m-reply" value="Text" onchange="setReplyMethod('m')">Text</label>
+            <label><input type="radio" name="m-reply" value="Email" onchange="setReplyMethod('m')">Email</label>
+          </div></fieldset>
           <div class="frow">
             <div class="fg"><label for="m-name">Name</label><input id="m-name" autocomplete="name"></div>
-            <div class="fg"><label>Phone or email</label><input id="m-contact" placeholder="Best way to reach you"></div>
+            <div class="fg"><label for="m-contact" id="m-contact-label">Phone or email</label><input id="m-contact" placeholder="Best way to reach you"></div>
           </div>
           <div class="frow"><div class="fg full"><label>Your message</label><textarea id="m-msg" placeholder="Questions, comments — anything"></textarea></div></div>
+          <div id="m-sms-options" hidden>
+          <label class="sms-consent"><input type="checkbox" id="m-sms-consent"><span>I agree to receive texts from Maui Power Equipment about my inquiry, parts, orders, or repairs (optional).</span></label>
+          <p class="sms-note">Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. You can buy from us without signing up for texts. <a href="privacy.html">Privacy Policy</a></p>
+          </div>
           <button class="btn btn-gold" onclick="submitForm('msg')">Send it →</button>
         </div>
         <div class="fdone" id="done-msg"><div class="chk">✓</div><h3>Got it — mahalo!</h3><p class="sub">We'll be in touch as soon as we can.</p></div>
@@ -1082,7 +1112,7 @@ window.PHOTO_SRCS=["assets/shop/2.webp", "assets/shop/1.webp", "assets/shop/5.we
     <div style="padding-top:22px"><h3>Visit</h3><p><a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank">970 Lower Main St<br>Wailuku, HI 96793</a><br><a href="https://maps.app.goo.gl/xXnSiBESpUxJjeYg7" target="_blank" rel="noopener">Google reviews &amp; directions</a></p></div>
     <div style="padding-top:22px"><h3>Contact</h3><p><a href="tel:8082492730">(808) 249-2730</a><br><a href="mailto:Info@mauipowerequipment.com">Info@mauipowerequipment.com</a></p></div>
   </div>
-  <div class="fbottom"><span>© <span class="yr">2026</span> Maui Power Equipment, Inc.</span><script>document.querySelectorAll(".yr").forEach(e=>e.textContent=new Date().getFullYear())</script><span><a href="inventory-static.html">Inventory list</a> · <a href="equipment/generators.html">Honda generators</a> · Wailuku, Maui, Hawai'i</span></div>
+  <div class="fbottom"><span>© <span class="yr">2026</span> Maui Power Equipment, Inc.</span><script>document.querySelectorAll(".yr").forEach(e=>e.textContent=new Date().getFullYear())</script><span><a href="privacy.html">Privacy Policy</a> · <a href="#contact">Contact Us</a> · <a href="inventory-static.html">Inventory list</a> · <a href="equipment/generators.html">Honda generators</a> · Wailuku, Maui, Hawai'i</span></div>
 </div></footer>
 
 
@@ -1287,6 +1317,17 @@ function ftab(p){
 }
 document.querySelectorAll('#pchecks .pc input').forEach(cb=>
   cb.addEventListener('change',()=>cb.closest('.pc').classList.toggle('on',cb.checked)));
+function setReplyMethod(prefix){
+  const method=document.querySelector('input[name="'+prefix+'-reply"]:checked')?.value;
+  const contact=document.getElementById(prefix+'-contact');
+  const email=method==='Email';
+  document.getElementById(prefix+'-contact-label').textContent=email?'Email':'Phone number';
+  contact.type=email?'email':'tel';
+  contact.placeholder=email?'Your email address':'Your phone number';
+  contact.autocomplete=email?'email':'tel';
+  document.getElementById(prefix+'-sms-options').hidden=method!=='Text';
+  document.getElementById(prefix+'-sms-consent').checked=false;
+}
 async function submitForm(which){
   const v=id=>{const e=document.getElementById(id);return e?e.value.trim():'';};
   if(which==='parts'){
@@ -1294,6 +1335,15 @@ async function submitForm(which){
   }else{
     if(!v('m-name')||!v('m-contact')){alert('Please add your name and a way to reach you.');return;}
   }
+  const prefix=which==='parts'?'p':'m';
+  const method=document.querySelector('input[name="'+prefix+'-reply"]:checked')?.value;
+  if(!method){alert('Please choose Call, Text, or Email so we know how to reply.');return;}
+  const contact=v(prefix+'-contact');
+  if(method==='Email' ? !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact) : !/^[+\d\s().-]+$/.test(contact)||contact.replace(/\D/g,'').length<7||contact.replace(/\D/g,'').length>15){
+    alert(method==='Email'?'Please enter a valid email address.':'Please enter a valid phone number.');return;
+  }
+  const consent=document.getElementById(prefix+'-sms-consent');
+  if(method==='Text'&&!consent.checked){alert('Please agree to receive texts, or choose Call or Email instead.');return;}
   const btn=document.querySelector('#form-'+which+' .btn');btn.textContent='Sending…';
   let data;
   if(which==='parts'){
@@ -1302,8 +1352,15 @@ async function submitForm(which){
   }else{
     data={_subject:'MPE Message',Name:v('m-name'),Contact:v('m-contact'),Message:v('m-msg')};
   }
+  data.Reply_Method=method;
+  data.SMS_Consent=method==='Text'&&consent.checked?'Yes':'No';
+  if(data.SMS_Consent==='Yes'){
+    data.SMS_Consent_Text=consent.textContent.trim()+' '+consent.nextElementSibling.textContent.trim();
+    data.SMS_Consent_At=new Date().toISOString();
+  }
   try{
-    await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});
+    const response=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});
+    if(!response.ok)throw new Error('Request was not accepted');
     document.getElementById('form-'+which).style.display='none';
     document.getElementById('done-'+which).classList.add('show');
   }catch(e){btn.textContent='Try again →';}

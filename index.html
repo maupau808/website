@@ -1228,9 +1228,9 @@ function card(it){
 }
 /*__CARD_FN_END__*/
 // Staff Picks that keep their star on the All view (Trevor's list, make + model prefix; floor units carry longer names)
-const HOME_STARS=('SCAG Tiger Cat II|SCAG Freedom Z|SCAG SFC-21|Honda HRC216EXA6|Rolux 20” Reel Mower|Rolux 25” Battery Reel Mower|Toro Commercial w/ Honda|STIHL MS 151 T C-E|STIHL MS 271 FARM BOSS® 18"|STIHL MS 500i|STIHL MSA 220 TC-O|STIHL FS 91 R|STIHL FS 131 R|STIHL FS 251|Maruyama BT230L|Maruyama B300L-Turbo|Maruyama B420L|STIHL BR 800 X MAGNUM®|STIHL BRA 280|Shindaiwa EB610|STIHL HL 94 (145°)|STIHL HT 135|Honda EU2200i|Honda EU3000IS|Honda EU3200i|Honda EU7000IS|Maruyama MS40Li'.split('|').map(s=>s.toLowerCase()));
+const HOME_STARS=('SCAG Tiger Cat II|SCAG Freedom Z|SCAG SFC-21|Honda HRC216EXA6|Rolux Z Series 20" — Honda Engine|Rolux Z Series 25" — Battery Powered|Toro Commercial w/ Honda|STIHL MS 151 T C-E|STIHL MS 271 FARM BOSS® 18"|STIHL MS 500i|STIHL MSA 220 TC-O|STIHL FS 91 R|STIHL FS 131 R|STIHL FS 251|Maruyama BT230L|Maruyama B300L-Turbo|Maruyama B420L|STIHL BR 800 X MAGNUM®|STIHL BRA 280|Shindaiwa EB610|STIHL HL 94 (145°)|STIHL HT 135|Honda EU2200i|Honda EU3000IS|Honda EU3200i|Honda EU7000IS|Maruyama MS40Li'.split('|').map(s=>s.toLowerCase()));
 // opener for the All view, in this order (make lowercased, model prefix)
-const HOME_PICKS=[['rolux','20” Reel Mower'],['scag','Tiger Cat II'],['honda','EU2200i'],['stihl','MS 500i'],['honda','HRC'],['stihl','FS 131 R']];
+const HOME_PICKS=[['rolux','Z Series 20"'],['scag','Tiger Cat II'],['honda','EU2200i'],['stihl','MS 500i'],['honda','HRC'],['stihl','FS 131 R']];
 function render(f){
   const g=document.getElementById('grid');
   // STOCK is pre-shuffled at load (non-sold randomized, sold last) so statuses are
@@ -1239,7 +1239,7 @@ function render(f){
   const home=f==='all';
   let items=STOCK.filter(i=>home||catOf(i)===f);
   if(home){const picks=HOME_PICKS.map(p=>items.find(x=>x.make.toLowerCase()===p[0]&&x.model.startsWith(p[1]))).filter(Boolean);
-    const stars=items.filter(x=>!picks.includes(x)&&HOME_STARS.some(n=>{const m=(x.make+' '+x.model).toLowerCase().trim();return m===n||m.startsWith(n+' —')||m.startsWith(n+' w/')}));
+    const stars=items.filter(x=>!picks.includes(x)&&HOME_STARS.some(n=>{const m=(x.make+' '+x.model+(x.make==='Rolux'?' — '+x.tagline.split(' | ').pop():'')).toLowerCase().trim();return m===n||m.startsWith(n+' —')||m.startsWith(n+' w/')}));
     items=[...picks,...mixBrands(stars)].map(x=>({...x,best:true})).concat(mixBrands(items.filter(x=>!picks.includes(x)&&!stars.includes(x))).map(x=>({...x,best:false})));}
   if(!items.length){g.innerHTML='<p style="color:var(--muted)">Nothing in this category right now — give us a call.</p>';return;}
   const top=[],bot=[];
@@ -1307,7 +1307,7 @@ function orderStock(d){
   const line=CATALOG.filter(x=>!liveLinks.has(productLink(x)));
   const all=mixBrands([...live,...line]);  // best sellers pinned first in every filter
   return[...all.filter(x=>x.best),...all.filter(x=>!x.best),...sold];}
-function startStock(d){const nm=x=>`${x.make} ${x.model}`.toLowerCase();STOCK=orderStock(d).filter((x,i,a)=>a.findIndex(y=>nm(y)===nm(x))===i);buildFilters();render('all');wireScroll();}
+function startStock(d){const nm=x=>`${x.make} ${x.model}${x.make==='Rolux'?' '+x.tagline:''}`.toLowerCase();STOCK=orderStock(d).filter((x,i,a)=>a.findIndex(y=>nm(y)===nm(x))===i);buildFilters();render('all');wireScroll();}
 Promise.all([fetch('inventory.json',{cache:'no-store'}).then(r=>r.json()),fetch('assets/inventory/fit.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({}))]).then(([d,f])=>{FIT=f;return d}).then(d=>startStock(d.filter(x=>!/trailer/i.test(x.type||'')).map(x=>x.status==='sold'?{...x,status:'available'}:x)))  // stock status retired: no Sold markers; trailers hidden for now.catch(()=>startStock([]));
 
 /* form tabs + submit */

@@ -64,7 +64,7 @@ def load():
         items = [c for c in json.load(f) if not c.get("hidden")]
     with open(INVENTORY, encoding="utf-8") as f:
         floor = [x for x in json.load(f) if cat(x.get("type")) != "trailer" and x.get("photo")]
-    key = lambda x: f"{x.get('make') or ''} {x.get('model') or ''}".strip().lower()
+    key = lambda x: (f"{x.get('make') or ''} {x.get('model') or ''}" + (" " + (x.get("tagline") or "") if x.get("make") == "Rolux" else "")).strip().lower()
     url = lambda x: (x.get("info") or "").split("#")[0].rstrip("/")
     out, seen = [], set()
     for x in items + floor:  # one entry per product, catalog first — like the homepage's dedupe
@@ -256,8 +256,8 @@ footer a:hover{{color:var(--gold)}}
   <span>Maui Power Equipment · <a href="https://maps.google.com/?q=970+Lower+Main+St+Wailuku+HI+96793" target="_blank" rel="noopener">970 Lower Main St, Wailuku, HI 96793</a></span>
   <span>Mon–Fri 7:30am–4:30pm · Sat 7:30am–2:00pm · Sun closed</span>
   <a href="{SITE}/">Home</a>
-  <a href="{SITE}/privacy.html">Privacy Policy</a>
-  <a href="{SITE}/#contact">Contact Us</a>
+  <a href="/privacy.html">Privacy Policy</a>
+  <a href="/#contact">Contact Us</a>
 </div></footer>
 <script data-goatcounter="https://mowpow808.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
